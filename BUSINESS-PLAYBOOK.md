@@ -26,7 +26,7 @@
 
 These are non-negotiable before you send a single outreach message.
 
-| Priority | Task | Done? |
+| Priority | Task | Done? ||
 |---|---|---|
 | 1 | Set up Stripe account (or Wave) for payment processing | ☐ |
 | 2 | Rebuild firstcoastspotlight.com as your agency site on Vercel | ☐ |
