@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Project Questionnaire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --ink-soft: #555;
+    --ink-muted: #999;
+    --line: #e8e4df;
+    --fill: #f9f7f4;
+    --white: #ffffff;
+    --accent: #1a3a2a;
+    --accent-light: #e8f0eb;
+    --blue: #1a3a2a;
+    --radius: 10px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--fill);
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* Layout */
+  .page-shell {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    min-height: 100vh;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    background: var(--accent);
+    color: #fff;
+    padding: 3rem 2.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .sidebar-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.25rem;
+    opacity: 0.95;
+  }
+  .sidebar-tagline {
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+  }
+  .sidebar-steps { flex: 1; }
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 0;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.25s;
+  }
+  .step-item.active { opacity: 1; }
+  .step-item.done { opacity: 0.6; }
+  .step-dot {
+    width: 22px; height: 22px; border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.35);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 500; flex-shrink: 0; margin-top: 1px;
+    transition: all 0.25s;
+  }
+  .step-item.active .step-dot {
+    background: #fff; color: var(--accent); border-color: #fff;
+  }
+  .step-item.done .step-dot {
+    background: rgba(255,255,255,0.2); border-color: transparent;
+  }
+  .step-check { font-size: 11px; }
+  .step-label { font-size: 0.8rem; font-weight: 400; line-height: 1.4; }
+  .step-sublabel { font-size: 0.7rem; opacity: 0.6; margin-top: 2px; font-weight: 300; }
+  .sidebar-footer {
+    font-size: 0.7rem;
+    opacity: 0.35;
+    line-height: 1.6;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 1.5rem;
+    font-weight: 300;
+  }
+
+  /* Main content */
+  .main {
+    padding: 3.5rem 4rem 5rem;
+    max-width: 720px;
+  }
+  .section-wrap { display: none; }
+  .section-wrap.visible {
+    display: block;
+    animation: slideUp 0.3s ease;
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .section-eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .section-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.2rem;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.02em;
+  }
+  .section-desc {
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    max-width: 480px;
+  }
+
+  /* Fields */
+  .field { margin-bottom: 1.5rem; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
+  label.field-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 6px;
+    letter-spacing: 0.01em;
+  }
+  .field-hint {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    font-weight: 300;
+    margin-bottom: 6px;
+  }
+  .req { color: #c0392b; margin-left: 2px; }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: var(--ink);
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+  input:focus, textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(26,58,42,0.08);
+  }
+  textarea { resize: vertical; min-height: 90px; line-height: 1.6; }
+  input::placeholder, textarea::placeholder { color: #c5bfb8; }
+
+  /* Chips */
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+  .chip {
+    padding: 7px 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 100px;
+    font-size: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    background: var(--white);
+    color: var(--ink-soft);
+    font-weight: 400;
+    transition: all 0.15s;
+    user-select: none;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.on {
+    background: var(--accent-light);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  /* Scale */
+  .scale-row { display: flex; gap: 8px; }
+  .scale-btn {
+    width: 44px; height: 44px;
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    background: var(--white);
+    color: var(--ink-soft);
+    font-weight: 400;
+    transition: all 0.15s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .scale-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .scale-btn.on {
+    background: var(--accent-light);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: var(--ink-muted);
+    margin-top: 6px;
+    font-weight: 300;
+  }
+
+  /* Nav */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+  }
+  .btn-back {
+    padding: 10px 22px;
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    background: transparent;
+    color: var(--ink-soft);
+    font-weight: 400;
+    transition: all 0.15s;
+  }
+  .btn-back:hover { background: var(--white); border-color: #ccc; color: var(--ink); }
+  .btn-next {
+    padding: 12px 32px;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: all 0.2s;
+  }
+  .btn-next:hover { background: #0f2318; transform: translateY(-1px); }
+  .btn-next:active { transform: translateY(0); }
+  .btn-next:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .nav-counter { font-size: 0.78rem; color: var(--ink-muted); font-weight: 300; }
+
+  /* Success */
+  .success-screen {
+    display: none;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  .success-screen.visible { display: block; animation: slideUp 0.4s ease; }
+  .success-icon {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: var(--accent-light);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 1.5rem;
+  }
+  .success-icon svg { width: 28px; height: 28px; }
+  .success-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .success-body {
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  /* Error / status */
+  .status-msg {
+    display: none;
+    padding: 12px 16px;
+    border-radius: var(--radius);
+    font-size: 0.82rem;
+    margin-top: 1rem;
+    font-weight: 400;
+  }
+  .status-msg.error { background: #fdf0ef; border: 1px solid #f5c6c2; color: #b83232; display: block; }
+  .status-msg.info { background: var(--accent-light); border: 1px solid #b8d4be; color: var(--accent); display: block; }
+
+  /* Progress bar (mobile top) */
+  .top-progress { display: none; }
+
+  /* Responsive */
+  @media (max-width: 860px) {
+    .page-shell { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .top-progress {
+      display: flex; gap: 4px; padding: 1rem 1.5rem 0;
+    }
+    .top-pip {
+      height: 3px; flex: 1; border-radius: 2px;
+      background: var(--line); transition: background 0.3s;
+    }
+    .top-pip.active { background: var(--accent); }
+    .main { padding: 1.5rem 1.5rem 4rem; max-width: 100%; }
+    .section-heading { font-size: 1.6rem; }
+    .field-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-progress" id="topProgress"></div>
+
+<div class="page-shell">
+  <aside class="sidebar">
+    <div class="sidebar-logo">Website Brief</div>
+    <div class="sidebar-tagline">Discovery Questionnaire</div>
+    <nav class="sidebar-steps" id="sidebarSteps">
+      <div class="step-item" data-step="0">
+        <div class="step-dot" id="dot0">1</div>
+        <div><div class="step-label">About you</div><div class="step-sublabel">Background & business</div></div>
+      </div>
+      <div class="step-item" data-step="1">
+        <div class="step-dot" id="dot1">2</div>
+        <div><div class="step-label">Your goals</div><div class="step-sublabel">Purpose & success</div></div>
+      </div>
+      <div class="step-item" data-step="2">
+        <div class="step-dot" id="dot2">3</div>
+        <div><div class="step-label">Your audience</div><div class="step-sublabel">Who you serve</div></div>
+      </div>
+      <div class="step-item" data-step="3">
+        <div class="step-dot" id="dot3">4</div>
+        <div><div class="step-label">Content & features</div><div class="step-sublabel">Pages & functionality</div></div>
+      </div>
+      <div class="step-item" data-step="4">
+        <div class="step-dot" id="dot4">5</div>
+        <div><div class="step-label">Look & feel</div><div class="step-sublabel">Style & inspiration</div></div>
+      </div>
+      <div class="step-item" data-step="5">
+        <div class="step-dot" id="dot5">6</div>
+        <div><div class="step-label">Timeline & next steps</div><div class="step-sublabel">When & what's next</div></div>
+      </div>
+    </nav>
+    <div class="sidebar-footer">Your answers are saved securely.<br>We'll follow up within 1–2 business days.</div>
+  </aside>
+
+  <main class="main">
+
+    <!-- Section 1 -->
+    <div class="section-wrap visible" id="sec0">
+      <div class="section-eyebrow">Section 1 of 6</div>
+      <h1 class="section-heading">About you</h1>
+      <p class="section-desc">Tell us about yourself and your business so we can tailor the website to represent you well.</p>
+
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label">First name <span class="req">*</span></label>
+          <input type="text" id="q_first" placeholder="e.g. Marcus">
+        </div>
+        <div class="field">
+          <label class="field-label">Last name <span class="req">*</span></label>
+          <input type="text" id="q_last" placeholder="e.g. Williams">
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Email address <span class="req">*</span></label>
+        <input type="email" id="q_email" placeholder="you@email.com">
+      </div>
+      <div class="field">
+        <label class="field-label">Phone number</label>
+        <input type="tel" id="q_phone" placeholder="(optional)">
+      </div>
+      <div class="field">
+        <label class="field-label">Business or brand name</label>
+        <span class="field-hint">Leave blank if you don't have one yet — we can help brainstorm.</span>
+        <input type="text" id="q_brand" placeholder="e.g. Elite Edge Training">
+      </div>
+      <div class="field">
+        <label class="field-label">What do you do? <span class="req">*</span></label>
+        <span class="field-hint">In your own words — be as specific as you like.</span>
+        <textarea id="q_what" placeholder="e.g. I'm a professional football coach who trains youth and adult players..."></textarea>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section-wrap" id="sec1">
+      <div class="section-eyebrow">Section 2 of 6</div>
+      <h1 class="section-heading">Your goals</h1>
+      <p class="section-desc">What do you want this website to accomplish for you? This shapes how we structure every page.</p>
+
+      <div class="field">
+        <label class="field-label">What is the primary purpose of this website? <span class="req">*</span></label>
+        <div class="chips" id="chip_purpose">
+          <div class="chip" data-val="attract">Attract new clients</div>
+          <div class="chip" data-val="credibility">Build credibility</div>
+          <div class="chip" data-val="showcase">Showcase my work</div>
+          <div class="chip" data-val="contact">Make it easy to contact me</div>
+          <div class="chip" data-val="sell">Sell services or packages</div>
+          <div class="chip" data-val="other">Something else</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">What would make this website a success for you?</label>
+        <textarea id="q_success" placeholder="e.g. Getting 3–5 new client inquiries a month..."></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label">Do you have an existing website?</label>
+        <div class="chips" id="chip_existing">
+          <div class="chip" data-val="yes_active">Yes, it's active</div>
+          <div class="chip" data-val="yes_outdated">Yes, but it's outdated</div>
+          <div class="chip" data-val="unsure">Not sure / may be expired</div>
+          <div class="chip" data-val="no">No, starting fresh</div>
+        </div>
+      </div>
+      <div class="field" id="url_field" style="display:none">
+        <label class="field-label">What is the URL?</label>
+        <input type="text" id="q_existing_url" placeholder="e.g. www.yoursite.com">
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section-wrap" id="sec2">
+      <div class="section-eyebrow">Section 3 of 6</div>
+      <h1 class="section-heading">Your audience</h1>
+      <p class="section-desc">Understanding who visits your site helps us write the right copy and make the right design decisions.</p>
+
+      <div class="field">
+        <label class="field-label">Who is your ideal client? <span class="req">*</span></label>
+        <textarea id="q_audience" placeholder="e.g. Parents of youth athletes ages 8–18, or adult recreational players looking to level up..."></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label">What are they typically searching for?</label>
+        <textarea id="q_searching" placeholder="e.g. Football training near me, youth quarterback coach..."></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label">What geographic area do you serve?</label>
+        <input type="text" id="q_geo" placeholder="e.g. Jacksonville, FL area — or online/remote">
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section-wrap" id="sec3">
+      <div class="section-eyebrow">Section 4 of 6</div>
+      <h1 class="section-heading">Content & features</h1>
+      <p class="section-desc">Let us know what pages and features you need. We'll confirm the full scope before starting.</p>
+
+      <div class="field">
+        <label class="field-label">Which pages or sections do you want? <span class="req">*</span></label>
+        <span class="field-hint">Select all that apply.</span>
+        <div class="chips" id="chip_pages">
+          <div class="chip" data-val="hero">Hero / intro section</div>
+          <div class="chip" data-val="about">About me</div>
+          <div class="chip" data-val="services">Services / packages</div>
+          <div class="chip" data-val="videos">Video gallery</div>
+          <div class="chip" data-val="testimonials">Testimonials</div>
+          <div class="chip" data-val="contact">Contact form</div>
+          <div class="chip" data-val="waiver">Waiver / liability form</div>
+          <div class="chip" data-val="gallery">Photo gallery</div>
+          <div class="chip" data-val="blog">Blog or news</div>
+          <div class="chip" data-val="booking">Online booking</div>
+          <div class="chip" data-val="faq">FAQ</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Do you have content ready to provide?</label>
+        <div class="chips" id="chip_content">
+          <div class="chip" data-val="photos">Professional photos</div>
+          <div class="chip" data-val="videos">Videos (YouTube/highlights)</div>
+          <div class="chip" data-val="testimonials">Written testimonials</div>
+          <div class="chip" data-val="bio">Written bio / about text</div>
+          <div class="chip" data-val="logo">Logo or brand assets</div>
+          <div class="chip" data-val="none">Nothing yet — I need help</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Anything else you want on the site?</label>
+        <textarea id="q_extra" placeholder="e.g. Social media links, newsletter signup, schedule or calendar..."></textarea>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="section-wrap" id="sec4">
+      <div class="section-eyebrow">Section 5 of 6</div>
+      <h1 class="section-heading">Look & feel</h1>
+      <p class="section-desc">Help us understand the vibe you're going for so the design matches your personality and brand.</p>
+
+      <div class="field">
+        <label class="field-label">What words describe how you want your website to feel?</label>
+        <div class="chips" id="chip_vibe">
+          <div class="chip" data-val="bold">Bold & powerful</div>
+          <div class="chip" data-val="clean">Clean & minimal</div>
+          <div class="chip" data-val="professional">Professional & polished</div>
+          <div class="chip" data-val="energetic">High-energy & dynamic</div>
+          <div class="chip" data-val="warm">Warm & approachable</div>
+          <div class="chip" data-val="elite">Elite & premium</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Are there any colors you love, hate, or want to use?</label>
+        <input type="text" id="q_colors" placeholder="e.g. Navy and gold — or avoid bright pink">
+      </div>
+      <div class="field">
+        <label class="field-label">Share 1–3 websites you admire (any industry)</label>
+        <span class="field-hint">Not to copy — just to understand your taste.</span>
+        <textarea id="q_inspo" placeholder="e.g. www.nike.com — or describe what you like about them"></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label">How technically comfortable are you? <span class="req">*</span></label>
+        <span class="field-hint">This helps us decide how to build so you can update it yourself if needed.</span>
+        <div class="scale-row" id="scale_tech">
+          <button class="scale-btn" data-val="1">1</button>
+          <button class="scale-btn" data-val="2">2</button>
+          <button class="scale-btn" data-val="3">3</button>
+          <button class="scale-btn" data-val="4">4</button>
+          <button class="scale-btn" data-val="5">5</button>
+        </div>
+        <div class="scale-labels"><span>Not at all</span><span>Very comfortable</span></div>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="section-wrap" id="sec5">
+      <div class="section-eyebrow">Section 6 of 6</div>
+      <h1 class="section-heading">Timeline & next steps</h1>
+      <p class="section-desc">Almost done — just a couple of practical questions to help us plan.</p>
+
+      <div class="field">
+        <label class="field-label">When do you need this website live?</label>
+        <div class="chips" id="chip_timeline">
+          <div class="chip" data-val="asap">As soon as possible</div>
+          <div class="chip" data-val="1mo">Within 1 month</div>
+          <div class="chip" data-val="2mo">Within 2 months</div>
+          <div class="chip" data-val="flexible">I'm flexible</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Are you interested in ongoing support after launch?</label>
+        <div class="chips" id="chip_support">
+          <div class="chip" data-val="yes">Yes — monthly updates & maintenance</div>
+          <div class="chip" data-val="maybe">Maybe, tell me more</div>
+          <div class="chip" data-val="no">No — just the build</div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">Anything else we should know?</label>
+        <textarea id="q_notes" placeholder="Any special requests, concerns, or context that might help us..."></textarea>
+      </div>
+
+      <div id="statusMsg" class="status-msg"></div>
+    </div>
+
+    <!-- Success -->
+    <div class="success-screen" id="successScreen">
+      <div class="success-icon">
+        <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="6 14 11 19 22 9" stroke="#1a3a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 class="success-heading">You're all set.</h2>
+      <p class="success-body">Thank you for taking the time to fill this out. We'll review your answers and follow up within 1–2 business days to schedule a quick discovery call.</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav" id="navBar">
+      <button class="btn-back" id="btnBack" style="visibility:hidden">← Back</button>
+      <span class="nav-counter" id="navCounter">1 of 6</span>
+      <button class="btn-next" id="btnNext">Continue →</button>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  // ─── CONFIG ───────────────────────────────────────────────────────────────
+  // Paste your Google Apps Script Web App URL here after deploying
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzdZagNHN4ShzriVTRhyrhyr7lCPa3KnapykjOxG5AbmGUI_1BDRwZ_hvsrApRt2by43Q/exec';
+  // ──────────────────────────────────────────────────────────────────────────
+
+  const TOTAL = 6;
+  let current = 0;
+  const chips = {};
+  const scales = {};
+
+  // Build top progress pips (mobile)
+  const topProg = document.getElementById('topProgress');
+  for (let i = 0; i < TOTAL; i++) {
+    const p = document.createElement('div');
+    p.className = 'top-pip' + (i === 0 ? ' active' : '');
+    p.id = 'tp' + i;
+    topProg.appendChild(p);
+  }
+
+  function updateNav() {
+    document.getElementById('navCounter').textContent = (current + 1) + ' of ' + TOTAL;
+    document.getElementById('btnBack').style.visibility = current === 0 ? 'hidden' : 'visible';
+    document.getElementById('btnNext').textContent = current === TOTAL - 1 ? 'Submit responses →' : 'Continue →';
+
+    // Sidebar
+    document.querySelectorAll('.step-item').forEach((el, i) => {
+      el.classList.toggle('active', i === current);
+      el.classList.toggle('done', i < current);
+      const dot = el.querySelector('.step-dot');
+      if (i < current) dot.innerHTML = '✓';
+      else dot.textContent = i + 1;
+    });
+
+    // Top pips
+    for (let i = 0; i < TOTAL; i++) {
+      const p = document.getElementById('tp' + i);
+      if (p) p.classList.toggle('active', i <= current);
+    }
+  }
+
+  function showSection(idx) {
+    document.querySelectorAll('.section-wrap').forEach(s => s.classList.remove('visible'));
+    document.getElementById('sec' + idx).classList.add('visible');
+    updateNav();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Init chip groups
+  document.querySelectorAll('[id^="chip_"]').forEach(container => {
+    const id = container.id;
+    chips[id] = [];
+    const single = ['chip_existing', 'chip_timeline', 'chip_support'].includes(id);
+    container.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        if (single) {
+          container.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
+          chip.classList.add('on');
+          chips[id] = [chip.dataset.val];
+        } else {
+          chip.classList.toggle('on');
+          const v = chip.dataset.val;
+          chips[id] = chip.classList.contains('on')
+            ? [...chips[id], v]
+            : chips[id].filter(x => x !== v);
+        }
+        if (id === 'chip_existing') {
+          const show = ['yes_active','yes_outdated'].includes(chips[id][0]);
+          document.getElementById('url_field').style.display = show ? 'block' : 'none';
+        }
+      });
+    });
+  });
+
+  // Init scale buttons
+  document.querySelectorAll('[id^="scale_"]').forEach(container => {
+    const id = container.id;
+    scales[id] = '';
+    container.querySelectorAll('.scale-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        container.querySelectorAll('.scale-btn').forEach(b => b.classList.remove('on'));
+        btn.classList.add('on');
+        scales[id] = btn.dataset.val;
+      });
+    });
+  });
+
+  function g(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+
+  function validate() {
+    if (current === 0) {
+      if (!g('q_first')) { alert('Please enter your first name.'); return false; }
+      if (!g('q_last')) { alert('Please enter your last name.'); return false; }
+      if (!g('q_email') || !g('q_email').includes('@')) { alert('Please enter a valid email address.'); return false; }
+      if (!g('q_what')) { alert('Please tell us what you do.'); return false; }
+    }
+    if (current === 1 && !chips['chip_purpose']?.length) {
+      alert('Please select the primary purpose of your website.'); return false;
+    }
+    if (current === 2 && !g('q_audience')) {
+      alert('Please describe your ideal client.'); return false;
+    }
+    if (current === 3 && !chips['chip_pages']?.length) {
+      alert('Please select at least one page or section.'); return false;
+    }
+    return true;
+  }
+
+  async function submitForm() {
+    const btn = document.getElementById('btnNext');
+    btn.disabled = true;
+    btn.textContent = 'Submitting…';
+
+    const statusEl = document.getElementById('statusMsg');
+    statusEl.className = 'status-msg info';
+    statusEl.textContent = 'Saving your responses…';
+
+    const payload = {
+      first_name: g('q_first'), last_name: g('q_last'),
+      email: g('q_email'), phone: g('q_phone'), brand: g('q_brand'),
+      what_you_do: g('q_what'),
+      purpose: (chips['chip_purpose']||[]).join(', '),
+      success_definition: g('q_success'),
+      existing_site: (chips['chip_existing']||[]).join(', '),
+      existing_url: g('q_existing_url'),
+      audience: g('q_audience'),
+      what_searching: g('q_searching'),
+      geo: g('q_geo'),
+      pages_wanted: (chips['chip_pages']||[]).join(', '),
+      content_ready: (chips['chip_content']||[]).join(', '),
+      extra_features: g('q_extra'),
+      vibe: (chips['chip_vibe']||[]).join(', '),
+      colors: g('q_colors'),
+      inspiration: g('q_inspo'),
+      tech_comfort: scales['scale_tech'] || '',
+      timeline: (chips['chip_timeline']||[]).join(', '),
+      ongoing_support: (chips['chip_support']||[]).join(', '),
+      notes: g('q_notes'),
+      submitted_at: new Date().toLocaleString()
+    };
+
+    try {
+      await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      // no-cors means we can't read the response — assume success if no error thrown
+      document.getElementById('sec5').classList.remove('visible');
+      document.getElementById('navBar').style.display = 'none';
+      document.getElementById('successScreen').classList.add('visible');
+    } catch (err) {
+      statusEl.className = 'status-msg error';
+      statusEl.textContent = 'Something went wrong. Please try again or contact us directly.';
+      btn.disabled = false;
+      btn.textContent = 'Submit responses →';
+    }
+  }
+
+  document.getElementById('btnNext').addEventListener('click', () => {
+    if (!validate()) return;
+    if (current === TOTAL - 1) {
+      submitForm();
+    } else {
+      current++;
+      showSection(current);
+    }
+  });
+
+  document.getElementById('btnBack').addEventListener('click', () => {
+    if (current > 0) { current--; showSection(current); }
+  });
+
+  updateNav();
+</script>
+</body>
+</html>
