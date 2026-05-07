@@ -1,0 +1,352 @@
+{
+  "counties": {
+    "St. Johns": {
+      "used_combo_ids": [
+        "6-2-2-0-1-1-2-1-0-1-0-2-1-2-0-0-3",
+        "B:2-0-1-1-1-1-2-0-1-1-0-2-3-3-2-0-1-1-1-3-2-3:3-1-2-2-0"
+      ],
+      "assigned_combos": {
+        "john-smith": {
+          "combo_id": "6-2-2-0-1-1-2-1-0-1-0-2-1-2-0-0-3",
+          "assigned_at": "2026-05-07T04:13:23.568Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "pink",
+            "background_tone": "slate-black",
+            "card_border": "accent",
+            "button_style": "solid",
+            "hero_layout": "split-right",
+            "hero_overlay": "hex-grid",
+            "stats_layout": "centered-large",
+            "photo_treatment": "always-color",
+            "gallery_layout": "grid-3col",
+            "services_layout": "horizontal-icon-left",
+            "testimonials_layout": "cards-2col",
+            "about_frame": "full-bleed",
+            "font_pair": "oswald-inter",
+            "hero_tagline": "BUILT FOR CHAMPIONS.",
+            "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+            "services_tagline": "TRAINING THAT DELIVERS.",
+            "testimonials_tagline": "THE EVIDENCE SPEAKS."
+          }
+        },
+        "derek-johnson": {
+          "combo_id": "B:2-0-1-1-1-1-2-0-1-1-0-2-3-3-2-0-1-1-1-3-2-3:3-1-2-2-0",
+          "assigned_at": "2026-05-07T19:10:35.932Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "navy",
+            "background_tone": "pure-black",
+            "card_border": "white",
+            "button_style": "ghost",
+            "hero_layout": "split-right",
+            "hero_overlay": "hex-grid",
+            "stats_layout": "centered-large",
+            "photo_treatment": "grayscale-hover",
+            "gallery_layout": "grid-2col",
+            "services_layout": "horizontal-icon-left",
+            "testimonials_layout": "cards-2col",
+            "about_frame": "full-bleed",
+            "font_pair": "oswald-poppins",
+            "b_palette": "teal-gold",
+            "b_hero_layout": "centered-overlay",
+            "b_services_layout": "featured-large",
+            "b_testimonials_layout": "stacked",
+            "b_about_layout": "centered-stack",
+            "hero_tagline": "YOUR EDGE STARTS HERE.",
+            "hero_availability": "Fall Prep · Booking Now",
+            "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+            "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+            "services_subline": "Focused training. Real development. Every athlete leaves better than they arrived.",
+            "testimonials_tagline": "PROOF ON THE FIELD.",
+            "testimonials_eyebrow": "From Our Athletes",
+            "contact_offer": "First session consultation is on us. Let's build your game plan.",
+            "contact_urgency": "Early enrollees get priority scheduling. Lock in your spot before the off-season rush."
+          }
+        }
+      }
+    },
+    "Duval": {
+      "used_combo_ids": [
+        "1-0-3-0-1-1-1-2-3-1-2-0-1-3-0-3-2"
+      ],
+      "assigned_combos": {
+        "mike-jones": {
+          "combo_id": "1-0-3-0-1-1-1-2-3-1-2-0-1-3-0-3-2",
+          "assigned_at": "2026-05-07T04:13:23.576Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "red",
+            "background_tone": "pure-black",
+            "card_border": "none",
+            "button_style": "solid",
+            "hero_layout": "split-right",
+            "hero_overlay": "hex-grid",
+            "stats_layout": "grid-2x2",
+            "photo_treatment": "duotone",
+            "gallery_layout": "masonry",
+            "services_layout": "horizontal-icon-left",
+            "testimonials_layout": "stacked-compact",
+            "about_frame": "bordered-offset",
+            "font_pair": "oswald-inter",
+            "hero_tagline": "YOUR EDGE STARTS HERE.",
+            "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+            "services_tagline": "STRUCTURED EXCELLENCE.",
+            "testimonials_tagline": "ATHLETES SPEAK."
+          }
+        }
+      }
+    },
+    "Clay": {
+      "used_combo_ids": [
+        "2-0-3-1-2-4-1-0-3-1-2-3-2-0-2-2-0",
+        "B:0-4-1-0-1-4-0-1-2-2-0-3-0-2-4-3-3-2-0-3-0-1:3-1-2-2-0"
+      ],
+      "assigned_combos": {
+        "carlos-rivera": {
+          "combo_id": "2-0-3-1-2-4-1-0-3-1-2-3-2-0-2-2-0",
+          "assigned_at": "2026-05-07T04:13:23.578Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "navy",
+            "background_tone": "pure-black",
+            "card_border": "none",
+            "button_style": "ghost",
+            "hero_layout": "centered-overlay",
+            "hero_overlay": "none",
+            "stats_layout": "grid-2x2",
+            "photo_treatment": "grayscale-hover",
+            "gallery_layout": "masonry",
+            "services_layout": "horizontal-icon-left",
+            "testimonials_layout": "stacked-compact",
+            "about_frame": "circular",
+            "font_pair": "bebas-poppins",
+            "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+            "about_tagline": "WHERE POTENTIAL MEETS PERFORMANCE.",
+            "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+            "testimonials_tagline": "RESULTS YOU CAN FEEL."
+          }
+        },
+        "marcus-williams": {
+          "combo_id": "B:0-4-1-0-1-4-0-1-2-2-0-3-0-2-4-3-3-2-0-3-0-1:3-1-2-2-0",
+          "assigned_at": "2026-05-07T19:10:35.926Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "gold",
+            "background_tone": "dark-brown",
+            "card_border": "white",
+            "button_style": "solid",
+            "hero_layout": "split-right",
+            "hero_overlay": "none",
+            "stats_layout": "horizontal-strip",
+            "photo_treatment": "always-color",
+            "gallery_layout": "grid-4col",
+            "services_layout": "featured-2small",
+            "testimonials_layout": "cards-2col",
+            "about_frame": "circular",
+            "font_pair": "bebas-inter",
+            "b_palette": "teal-gold",
+            "b_hero_layout": "centered-overlay",
+            "b_services_layout": "featured-large",
+            "b_testimonials_layout": "stacked",
+            "b_about_layout": "centered-stack",
+            "hero_tagline": "BUILT FOR CHAMPIONS.",
+            "hero_availability": "Spring Sessions · Now Enrolling",
+            "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+            "services_tagline": "STRUCTURED EXCELLENCE.",
+            "services_subline": "From fundamentals to film — everything your athlete needs to compete at the next level.",
+            "testimonials_tagline": "RESULTS YOU CAN FEEL.",
+            "testimonials_eyebrow": "From Our Athletes",
+            "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+            "contact_urgency": "Limited spots available each month. Don't wait until the season starts."
+          }
+        }
+      }
+    },
+    "Nassau": {
+      "used_combo_ids": [
+        "0-0-0-1-2-1-2-1-3-0-2-3-4-4-3-1-3"
+      ],
+      "assigned_combos": {
+        "darnell-washington": {
+          "combo_id": "0-0-0-1-2-1-2-1-3-0-2-3-4-4-3-1-3",
+          "assigned_at": "2026-05-07T04:13:23.579Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "gold",
+            "background_tone": "pure-black",
+            "card_border": "gold",
+            "button_style": "ghost",
+            "hero_layout": "centered-overlay",
+            "hero_overlay": "hex-grid",
+            "stats_layout": "centered-large",
+            "photo_treatment": "always-color",
+            "gallery_layout": "masonry",
+            "services_layout": "cards-3col",
+            "testimonials_layout": "stacked-compact",
+            "about_frame": "circular",
+            "font_pair": "bebas-roboto",
+            "hero_tagline": "EXCELLENCE STARTS NOW.",
+            "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+            "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+            "testimonials_tagline": "THE EVIDENCE SPEAKS."
+          }
+        }
+      }
+    },
+    "Putnam": {
+      "used_combo_ids": [
+        "0-2-2-0-2-3-2-3-1-1-2-3-3-1-1-0-2"
+      ],
+      "assigned_combos": {
+        "tony-bishop": {
+          "combo_id": "0-2-2-0-2-3-2-3-1-1-2-3-3-1-1-0-2",
+          "assigned_at": "2026-05-07T04:13:23.580Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "gold",
+            "background_tone": "slate-black",
+            "card_border": "accent",
+            "button_style": "solid",
+            "hero_layout": "centered-overlay",
+            "hero_overlay": "diagonal",
+            "stats_layout": "centered-large",
+            "photo_treatment": "high-contrast",
+            "gallery_layout": "grid-2col",
+            "services_layout": "horizontal-icon-left",
+            "testimonials_layout": "stacked-compact",
+            "about_frame": "circular",
+            "font_pair": "oswald-poppins",
+            "hero_tagline": "ELEVATE YOUR GAME.",
+            "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+            "services_tagline": "TRAINING THAT DELIVERS.",
+            "testimonials_tagline": "ATHLETES SPEAK."
+          }
+        }
+      }
+    },
+    "Baker": {
+      "used_combo_ids": [
+        "B:4-4-0-1-0-4-0-3-3-0-1-3-3-0-1-0-1-2-2-1-1-0:0-2-0-2-0"
+      ],
+      "assigned_combos": {
+        "james-carter": {
+          "combo_id": "B:4-4-0-1-0-4-0-3-3-0-1-3-3-0-1-0-1-2-2-1-1-0:0-2-0-2-0",
+          "assigned_at": "2026-05-07T19:10:35.933Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "purple",
+            "background_tone": "dark-brown",
+            "card_border": "gold",
+            "button_style": "ghost",
+            "hero_layout": "full-bleed",
+            "hero_overlay": "none",
+            "stats_layout": "horizontal-strip",
+            "photo_treatment": "high-contrast",
+            "gallery_layout": "masonry",
+            "services_layout": "cards-3col",
+            "testimonials_layout": "single-large-quote",
+            "about_frame": "circular",
+            "font_pair": "oswald-poppins",
+            "b_palette": "forest-amber",
+            "b_hero_layout": "full-bleed-text",
+            "b_services_layout": "cards-3col",
+            "b_testimonials_layout": "stacked",
+            "b_about_layout": "centered-stack",
+            "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+            "hero_availability": "Summer Training · Spots Available",
+            "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+            "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+            "services_subline": "From fundamentals to film — everything your athlete needs to compete at the next level.",
+            "testimonials_tagline": "ATHLETES SPEAK.",
+            "testimonials_eyebrow": "What Athletes Are Saying",
+            "contact_offer": "No commitment required — just show up ready to work.",
+            "contact_urgency": "Roster spots fill fast in the off-season. Reach out today and lock in your training slot."
+          }
+        }
+      }
+    },
+    "Flagler": {
+      "used_combo_ids": [
+        "B:7-0-0-2-0-3-2-3-2-2-0-1-1-4-1-1-2-2-2-3-2-3:0-1-1-2-2"
+      ],
+      "assigned_combos": {
+        "kevin-reed": {
+          "combo_id": "B:7-0-0-2-0-3-2-3-2-2-0-1-1-4-1-1-2-2-2-3-2-3:0-1-1-2-2",
+          "assigned_at": "2026-05-07T19:10:35.933Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "orange",
+            "background_tone": "pure-black",
+            "card_border": "gold",
+            "button_style": "gradient",
+            "hero_layout": "full-bleed",
+            "hero_overlay": "diagonal",
+            "stats_layout": "centered-large",
+            "photo_treatment": "high-contrast",
+            "gallery_layout": "grid-4col",
+            "services_layout": "featured-2small",
+            "testimonials_layout": "cards-2col",
+            "about_frame": "minimal-frame",
+            "font_pair": "oswald-inter",
+            "b_palette": "forest-amber",
+            "b_hero_layout": "centered-overlay",
+            "b_services_layout": "icon-left-list",
+            "b_testimonials_layout": "stacked",
+            "b_about_layout": "photo-right",
+            "hero_tagline": "EXCELLENCE STARTS NOW.",
+            "hero_availability": "Summer Training · Spots Available",
+            "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+            "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+            "services_subline": "From fundamentals to film — everything your athlete needs to compete at the next level.",
+            "testimonials_tagline": "ATHLETES SPEAK.",
+            "testimonials_eyebrow": "From Our Athletes",
+            "contact_offer": "First session consultation is on us. Let's build your game plan.",
+            "contact_urgency": "Early enrollees get priority scheduling. Lock in your spot before the off-season rush."
+          }
+        }
+      }
+    },
+    "Columbia": {
+      "used_combo_ids": [
+        "B:3-4-0-1-0-1-0-3-0-2-1-0-4-3-4-2-2-3-2-1-0-1:1-0-1-0-0"
+      ],
+      "assigned_combos": {
+        "andre-thomas": {
+          "combo_id": "B:3-4-0-1-0-1-0-3-0-2-1-0-4-3-4-2-2-3-2-1-0-1:1-0-1-0-0",
+          "assigned_at": "2026-05-07T19:10:35.935Z",
+          "manually_tweaked": false,
+          "variations": {
+            "accent_color": "green",
+            "background_tone": "dark-brown",
+            "card_border": "gold",
+            "button_style": "ghost",
+            "hero_layout": "full-bleed",
+            "hero_overlay": "hex-grid",
+            "stats_layout": "horizontal-strip",
+            "photo_treatment": "high-contrast",
+            "gallery_layout": "grid-3col",
+            "services_layout": "featured-2small",
+            "testimonials_layout": "single-large-quote",
+            "about_frame": "bordered-offset",
+            "font_pair": "bebas-roboto",
+            "b_palette": "navy-gold",
+            "b_hero_layout": "split-left",
+            "b_services_layout": "icon-left-list",
+            "b_testimonials_layout": "cards-3col",
+            "b_about_layout": "centered-stack",
+            "hero_tagline": "YOUR EDGE STARTS HERE.",
+            "hero_availability": "Spring Sessions · Now Enrolling",
+            "about_tagline": "WHERE POTENTIAL MEETS PERFORMANCE.",
+            "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+            "services_subline": "Individual attention. Proven systems. Championship habits.",
+            "testimonials_tagline": "ATHLETES SPEAK.",
+            "testimonials_eyebrow": "What Athletes Are Saying",
+            "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+            "contact_urgency": "Limited spots available each month. Don't wait until the season starts."
+          }
+        }
+      }
+    }
+  }
+}

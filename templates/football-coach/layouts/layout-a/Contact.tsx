@@ -32,6 +32,8 @@ export default function Contact({ config }: { config: CoachConfig }) {
 
   const phone = config.contact.phone as string | undefined
   const email = config.contact.email as string | undefined
+  const bookingUrl = config.contact.booking_url as string | undefined
+  const businessHours = config.contact.business_hours as string[] | undefined
 
   return (
     <section id="contact" className="relative bg-ink py-24 sm:py-32 overflow-hidden">
@@ -40,17 +42,17 @@ export default function Contact({ config }: { config: CoachConfig }) {
 
         {/* Header */}
         <div className="text-center mb-16 reveal">
-          <div className="flex items-center justify-center gap-3 text-gold/90 mb-5">
-            <span className="inline-block h-[2px] w-10 bg-gold" />
-            <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm">Get In Touch</span>
-            <span className="inline-block h-[2px] w-10 bg-gold" />
+          <div className="flex items-center justify-center gap-3 text-[var(--accent)] mb-5">
+            <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
+            <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">Get In Touch</span>
+            <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
           </div>
           <h2 className="font-bebas text-5xl sm:text-6xl md:text-7xl leading-[0.9] tracking-tight">
             <span className="text-white">READY TO </span>
-            <span className="gold-grad">LEVEL UP?</span>
+            <span className="accent-grad">LEVEL UP?</span>
           </h2>
           <p className="mt-5 text-white/65 max-w-xl mx-auto text-lg">
-            Free 30-minute intro session. Bring your goals — leave with a plan.
+            {config.copy_variants?.contact_offer ?? "Free 30-minute intro session. Bring your goals — leave with a plan."}
           </p>
         </div>
 
@@ -60,14 +62,14 @@ export default function Contact({ config }: { config: CoachConfig }) {
             <div>
               <h3 className="font-bebas text-3xl tracking-wide text-white mb-2">CONTACT THE COACH</h3>
               <p className="text-white/60 leading-relaxed">
-                Roster spots fill fast in the off-season. Reach out today and lock in your training slot.
+                {config.copy_variants?.contact_urgency ?? "Roster spots fill fast in the off-season. Reach out today and lock in your training slot."}
               </p>
             </div>
 
             <div className="space-y-5">
               {phone && (
-                <a href={`tel:${phone}`} className="group flex items-center gap-5 p-5 bg-smoke/60 border border-white/5 hover:border-gold/40 transition">
-                  <div className="w-12 h-12 grid place-items-center bg-gold/10 border border-gold/30 text-gold group-hover:bg-gold group-hover:text-ink transition">
+                <a href={`tel:${phone}`} className="group flex items-center gap-5 p-5 bg-smoke/60 border border-white/5 hover:border-[rgba(var(--accent-rgb),0.4)] transition">
+                  <div className="w-12 h-12 grid place-items-center bg-[rgba(var(--accent-rgb),0.1)] border border-[rgba(var(--accent-rgb),0.3)] text-[var(--accent)] group-hover:bg-[var(--accent)] group-hover:text-ink transition">
                     <Icons.Phone className="w-5 h-5" />
                   </div>
                   <div>
@@ -77,8 +79,8 @@ export default function Contact({ config }: { config: CoachConfig }) {
                 </a>
               )}
               {email && (
-                <a href={`mailto:${email}`} className="group flex items-center gap-5 p-5 bg-smoke/60 border border-white/5 hover:border-gold/40 transition">
-                  <div className="w-12 h-12 grid place-items-center bg-gold/10 border border-gold/30 text-gold group-hover:bg-gold group-hover:text-ink transition">
+                <a href={`mailto:${email}`} className="group flex items-center gap-5 p-5 bg-smoke/60 border border-white/5 hover:border-[rgba(var(--accent-rgb),0.4)] transition">
+                  <div className="w-12 h-12 grid place-items-center bg-[rgba(var(--accent-rgb),0.1)] border border-[rgba(var(--accent-rgb),0.3)] text-[var(--accent)] group-hover:bg-[var(--accent)] group-hover:text-ink transition">
                     <Icons.Mail className="w-5 h-5" />
                   </div>
                   <div>
@@ -88,7 +90,7 @@ export default function Contact({ config }: { config: CoachConfig }) {
                 </a>
               )}
               <div className="flex items-center gap-5 p-5 bg-smoke/60 border border-white/5">
-                <div className="w-12 h-12 grid place-items-center bg-gold/10 border border-gold/30 text-gold">
+                <div className="w-12 h-12 grid place-items-center bg-[rgba(var(--accent-rgb),0.1)] border border-[rgba(var(--accent-rgb),0.3)] text-[var(--accent)]">
                   <Icons.Pin className="w-5 h-5" />
                 </div>
                 <div>
@@ -100,9 +102,34 @@ export default function Contact({ config }: { config: CoachConfig }) {
               </div>
             </div>
 
-            <div className="border-l-2 border-gold pl-5 py-2">
+            {businessHours && businessHours.length > 0 && (
+              <div className="flex items-start gap-5 p-5 bg-smoke/60 border border-white/5">
+                <div className="w-12 h-12 grid place-items-center bg-[rgba(var(--accent-rgb),0.1)] border border-[rgba(var(--accent-rgb),0.3)] text-[var(--accent)] shrink-0">
+                  <Icons.Lightning className="w-5 h-5" />
+                </div>
+                <div>
+                  <div className="font-oswald uppercase tracking-[0.25em] text-white/50 text-[10px] mb-2">Hours</div>
+                  {businessHours.map((line, i) => (
+                    <div key={i} className="font-oswald text-sm text-white tracking-wide leading-relaxed">{line}</div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {bookingUrl && bookingUrl.startsWith("http") && (
+              <a
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-gold flex items-center justify-center gap-2 bg-[var(--accent)] hover:bg-[var(--accent-hi)] text-ink font-oswald font-semibold uppercase tracking-[0.18em] py-4 text-sm w-full"
+              >
+                <Icons.Arrow className="w-4 h-4" /> Book Your Session
+              </a>
+            )}
+
+            <div className="border-l-2 border-[var(--accent)] pl-5 py-2">
               <div className="font-bebas text-3xl tracking-wide text-white leading-none">READY TO LEVEL UP?</div>
-              <div className="font-oswald uppercase tracking-[0.25em] text-gold text-xs mt-2">Let&apos;s build a champion.</div>
+              <div className="font-oswald uppercase tracking-[0.25em] text-[var(--accent)] text-xs mt-2">Let&apos;s build a champion.</div>
             </div>
           </div>
 
@@ -152,7 +179,7 @@ export default function Contact({ config }: { config: CoachConfig }) {
 
               <button
                 type="submit"
-                className="btn-gold w-full flex items-center justify-center gap-2 bg-gold hover:bg-goldhi text-ink font-oswald font-semibold uppercase tracking-[0.18em] py-5 text-base"
+                className="btn-gold w-full flex items-center justify-center gap-2 bg-[var(--accent)] hover:bg-[var(--accent-hi)] text-ink font-oswald font-semibold uppercase tracking-[0.18em] py-5 text-base"
               >
                 {sent ? (
                   <><Icons.Check className="w-5 h-5" /> Message Sent — We&apos;ll Be In Touch</>

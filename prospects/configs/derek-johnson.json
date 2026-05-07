@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Derek Johnson Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in Ponte Vedra Beach, FL. Speed & Agility"
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Derek Johnson",
+    "city": "Ponte Vedra Beach",
+    "county": "St. Johns",
+    "sport": "Football",
+    "specialty": "Speed & Agility",
+    "years_experience": 12,
+    "age_groups": "Youth, High School, Adult",
+    "photo": "/stock/football/about/about-07.jpg"
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "photo": "/stock/football/hero/hero-07.jpg"
+  },
+  "contact": {
+    "phone": "(904) 555-0712",
+    "email": "derek@example.com",
+    "booking_url": "#contact"
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "pure-black",
+    "card_border": "white",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "centered-large",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-poppins",
+    "b_palette": "teal-gold",
+    "b_hero_layout": "centered-overlay",
+    "b_services_layout": "featured-large",
+    "b_testimonials_layout": "stacked",
+    "b_about_layout": "centered-stack"
+  },
+  "copy_variants": {
+    "hero_tagline": "YOUR EDGE STARTS HERE.",
+    "hero_availability": "Fall Prep · Booking Now",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "services_subline": "Focused training. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "From Our Athletes",
+    "contact_offer": "First session consultation is on us. Let's build your game plan.",
+    "contact_urgency": "Early enrollees get priority scheduling. Lock in your spot before the off-season rush."
+  }
+}

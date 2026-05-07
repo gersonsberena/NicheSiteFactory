@@ -86,4 +86,19 @@ export const Icons = {
       <path d="M5 13l4 4L19 7" />
     </svg>
   ),
+  Chevron: (p: P) => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  ),
+  Play: (p: P) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...p}>
+      <path d="M8 5v14l11-7L8 5Z" />
+    </svg>
+  ),
+  Facebook: (p: P) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...p}>
+      <path d="M13 22v-8h3l1-4h-4V7.5c0-1.2.4-2 2-2h2V2.2A26 26 0 0 0 14 2c-3 0-5 1.8-5 5v3H6v4h3v8h4Z" />
+    </svg>
+  ),
 }

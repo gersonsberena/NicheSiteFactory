@@ -1,53 +1,44 @@
 "use client"
 import { useState, useCallback } from "react"
-import { useReveal } from "@/lib/hooks"
 import type { CoachConfig } from "@/lib/useConfig"
 import Nav from "./Nav"
 import Hero from "./Hero"
-import StatsBar from "./StatsBar"
+import Stats from "./Stats"
 import About from "./About"
 import Services from "./Services"
+import SuccessStories from "./SuccessStories"
 import Testimonials from "./Testimonials"
+import VideoSection from "./VideoSection"
 import Gallery from "./Gallery"
+import FAQ from "./FAQ"
 import Contact from "./Contact"
 import Footer from "./Footer"
-import Toast from "./Toast"
-import SuccessStories from "./SuccessStories"
-import FAQ from "./FAQ"
-import VideoGallery from "./VideoGallery"
 
 const sectionMap = {
   hero: Hero,
-  stats: StatsBar,
+  stats: Stats,
   about: About,
   services: Services,
-  testimonials: Testimonials,
-  gallery: Gallery,
-  contact: Contact,
   success_stories: SuccessStories,
+  testimonials: Testimonials,
+  video_gallery: VideoSection,
+  gallery: Gallery,
   faq: FAQ,
-  video_gallery: VideoGallery,
+  contact: Contact,
 } as const
 
 type SectionKey = keyof typeof sectionMap
 
-export default function LayoutA({ config }: { config: CoachConfig }) {
-  const order = config.section_order as SectionKey[]
-  const [toast, setToast] = useState(false)
-
-  useReveal()
+export default function LayoutB({ config }: { config: CoachConfig }) {
+  const order = (config.section_order ?? Object.keys(sectionMap)) as SectionKey[]
+  const [contactSignal, setContactSignal] = useState(0)
 
   const handleCTA = useCallback(() => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+    setContactSignal((s) => s + 1)
   }, [])
 
-  const handleDismissToast = useCallback(() => setToast(false), [])
-
-  const themeClass = `theme-${config.design?.accent_color ?? "gold"}`
-  const bgClass = `bg-tone-${config.design?.background_tone ?? "pure-black"}`
-
   return (
-    <div className={`${themeClass} ${bgClass}`}>
+    <div className={`layout-b bg-white text-[#1A1A1A] b-palette-${config.design?.b_palette ?? "forest-amber"}`}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {
@@ -57,11 +48,14 @@ export default function LayoutA({ config }: { config: CoachConfig }) {
             const HeroSection = Section as typeof Hero
             return <HeroSection key={key} config={config} onCTA={handleCTA} />
           }
+          if (key === "contact") {
+            const ContactSection = Section as typeof Contact
+            return <ContactSection key={key} config={config} openSignal={contactSignal} />
+          }
           return <Section key={key} config={config} />
         })}
       </main>
       <Footer config={config} />
-      <Toast show={toast} onDismiss={handleDismissToast} />
     </div>
   )
 }

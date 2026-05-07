@@ -1,11 +1,14 @@
 {
   "meta": {
-    "title": "John Smith Football Coaching — St. Johns County, FL"
+    "title": "John Smith Football Coaching — St. Johns County, FL",
+    "description": "Youth and high school quarterback training in St. Augustine, FL. Personalized coaching from Coach John Smith — 9 years developing athletes in St. Johns County."
   },
+  "layout": "A",
   "about": {
     "name": "Coach John Smith",
     "city": "St. Augustine",
     "county": "St. Johns",
+    "sport": "Football",
     "specialty": "Youth & High School Quarterback Training",
     "years_experience": 9,
     "bio": "Coach John Smith has been developing quarterbacks and building confident athletes in St. Johns County for nearly a decade. His passion for the game and his players shows in every session."
@@ -17,5 +20,45 @@
   "contact": {
     "phone": "(904) 555-0199",
     "email": "john@johnsmithcoaching.com"
+  },
+  "stats": [
+    {
+      "value": "200+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "9",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "QB",
+      "label": "Specialist"
+    }
+  ],
+  "design": {
+    "accent_color": "orange",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "centered-large",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-inter",
+    "b_palette": "forest-amber",
+    "b_hero_layout": "split-left",
+    "b_services_layout": "cards-3col",
+    "b_testimonials_layout": "cards-3col",
+    "b_about_layout": "centered-stack"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
   }
 }

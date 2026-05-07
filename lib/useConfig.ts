@@ -3,14 +3,53 @@ import path from "path"
 import baseConfig from "@/templates/football-coach/base.config.json"
 
 export type Stat = { value: string; label: string }
-export type Service = { title: string; description: string }
-export type Testimonial = { quote: string; name: string; role: string }
+export type Service = { title: string; description: string; price?: string }
+export type Testimonial = { quote: string; name: string; role: string; rating?: number; photo?: string }
+export type SuccessStory = { name: string; role: string; story: string; result: string }
+export type FAQItem = { question: string; answer: string }
+export type Video = { title: string; youtube_url: string; description?: string }
+
+export type DesignConfig = {
+  accent_color?: string
+  background_tone?: string
+  card_border?: string
+  button_style?: string
+  hero_layout?: string
+  hero_overlay?: string
+  stats_layout?: string
+  photo_treatment?: string
+  gallery_layout?: string
+  services_layout?: string
+  testimonials_layout?: string
+  about_frame?: string
+  font_pair?: string
+  b_palette?: string
+  b_hero_layout?: string
+  b_services_layout?: string
+  b_testimonials_layout?: string
+  b_about_layout?: string
+}
+
+export type CopyVariants = {
+  hero_tagline?: string
+  hero_availability?: string
+  about_tagline?: string
+  services_tagline?: string
+  services_subline?: string
+  testimonials_tagline?: string
+  testimonials_eyebrow?: string
+  contact_offer?: string
+  contact_urgency?: string
+  contact_subline?: string
+}
 
 export type CoachConfig = typeof baseConfig & {
   about: typeof baseConfig.about & { [key: string]: unknown }
   hero: typeof baseConfig.hero & { [key: string]: unknown }
   contact: typeof baseConfig.contact & { [key: string]: unknown }
   meta: typeof baseConfig.meta & { [key: string]: unknown }
+  design: DesignConfig
+  copy_variants: CopyVariants
 }
 
 function deepMerge<T extends object>(base: T, override: Partial<T>): T {

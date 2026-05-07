@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Darnell Washington Football Coaching — Nassau County, FL"
+  },
+  "layout": "D",
+  "about": {
+    "name": "Coach Darnell Washington",
+    "city": "Fernandina Beach",
+    "county": "Nassau",
+    "specialty": "Linebacker & Defense",
+    "years_experience": 11,
+    "age_groups": "Youth, High School",
+    "photo": "/stock/football/about/about-04.jpg"
+  },
+  "hero": {
+    "headline": "Nassau County's Premier Football Coach",
+    "photo": "/stock/football/hero/hero-04.jpg"
+  },
+  "contact": {
+    "phone": "(904) 555-0422",
+    "email": "darnell@example.com",
+    "booking_url": "#contact"
+  },
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "pure-black",
+    "card_border": "gold",
+    "button_style": "ghost",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "centered-large",
+    "photo_treatment": "always-color",
+    "gallery_layout": "masonry",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "bebas-roboto",
+    "b_palette": "teal-gold",
+    "b_hero_layout": "split-left",
+    "b_services_layout": "featured-large",
+    "b_testimonials_layout": "single-quote",
+    "b_about_layout": "photo-right"
+  },
+  "copy_variants": {
+    "hero_tagline": "EXCELLENCE STARTS NOW.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  }
+}

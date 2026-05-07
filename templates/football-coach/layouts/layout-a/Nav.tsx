@@ -39,7 +39,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur-md bg-ink/85 border-b border-gold/20 shadow-[0_8px_30px_-12px_rgba(245,158,11,0.25)]"
+          ? "backdrop-blur-md bg-ink/85 border-b border-[rgba(var(--accent-rgb),0.2)] shadow-[0_8px_30px_-12px_rgba(var(--accent-rgb),0.25)]"
           : "bg-transparent border-b border-transparent"
       }`}
     >
@@ -49,13 +49,13 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
           onClick={() => scrollTo("top")}
           className="flex items-center gap-3 group"
         >
-          <span className="w-9 h-9 rounded-sm border border-gold/60 grid place-items-center text-gold font-bebas text-xl tracking-wider group-hover:bg-gold group-hover:text-ink transition">
+          <span className="w-9 h-9 rounded-sm border border-[rgba(var(--accent-rgb),0.6)] grid place-items-center text-[var(--accent)] font-bebas text-xl tracking-wider group-hover:bg-[var(--accent)] group-hover:text-ink transition">
             {initials}
           </span>
           <span className="hidden sm:flex flex-col leading-none">
             <span className="font-bebas text-xl tracking-[0.2em] text-white">{displayName}</span>
-            <span className="font-oswald text-[10px] tracking-[0.4em] text-gold uppercase mt-0.5">
-              Football · {config.about.city}
+            <span className="font-oswald text-[10px] tracking-[0.4em] text-[var(--accent)] uppercase mt-0.5">
+              {config.about.sport} · {config.about.city}
             </span>
           </span>
         </button>
@@ -67,7 +67,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
               key={id}
               onClick={() => scrollTo(id)}
               className={`nav-link font-oswald uppercase tracking-[0.22em] text-sm ${
-                active === id ? "text-gold active" : "text-white/80 hover:text-white"
+                active === id ? "text-[var(--accent)] active" : "text-white/80 hover:text-white"
               }`}
             >
               {NAV_LABELS[id]}
@@ -78,7 +78,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
         <div className="flex items-center gap-3">
           <button
             onClick={onCTA}
-            className="btn-gold hidden sm:inline-flex items-center gap-2 bg-gold hover:bg-goldhi text-ink font-oswald font-semibold uppercase tracking-[0.18em] px-5 py-3 text-xs"
+            className="btn-gold hidden sm:inline-flex items-center gap-2 bg-[var(--accent)] hover:bg-[var(--accent-hi)] text-ink font-oswald font-semibold uppercase tracking-[0.18em] px-5 py-3 text-xs"
           >
             {config.hero.cta_text} <Icons.Arrow className="w-4 h-4" />
           </button>
@@ -105,7 +105,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
                 key={id}
                 onClick={() => { scrollTo(id); setOpen(false) }}
                 className={`py-3 text-left font-oswald uppercase tracking-[0.22em] text-sm border-b border-white/5 ${
-                  active === id ? "text-gold" : "text-white/80"
+                  active === id ? "text-[var(--accent)]" : "text-white/80"
                 }`}
               >
                 {NAV_LABELS[id]}
@@ -113,7 +113,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
             ))}
             <button
               onClick={() => { setOpen(false); onCTA() }}
-              className="btn-gold mt-5 w-full flex items-center justify-center gap-2 bg-gold hover:bg-goldhi text-ink font-oswald font-semibold uppercase tracking-[0.18em] px-7 py-4 text-sm"
+              className="btn-gold mt-5 w-full flex items-center justify-center gap-2 bg-[var(--accent)] hover:bg-[var(--accent-hi)] text-ink font-oswald font-semibold uppercase tracking-[0.18em] px-7 py-4 text-sm"
             >
               {config.hero.cta_text}
             </button>

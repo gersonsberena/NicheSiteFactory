@@ -1,12 +1,13 @@
 {
   "meta": {
     "title": "Football Coach — Northeast Florida",
-    "description": "Professional football coaching services in Northeast Florida."
+    "description": "Professional football coaching services in Northeast Florida.",
+    "favicon_url": ""
   },
   "theme": "dark-athletic",
   "layout": "A",
   "font_pair": "bebas-inter",
-  "section_order": ["hero", "stats", "about", "services", "testimonials", "gallery", "contact"],
+  "section_order": ["hero", "stats", "about", "services", "success_stories", "testimonials", "video_gallery", "gallery", "faq", "contact"],
 
   "about": {
     "name": "Coach Smith",
@@ -18,7 +19,9 @@
     "years_experience": 12,
     "specialty": "Quarterback Training & Offensive Development",
     "age_groups": "Youth · High School · Adult",
-    "photo": "/stock/football/about/about-01.jpg"
+    "photo": "/stock/football/about/about-01.jpg",
+    "credentials": ["NFCA Certified", "Former D1 Athlete"],
+    "sport": "Football"
   },
 
   "hero": {
@@ -38,11 +41,13 @@
   "services": [
     {
       "title": "1-on-1 Skills Training",
-      "description": "Personalized sessions targeting your position, mechanics, and football IQ."
+      "description": "Personalized sessions targeting your position, mechanics, and football IQ.",
+      "price": "$75/session"
     },
     {
       "title": "Group Camps",
-      "description": "Small-group training focused on team dynamics, conditioning, and competition."
+      "description": "Small-group training focused on team dynamics, conditioning, and competition.",
+      "price": "$40/athlete"
     },
     {
       "title": "Film Review & Game Planning",
@@ -54,12 +59,16 @@
     {
       "quote": "Coach Smith changed the way I see the game. I went from second-string to starting QB in one season.",
       "name": "Marcus T.",
-      "role": "High School Quarterback"
+      "role": "High School Quarterback",
+      "rating": 5,
+      "photo": ""
     },
     {
       "quote": "My son has trained with Coach Smith for two years. The improvement is night and day — and the character he builds is even better.",
       "name": "Patricia L.",
-      "role": "Parent"
+      "role": "Parent",
+      "rating": 5,
+      "photo": ""
     }
   ],
 
@@ -77,7 +86,87 @@
   "contact": {
     "phone": "(904) 555-0100",
     "email": "coach@example.com",
-    "booking_url": "#contact",
-    "formspree_id": "xpwzgkna"
+    "booking_url": "",
+    "formspree_id": "xpwzgkna",
+    "business_hours": ["Mon–Fri: 6am–8pm", "Sat: 8am–2pm", "Sun: Closed"]
+  },
+
+  "success_stories": [
+    {
+      "name": "Tyler R.",
+      "role": "Wide Receiver, Ponte Vedra High",
+      "story": "Tyler came in as an undersized sophomore with raw talent but no discipline in his routes. After two seasons of weekly 1-on-1 work, he earned a starting spot and finished the year leading his team in receptions.",
+      "result": "Starting WR · 42 receptions as a Junior"
+    },
+    {
+      "name": "Marcus D.",
+      "role": "Linebacker, St. Johns County",
+      "story": "Marcus had the instincts but lacked the footwork to translate them on game day. We spent an entire off-season on lateral movement and film study. He went from getting blocked out of plays to making the All-County team.",
+      "result": "All-County First Team · 74 tackles"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with athletes from 8 years old through college level. Sessions are tailored to your athlete's current skill level and goals — there is no minimum experience required."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at facilities in the Jacksonville and St. Johns County area. The exact location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Standard 1-on-1 sessions are 60 minutes. Group sessions run 90 minutes. Package options are available for athletes who train consistently."
+    },
+    {
+      "question": "What should my athlete bring?",
+      "answer": "Cleats, water, and the right mindset. All training equipment is provided. Come ready to work."
+    },
+    {
+      "question": "Do you offer online or remote coaching?",
+      "answer": "Film review and game planning sessions are available remotely via video call. Reach out to discuss what works best for your situation."
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "Route Running Fundamentals",
+      "youtube_url": "https://www.youtube.com/watch?v=Z0hRB1IyIkc",
+      "description": "Breaking down the stem, break point, and release on every route in the playbook."
+    }
+  ],
+
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "pure-black",
+    "card_border": "gold",
+    "button_style": "solid",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "field-lines",
+    "stats_layout": "horizontal-strip",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-3col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-inter",
+    "b_palette": "forest-amber",
+    "b_hero_layout": "split-left",
+    "b_services_layout": "cards-3col",
+    "b_testimonials_layout": "cards-3col",
+    "b_about_layout": "centered-stack"
+  },
+
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "hero_availability": "Off-Season Roster · Now Open",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Three pillars. One mission — make you the most prepared athlete on the field, every single rep.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL.",
+    "testimonials_eyebrow": "Voices From The Field",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Roster spots fill fast in the off-season. Reach out today and lock in your training slot."
   }
 }
