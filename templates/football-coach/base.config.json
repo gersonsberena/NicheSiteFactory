@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Football Coach — Northeast Florida",
+    "description": "Professional football coaching services in Northeast Florida."
+  },
+  "theme": "dark-athletic",
+  "layout": "A",
+  "font_pair": "bebas-inter",
+  "section_order": ["hero", "stats", "about", "services", "testimonials", "gallery", "contact"],
+
+  "about": {
+    "name": "Coach Smith",
+    "title": "Head Football Coach",
+    "city": "Jacksonville",
+    "county": "Duval",
+    "state": "FL",
+    "bio": "With over a decade of experience developing athletes at every level, Coach Smith brings championship-caliber training to Northeast Florida. Known for building not just players, but leaders.",
+    "years_experience": 12,
+    "specialty": "Quarterback Training & Offensive Development",
+    "age_groups": "Youth · High School · Adult",
+    "photo": "/stock/football/about/about-01.jpg"
+  },
+
+  "hero": {
+    "headline": "Train Like a Champion",
+    "subline": "Elite football coaching for serious athletes in Northeast Florida.",
+    "photo": "/stock/football/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+
+  "stats": [
+    { "value": "500+", "label": "Athletes Trained" },
+    { "value": "12", "label": "Years Coaching" },
+    { "value": "3", "label": "County Championships" }
+  ],
+
+  "services": [
+    {
+      "title": "1-on-1 Skills Training",
+      "description": "Personalized sessions targeting your position, mechanics, and football IQ."
+    },
+    {
+      "title": "Group Camps",
+      "description": "Small-group training focused on team dynamics, conditioning, and competition."
+    },
+    {
+      "title": "Film Review & Game Planning",
+      "description": "Study film together, break down opponents, and build game-winning strategy."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "Coach Smith changed the way I see the game. I went from second-string to starting QB in one season.",
+      "name": "Marcus T.",
+      "role": "High School Quarterback"
+    },
+    {
+      "quote": "My son has trained with Coach Smith for two years. The improvement is night and day — and the character he builds is even better.",
+      "name": "Patricia L.",
+      "role": "Parent"
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/football/gallery/gallery-01.jpg",
+      "/stock/football/gallery/gallery-02.jpg",
+      "/stock/football/gallery/gallery-03.jpg",
+      "/stock/football/gallery/gallery-04.jpg",
+      "/stock/football/gallery/gallery-05.jpg",
+      "/stock/football/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "contact": {
+    "phone": "(904) 555-0100",
+    "email": "coach@example.com",
+    "booking_url": "#contact",
+    "formspree_id": "xpwzgkna"
+  }
+}
