@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 import { Icons } from "@/lib/icons"
 import type { CoachConfig } from "@/lib/useConfig"
 
@@ -9,11 +10,12 @@ const NAV_LINKS = [
   { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
   { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms", href: "/terms" },
 ]
 
-const MARQUEE_TEXT = "TRAIN HARD ★ PLAY HARD ★ WIN ★ TRAIN HARD ★ PLAY HARD ★ WIN ★ TRAIN HARD ★ PLAY HARD ★ WIN ★ TRAIN HARD ★ PLAY HARD ★ WIN ★"
-
 export default function Footer({ config }: { config: CoachConfig }) {
+  const marqueeBase = config.copy_variants?.marquee_text ?? "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  const MARQUEE_TEXT = marqueeBase.repeat(4).trimEnd()
   const phone = config.contact.phone as string | undefined
   const email = config.contact.email as string | undefined
   const instagram = (config.contact as Record<string, unknown>).instagram as string | undefined
@@ -98,13 +100,13 @@ export default function Footer({ config }: { config: CoachConfig }) {
                   {link.label}
                 </a>
               ) : (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="block font-oswald uppercase tracking-[0.2em] text-sm text-white/55 hover:text-[var(--accent)] transition"
                 >
                   {link.label}
-                </a>
+                </Link>
               )
             )}
           </nav>
@@ -138,9 +140,17 @@ export default function Footer({ config }: { config: CoachConfig }) {
 
       {/* Bottom bar */}
       <div className="border-t border-white/5 px-5 sm:px-8 py-5 max-w-7xl mx-auto flex flex-col items-center gap-3 text-center">
-        <p className="text-white/20 font-oswald uppercase tracking-[0.12em] text-[10px] max-w-2xl">
-          Results may vary. This site does not provide medical advice. Consult a physician before beginning any exercise program.
-        </p>
+        <div className="space-y-1.5">
+          <p className="text-white/20 font-oswald uppercase tracking-[0.12em] text-[10px]">
+            Assumption of Risk &amp; Disclaimer
+          </p>
+          <p className="text-white/20 font-oswald uppercase tracking-[0.1em] text-[10px] max-w-3xl leading-relaxed">
+            Training involves vigorous physical activity and inherent risk of injury. By booking sessions, you assume all such risks.
+            Consult a licensed physician before beginning any exercise program. Results may vary and are not guaranteed.
+            {(config.legal?.minors_policy ?? true) && " Athletes under 18 require written parental or guardian consent."}
+            {(config.legal?.media_consent_notice ?? true) && " Photos or videos taken during sessions may be used for promotional purposes."}
+          </p>
+        </div>
         <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-2">
           <p className="text-white/25 font-oswald uppercase tracking-[0.2em] text-[10px]">
             © {year} {config.about.name}. All rights reserved.

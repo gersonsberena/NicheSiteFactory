@@ -1,16 +1,17 @@
 import type { CoachConfig } from "@/lib/useConfig"
 
-const CAPTIONS = [
+const DEFAULT_CAPTIONS = [
   "Saturday Practice",
   "Team Huddle",
   "Camp Session",
   "Game Day",
-  "Footwork Drills",
+  "Skills Drills",
   "Awards Night",
 ]
 
 export default function Gallery({ config }: { config: CoachConfig }) {
   const photos = (config.gallery?.photos ?? []) as string[]
+  const captions = ((config.gallery as { photos: string[]; captions?: string[] }).captions ?? DEFAULT_CAPTIONS)
 
   if (!photos.length) return null
 
@@ -23,7 +24,7 @@ export default function Gallery({ config }: { config: CoachConfig }) {
               Snapshots
             </div>
             <h2 className="font-poppins font-extrabold text-3xl md:text-5xl mt-3 tracking-tight text-[#1A1A1A]">
-              On the Field
+              {config.copy_variants?.gallery_label ?? "In Action"}
             </h2>
           </div>
         </div>
@@ -38,14 +39,14 @@ export default function Gallery({ config }: { config: CoachConfig }) {
             >
               <img
                 src={src}
-                alt={CAPTIONS[i] ?? `Photo ${i + 1}`}
+                alt={captions[i] ?? `Photo ${i + 1}`}
                 className="gimg w-full h-full object-cover"
                 onError={(e) => {
                   ;(e.target as HTMLImageElement).style.display = "none"
                 }}
               />
               <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/55 to-transparent">
-                <div className="text-white text-sm font-medium">{CAPTIONS[i] ?? `Photo ${i + 1}`}</div>
+                <div className="text-white text-sm font-medium">{captions[i] ?? `Photo ${i + 1}`}</div>
               </div>
             </div>
           ))}

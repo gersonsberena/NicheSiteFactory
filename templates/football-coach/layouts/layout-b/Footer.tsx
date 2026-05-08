@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Icons } from "@/lib/icons"
 import type { CoachConfig } from "@/lib/useConfig"
 
@@ -17,6 +18,8 @@ export default function Footer({ config }: { config: CoachConfig }) {
     { label: "Testimonials", href: "#testimonials" },
     { label: "Gallery", href: "#gallery" },
     { label: "Contact", href: "#contact" },
+    { label: "Privacy Policy", href: config.legal?.privacy_policy_url ?? "/privacy" },
+    { label: "Terms", href: config.legal?.terms_url ?? "/terms" },
   ]
 
   const socials: { icon: keyof typeof Icons; href: string | undefined; label: string }[] = [
@@ -41,13 +44,13 @@ export default function Footer({ config }: { config: CoachConfig }) {
               <div>
                 <div className="font-poppins font-extrabold text-white leading-tight">{name}</div>
                 <div className="text-xs text-white/50 uppercase tracking-wider">
-                  {config.about?.title ?? "Football Coach"}
+                  {config.about?.title ?? "Performance Coach"}
                 </div>
               </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed">
               Serving {config.about?.city ?? "the community"}{config.about?.county ? `, ${config.about.county} County` : ""}.
-              Helping athletes grow on and off the field.
+              Developing dedicated athletes one session at a time.
             </p>
             {socials.length > 0 && (
               <div className="flex gap-2 mt-6">
@@ -78,12 +81,15 @@ export default function Footer({ config }: { config: CoachConfig }) {
             <ul className="space-y-2.5">
               {navLinks.map((l) => (
                 <li key={l.href}>
-                  <a
-                    href={l.href}
-                    className="text-white/70 hover:text-[var(--b-accent-hi)] transition-colors text-sm font-medium"
-                  >
-                    {l.label}
-                  </a>
+                  {l.href.startsWith("#") ? (
+                    <a href={l.href} className="text-white/70 hover:text-[var(--b-accent-hi)] transition-colors text-sm font-medium">
+                      {l.label}
+                    </a>
+                  ) : (
+                    <Link href={l.href} className="text-white/70 hover:text-[var(--b-accent-hi)] transition-colors text-sm font-medium">
+                      {l.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -131,12 +137,21 @@ export default function Footer({ config }: { config: CoachConfig }) {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-xs text-white/40">
-          <p>© {year} {name}. All rights reserved.</p>
-          <p>
-            Training sessions involve physical activity. Consult a physician before beginning any
-            new exercise program.
-          </p>
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
+            <div className="flex-1">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-white/30 mb-1.5">
+                Liability Disclaimer
+              </p>
+              <p className="text-xs text-white/40 leading-relaxed max-w-xl">
+                Training involves vigorous physical activity and inherent risk of injury. By booking sessions, you assume all such risks.
+                Consult a licensed physician before beginning any exercise program. Results may vary.
+                {(config.legal?.minors_policy ?? true) && " Athletes under 18 require parental consent."}
+                {(config.legal?.media_consent_notice ?? true) && " Photos or videos taken during sessions may be used for promotional purposes."}
+              </p>
+            </div>
+            <p className="text-xs text-white/40 shrink-0">© {year} {name}. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>

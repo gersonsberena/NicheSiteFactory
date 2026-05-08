@@ -13,12 +13,18 @@ import Gallery from "./Gallery"
 import FAQ from "./FAQ"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import CoachProfile from "./CoachProfile"
+import Availability from "./Availability"
+import TrainingLocations from "./TrainingLocations"
 
 const sectionMap = {
   hero: Hero,
   stats: Stats,
   about: About,
+  coach_profile: CoachProfile,
   services: Services,
+  availability: Availability,
+  training_locations: TrainingLocations,
   success_stories: SuccessStories,
   testimonials: Testimonials,
   video_gallery: VideoSection,

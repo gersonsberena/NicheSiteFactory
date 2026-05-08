@@ -7,6 +7,7 @@ import type { CoachConfig, FAQItem } from "@/lib/useConfig"
 export default function FAQ({ config }: { config: CoachConfig }) {
   const items = (config.faq ?? []) as FAQItem[]
   const [open, setOpen] = useState<number | null>(0)
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
 
   if (!items.length) return null
 
@@ -15,7 +16,7 @@ export default function FAQ({ config }: { config: CoachConfig }) {
       <div className="max-w-3xl mx-auto px-5 sm:px-8">
         <div className="text-center mb-12">
           <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--b-primary-700)]">
-            FAQ
+            Coach {firstName}&apos;s FAQ
           </div>
           <h2 className="font-poppins font-extrabold text-3xl md:text-5xl mt-3 tracking-tight text-[#1A1A1A]">
             Common questions.

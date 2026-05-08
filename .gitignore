@@ -15,3 +15,6 @@ out
 *.pem
 npm-debug.log*
 
+# scraped lead data — contains real personal info, never commit
+data/
+prospects/configs/

@@ -101,4 +101,12 @@ export const Icons = {
       <path d="M13 22v-8h3l1-4h-4V7.5c0-1.2.4-2 2-2h2V2.2A26 26 0 0 0 14 2c-3 0-5 1.8-5 5v3H6v4h3v8h4Z" />
     </svg>
   ),
+  Baseball: (p: P) => (
+    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}>
+      <circle cx="24" cy="24" r="18" />
+      <path d="M15 10c2 4 2 10 0 16s-2 12 0 16" />
+      <path d="M33 10c-2 4-2 10 0 16s2 12 0 16" />
+      <path d="M12 18h4M12 24h4M12 30h4M32 18h4M32 24h4M32 30h4" />
+    </svg>
+  ),
 }

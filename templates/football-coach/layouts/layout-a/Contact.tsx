@@ -33,6 +33,8 @@ export default function Contact({ config }: { config: CoachConfig }) {
   const phone = config.contact.phone as string | undefined
   const email = config.contact.email as string | undefined
   const bookingUrl = config.contact.booking_url as string | undefined
+  const nameParts = (config.about?.name ?? "").replace(/^Coach\s+/i, "").split(" ")
+  const lastName = nameParts.length > 1 ? nameParts[nameParts.length - 1] : nameParts[0]
   const businessHours = config.contact.business_hours as string[] | undefined
 
   return (
@@ -60,7 +62,7 @@ export default function Contact({ config }: { config: CoachConfig }) {
           {/* Info column */}
           <div className="lg:col-span-5 reveal space-y-8">
             <div>
-              <h3 className="font-bebas text-3xl tracking-wide text-white mb-2">CONTACT THE COACH</h3>
+              <h3 className="font-bebas text-3xl tracking-wide text-white mb-2">Train With Coach {lastName}</h3>
               <p className="text-white/60 leading-relaxed">
                 {config.copy_variants?.contact_urgency ?? "Roster spots fill fast in the off-season. Reach out today and lock in your training slot."}
               </p>

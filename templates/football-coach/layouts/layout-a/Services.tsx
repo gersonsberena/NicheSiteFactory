@@ -16,13 +16,14 @@ export default function Services({ config }: { config: CoachConfig }) {
   const layout = config.design?.services_layout ?? "cards-3col"
   const rawTagline = config.copy_variants?.services_tagline ?? "TRAINING THAT DELIVERS."
   const [taglineStart, taglineEnd] = splitTagline(rawTagline)
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
 
   const header = (
     <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-14 reveal">
       <div>
         <div className="flex items-center gap-3 text-[var(--accent)] mb-5">
           <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
-          <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">The Program</span>
+          <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">{firstName}&apos;s Program</span>
         </div>
         <h2 className="font-bebas text-5xl sm:text-6xl md:text-7xl leading-[0.9] tracking-tight">
           <span className="text-white">{taglineStart}</span>

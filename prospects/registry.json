@@ -63,6 +63,96 @@
             "contact_offer": "First session consultation is on us. Let's build your game plan.",
             "contact_urgency": "Early enrollees get priority scheduling. Lock in your spot before the off-season rush."
           }
+        },
+        "andy-williams": {
+          "assigned_at": "2026-05-08T02:32:03.033Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "anthony-darring": {
+          "assigned_at": "2026-05-08T02:32:03.034Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "andy-mckrackin": {
+          "assigned_at": "2026-05-08T02:32:03.035Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "jimmy-mcclenahen": {
+          "assigned_at": "2026-05-08T02:32:03.037Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "wes-keller": {
+          "assigned_at": "2026-05-08T02:32:03.040Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "travis-houston": {
+          "assigned_at": "2026-05-08T02:32:03.041Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "wayne-smith": {
+          "assigned_at": "2026-05-08T02:32:03.042Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "rick-williams": {
+          "assigned_at": "2026-05-08T02:32:03.043Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "artis-rollins": {
+          "assigned_at": "2026-05-08T02:32:03.046Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "cory-felton": {
+          "assigned_at": "2026-05-08T02:32:03.048Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "leo-calderon": {
+          "assigned_at": "2026-05-08T02:32:03.049Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "jarrel-wadley": {
+          "assigned_at": "2026-05-08T02:32:03.050Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "jason-costa": {
+          "assigned_at": "2026-05-08T02:32:03.051Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "cason-blanco": {
+          "assigned_at": "2026-05-08T02:32:03.052Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "keon-perry": {
+          "assigned_at": "2026-05-08T02:32:03.053Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "kevin-patrick": {
+          "assigned_at": "2026-05-08T02:32:03.054Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "mike-beauregard": {
+          "assigned_at": "2026-05-08T02:32:03.055Z",
+          "manually_tweaked": false,
+          "source": "scraped"
+        },
+        "jason-cutler": {
+          "assigned_at": "2026-05-08T02:32:03.056Z",
+          "manually_tweaked": false,
+          "source": "scraped"
         }
       }
     },

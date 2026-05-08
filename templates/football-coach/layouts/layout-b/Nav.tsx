@@ -42,7 +42,7 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA?: ()
           </span>
           <span className="font-poppins font-extrabold text-[var(--b-primary-700)] text-lg tracking-tight hidden sm:block">
             {config.about.name}{" "}
-            <span className="text-[var(--b-primary-600)]/70 font-semibold">{config.about.sport ?? "Football"}</span>
+            <span className="text-[var(--b-primary-600)]/70 font-semibold">{config.about.sport ?? "Coach"}</span>
           </span>
         </a>
 

@@ -63,7 +63,7 @@ function HeroSplitLeft({ config, onCTA, firstName, trustStat, photo }: SharedPro
             {config.about.city}, {config.about.state}
           </div>
           <h1 className="font-poppins font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#1A1A1A] mt-5 leading-[1.05] tracking-tight">
-            {config.hero.headline.split(".")[0]}
+            {config.hero.headline}
             <br />
             <span className="text-[var(--b-primary-700)]">On and Off</span> the Field.
           </h1>
@@ -115,7 +115,7 @@ function HeroCenteredOverlay({ config, onCTA, firstName, trustStat, photo }: Sha
           {config.about.city}, {config.about.state}
         </div>
         <h1 className="font-poppins font-extrabold text-4xl sm:text-5xl lg:text-7xl text-white leading-[1.05] tracking-tight">
-          {config.hero.headline.split(".")[0]}.
+          {config.hero.headline}
           <br />
           <span style={{ color: "var(--b-accent)" }}>Here for your family.</span>
         </h1>
@@ -170,7 +170,7 @@ function HeroFullBleedText({ config, onCTA, firstName, trustStat }: SharedProps)
           {config.about.city}, {config.about.state}
         </div>
         <h1 className="font-poppins font-extrabold text-5xl sm:text-6xl lg:text-8xl text-white leading-[1.0] tracking-tight max-w-4xl">
-          {config.hero.headline.split(".")[0]}.
+          {config.hero.headline}
           <br />
           <span style={{ color: "var(--b-accent)" }}>Your community.</span>
         </h1>

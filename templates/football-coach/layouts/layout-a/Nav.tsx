@@ -37,7 +37,8 @@ export default function Nav({ config, onCTA }: { config: CoachConfig; onCTA: () 
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+      style={{ top: 'var(--demo-banner-h, 0px)' }}
+      className={`fixed inset-x-0 z-50 transition-all duration-300 ${
         scrolled
           ? "backdrop-blur-md bg-ink/85 border-b border-[rgba(var(--accent-rgb),0.2)] shadow-[0_8px_30px_-12px_rgba(var(--accent-rgb),0.25)]"
           : "bg-transparent border-b border-transparent"

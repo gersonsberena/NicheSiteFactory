@@ -1,13 +1,26 @@
+import baseConfig from "@/templates/football-coach/base.config.json"
+import BackButton from "@/app/_back-button"
+
 export const metadata = {
   title: "Privacy Policy",
 }
 
 export default function PrivacyPage() {
+  const bgClass = `bg-tone-${baseConfig.design?.background_tone ?? "pure-black"}`
   return (
-    <div className="min-h-screen bg-black text-white px-5 sm:px-8 py-20">
+    <div className={`min-h-screen ${bgClass} text-white px-5 sm:px-8 py-20`}>
       <div className="max-w-3xl mx-auto">
+        <BackButton />
         <h1 className="font-bebas text-5xl tracking-tight mb-4">Privacy Policy</h1>
-        <p className="text-white/50 text-sm mb-12">Last updated: {new Date().getFullYear()}</p>
+        <p className="text-white/50 text-sm mb-6">Last updated: {new Date().getFullYear()}</p>
+
+        <div className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 mb-10">
+          <p className="text-sm text-white/60">
+            <span className="text-white font-semibold">Placeholder policy.</span>{" "}
+            Upon onboarding, this page will be customized with the coach&apos;s specific data practices,
+            third-party tools, and contact details.
+          </p>
+        </div>
 
         <div className="space-y-8 text-white/70 leading-relaxed">
           <section>

@@ -27,7 +27,7 @@ export default function Gallery({ config }: { config: CoachConfig }) {
       <div className="max-w-5xl mx-auto">
         <div className="flex items-center gap-3 text-[var(--accent)] mb-6 reveal">
           <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
-          <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">On the Field</span>
+          <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">{config.copy_variants?.gallery_label ?? "In Action"}</span>
         </div>
         <h2 className="font-bebas text-5xl md:text-6xl tracking-tight text-white mb-12 reveal">
           IN ACTION.

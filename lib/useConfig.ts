@@ -28,12 +28,18 @@ export type DesignConfig = {
   b_services_layout?: string
   b_testimonials_layout?: string
   b_about_layout?: string
+  c_hero_layout?: string
+  c_about_layout?: string
+  c_services_layout?: string
+  c_testimonials_layout?: string
+  c_gallery_layout?: string
 }
 
 export type CopyVariants = {
   hero_tagline?: string
   hero_availability?: string
   about_tagline?: string
+  about_quote?: string
   services_tagline?: string
   services_subline?: string
   testimonials_tagline?: string
@@ -41,15 +47,36 @@ export type CopyVariants = {
   contact_offer?: string
   contact_urgency?: string
   contact_subline?: string
+  gallery_label?: string
+  marquee_text?: string
+  c_hero_watermark_text?: string
+  c_contact_reply_time?: string
+  c_film_label?: string
+}
+
+export type AvailabilitySlot = { day: string; slots: string[] }
+export type AvailabilityConfig = {
+  note?: string
+  schedule?: AvailabilitySlot[]
+}
+
+export type LegalConfig = {
+  privacy_policy_url?: string
+  terms_url?: string
+  minors_policy?: boolean
+  media_consent_notice?: boolean
 }
 
 export type CoachConfig = typeof baseConfig & {
-  about: typeof baseConfig.about & { [key: string]: unknown }
+  about: typeof baseConfig.about & { credentials?: string[]; [key: string]: unknown }
   hero: typeof baseConfig.hero & { [key: string]: unknown }
-  contact: typeof baseConfig.contact & { [key: string]: unknown }
+  contact: typeof baseConfig.contact & { calendly_url?: string | null; [key: string]: unknown }
   meta: typeof baseConfig.meta & { [key: string]: unknown }
   design: DesignConfig
   copy_variants: CopyVariants
+  availability?: AvailabilityConfig
+  training_cities?: string[]
+  legal?: LegalConfig
 }
 
 function deepMerge<T extends object>(base: T, override: Partial<T>): T {

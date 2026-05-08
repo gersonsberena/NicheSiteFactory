@@ -19,6 +19,7 @@ function Credentials({ config }: { config: CoachConfig }) {
 }
 
 function splitBio(bio: string): [string, string] {
+  if (bio.length < 220) return [bio, ""]
   const mid = Math.floor(bio.length / 2)
   const breakAt = bio.indexOf(" ", mid)
   return breakAt > 0 ? [bio.slice(0, breakAt), bio.slice(breakAt + 1)] : [bio, ""]
@@ -37,8 +38,10 @@ function AboutCenteredStack({ config }: { config: CoachConfig }) {
   const bio = config.about.bio ?? ""
   const [bioPart1, bioPart2] = splitBio(bio)
   const quote =
-    (config.copy_variants?.about_tagline as string | undefined) ??
-    `"I'm not raising ${(config.about.sport ?? "football").toLowerCase()} players. I'm raising young people who happen to play."`
+    config.copy_variants?.about_quote ??
+    config.copy_variants?.about_tagline ??
+    "I'm not raising athletes to just play. I'm raising young people who happen to compete."
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
 
   return (
     <section id="about" className="py-20 md:py-28">
@@ -56,12 +59,12 @@ function AboutCenteredStack({ config }: { config: CoachConfig }) {
           />
         </div>
         <div className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--b-primary-700)]">
-          Meet Your Coach
+          Meet Coach {firstName}
         </div>
         <h2 className="font-poppins font-extrabold text-3xl md:text-5xl mt-3 tracking-tight leading-tight text-[#1A1A1A]">
           Coaching the athlete first,<br className="hidden sm:block" /> the player second.
         </h2>
-        <div className="mt-8 grid md:grid-cols-2 gap-8 text-left text-[#1A1A1A]/75 leading-relaxed">
+        <div className={`mt-8 text-[#1A1A1A]/75 leading-relaxed ${bioPart2 ? "grid md:grid-cols-2 gap-8 text-left" : "max-w-2xl mx-auto"}`}>
           <p>{bioPart1}</p>
           {bioPart2 && <p>{bioPart2}</p>}
         </div>
@@ -81,8 +84,10 @@ function AboutPhotoSide({ config, photoSide }: { config: CoachConfig; photoSide:
   const bio = config.about.bio ?? ""
   const [bioPart1, bioPart2] = splitBio(bio)
   const quote =
-    (config.copy_variants?.about_tagline as string | undefined) ??
-    `"I'm not raising ${(config.about.sport ?? "football").toLowerCase()} players. I'm raising young people who happen to play."`
+    config.copy_variants?.about_quote ??
+    config.copy_variants?.about_tagline ??
+    "I'm not raising athletes to just play. I'm raising young people who happen to compete."
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
 
   const photoCol = (
     <div className="relative">
@@ -109,7 +114,7 @@ function AboutPhotoSide({ config, photoSide }: { config: CoachConfig; photoSide:
   const textCol = (
     <div className="flex flex-col justify-center">
       <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--b-primary-700)]">
-        Meet Your Coach
+        Meet Coach {firstName}
       </div>
       <h2 className="font-poppins font-extrabold text-3xl md:text-4xl lg:text-5xl mt-3 tracking-tight leading-tight text-[#1A1A1A]">
         {config.about.name}

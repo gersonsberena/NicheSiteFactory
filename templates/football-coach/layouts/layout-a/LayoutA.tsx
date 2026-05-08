@@ -15,12 +15,18 @@ import Toast from "./Toast"
 import SuccessStories from "./SuccessStories"
 import FAQ from "./FAQ"
 import VideoGallery from "./VideoGallery"
+import CoachProfile from "./CoachProfile"
+import Availability from "./Availability"
+import TrainingLocations from "./TrainingLocations"
 
 const sectionMap = {
   hero: Hero,
   stats: StatsBar,
   about: About,
+  coach_profile: CoachProfile,
   services: Services,
+  availability: Availability,
+  training_locations: TrainingLocations,
   testimonials: Testimonials,
   gallery: Gallery,
   contact: Contact,

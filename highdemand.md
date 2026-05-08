@@ -35,3 +35,16 @@ services_layout	cards-3col horizontal-icon-left featured-2small
 testimonials_layout	cards-2col single-large-quote stacked-compact
 about_frame	bordered-offset minimal-frame full-bleed circular
 font_pair	bebas-inter oswald-inter bebas-poppins
+
+
+# Step 1 — import the 18 SJMSAA coaches into leads-enriched.json
+node scripts/scrape-league.js
+
+# Step 2 — generate their demo site configs
+node scripts/create-prospect-configs.js
+
+# Step 3 — send the first batch (5 at a time)
+$env:GMAIL_USER="gerson.s.berena@gmail.com"
+$env:GMAIL_APP_PASSWORD="your-app-password"
+$env:DEMO_BASE_URL="https://firstcoastspotlight.com"
+node scripts/send-outreach.js --limit=5

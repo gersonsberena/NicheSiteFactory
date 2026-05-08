@@ -39,12 +39,13 @@ export default function About({ config }: { config: CoachConfig }) {
   const photoTreatment = config.design?.photo_treatment ?? "grayscale-hover"
   const photoClass = PHOTO_CLASS[photoTreatment] ?? ""
   const rawTagline = config.copy_variants?.about_tagline ?? "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT."
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
 
   const copyBlock = (
     <div className="lg:col-span-7 reveal">
       <div className="flex items-center gap-3 text-[var(--accent)] mb-5">
         <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
-        <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">About the Coach</span>
+        <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">About Coach {firstName}</span>
       </div>
 
       <h2 className="font-bebas text-5xl sm:text-6xl md:text-7xl leading-[0.9] tracking-tight mb-6">
@@ -56,7 +57,7 @@ export default function About({ config }: { config: CoachConfig }) {
       </div>
 
       <blockquote className="mt-10 border-l-2 border-[var(--accent)] pl-6 py-2 font-oswald italic text-[var(--accent)] text-xl sm:text-2xl tracking-wide max-w-xl">
-        &ldquo;Champions aren't made on Friday nights. They're made every single day before.&rdquo;
+        &ldquo;{config.copy_variants?.about_quote ?? "Champions aren't made on Friday nights. They're made every single day before."}&rdquo;
       </blockquote>
 
       <div className="mt-10 flex flex-wrap gap-x-10 gap-y-4 text-sm font-oswald uppercase tracking-[0.22em] text-white/70">

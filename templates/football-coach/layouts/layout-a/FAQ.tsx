@@ -4,6 +4,7 @@ import type { CoachConfig, FAQItem } from "@/lib/useConfig"
 
 export default function FAQ({ config }: { config: CoachConfig }) {
   const items = config.faq as FAQItem[] | undefined
+  const firstName = (config.about?.name as string || "Coach").split(" ").find((w) => w !== "Coach") ?? "Coach"
   if (!items?.length) return null
 
   return (
@@ -14,7 +15,7 @@ export default function FAQ({ config }: { config: CoachConfig }) {
         <div className="text-center mb-16 reveal">
           <div className="flex items-center justify-center gap-3 text-[var(--accent)] mb-5">
             <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
-            <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">Common Questions</span>
+            <span className="font-oswald uppercase tracking-[0.3em] text-xs sm:text-sm opacity-90">Coach {firstName}&apos;s FAQ</span>
             <span className="inline-block h-[2px] w-10 bg-[var(--accent)]" />
           </div>
           <h2 className="font-bebas text-5xl sm:text-6xl md:text-7xl leading-[0.9] tracking-tight">
