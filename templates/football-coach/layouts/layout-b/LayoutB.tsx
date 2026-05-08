@@ -35,6 +35,16 @@ const sectionMap = {
 
 type SectionKey = keyof typeof sectionMap
 
+const ACCENT_TO_PALETTE: Record<string, string> = {
+  gold:   "forest-amber",
+  green:  "forest-amber",
+  navy:   "navy-gold",
+  teal:   "teal-gold",
+  red:    "red-gold",
+  purple: "purple-gold",
+  pink:   "burgundy-gold",
+}
+
 export default function LayoutB({ config }: { config: CoachConfig }) {
   const order = (config.section_order ?? Object.keys(sectionMap)) as SectionKey[]
   const [contactSignal, setContactSignal] = useState(0)
@@ -43,8 +53,13 @@ export default function LayoutB({ config }: { config: CoachConfig }) {
     setContactSignal((s) => s + 1)
   }, [])
 
+  const palette =
+    config.design?.b_palette ??
+    ACCENT_TO_PALETTE[config.design?.accent_color ?? ""] ??
+    "forest-amber"
+
   return (
-    <div className={`layout-b bg-white text-[#1A1A1A] b-palette-${config.design?.b_palette ?? "forest-amber"}`}>
+    <div className={`layout-b bg-white text-[#1A1A1A] b-palette-${palette}`}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {
