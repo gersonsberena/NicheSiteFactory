@@ -301,6 +301,28 @@ body { font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antial
   --b-accent-dim:  #B45309;
   --b-accent-rgb:  217,119,6;
 }
+.b-palette-purple-gold {
+  --b-primary-50:  #faf5ff;
+  --b-primary-100: #f3e8ff;
+  --b-primary-600: #7C3AED;
+  --b-primary-700: #6D28D9;
+  --b-primary-800: #5B21B6;
+  --b-accent:      #F59E0B;
+  --b-accent-hi:   #FBBF24;
+  --b-accent-dim:  #D97706;
+  --b-accent-rgb:  245,158,11;
+}
+.b-palette-red-gold {
+  --b-primary-50:  #fff1f2;
+  --b-primary-100: #ffe4e6;
+  --b-primary-600: #DC2626;
+  --b-primary-700: #B91C1C;
+  --b-primary-800: #991B1B;
+  --b-accent:      #F59E0B;
+  --b-accent-hi:   #FBBF24;
+  --b-accent-dim:  #D97706;
+  --b-accent-rgb:  245,158,11;
+}
 .blob { border-radius: 58% 42% 56% 44% / 48% 52% 48% 52%; }
 .lift { transition: transform .25s ease, box-shadow .25s ease; }
 .lift:hover { transform: translateY(-3px); }
