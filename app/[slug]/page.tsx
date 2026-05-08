@@ -6,7 +6,7 @@ import LayoutB from "@/templates/football-coach/layouts/layout-b/LayoutB"
 import LayoutC from "@/templates/football-coach/layouts/layout-c/LayoutC"
 import DemoCTA from "@/app/_demo-cta"
 
-const BANNER_H = 44
+const BANNER_H = 58
 
 function DemoBanner({ name }: { name: string }) {
   return (
@@ -21,6 +21,12 @@ function DemoBanner({ name }: { name: string }) {
       </p>
       <p className="text-[10px] text-zinc-500 mt-0.5">
         Photos, bio, branding &amp; colors are placeholders — everything is customized to reflect your brand after onboarding.
+      </p>
+      <p className="text-[10px] text-zinc-400 mt-0.5">
+        Interested? Contact Gerson:
+        <span className="text-yellow-400 mx-1">gerson.s.berena@gmail.com</span>
+        <span className="text-zinc-600 mx-1">·</span>
+        <span className="text-yellow-400">651-955-9126</span>
       </p>
     </div>
   )
