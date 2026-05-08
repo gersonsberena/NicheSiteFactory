@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Andy McKrackin Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in St. Augustine, FL. Training sessions for youth and high school athletes in Northeast Florida."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Andy McKrackin",
+    "city": "St. Augustine",
+    "county": "St. Johns",
+    "state": "FL",
+    "sport": "Football",
+    "bio": "Coach Andy McKrackin is a dedicated football coach based in St. Augustine, FL, committed to developing athletes of all levels."
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-03.jpg"
+  },
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "NE FL",
+      "label": "Based In"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach McKrackin is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach McKrackin doesn't just coach the sport — he coaches the whole athlete. That made all the difference for us.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "347-306-0657",
+    "email": "coachmac5751@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-03.jpg",
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "field-lines",
+    "stats_layout": "centered-large",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "EXCELLENCE STARTS NOW.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  }
+}

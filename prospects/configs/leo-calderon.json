@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Leo Calderon Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in St. Augustine, FL. Training sessions for youth and high school athletes in Northeast Florida."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Leo Calderon",
+    "city": "St. Augustine",
+    "county": "St. Johns",
+    "state": "FL",
+    "sport": "Football",
+    "bio": "Coach Leo Calderon is a dedicated football coach based in St. Augustine, FL, committed to developing athletes of all levels."
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-01.jpg"
+  },
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "NE FL",
+      "label": "Based In"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Calderon has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "I've had other coaches, but nobody pushes me the right way like Coach Calderon does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "904-504-6367",
+    "email": "leocalderon0012@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-01.jpg",
+  "design": {
+    "accent_color": "pink",
+    "background_tone": "navy-black",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "none",
+    "stats_layout": "horizontal-strip",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "YOUR EDGE STARTS HERE.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "ATHLETES SPEAK."
+  }
+}

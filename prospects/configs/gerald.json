@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Gerald Football Coaching — Duval County, FL",
+    "description": "Professional football coaching in Jacksonville, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Gerald",
+    "city": "Jacksonville",
+    "county": "Duval",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 4,
+    "bio": "We look to create a comprehensive plan that you can easily implement to attain your student athlete goals. Taking in consideration past performances, strengths, opportunities, overall ability and timeline. Specializing in paint extended and trench warfare, we discuss the whole game overall."
+  },
+  "hero": {
+    "headline": "Duval County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-09.jpg"
+  },
+  "stats": [
+    {
+      "value": "4+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Gerald is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Gerald doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-09.jpg",
+  "design": {
+    "accent_color": "green",
+    "background_tone": "charcoal",
+    "card_border": "none",
+    "button_style": "solid",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "field-lines",
+    "stats_layout": "centered-large",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/coach-gerald",
+    "scraped_at": "2026-05-08T03:25:35.596Z"
+  }
+}

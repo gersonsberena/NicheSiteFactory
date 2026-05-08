@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Javier Football Coaching — Duval County, FL",
+    "description": "Professional football coaching in Jacksonville, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Javier",
+    "city": "Jacksonville",
+    "county": "Duval",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 6,
+    "bio": "Hello everyone, my name is Javier Turnipseed. I’m from Houston Texas. I’ve played sports most of my life. My personal favorite is football. I’ve played Quarterback, wide receiver, cornerback, and safety. Basketball I’ve played point guard and shooting guard. I believe that with hard work, dedication and the proper technique you can achieve anything."
+  },
+  "hero": {
+    "headline": "Duval County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-01.jpg"
+  },
+  "stats": [
+    {
+      "value": "6+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Javier has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach Javier does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-01.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "pure-black",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "diagonal",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/jvyytee",
+    "scraped_at": "2026-05-08T03:25:35.596Z"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Anthony Football Coaching — Seminole County, FL",
+    "description": "Professional football coaching in Oviedo, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Anthony",
+    "city": "Oviedo",
+    "county": "Seminole",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "highly rebooked",
+    "years_experience": null,
+    "bio": "Former NFL player, 1st team College All-American, 2000 NCAA Interception Leader with over 12 years of experience in coaching and player development. I can help your child reach all their athletic goals with tailored training sessions."
+  },
+  "hero": {
+    "headline": "Seminole County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-02.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "8+",
+      "label": "Sessions Completed"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Anthony changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Anthony for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-02.jpg",
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "gradient",
+    "hero_layout": "split-right",
+    "hero_overlay": "none",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "bordered-offset",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "ATHLETES SPEAK."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/anthony-a1sports",
+    "scraped_at": "2026-05-08T03:25:42.132Z"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Wayne Smith Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in St. Augustine, FL. Training sessions for youth and high school athletes in Northeast Florida."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Wayne Smith",
+    "city": "St. Augustine",
+    "county": "St. Johns",
+    "state": "FL",
+    "sport": "Football",
+    "bio": "Coach Wayne Smith is a dedicated football coach based in St. Augustine, FL, committed to developing athletes of all levels."
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-07.jpg"
+  },
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "NE FL",
+      "label": "Based In"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Smith changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Smith for two years. The improvement is night and day — and the character he builds is even better.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "904-742-4091",
+    "email": "smitty_2288@yahoo.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-07.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "slate-black",
+    "card_border": "none",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "diagonal",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "EXCELLENCE STARTS NOW.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  }
+}

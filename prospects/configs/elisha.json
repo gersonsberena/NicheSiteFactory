@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Elisha Football Coaching — FL County, FL",
+    "description": "Professional football coaching in Vero Beach, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Elisha",
+    "city": "Vero Beach",
+    "county": "FL",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 3,
+    "bio": "I coach offensive linemen to dominate from the ground up, focusing on discipline, grit, and sound technique. My philosophy starts in the trenches, where games are won snap by snap. I develop mentally tough, fundamentally sharp athletes who understand that their job isn't flashy, but it wins football games. Whether it's footwork, hand placement, or mindset, I build players who lead with force and finish with pride."
+  },
+  "hero": {
+    "headline": "FL County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-09.jpg"
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Elisha is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Elisha doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-09.jpg",
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "slate-black",
+    "card_border": "none",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "diagonal",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/coachgreen",
+    "scraped_at": "2026-05-08T03:29:39.171Z"
+  }
+}

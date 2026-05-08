@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Scott Football Coaching — Hillsborough County, FL",
+    "description": "Professional football coaching in Tampa, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Scott",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "3 time USA Hockey National Champion, OHL champion, with North American and European Pro experience. Member of the OHL Alumni Hall of Fame. Certified Athletic Trainer and Nutritionist. I work with players both on and off the ice working on both the physical and mental aspects of the game. "
+  },
+  "hero": {
+    "headline": "Hillsborough County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-03.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Scott changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Scott for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-03.jpg",
+  "design": {
+    "accent_color": "green",
+    "background_tone": "navy-black",
+    "card_border": "gold",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "field-lines",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/scott-9",
+    "scraped_at": "2026-05-08T03:25:36.519Z"
+  }
+}

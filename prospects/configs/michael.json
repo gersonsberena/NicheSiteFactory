@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Michael Football Coaching — Sarasota County, FL",
+    "description": "Professional football coaching in Sarasota, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Michael",
+    "city": "Sarasota",
+    "county": "Sarasota",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "I bring over a decade of Division I (FBS/FCS) coaching and playing experience to the private sector. Having served as an assistant coach and Position Lead at elite programs like North Dakota State and the University at Buffalo, I’ve contributed to multiple Bowl Game championships and an FCS National Runner-up finish. My approach utilizes digestible teaching no matter the age. Refining a technical progression system over my career while coaching All-Americans and several current NFL starters. I specialize in the mechanical precision and high-level offensive strategy required for athletes to dominate at the next level. You will be a better football player between the ears not just physically when you train with me. My main objective is to get the players I work with to understand the game of football so the game slows down during high pressure situations."
+  },
+  "hero": {
+    "headline": "Sarasota County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-06.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Michael changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Michael for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-06.jpg",
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "pure-black",
+    "card_border": "white",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "centered-large",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/michael-41",
+    "scraped_at": "2026-05-08T03:25:36.520Z"
+  }
+}

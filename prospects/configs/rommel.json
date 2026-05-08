@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Rommel Football Coaching — Seminole County, FL",
+    "description": "Professional football coaching in Winter Springs, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Rommel",
+    "city": "Winter Springs",
+    "county": "Seminole",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "fast responder",
+    "years_experience": 2,
+    "bio": "As a coach, I focus on building a culture of discipline, teamwork, and relentless effort. I believe in developing players not just on the field, but off it, creating well-rounded athletes who excel in all aspects of life. My coaching philosophy combines technical skill, strategic thinking, and mental toughness to drive success, all while fostering a sense of camaraderie and accountability within the team."
+  },
+  "hero": {
+    "headline": "Seminole County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-10.jpg"
+  },
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "3+",
+      "label": "Sessions Completed"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Rommel has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach Rommel does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-10.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "charcoal",
+    "card_border": "gold",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "centered-large",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-3col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/rommel24",
+    "scraped_at": "2026-05-08T03:25:42.132Z"
+  }
+}

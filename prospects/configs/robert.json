@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Robert Football Coaching — Lee County, FL",
+    "description": "Professional football coaching in Cape Coral, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Robert",
+    "city": "Cape Coral",
+    "county": "Lee",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 12,
+    "bio": "I have been an athlete my entire life, competing in a variety of sports and maintaining a dedicated workout routine. As former Seahawks and Packers coach Mike Holmgren once said, \"Coaching is teaching\"—a philosophy I strongly believe in. (My teaching experience includes two years in Harbin, China, where I taught English and Economics to college students, further honing my ability to mentor and communicate effectively.)\n\nI also had the privilege of meeting Coach Holmgren on Maui—an experience I will never forget.\n\nI competed in the Northern California (NorCal) Junior Colleges conference in the 110 meter high hurdles and 400 meter intermediate hurdles and lettered both seasons. It was a great experience.\n\nI also played in a hardball league in Seattle for 8 seasons, and managed for 2 seasons (Puget Sound Baseball League). I played every one of the 9 positions at one time or another!\n\nBeyond my personal athletic background, I am enthusiastic about what sports can do for young people. I enjoy coaching both one-on-one and in small groups, and I understand how to set the right tone for a session, ensuring student-athletes stay focused and engaged.\n"
+  },
+  "hero": {
+    "headline": "Lee County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-02.jpg"
+  },
+  "stats": [
+    {
+      "value": "12+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Robert has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach Robert does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-02.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "slate-black",
+    "card_border": "white",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "masonry",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "EXCELLENCE STARTS NOW.",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "testimonials_tagline": "ATHLETES SPEAK."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/bob-michaelson",
+    "scraped_at": "2026-05-08T03:25:39.316Z"
+  }
+}

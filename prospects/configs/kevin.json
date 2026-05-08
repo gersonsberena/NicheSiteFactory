@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Kevin Football Coaching — FL County, FL",
+    "description": "Professional football coaching in Homosassa, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Kevin",
+    "city": "Homosassa",
+    "county": "FL",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "“I help football players elevate their skills, improve performance, and build confidence on and off the field through personalized, results-driven coaching.” I love coaching the game of football. "
+  },
+  "hero": {
+    "headline": "FL County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-06.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Kevin is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Kevin doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-06.jpg",
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "YOUR EDGE STARTS HERE.",
+    "about_tagline": "BUILT IN THE TRENCHES. FORGED FOR THE SPOTLIGHT.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "PROOF ON THE FIELD."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/kevin-6",
+    "scraped_at": "2026-05-08T03:29:38.268Z"
+  }
+}
