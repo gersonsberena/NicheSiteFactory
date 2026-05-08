@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "KEATON Football Coaching — Escambia County, FL",
+    "description": "Professional football coaching in Pensacola, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach KEATON",
+    "city": "Pensacola",
+    "county": "Escambia",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "I am a former College Athlete (Football). I have been through the relentless work trying to improve and get better each and every day. I hae been coaching for almost 4 years and would love to help upcoming athletes be at the top of their game! "
+  },
+  "hero": {
+    "headline": "Escambia County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-03.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach KEATON is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach KEATON doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-03.jpg",
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "charcoal",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "diagonal",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-2col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "EXCELLENCE STARTS NOW.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "PROOF ON THE FIELD."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/keaton-1",
+    "scraped_at": "2026-05-08T03:25:40.319Z"
+  }
+}

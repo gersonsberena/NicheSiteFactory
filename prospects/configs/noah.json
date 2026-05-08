@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Noah Football Coaching — Orange County, FL",
+    "description": "Professional football coaching in Orlando, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Noah",
+    "city": "Orlando",
+    "county": "Orange",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "Hey, I’m Coach Noah. Professional sprinter representing adidas, Team USA, & formerly LSU in the NCAA. I hold personal bests of 44.30 400m and 20.32 200m. I’ve won 2 national & 8 conference championships and honors, I’ve competed and won on the national and world championship levels at the peak of the sport. \n\nThrough that experience I’ve gained knowledge to pass down to the next generation of athletes. I bring the best out of my athletes. We find a goal & work towards it. Through 6 years of coaching it is still my passion for the youth that drives elite results. "
+  },
+  "hero": {
+    "headline": "Orange County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-05.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "1+",
+      "label": "Sessions Completed"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Noah changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Noah for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-05.jpg",
+  "design": {
+    "accent_color": "green",
+    "background_tone": "navy-black",
+    "card_border": "gold",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "none",
+    "stats_layout": "centered-large",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "PROOF ON THE FIELD."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/noah-5",
+    "scraped_at": "2026-05-08T03:25:42.132Z"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Benedy Football Coaching — Miami-Dade County, FL",
+    "description": "Professional football coaching in Miami, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Benedy",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "Former High school/college athlete. Been training and coaching athletes for over 10years now, I've had some clients made it to the NFL, college competitive sports, and more. This is a passion of mine, I love helping an athlete that wants to be Great reach the next level competitive spirit/skills."
+  },
+  "hero": {
+    "headline": "Miami-Dade County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-09.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Benedy has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach Benedy does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-09.jpg",
+  "design": {
+    "accent_color": "teal",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/benedy",
+    "scraped_at": "2026-05-08T03:25:38.416Z"
+  }
+}

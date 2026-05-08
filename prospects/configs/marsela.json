@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Marsela Football Coaching — Miami-Dade County, FL",
+    "description": "Professional football coaching in Miami, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Marsela",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "I help athletes build the mental and physical skills they need to perform with confidence and consistency when it matters most. With a background in sport and performance psychology and hands-on experience working with high school and collegiate athletes, I take a personalized approach to each session—focusing on skill development, resilience, and mindset. Whether your goal is to improve performance, recover from injury, or gain a competitive edge, I create structured, practical strategies that translate directly to competition. I also prioritize clear communication with both athletes and parents, ensuring progress, trust, and long-term development every step of the way."
+  },
+  "hero": {
+    "headline": "Miami-Dade County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-01.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "50+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Marsela changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Marsela for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-01.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "pure-black",
+    "card_border": "white",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "duotone",
+    "gallery_layout": "masonry",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/marsela",
+    "scraped_at": "2026-05-08T03:25:38.416Z"
+  }
+}

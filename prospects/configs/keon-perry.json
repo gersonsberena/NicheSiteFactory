@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Keon Perry Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in St. Augustine, FL. Training sessions for youth and high school athletes in Northeast Florida."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Keon Perry",
+    "city": "St. Augustine",
+    "county": "St. Johns",
+    "state": "FL",
+    "sport": "Football",
+    "bio": "Coach Keon Perry is a dedicated football coach based in St. Augustine, FL, committed to developing athletes of all levels."
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-05.jpg"
+  },
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "NE FL",
+      "label": "Based In"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Perry is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Perry doesn't just coach the sport — he coaches the whole athlete. That made all the difference for us.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "912-270-6966",
+    "email": "perry.keon2@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-05.jpg",
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "gradient",
+    "hero_layout": "split-right",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "horizontal-strip",
+    "photo_treatment": "duotone",
+    "gallery_layout": "masonry",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "YOUR EDGE STARTS HERE.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  }
+}

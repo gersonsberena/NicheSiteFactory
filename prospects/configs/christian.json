@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "christian Football Coaching — Lake County, FL",
+    "description": "Professional football coaching in Clermont, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach christian",
+    "city": "Clermont",
+    "county": "Lake",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 7,
+    "bio": "\n I am eager to learn and help other people reach their goals! I am full of energy, confident and am great at helping young/new athletes improve explosiveness, agility, form/mechanics, hand-eye-coordination, balance, stability, and confidence .\n\nThrough out My high school and college career I have battled against many severe injures such as torn ACL, Patellar tendinitis, broken wrists, broken fibula, herniated disk C7-C6 vertebrae and broken ankles. \n\n• Those injuries helped me learn how to properly Rehab and practice exercises and movement to prevent the injuries from happening again. \n\n• This adds another dimension to my skillset because I am able to help athletes rehab correctly and make sure they are doing the correct exercise to make the effected area stronger and to prevent future injuries."
+  },
+  "hero": {
+    "headline": "Lake County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-06.jpg"
+  },
+  "stats": [
+    {
+      "value": "7+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "5+",
+      "label": "Sessions Completed"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach christian has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach christian does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-06.jpg",
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "gradient",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "field-lines",
+    "stats_layout": "horizontal-strip",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-3col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "PROOF ON THE FIELD."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/coach-campbell",
+    "scraped_at": "2026-05-08T03:25:37.515Z"
+  }
+}

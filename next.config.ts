@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
     ],
   },
+  outputFileTracingIncludes: {
+    "/": ["./prospects/configs/**"],
+  },
 };
 
 export default nextConfig;

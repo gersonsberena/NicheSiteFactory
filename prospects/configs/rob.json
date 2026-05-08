@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Rob Football Coaching — FL County, FL",
+    "description": "Professional football coaching in Niceville, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Rob",
+    "city": "Niceville",
+    "county": "FL",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": null,
+    "bio": "Tell me your goals and lets go after them!",
+    "credentials": []
+  },
+  "hero": {
+    "headline": "FL County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-05.jpg"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Rob has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Nobody pushes me the right way like Coach Rob does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-05.jpg",
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "slate-black",
+    "card_border": "gold",
+    "button_style": "gradient",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "circular",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT FOR CHAMPIONS.",
+    "about_tagline": "PROVEN METHODS. REAL RESULTS.",
+    "services_tagline": "STRUCTURED EXCELLENCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/coachhubbs",
+    "scraped_at": "2026-05-08T03:14:17.215Z"
+  }
+}

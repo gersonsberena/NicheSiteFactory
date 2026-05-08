@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Mike Beauregard Football Coaching — St. Johns County, FL",
+    "description": "Professional football coaching in St. Augustine, FL. Training sessions for youth and high school athletes in Northeast Florida."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Mike Beauregard",
+    "city": "St. Augustine",
+    "county": "St. Johns",
+    "state": "FL",
+    "sport": "Football",
+    "bio": "Coach Mike Beauregard is a dedicated football coach based in St. Augustine, FL, committed to developing athletes of all levels."
+  },
+  "hero": {
+    "headline": "St. Johns County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-07.jpg"
+  },
+  "stats": [
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "NE FL",
+      "label": "Based In"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Beauregard has a gift for breaking down the fundamentals. My kid went from nervous on the field to one of the most confident players on the team.",
+      "name": "Derrick M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "I've had other coaches, but nobody pushes me the right way like Coach Beauregard does. Every session I leave better than I came.",
+      "name": "Jordan R.",
+      "role": "Youth Athlete",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "321-403-6776",
+    "email": "mbeauregard79@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-07.jpg",
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "slate-black",
+    "card_border": "white",
+    "button_style": "gradient",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "field-lines",
+    "stats_layout": "centered-large",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "bordered-offset",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "testimonials_tagline": "THE EVIDENCE SPEAKS."
+  }
+}

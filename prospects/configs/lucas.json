@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Lucas Football Coaching — FL County, FL",
+    "description": "Professional football coaching in Indian Rocks Beach, FL. Training sessions for youth and high school athletes."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Lucas",
+    "city": "Indian Rocks Beach",
+    "county": "FL",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 4,
+    "bio": "From the gym to the football field; Pro athletes, young children, adults who want to be healthier, I teach it all!",
+    "credentials": []
+  },
+  "hero": {
+    "headline": "FL County's Premier Football Coach",
+    "subline": "Personalized football training that turns potential into performance.",
+    "photo": "/stock/football/hero/hero-01.jpg"
+  },
+  "stats": [
+    {
+      "value": "4+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Trained"
+    },
+    {
+      "value": "FOOTBALL",
+      "label": "Specialist"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Lucas changed the way I see the game. I went from second-string to starter in one season.",
+      "name": "Marcus T.",
+      "role": "High School Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son has trained with Coach Lucas for two years. The improvement is night and day.",
+      "name": "Patricia L.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "about_photo": "/stock/football/about/about-01.jpg",
+  "design": {
+    "accent_color": "red",
+    "background_tone": "slate-black",
+    "card_border": "gold",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "none",
+    "stats_layout": "centered-large",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "YOUR EDGE STARTS HERE.",
+    "about_tagline": "WHERE POTENTIAL MEETS PERFORMANCE.",
+    "services_tagline": "PRECISION. PASSION. PERFORMANCE.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  },
+  "_source": {
+    "platform": "athletesuntapped",
+    "profile_url": "https://athletesuntapped.com/coach-profile/coach-lucas-k",
+    "scraped_at": "2026-05-08T03:14:10.245Z"
+  }
+}
