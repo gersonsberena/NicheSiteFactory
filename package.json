@@ -1,0 +1,32 @@
+{
+  "name": "niche-site-factory",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "leads:scrape": "node scripts/scrape-leads.js",
+    "leads:leagues": "node scripts/scrape-league.js",
+    "leads:enrich": "node scripts/enrich-leads.js",
+    "leads:configs": "node scripts/create-prospect-configs.js",
+    "leads:send": "node scripts/send-outreach.js --limit=5",
+    "leads:au": "node scripts/scrape-athletesuntapped.js",
+    "leads:au:test": "node scripts/scrape-athletesuntapped.js --limit=10"
+  },
+  "dependencies": {
+    "next": "16.2.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "csv-parser": "^3",
+    "nodemailer": "^8.0.7",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

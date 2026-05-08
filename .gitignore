@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+
+# env files
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# scraped lead data — contains real personal info, never commit
+data/
+prospects/configs/

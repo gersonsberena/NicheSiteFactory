@@ -28,7 +28,7 @@ These are non-negotiable before you send a single outreach message.
 
 | Priority | Task | Done? |
 |---|---|---|
-| 1 | Set up Stripe account (or Wave) for payment processing | ☐ |
+| 1 | Set up Stripe account (or Wave) for payment processing | ✅ |
 | 2 | Rebuild firstcoastspotlight.com as your agency site on Vercel | ☐ |
 | 3 | Build the football coach template (Next.js + Tailwind, 1 theme) | ☐ |
 | 4 | Wire up config system (`useConfig()` hook reading JSON) | ☐ |
