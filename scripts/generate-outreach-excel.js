@@ -70,23 +70,24 @@ function getFirstName(display) {
 }
 
 function getMessage(firstName, vercelLink) {
-  return `Hey ${firstName}, I'm Gerson — a web developer based in St. Augustine, FL. I build coaching sites specifically for football coaches in NE Florida and I put together a demo for you using your AU profile.
+  return `Hey Coach ${firstName}, I'm Gerson — a web developer based in St. Augustine, FL. I build coaching sites specifically for football coaches in Florida and I put together a demo for you using your Athletes Untapped profile.
 
 Check it out: ${vercelLink}
 
-Everything on it is editable — your bio, services, photos, contact info. From start to finish, we can have you live on your own domain in 5 days.
+Everything on it is editable — your bio, services, color, branding, photos, contact info. From start to finish, we can have you live on your own domain in 5 days.
 
 Would love to hear what you think:
 A) Interested — let's talk
 B) Tell me more
 C) No thanks
 
-Either way, no pressure. — Gerson
-gerson.s.berena@gmail.com`
+You can also leave a message using the message box in the demo site that says 'Want a site like this' yellow button at the lower right of the demo website.
+
+Either way, no pressure. — Gerson`
 }
 
 const configDir = path.join(__dirname, "../prospects/configs")
-const rows = coaches.map((c) => {
+const data = coaches.map((c) => {
   const configPath = path.join(configDir, c.slug + ".json")
   let auLink = ""
   if (fs.existsSync(configPath)) {
@@ -97,21 +98,33 @@ const rows = coaches.map((c) => {
   }
   const vercelLink = `http://coachsites.vercel.app/${c.slug}`
   const firstName = getFirstName(c.display)
-  return {
-    "AU Profile Link": auLink,
-    "Demo Site Link": vercelLink,
-    "Outreach Message": getMessage(firstName, vercelLink),
-  }
+  return { auLink, vercelLink, message: getMessage(firstName, vercelLink) }
 })
 
 const wb = XLSX.utils.book_new()
-const ws = XLSX.utils.json_to_sheet(rows)
+
+// Build worksheet manually so we can set hyperlinks on link columns
+const headers = ["AU Profile Link", "Demo Site Link", "Outreach Message", "Contacted Y/N"]
+const wsData = [headers, ...data.map(r => [r.auLink, r.vercelLink, r.message, ""])]
+const ws = XLSX.utils.aoa_to_sheet(wsData)
+
+// Apply hyperlinks to AU link (col A) and Demo Site link (col B) for each data row
+data.forEach((r, i) => {
+  const row = i + 2 // 1-indexed, row 1 is header
+  if (r.auLink) {
+    const cell = ws[XLSX.utils.encode_cell({ r: i + 1, c: 0 })]
+    if (cell) cell.l = { Target: r.auLink }
+  }
+  const demoCell = ws[XLSX.utils.encode_cell({ r: i + 1, c: 1 })]
+  if (demoCell) demoCell.l = { Target: r.vercelLink }
+})
 
 // Column widths
 ws["!cols"] = [
   { wch: 60 },  // AU link
-  { wch: 55 },  // demo link
+  { wch: 45 },  // demo link
   { wch: 90 },  // message
+  { wch: 15 },  // contacted
 ]
 
 XLSX.utils.book_append_sheet(wb, ws, "Outreach")
@@ -119,4 +132,4 @@ XLSX.utils.book_append_sheet(wb, ws, "Outreach")
 const outPath = path.join(__dirname, "../prospects/outreach.xlsx")
 XLSX.writeFile(wb, outPath)
 console.log("Written:", outPath)
-console.log("Rows:", rows.length)
+console.log("Rows:", data.length)
