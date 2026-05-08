@@ -27,6 +27,7 @@
     "csv-parser": "^3",
     "nodemailer": "^8.0.7",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "xlsx": "^0.18.5"
   }
 }
