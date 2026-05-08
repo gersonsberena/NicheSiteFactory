@@ -1,65 +1,14 @@
-import type { Metadata } from "next"
-import type React from "react"
-import { getConfig } from "@/lib/useConfig"
-import LayoutA from "@/templates/football-coach/layouts/layout-a/LayoutA"
-import LayoutB from "@/templates/football-coach/layouts/layout-b/LayoutB"
-import LayoutC from "@/templates/football-coach/layouts/layout-c/LayoutC"
-import DemoCTA from "@/app/_demo-cta"
-
-const BANNER_H = 44
-
-function DemoBanner({ name }: { name: string }) {
+export default function Page() {
   return (
-    <div
-      style={{ zIndex: 9999, height: BANNER_H }}
-      className="fixed top-0 left-0 right-0 bg-zinc-900 border-b border-zinc-700 px-4 flex flex-col items-center justify-center text-center"
-    >
-      <p className="text-xs text-zinc-300">
-        <span className="text-yellow-400 font-bold tracking-wide">DEMO SITE</span>
-        <span className="text-zinc-600 mx-2">·</span>
-        Built for <span className="text-white font-medium">{name}</span>
-      </p>
-      <p className="text-[10px] text-zinc-500 mt-0.5">
-        Photos, bio, branding &amp; colors are placeholders — everything is customized to reflect your brand after onboarding.
-      </p>
-    </div>
+    <main className="min-h-screen flex items-center justify-center bg-zinc-950 text-white px-6">
+      <div className="text-center max-w-md">
+        <p className="text-zinc-400 text-sm uppercase tracking-widest mb-3">First Coast Spotlight</p>
+        <h1 className="text-2xl font-bold mb-4">Coach Demo Platform</h1>
+        <p className="text-zinc-400 text-sm leading-relaxed">
+          This platform hosts personalized demo sites for football coaches in Northeast Florida.
+          If you received a demo link, please use the full URL that was shared with you.
+        </p>
+      </div>
+    </main>
   )
-}
-
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ coach?: string }>
-}): Promise<Metadata> {
-  const params = await searchParams
-  const slug = params.coach ?? "john-smith"
-  const config = getConfig(slug)
-  const faviconUrl = config.meta.favicon_url
-  return {
-    title: config.meta.title,
-    description: config.meta.description,
-    ...(faviconUrl ? { icons: { icon: faviconUrl } } : {}),
-  }
-}
-
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ coach?: string; layout?: string }>
-}) {
-  const params = await searchParams
-  const slug = params.coach ?? "john-smith"
-  const config = getConfig(slug)
-
-  const overlay = (
-    <>
-      <DemoBanner name={config.about?.name ?? "Coach"} />
-      <DemoCTA />
-    </>
-  )
-
-  const wrapperStyle = { '--demo-banner-h': `${BANNER_H}px` } as React.CSSProperties
-  if (config.layout === "B") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutB config={config} /></div></div>
-  if (config.layout === "C") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutC config={config} /></div></div>
-  return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutA config={config} /></div></div>
 }
