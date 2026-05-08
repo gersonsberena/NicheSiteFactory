@@ -11,14 +11,23 @@ After generation: adapt components to the config system (CSS custom properties, 
 All layouts follow this section order unless noted:
 
 ```
-Nav → Hero → Stats → About → Services → SuccessStories → Testimonials → VideoGallery → Gallery → FAQ → Contact → Footer
+Nav → Hero → Stats → About → CoachProfile → Services → Availability → TrainingLocations → SuccessStories → Testimonials → VideoGallery → Gallery → FAQ → Contact → Footer
 ```
 
 **Exception — Layout D (Story First):**
 ```
-Nav → Hero → Stats → Testimonials → About → Services → SuccessStories → VideoGallery → Gallery → FAQ → Contact → Footer
+Nav → Hero → Stats → Testimonials → About → CoachProfile → Services → Availability → TrainingLocations → SuccessStories → VideoGallery → Gallery → FAQ → Contact → Footer
 ```
 Testimonials appear before About/Services — trust-before-pitch is an intentional structural decision.
+
+**Post-generation additions (all layouts):**
+After generating from a prompt, always add these three sections **in code** — do not include them in the Claude Design prompt. Adapt implementations from the existing Layout A/B/C components rather than regenerating per layout:
+
+| Section | Key in `section_order` | What it renders |
+|---|---|---|
+| CoachProfile | `coach_profile` | Q&A block — coaching philosophy, age groups, what to bring. Reads from `config.coach_profile`; falls back to hardcoded placeholder Q&A. |
+| Availability | `availability` | Calendly booking section. Reads `config.availability.calendly_url`; falls back to a schedule-text display. Dynamically loads Calendly popup script. |
+| TrainingLocations | `training_locations` | Accent-colored city chips. Reads `config.training_cities[]`; falls back to `config.about.city`. Returns null if no cities configured. |
 
 ---
 
@@ -41,7 +50,7 @@ Testimonials appear before About/Services — trust-before-pitch is an intention
 
 **Identity:** Championship energy. Dark-mode, near-black backgrounds, electric gold accent, cinematic spacing. Bebas Neue headlines, Oswald stats. Designed to feel like elite athletic branding — ESPN/Nike meets Friday Night Lights. The coach is a gladiator, every section is a stage.
 
-> **Note:** Layout A was originally generated with sections 0–7 only (no SuccessStories, VideoGallery, or FAQ). Those three sections were added directly in code after generation. The prompt below is the **complete updated version** with all 12 sections — use this if re-generating.
+> **Note:** Layout A was originally generated with sections 0–7 only (no SuccessStories, VideoGallery, or FAQ). Those three sections were added directly in code after generation. CoachProfile, Availability, and TrainingLocations were also added in code (see Post-generation additions above). The prompt below is the **complete updated version** with all core sections — use this if re-generating.
 
 ---
 
@@ -395,6 +404,10 @@ Return complete React component code using Tailwind CSS. Name it Layout A — Bo
 
 **Identity:** Approachable, trustworthy, community-rooted. Light background, forest green + warm amber accent, rounded corners everywhere, card-based UI. Designed to feel like a coach who genuinely shows up for the community — youth parents are the primary audience. Everything signals "safe, local, invested."
 
+> **Implementation notes:** CoachProfile, Availability, and TrainingLocations were added in code post-generation (see Post-generation additions above).
+>
+> **Layout B palette system is unique:** unlike A and C which use `theme-*` CSS classes, Layout B applies a `b-palette-{name}` class driven by a `config.design.b_palette` field. If that field is absent, it maps from `config.design.accent_color` via `ACCENT_TO_PALETTE` (e.g. `gold` → `forest-amber`, `navy` → `navy-gold`, `teal` → `teal-gold`). When adapting or re-generating Layout B, preserve this palette mapping — don't replace it with raw `var(--accent)` theming.
+
 ---
 
 ```
@@ -731,6 +744,8 @@ Return complete React component code using Tailwind CSS. Name it Layout B — Co
 ## Layout C — Modern Minimal
 
 **Identity:** Confident, editorial, white-dominant. This is the "understated excellence" layout — no dark drama, no loud color. Huge whitespace, oversized typography, a single navy accent color used sparingly. Services are a typographic numbered list, not cards. Inspired by high-end architecture firm and design studio websites applied to athletics. The coach is quietly powerful, not loud.
+
+> **Implementation note:** CoachProfile, Availability, and TrainingLocations were added in code post-generation (see Post-generation additions above).
 
 ---
 

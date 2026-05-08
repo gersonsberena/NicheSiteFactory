@@ -25,6 +25,8 @@ export type DesignConfig = {
   font_pair?: string
   b_palette?: string
   b_hero_layout?: string
+  b_stats_layout?: string
+  b_gallery_layout?: string
   b_services_layout?: string
   b_testimonials_layout?: string
   b_about_layout?: string
