@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Coach Aaron | Sports Performance Training",
-    "description": "Professional football coaching for youth and high school athletes. Personalized sessions focused on fundamentals, fitness, and game awareness."
+    "title": "Coach Lars Gumbii | Sports Performance Training",
+    "description": "Professional sports coaching for youth and high school athletes. Personalized sessions focused on fundamentals, fitness, and game awareness."
   },
   "layout": "A",
   "about": {
-    "name": "Coach Aaron",
+    "name": "Coach Lars Gumbii",
     "city": "Your Area",
     "county": "Your County",
     "state": "FL",
@@ -35,13 +35,13 @@
   ],
   "testimonials": [
     {
-      "quote": "Best investment we've made in our son's athletic career. Coach Aaron is the real deal.",
+      "quote": "Best investment we've made in our son's athletic career. Coach Lars Gumbii is the real deal.",
       "name": "Sandra K.",
       "role": "Parent",
       "rating": 5
     },
     {
-      "quote": "Coach Aaron doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "quote": "Coach Lars Gumbii doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
       "name": "DeShawn F.",
       "role": "Parent",
       "rating": 5
@@ -78,8 +78,7 @@
     "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ ELEVATE YOUR GAME ★"
   },
   "_source": {
-    "platform": "athletesuntapped",
-    "profile_url": "https://athletesuntapped.com/coach-profile/salemcoaching",
-    "scraped_at": "2026-05-08T03:25:38.416Z"
+    "platform": "facebook",
+    "created_at": "2026-05-09T19:56:31.928Z"
   }
 }
