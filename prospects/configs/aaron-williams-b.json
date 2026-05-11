@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Coach Aaron Williams | Football Training — Naples, FL",
+    "description": "Trusted community football coach in Naples, FL. Youth and high school athletes welcome. Personalized sessions focused on fundamentals, fitness, and character."
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Aaron Williams",
+    "city": "Naples",
+    "county": "Collier",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 5,
+    "bio": "Hi, I'm Aaron! I'm an experienced soccer & football coach with a background in competitive and travel-level play, dedicated to helping young athletes grow both on and off the field.\n\nMy training focuses on building strong fundamentals, improving fitness, and developing game awareness, while also emphasizing discipline, confidence, and a strong work ethic. I create a structured but supportive environment where players are challenged, encouraged, and motivated to reach their full potential.\n\nWhether your child is just starting out or looking to take their game to the next level, I tailor each session to fit their goals and skill level.",
+    "photo": "/stock/football/about/about-04.jpg",
+    "credentials": ["Multi-Sport Coach", "Former Competitive Athlete"],
+    "age_groups": "Youth · High School"
+  },
+  "hero": {
+    "headline": "Building Champions On and Off the Field",
+    "subline": "Naples's most trusted youth football coach — fundamentals, fitness, and heart.",
+    "photo": "/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session"
+  },
+  "stats": [
+    { "value": "5+", "label": "Years Coaching" },
+    { "value": "50+", "label": "Athletes Trained" },
+    { "value": "FOOTBALL", "label": "Specialist" }
+  ],
+  "services": [
+    {
+      "title": "1-on-1 Skills Training",
+      "description": "Personalized 2-hour sessions targeting your position, mechanics, and football IQ. Includes an hour of strength & conditioning plus an hour of technical and game-focused drills.",
+      "price": "$100 / session"
+    },
+    {
+      "title": "Speed & Conditioning",
+      "description": "One hour focused on strength, endurance, and the athleticism that separates good players from great ones. Built around your current fitness level.",
+      "price": "$50 / session"
+    },
+    {
+      "title": "Game-Ready Skills",
+      "description": "Technical skills, agility, and game-focused training that translates directly to Friday nights. Routes, reads, footwork, and field awareness.",
+      "price": "$50 / session"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Aaron is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Aaron doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "b_palette": "forest-amber",
+    "background_tone": "charcoal",
+    "card_border": "green",
+    "button_style": "solid",
+    "b_hero_layout": "split-left",
+    "b_stats_layout": "accent-bar",
+    "b_gallery_layout": "featured-grid",
+    "b_services_layout": "cards-3col",
+    "b_testimonials_layout": "cards-3col",
+    "b_about_layout": "centered-stack",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-3col",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "EVERY REP COUNTS.",
+    "about_tagline": "COMMUNITY RAISED. FIELD PROVEN.",
+    "services_tagline": "TRAIN WITH PURPOSE.",
+    "testimonials_tagline": "WHAT FAMILIES ARE SAYING.",
+    "marquee_text": "FUNDAMENTALS WIN ★ CHARACTER MATTERS ★ SHOW UP EVERY DAY ★"
+  }
+}

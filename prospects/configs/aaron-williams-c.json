@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Coach Aaron Williams | Football Training — Naples, FL",
+    "description": "Precision football coaching in Naples, FL. Understated excellence — technical training, real results, no noise."
+  },
+  "layout": "C",
+  "about": {
+    "name": "Coach Aaron Williams",
+    "city": "Naples",
+    "county": "Collier",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Skills & Fundamentals",
+    "years_experience": 5,
+    "bio": "Hi, I'm Aaron! I'm an experienced soccer & football coach with a background in competitive and travel-level play, dedicated to helping young athletes grow both on and off the field.\n\nMy training focuses on building strong fundamentals, improving fitness, and developing game awareness, while also emphasizing discipline, confidence, and a strong work ethic. I create a structured but supportive environment where players are challenged, encouraged, and motivated to reach their full potential.\n\nWhether your child is just starting out or looking to take their game to the next level, I tailor each session to fit their goals and skill level.",
+    "photo": "/stock/football/about/about-07.jpg",
+    "credentials": ["Multi-Sport Coach", "Former Competitive Athlete"],
+    "age_groups": "Youth · High School"
+  },
+  "hero": {
+    "headline": "The Work Is the Point.",
+    "subline": "Football training built around precision, discipline, and results. Naples, FL.",
+    "photo": "/stock/football/hero/hero-07.jpg",
+    "cta_text": "Book a Session"
+  },
+  "stats": [
+    { "value": "5+", "label": "Years Coaching" },
+    { "value": "50+", "label": "Athletes Trained" },
+    { "value": "FOOTBALL", "label": "Specialist" }
+  ],
+  "services": [
+    {
+      "title": "1-on-1 Skills Training",
+      "description": "Personalized 2-hour sessions targeting your position, mechanics, and football IQ. Includes an hour of strength & conditioning plus an hour of technical and game-focused drills.",
+      "price": "$100 / session"
+    },
+    {
+      "title": "Speed & Conditioning",
+      "description": "One hour focused on strength, endurance, and the athleticism that separates good players from great ones. Built around your current fitness level.",
+      "price": "$50 / session"
+    },
+    {
+      "title": "Game-Ready Skills",
+      "description": "Technical skills, agility, and game-focused training that translates directly to Friday nights. Routes, reads, footwork, and field awareness.",
+      "price": "$50 / session"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Best investment we've made in our son's athletic career. Coach Aaron is the real deal.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Coach Aaron doesn't just coach the sport — he coaches the whole athlete. That made all the difference.",
+      "name": "DeShawn F.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "slate-black",
+    "card_border": "navy",
+    "button_style": "ghost",
+    "c_hero_layout": "split-right",
+    "c_about_layout": "photo-left",
+    "c_services_layout": "numbered-rows",
+    "c_testimonials_layout": "centered-quote",
+    "c_gallery_layout": "asymmetric",
+    "hero_overlay": "none",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-2col",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "PRECISION. DISCIPLINE. RESULTS.",
+    "about_tagline": "QUIET EXCELLENCE.",
+    "services_tagline": "WHAT WE WORK ON.",
+    "testimonials_tagline": "THE RESULTS SPEAK.",
+    "marquee_text": "PRECISION ★ DISCIPLINE ★ RESULTS ★ FUNDAMENTALS FIRST ★",
+    "c_contact_reply_time": "Direct reply within 24 hours."
+  }
+}
