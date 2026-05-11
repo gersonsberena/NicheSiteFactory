@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Tony Bishop Football Coaching — Putnam County, FL",
+    "description": "Professional football coaching in Palatka, FL. Speed & Conditioning"
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Tony Bishop",
+    "city": "Palatka",
+    "county": "Putnam",
+    "sport": "Football",
+    "specialty": "Speed & Conditioning",
+    "years_experience": 8,
+    "age_groups": "Youth, High School, Adult",
+    "photo": "/stock/football/about/about-05.jpg"
+  },
+  "hero": {
+    "headline": "Putnam County's Premier Football Coach",
+    "photo": "/stock/football/hero/hero-05.jpg"
+  },
+  "contact": {
+    "phone": "(904) 555-0533",
+    "email": "tony@example.com",
+    "booking_url": "#contact"
+  },
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "diagonal",
+    "stats_layout": "centered-large",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "testimonials_tagline": "ATHLETES SPEAK."
+  }
+}

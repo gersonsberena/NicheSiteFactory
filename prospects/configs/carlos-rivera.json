@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Carlos Rivera Football Coaching — Clay County, FL",
+    "description": "Professional football coaching in Fleming Island, FL. Youth 7v7"
+  },
+  "layout": "B",
+  "about": {
+    "name": "Coach Carlos Rivera",
+    "city": "Fleming Island",
+    "county": "Clay",
+    "sport": "Football",
+    "specialty": "Youth 7v7",
+    "years_experience": 6,
+    "age_groups": "Youth",
+    "photo": "/stock/football/about/about-03.jpg"
+  },
+  "hero": {
+    "headline": "Clay County's Premier Football Coach",
+    "photo": "/stock/football/hero/hero-03.jpg"
+  },
+  "contact": {
+    "phone": "(904) 555-0344",
+    "email": "carlos@example.com",
+    "booking_url": "#contact"
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "pure-black",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "none",
+    "stats_layout": "grid-2x2",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "masonry",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. PLAY HARD. WIN.",
+    "about_tagline": "WHERE POTENTIAL MEETS PERFORMANCE.",
+    "services_tagline": "YOUR BLUEPRINT FOR SUCCESS.",
+    "testimonials_tagline": "RESULTS YOU CAN FEEL."
+  }
+}
