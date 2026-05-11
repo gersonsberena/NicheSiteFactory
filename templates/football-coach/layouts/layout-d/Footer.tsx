@@ -6,7 +6,11 @@ interface Props {
 
 export default function Footer({ config }: Props) {
   const { name, city, county } = config.about ?? {}
-  const { phone, email, instagram, twitter, youtube } = config.contact ?? {}
+  const phone = config.contact?.phone as string | undefined
+  const email = config.contact?.email as string | undefined
+  const instagram = config.contact?.instagram as string | undefined
+  const twitter = config.contact?.twitter as string | undefined
+  const youtube = config.contact?.youtube as string | undefined
 
   const socials: { label: string; href: string | null | undefined }[] = [
     { label: "IG", href: instagram ? `https://instagram.com/${instagram.replace("@", "")}` : null },
