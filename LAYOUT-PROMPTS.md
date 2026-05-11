@@ -43,6 +43,9 @@ After generating from a prompt, always add these three sections **in code** — 
 - [Layout H — Data Driven](#layout-h--data-driven)
 - [Layout I — Magazine Editorial](#layout-i--magazine-editorial)
 - [Layout J — Camp & Clinic](#layout-j--camp--clinic)
+- [Layout K — Precision](#layout-k--precision)
+- [Layout L — Glass Premium](#layout-l--glass-premium)
+- [Layout M — Dark Editorial](#layout-m--dark-editorial)
 
 ---
 
@@ -3473,6 +3476,1127 @@ ADDITIONAL REQUIREMENTS
 
 Output:
 Return complete React component code using Tailwind CSS. Name it Layout J — Camp & Clinic.
+```
+
+---
+
+## Layout K — Precision
+
+**Identity:** Tactical and architectural. Deep charcoal (#111827) with electric cobalt (#3B82F6). Space Grotesk Bold headlines, giant ghost section numbers as decorative layer, vertical stripe photo framing, structured grid. Designed for the coach who is methodical, analytical, and results-driven. Not cinematic, not kinetic — engineered. Feels like a military tactical briefing repackaged as a premium sports coaching page.
+
+---
+
+```
+Design and build a precision-focused, tactical football coach landing page.
+
+Project Name:
+Layout K — Precision
+
+Tech Stack:
+- React
+- Tailwind CSS
+- Fully responsive
+- Single-page architecture
+- Production-quality component structure
+- Organize into separate named React components: Nav, Hero, StatsBar, About, Services,
+  SuccessStories, Testimonials, VideoGallery, Gallery, FAQ, Contact, Footer
+
+Font Loading:
+- Import Space Grotesk (Bold 700, ExtraBold 800) and Inter (Regular 400, Medium 500)
+  from Google Fonts.
+- Space Grotesk ExtraBold for hero headline and stat numbers.
+- Space Grotesk Bold for all section headings, card titles, and navigation items.
+- Inter Medium for eyebrow labels, buttons, and captions.
+- Inter Regular for all body text and descriptions.
+- Fall back to system-ui, sans-serif.
+- Heading letter-spacing: -0.02em (tight, engineered feel).
+- Eyebrow letter-spacing: 0.08em (small caps feel, uppercase).
+
+Visual Identity:
+Tactical precision.
+This site should feel like a mission briefing turned into a sports landing page.
+Every element is placed with intention — no decoration for its own sake.
+The coach is a strategist, and the visual language reflects that.
+No glow, no warmth, no stadium atmosphere — this is the film room, not the field.
+
+Core inspiration:
+- Military tactical branding (SOCOM, Delta Force aesthetic applied to sports)
+- Jordan Brand "Why Not?" campaign precision
+- Adidas Black Pack structured layouts
+- Engineering blueprints crossed with premium sports performance
+
+Color System:
+- Background layers (alternate sections for visual rhythm):
+  - Primary: #111827 (Tailwind gray-900)
+  - Offset: #0F172A (Tailwind slate-900)
+- Primary Accent: Electric cobalt #3B82F6
+- Text: #FFFFFF (headings), #D1D5DB (body), #6B7280 (labels/captions)
+- Card backgrounds: #1F2937 with 1px border rgba(255,255,255,0.05)
+- All accent color references MUST use CSS custom properties throughout all components:
+  var(--accent), var(--accent-hi), var(--accent-dim), var(--accent-rgb)
+  Set --accent: #3B82F6; --accent-hi: #60A5FA; --accent-dim: #1D4ED8;
+  --accent-rgb: 59,130,246 in :root. Never hardcode hex values in component styles.
+
+Typography:
+- Space Grotesk ExtraBold for hero headline: fluid clamp(3.5rem, 6vw, 5.5rem)
+- Space Grotesk Bold for section headings: 2rem–2.75rem
+- Inter Medium for card titles, stat labels, eyebrows
+- Inter Regular for body paragraphs: 1.0625rem, line-height 1.7, max-width 65ch
+- Eyebrow labels: "ABOUT THE COACH", "THE SYSTEM" — Inter Medium, 0.75rem,
+  uppercase, letter-spacing 0.1em, color var(--accent)
+- Ghost section numbers: Space Grotesk ExtraBold, 10rem–14rem, color white/[0.03],
+  positioned absolute behind section content (z-index: 0, content at z-index: 10)
+
+Avoid:
+- Rounded corners on major elements — border-radius 0 on images and primary cards,
+  max 4px on small chips/tags only
+- Gold, warm, or orange tones — this is a cold precision palette
+- Glow box-shadows — use sharp border color shifts instead
+- Diagonal section cuts (that belongs to Layout F)
+- Carousels or sliders
+- Gradient text on more than one element per section
+- Soft drop shadows — if shadow needed, keep it dark and tight
+
+Signature Design Details:
+- Ghost section numbers: Every section has an enormous 2-digit number (01, 02, 03...)
+  in Space Grotesk ExtraBold at ~12rem, color white/[0.03], positioned absolute
+  behind content. Gives architectural depth without clutter.
+- Vertical accent stripe: Portrait photos are framed by a 3px vertical bar on the left
+  edge in var(--accent), with the photo shifted 1.5rem to the right. No rounded corners
+  on photos anywhere.
+- Horizontal rules: Thin 1px lines in white/10 are used generously to separate
+  subsections and content blocks — editorial precision.
+- CTA buttons: border-radius 0 (square). Primary: bg-[var(--accent)], white text.
+  Ghost: 2px solid var(--accent) border, transparent fill, var(--accent) text.
+  Hover: 200ms ease-out color shift, no glow.
+- Icon treatment: Line-only icons (no fill), var(--accent) color, 20–24px.
+- Card top accent: 3px solid var(--accent) top border on service and story cards.
+- Card number: 2-digit decorative "01" in Space Grotesk ExtraBold, white/10,
+  large, positioned top-right inside card — replaces icons.
+
+Animation Language:
+- Scroll reveal: translateY(20px) → translateY(0), opacity 0 → 1, 400ms ease-out.
+  Stagger siblings 80ms. Add .reveal class to trigger from LayoutK.tsx.
+- Hover transitions: 200ms ease-out only. No spring, no bounce.
+- CTA hover: background color shifts, letter-spacing widens 0.02em.
+- Active nav link: 2px left border in var(--accent) + var(--accent) text color,
+  not underline.
+- Card hover: translateY(-4px) + border-color rgba(var(--accent-rgb),0.3), 200ms.
+
+Overall feeling:
+"This coach has a system, and the system works."
+
+Placeholder Content:
+Use realistic placeholder content throughout — not lorem ipsum. Use:
+- Coach name: Marcus Reid
+- City/region: Jacksonville, FL
+- Headline: "The System That Builds Winners."
+- Subheadline: "Performance coaching rooted in strategy, not guesswork"
+- Stats: "600+ Athletes Coached", "14 Years Coaching", "92% College Placement Rate"
+- Bio: 2–3 analytical sentences — talks about method, process, and measurable outcomes.
+  The coach is the architect, not the entertainer. No emotion — results and process.
+- Services: Film Study & Game IQ, Speed & Strength Protocol, Recruiting Strategy
+- Success stories: Two athletes — each framed as a measurable before/after:
+  Athlete 1: Jerome T. (DB, went from 0 to 3 D3 offers in one off-season)
+  Athlete 2: Caleb M. (OL, improved 40-time from 5.2s to 4.9s, made All-County)
+- Testimonials: Two quotes — measured and specific. Parent or athlete who sounds
+  like they're reviewing a methodology, not cheering at a game.
+- Videos: One embed placeholder titled "Film Study: How We Diagnose and Fix Footwork"
+- FAQ: 5 questions focused on process, evaluation criteria, what the coach expects
+  from athletes, how progress is tracked, and session structure
+- Phone: (904) 555-0244 | Email: coach@marcusreidperformance.com
+- Use placeholder image URLs (e.g. https://placehold.co/1200x800/111827/3B82F6)
+  with charcoal backgrounds and cobalt text
+
+Page Structure:
+Navigation → Hero → Stats Bar → About → Services → Success Stories →
+Testimonials → Video Gallery → Photo Gallery → FAQ → Contact → Footer
+
+-----------------------------------
+0. NAVIGATION (STICKY)
+-----------------------------------
+
+Sticky navigation — minimal, precise. 64px height.
+
+Include:
+- Left: "MARCUS REID" in Space Grotesk Bold, uppercase, var(--accent)
+- Center: Nav links in Inter Medium, uppercase, letter-spacing 0.08em, white/70,
+  hover: white
+- Right: "Book a Session" — 2px solid var(--accent) border, transparent fill,
+  var(--accent) text, border-radius 0 (square corners)
+- Smooth scroll to section on link click
+- Mobile: hamburger → full-screen dark overlay nav
+
+On scroll:
+- Add 1px border-bottom in white/10
+- No blur, no heavy shadow — just the border line. bg-[#111827] always.
+
+Active nav link: var(--accent) color + 2px left pseudo-element border.
+
+-----------------------------------
+1. HERO SECTION
+-----------------------------------
+
+Split-screen hero. 100vh. bg-[#0F172A].
+Ghost "01" behind content at 12rem, white/[0.03], absolute.
+
+Layout:
+- Left column (55%): Content block, left-aligned
+- Right column (45%): Portrait photo with vertical accent stripe frame
+  (3px var(--accent) bar 1.5rem left of image, photo has no rounded corners)
+
+Left column content (from top):
+- Eyebrow: "PERFORMANCE COACHING · JACKSONVILLE, FL" — Inter Medium, 0.75rem,
+  uppercase, letter-spacing 0.1em, var(--accent)
+- Coach name: "MARCUS REID" — Space Grotesk Bold, 0.875rem, uppercase,
+  tracking-widest, white/60
+- Headline: "The System That Builds Winners." — Space Grotesk ExtraBold,
+  clamp(3rem, 6vw, 5.5rem), white, line-height 1.0
+- Subheadline: Inter Regular, 1.125rem, white/60, max-width 48ch
+- CTA row:
+  - "Book a Session" — primary (bg-[var(--accent)], white, square, Space Grotesk Bold)
+  - "View the System" — ghost (2px solid var(--accent), transparent bg)
+- Below CTAs: 3 inline stats separated by 1px white/20 vertical lines
+
+Background: bg-[#0F172A] — no image. Subtle dot-grid overlay:
+  background-image: radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+  background-size: 24px 24px
+
+Mobile:
+- Stack: photo on top (aspect-ratio 4/3, no rounded corners), content below
+- Maintain headline impact at mobile sizes
+
+-----------------------------------
+2. STATS BAR
+-----------------------------------
+
+Full-width horizontal strip. bg-[#1F2937].
+3 stats with 1px white/10 vertical separators.
+
+Each stat:
+- Number: Space Grotesk ExtraBold, 3rem, var(--accent)
+- Label: Inter Medium, 0.75rem, uppercase, letter-spacing 0.08em, white/50
+- No icons — the numbers are the design
+
+-----------------------------------
+3. ABOUT SECTION
+-----------------------------------
+
+Two-column layout. bg-[#111827].
+Ghost "02" absolute behind section.
+
+Left (45%):
+- Portrait photo with vertical accent stripe (3px var(--accent), photo offset right)
+- Caption below in Inter Regular, 0.75rem, white/40
+
+Right (55%):
+- Eyebrow: "THE ARCHITECT" — Inter Medium, 0.75rem, uppercase, var(--accent)
+- 1px horizontal rule white/10
+- Section heading: Space Grotesk Bold, 2.5rem, white
+- Body: 3 paragraphs, Inter Regular, 1rem, white/70, line-height 1.7
+- Pull metric: one large number in var(--accent) (e.g. "92%") with label below —
+  positioned as a sidebar callout, separated by 1px rule
+
+-----------------------------------
+4. SERVICES SECTION
+-----------------------------------
+
+3-card grid. bg-[#0F172A].
+Ghost "03" behind.
+
+Card style:
+- bg-[#1F2937], border-radius 0, 1px border white/5
+- 3px solid var(--accent) top border
+- No icon — 2-digit decorative number ("01", "02", "03") in Space Grotesk ExtraBold,
+  white/10, ~3.5rem, positioned top-right inside card
+- Card title: Space Grotesk Bold, white, 1.25rem
+- Description: Inter Regular, white/60, 0.9375rem
+- Bottom link: "Learn more →" in var(--accent), Inter Medium
+
+Hover:
+- border-color white/5 → rgba(var(--accent-rgb),0.30)
+- translateY(-4px), 200ms ease-out
+- No glow — sharp border color shift only
+
+Services:
+- Film Study & Game IQ
+- Speed & Strength Protocol
+- Recruiting Strategy
+
+-----------------------------------
+5. SUCCESS STORIES SECTION
+-----------------------------------
+
+Two-column grid. bg-[#111827].
+Ghost "04" behind.
+
+Each card:
+- 3px solid var(--accent) top border, bg-[#1F2937], border-radius 0
+- Athlete name: Space Grotesk Bold, white, 1.5rem
+- Position label: Inter Medium, uppercase, var(--accent), 0.75rem, letter-spacing 0.08em
+- Story: 2–3 sentences, Inter Regular, white/70, italic, line-height 1.6
+- Result block: 1px top border white/10, "OUTCOME" eyebrow label (Inter uppercase,
+  var(--accent), 0.65rem) + bold result text in white below
+
+-----------------------------------
+6. TESTIMONIALS SECTION
+-----------------------------------
+
+Two cards side by side. bg-[#0F172A].
+Ghost "05" behind.
+
+Each card:
+- bg-[#1F2937], border-radius 0, 1px border white/5
+- Large decorative " mark: Space Grotesk ExtraBold, 5rem, var(--accent), opacity-30,
+  absolute top-left inside card
+- Quote: Inter Regular italic, 1.0625rem, white/80, line-height 1.7
+- Attribution: Inter Medium, white (name) + var(--accent)/70 (role), below quote
+
+-----------------------------------
+7. VIDEO GALLERY SECTION
+-----------------------------------
+
+Centered single video. bg-[#111827].
+Ghost "06" behind.
+
+- Eyebrow: "ON FILM"
+- Section heading: Space Grotesk Bold
+- Video embed: 16:9 responsive, max-width 960px, centered
+- Wrapper border: 1px solid rgba(var(--accent-rgb),0.30) on all 4 sides, border-radius 0
+- No rounded corners on iframe wrapper
+- Title above embed: Space Grotesk Bold, white
+- Caption below: Inter Regular, 0.875rem, white/50
+
+-----------------------------------
+8. PHOTO GALLERY SECTION
+-----------------------------------
+
+3-column grid (4-column on wide screens). bg-[#0F172A].
+Ghost "07" behind.
+
+Requirements:
+- 6 image placeholders, aspect-ratio 4/3, object-fit cover
+- border-radius 0 — sharp edges everywhere
+- Hover: rgba(var(--accent-rgb),0.15) overlay + translateY(-2px), 200ms
+
+Style:
+- Grid gap: 3px (tight, magazine-style)
+- Section heading: "IN ACTION" — Space Grotesk Bold
+
+-----------------------------------
+9. FAQ SECTION
+-----------------------------------
+
+Accordion list. bg-[#111827].
+Ghost "08" behind.
+
+Style:
+- Each item: 1px bottom border white/10 only — flat list, no card wrapper
+- Question: Space Grotesk Bold, white, 1rem, uppercase
+- Expand icon: "+" → "–" in var(--accent), no rotation — just swap symbols
+- Answer: Inter Regular, white/60, revealed with max-height transition 300ms ease-out
+- Border-radius 0 on any expanded panel
+
+-----------------------------------
+10. CONTACT SECTION
+-----------------------------------
+
+Two-column. bg-[#0F172A].
+Ghost "09" behind.
+
+Left (45%):
+- Eyebrow: "MAKE YOUR MOVE"
+- Heading: Space Grotesk Bold, 2.25rem, white
+- Contact details: each item = line icon (var(--accent)) + text (Inter Regular, white/70)
+  Phone, Email, Location — each on its own row with 1px separator between rows
+
+Right (55%):
+- Form: Name, Email, Message
+- Input style: bg-transparent, 1px bottom border white/20, no side borders,
+  focus: border-bottom-color var(--accent). No box outline. No rounded corners.
+- CTA: full-width, bg-[var(--accent)], Space Grotesk Bold, white, uppercase,
+  border-radius 0. Hover: bg-[var(--accent-hi)], 200ms.
+
+-----------------------------------
+11. FOOTER
+-----------------------------------
+
+Minimal. bg-[#030712] (near black, darker than page).
+1px top border white/5.
+
+Include:
+- Left: "MARCUS REID" in Space Grotesk Bold, var(--accent)
+- Center: Quick links — Inter Medium, uppercase, white/50, hover: white
+- Right: Social icons (Instagram, Twitter/X, YouTube) — line style, white/40,
+  hover: var(--accent), 200ms
+- Bottom row: copyright + disclaimer, Inter Regular, 0.75rem, white/30
+
+-----------------------------------
+ADDITIONAL REQUIREMENTS
+-----------------------------------
+
+- All accent references must use CSS custom properties (--accent, --accent-hi,
+  --accent-dim, --accent-rgb). Never hardcode hex values in component styles.
+- Organize into separate named React components
+- Tailwind utility classes only
+- No carousels, no sliders
+- Zero rounded corners on images, zero on primary cards
+- All sections must include the ghost number overlay (absolute, z-0, content z-10)
+- Transitions: 200ms ease-out only — no spring physics, no bounce
+- Add .reveal class to major section children for scroll-triggered fade-up animation
+- Dot-grid pattern on hero background via CSS radial-gradient
+- Semantic HTML throughout
+- Mobile: all two-column layouts collapse to single column
+
+Output:
+Return complete React component code using Tailwind CSS. Name it Layout K — Precision.
+```
+
+---
+
+## Layout L — Glass Premium
+
+**Identity:** Modern dark-SaaS aesthetic applied to sports coaching. Near-black zinc-950 background with ambient gradient blobs (purple, indigo, navy) creating layered depth. Glassmorphism cards (backdrop-blur, white/5 fill, white/10 borders). Violet accent (#8B5CF6). DM Sans typography throughout. Feels like a premium athlete management platform — Nike Training Club redesigned by a funded startup. Not cinematic, not stadium — studio. Refined, breathing, modern.
+
+---
+
+```
+Design and build a glass-luxury football coach landing page.
+
+Project Name:
+Layout L — Glass Premium
+
+Tech Stack:
+- React
+- Tailwind CSS
+- Fully responsive
+- Single-page architecture
+- Production-quality component structure
+- Organize into separate named React components: Nav, Hero, StatsBar, About, Services,
+  SuccessStories, Testimonials, VideoGallery, Gallery, FAQ, Contact, Footer
+
+Font Loading:
+- Import DM Sans (Regular 400, Medium 500, Bold 700, ExtraBold 800) from Google Fonts.
+- DM Sans ExtraBold for hero headline and major display numbers.
+- DM Sans Bold for all section headings.
+- DM Sans Medium for card titles, nav items, eyebrow labels, buttons.
+- DM Sans Regular for body text and descriptions.
+- Fall back to system-ui, -apple-system, sans-serif.
+- Only DM Sans — no secondary display typeface.
+- Heading letter-spacing: -0.03em (tight, modern SaaS feel).
+- Body: normal tracking, 1rem–1.0625rem, line-height 1.7.
+
+Visual Identity:
+Premium software aesthetic applied to sports coaching.
+Clean, refined, deeply layered. The glassmorphism cards feel like a premium mobile app
+or dashboard. Ambient gradient blobs give the dark background natural depth.
+This isn't a stadium — it's a studio. The coach is a professional building a craft.
+
+Core inspiration:
+- Linear.app dark mode — systematic, refined
+- Nike Training Club premium interface
+- Modern SaaS dashboards (Vercel, Resend, Clerk dark modes)
+- Adidas Y-3 minimalist sports luxury
+
+Color System:
+- Background: #09090B (Tailwind zinc-950) — true dark, near-black throughout
+- Ambient gradient blobs (positioned absolutely, no animation):
+  Blob 1: Large ellipse, deep purple #3B0764, filter blur(120px), opacity-40, top-left
+  Blob 2: Ellipse, deep indigo #1E1B4B, filter blur(100px), opacity-30, bottom-right
+  Blob 3 (optional): #0C1A4B, blur(80px), opacity-20, center
+  These are <div> elements with fixed pixel dimensions, absolutely positioned, pointer-events-none
+- Primary Accent: Violet #8B5CF6
+- Accent variants: --accent-hi #A78BFA (lighter), --accent-dim #7C3AED (darker)
+- Text: #FFFFFF (headings), #D4D4D8 zinc-300 (body), #71717A zinc-500 (labels)
+- Glass card surface — use for every card in this layout:
+  background: rgba(255,255,255,0.05)
+  backdrop-filter: blur(16px)
+  -webkit-backdrop-filter: blur(16px)
+  border: 1px solid rgba(255,255,255,0.10)
+  border-radius: 12px
+- All accent references MUST use CSS custom properties throughout all components:
+  var(--accent), var(--accent-hi), var(--accent-dim), var(--accent-rgb)
+  Set --accent: #8B5CF6; --accent-hi: #A78BFA; --accent-dim: #7C3AED;
+  --accent-rgb: 139,92,246 in :root. Never hardcode hex values in component styles.
+
+Typography:
+- DM Sans ExtraBold for hero headline: fluid clamp(3rem, 6vw, 5.5rem)
+- DM Sans Bold for section headings: 2rem–2.75rem
+- DM Sans Medium for card titles, nav, labels, eyebrows
+- DM Sans Regular for body: 1.0625rem, line-height 1.7, max-width 65ch
+- Gradient text on hero headline ONLY: var(--accent) → #60A5FA
+  (this is the single decorative exception — do not repeat on other sections)
+- Section eyebrows: DM Sans Medium, 0.75rem, uppercase, letter-spacing 0.1em, var(--accent)
+
+Avoid:
+- Angular or cutout aesthetics (Layout K's signature)
+- Bold slab or condensed typefaces — DM Sans only
+- Diagonal section dividers
+- Warm accent colors (gold, orange, amber)
+- Star ratings or emojis in testimonials
+- Heavy drop shadows — use layered glass depth instead
+- Neon or glowing text — subtle interactive glow only
+- More than one gradient text element per section
+- Ghost section numbers (Layout K's signature)
+
+Glass Card System (apply consistently to every card):
+Resting state:
+  background: rgba(255,255,255,0.05)
+  backdrop-filter: blur(16px)
+  border: 1px solid rgba(255,255,255,0.10)
+  border-radius: 12px
+Hover state (200ms ease-out):
+  background: rgba(255,255,255,0.08)
+  border-color: rgba(var(--accent-rgb),0.40)
+  transform: translateY(-4px)
+  box-shadow: 0 20px 40px rgba(var(--accent-rgb),0.08)
+
+Animation Language:
+- Scroll reveal: opacity 0 → 1 + translateY(16px) → 0, 400ms ease-out, 80ms stagger.
+  Add .reveal class to major section children.
+- Hover: 200ms ease-out for all glass transitions
+- Ambient blobs: STATIC — no animation (movement would be distracting)
+- CTA on hover: background brightens, subtle translateY(-2px), 200ms
+- No loading animations, no skeleton states
+
+Overall feeling:
+"The premium platform for athletes serious about the next level."
+
+Placeholder Content:
+Use realistic placeholder content throughout — not lorem ipsum. Use:
+- Coach name: Andre Silva
+- City/region: Jacksonville, FL
+- Headline: "Engineered for the Next Level."
+- Subheadline: "Precision football development for the committed athlete"
+- Stats: "450+ Athletes Developed", "13 Years Experience", "4.9 Coach Rating"
+- Bio: 2–3 sophisticated sentences — athlete-centered methodology, film-based feedback
+  loops, data-informed training plans. Confident and modern, not hype-driven.
+- Services: Elite Skills Development, Recruiting & Film Package, Mental Performance Coaching
+- Success stories:
+  Athlete 1: Isaiah P. (WR, 3 D2 offers, 100-yard game as a junior)
+  Athlete 2: Nolan F. (K/P, selected for state all-star game, signed with smaller D1)
+- Testimonials: Two quotes — confident and articulate. One parent, one athlete.
+- Videos: One embed placeholder titled "Andre Silva — The Development Methodology"
+- FAQ: 5 questions — program structure, athlete commitment expected, evaluation
+  process, parent involvement, how results are tracked and shared
+- Phone: (904) 555-0267 | Email: coach@andresilvafootball.com
+- Use placeholder image URLs (e.g. https://placehold.co/1200x800/09090B/8B5CF6)
+  with dark backgrounds and violet text
+
+Page Structure:
+Navigation → Hero → Stats Bar → About → Services → Success Stories →
+Testimonials → Video Gallery → Photo Gallery → FAQ → Contact → Footer
+
+-----------------------------------
+0. NAVIGATION (STICKY)
+-----------------------------------
+
+Glass sticky nav. 64px height.
+
+Resting: bg-[#09090B], no border.
+On scroll: backdrop-filter blur(20px), bg-[#09090B]/80,
+           1px border-bottom rgba(255,255,255,0.06) — glass effect activates.
+
+Include:
+- Left: "ANDRE SILVA" in DM Sans Bold, white (not accent — clean restraint)
+- Center: Nav links in DM Sans Medium, zinc-400, hover: white, 200ms
+- Right: "Book a Session" — glass button:
+  1px border rgba(var(--accent-rgb),0.50), DM Sans Medium, white,
+  border-radius 8px, hover: border rgba(var(--accent-rgb),0.80) + bg-white/5
+- Mobile: hamburger → dark overlay nav with glass card
+
+-----------------------------------
+1. HERO SECTION
+-----------------------------------
+
+Full-viewport centered hero. 100vh. bg-[#09090B].
+
+Ambient blobs behind content:
+- Blob 1: Large ellipse div, bg-[#3B0764], filter blur(120px), opacity-40,
+  absolute top-0 left-0, w-[600px] h-[400px], pointer-events-none, z-0
+- Blob 2: div, bg-[#1E1B4B], filter blur(100px), opacity-30,
+  absolute bottom-0 right-0, w-[500px] h-[350px], pointer-events-none, z-0
+
+Content (z-10, relative, centered):
+- Eyebrow chip: glass chip — bg-white/5, 1px border rgba(255,255,255,0.10),
+  border-radius 999px, DM Sans Medium, var(--accent), 0.75rem
+  Text: "JACKSONVILLE, FL · FOOTBALL PERFORMANCE"
+- Headline: DM Sans ExtraBold, clamp(3rem,6vw,5.5rem), gradient text
+  (bg-gradient-to-r from-[var(--accent)] to-[#60A5FA], bg-clip-text text-transparent)
+  "Engineered for the Next Level."
+- Subheadline: DM Sans Regular, 1.25rem, zinc-300, max-width 55ch, centered
+- CTA pair:
+  Primary: bg-[var(--accent)], DM Sans Bold, white, border-radius 8px, px-8 py-3.5
+           hover: bg-[var(--accent-hi)] + translateY(-2px), 200ms
+  Ghost: 1px border rgba(var(--accent-rgb),0.50), transparent, DM Sans Medium, white,
+         border-radius 8px
+- Below CTAs: 3 glass stat chips in a row (glass card system, smaller scale):
+  each has number in DM Sans ExtraBold var(--accent) + label in zinc-400
+
+No full-bleed background image — rely entirely on ambient blobs for depth.
+Coach photo appears in the About section.
+
+Mobile:
+- All content centered
+- Stat chips stack to 1 per row
+- Headline clamp(2.5rem, 8vw, 3.5rem)
+
+-----------------------------------
+2. STATS BAR
+-----------------------------------
+
+Glass strip across full width. bg-[#09090B] with ambient blob behind.
+The glass strip itself: bg-white/[0.04], backdrop-filter blur(16px),
+1px border-y rgba(255,255,255,0.08).
+
+3 stats in a row separated by 1px dividers rgba(255,255,255,0.08):
+- Number: DM Sans ExtraBold, 3rem, var(--accent)
+- Label: DM Sans Medium, 0.875rem, zinc-400, uppercase, letter-spacing 0.08em
+
+-----------------------------------
+3. ABOUT SECTION
+-----------------------------------
+
+Two-column. bg-[#09090B]. Ambient blob (indigo, top-right).
+
+Left (50%):
+- Coach portrait inside a glass frame card:
+  image fills card, glass card border 1px rgba(255,255,255,0.08),
+  border-radius 12px, overflow-hidden
+- Floating stat card overlapping bottom-left of portrait (negative margin or absolute):
+  glass card, small, one key metric: "13 years experience"
+  DM Sans ExtraBold number + DM Sans Medium label
+
+Right (50%):
+- Eyebrow: "ABOUT THE COACH"
+- Section heading: DM Sans Bold, 2.5rem, white
+- Body: 3 paragraphs, DM Sans Regular, zinc-300
+- Pull quote: DM Sans Medium Italic, 1.125rem, var(--accent),
+  2px solid var(--accent) left border, padding-left 1rem
+- Subtle 1px var(--accent)/20 horizontal rule below eyebrow
+
+-----------------------------------
+4. SERVICES SECTION
+-----------------------------------
+
+3 glass cards in a row. bg-[#09090B]. Ambient blob center.
+
+Each card (glass card system):
+- Top gradient tint inside card: bg-gradient-to-b from-[rgba(var(--accent-rgb),0.08)] to-transparent
+- Icon: Simple line SVG or emoji placeholder, var(--accent), 24px
+- Title: DM Sans Bold, white, 1.25rem
+- Description: DM Sans Regular, zinc-300, 0.9375rem
+- Bottom: "Learn more →" DM Sans Medium, var(--accent)
+
+Services:
+- Elite Skills Development
+- Recruiting & Film Package
+- Mental Performance Coaching
+
+-----------------------------------
+5. SUCCESS STORIES SECTION
+-----------------------------------
+
+Two glass cards side by side. bg-[#09090B].
+
+Each card (glass card system):
+- Athlete name: DM Sans ExtraBold, white, 1.5rem
+- Position label: DM Sans Medium, var(--accent), 0.75rem, uppercase
+- Story: DM Sans Regular, zinc-300, italic, 3 sentences
+- Outcome badge at bottom: pill chip — bg-[rgba(var(--accent-rgb),0.12)],
+  border 1px rgba(var(--accent-rgb),0.30), border-radius 999px,
+  DM Sans Medium, var(--accent) (e.g. "3 D2 Offers · Junior Season")
+
+-----------------------------------
+6. TESTIMONIALS SECTION
+-----------------------------------
+
+Two large glass cards. bg-[#09090B]. Ambient blob.
+
+Each card (glass card system):
+- Large decorative " mark: DM Sans ExtraBold, 6rem, var(--accent), opacity-20,
+  absolute top-3 left-4 (inside card, behind text)
+- Quote text: DM Sans Regular, 1.0625rem, zinc-200, italic, line-height 1.8
+- Attribution: DM Sans Bold, white (name) | DM Sans Regular, var(--accent) (role)
+
+-----------------------------------
+7. VIDEO GALLERY SECTION
+-----------------------------------
+
+Centered. bg-[#09090B].
+
+Video embed wrapped in glass card:
+- Glass card system (border-radius 12px, overflow hidden)
+- Inside: thin 3px padding of bg-white/[0.03] before iframe (glass bezel effect)
+- Above embed: DM Sans Bold heading "ON FILM"
+- Below embed: DM Sans Regular, zinc-400, 0.875rem description
+
+-----------------------------------
+8. PHOTO GALLERY SECTION
+-----------------------------------
+
+3-column grid. bg-[#09090B].
+
+Each photo:
+- border-radius 8px, overflow hidden
+- Grid gap: 8px
+- Hover: rgba(var(--accent-rgb),0.15) overlay + scale(1.02), 250ms ease-out
+
+Section heading: "IN ACTION" — DM Sans ExtraBold
+
+-----------------------------------
+9. FAQ SECTION
+-----------------------------------
+
+Glass accordion. bg-[#09090B]. Ambient blob.
+
+Each FAQ item: individual glass card (glass card system).
+- Closed: DM Sans Medium, white question text, "+" in var(--accent), right-aligned
+- Open: expanded, answer in DM Sans Regular, zinc-300
+  border-color shifts to rgba(var(--accent-rgb),0.30) when open
+- Transition: max-height 300ms ease-out, opacity 300ms
+- Space between cards: gap-3
+
+-----------------------------------
+10. CONTACT SECTION
+-----------------------------------
+
+Two-column. bg-[#09090B]. Ambient blob (purple, left).
+
+Left:
+- Heading: DM Sans ExtraBold, 2.25rem, white
+- Brief DM Sans Regular, zinc-300 text
+- Contact info: icon (var(--accent), 16px line) + DM Sans Regular, zinc-300 text
+  Phone, Email, Location — each row
+
+Right:
+- Entire form inside a glass card (glass card system)
+- Inputs: bg-white/5, 1px border rgba(255,255,255,0.10), border-radius 8px
+  focus: border-color rgba(var(--accent-rgb),0.60)
+- Labels: DM Sans Medium, zinc-400, 0.875rem
+- CTA: bg-[var(--accent)], DM Sans Bold, white, border-radius 8px, full-width
+  hover: bg-[var(--accent-hi)], 200ms
+
+-----------------------------------
+11. FOOTER
+-----------------------------------
+
+bg-[#09090B]. 1px top border rgba(255,255,255,0.05).
+
+Include:
+- Coach name: DM Sans Bold, white, 1.125rem
+- Quick nav: DM Sans Medium, zinc-400, hover: white
+- Social icons: line style, zinc-400, hover: var(--accent)
+- Copyright + disclaimer: DM Sans Regular, 0.75rem, zinc-600
+
+-----------------------------------
+ADDITIONAL REQUIREMENTS
+-----------------------------------
+
+- All accent references must use CSS custom properties: var(--accent), var(--accent-hi),
+  var(--accent-dim), var(--accent-rgb). Never hardcode hex values in component styles.
+- Organize into separate named React components
+- Tailwind utility classes only
+- Ambient gradient blobs: absolutely positioned <div> elements, fixed dimensions,
+  CSS filter blur(), low opacity, pointer-events-none, placed as background layers
+- No carousels, no sliders
+- Mobile: glass cards stack to single column
+- Add .reveal class (translateY(16px) + opacity) to major section children
+- Semantic HTML throughout
+- Ensure backdrop-filter has -webkit-backdrop-filter fallback on all glass elements
+
+Output:
+Return complete React component code using Tailwind CSS. Name it Layout L — Glass Premium.
+```
+
+---
+
+## Layout M — Dark Editorial
+
+**Identity:** The dark counterpart to Layout I. Warm near-black (#0D0B09) with ivory/cream gold accent (#D4AF7A). DM Serif Display headlines, DM Sans body. Long-form editorial layouts — feels like GQ Dark Issue or ESPN The Magazine Night Edition. Full-width photography breaks between sections like magazine spreads. Pull quotes break columns. Long paragraphs are the point. The coach's story is the product, and this site tells it slowly and luxuriously.
+
+---
+
+```
+Design and build a dark editorial, long-form football coach landing page.
+
+Project Name:
+Layout M — Dark Editorial
+
+Tech Stack:
+- React
+- Tailwind CSS
+- Fully responsive
+- Single-page architecture
+- Production-quality component structure
+- Organize into separate named React components: Nav, Hero, StatsBar, About,
+  ImageBreak, Services, SuccessStories, Testimonials, VideoGallery, Gallery,
+  FAQ, Contact, Footer
+
+Font Loading:
+- Import DM Serif Display (Regular, Italic) and DM Sans (Regular 400, Medium 500,
+  SemiBold 600) from Google Fonts.
+- DM Serif Display for hero headline, section headings, pull quotes, athlete names.
+- DM Serif Display Italic specifically for pull quotes, testimonials, featured callouts.
+- DM Sans SemiBold for eyebrow labels, nav items, buttons (uppercase).
+- DM Sans Regular for all body text, captions, descriptions.
+- Fall back: Georgia, 'Times New Roman', serif (display) | system-ui, sans-serif (body).
+- Generous line-height: 1.85 on body, 1.1 on large display headings.
+- Heading tracking: normal to slightly loose — sentence case throughout, never all-caps.
+
+Visual Identity:
+Dark sports magazine.
+This is NOT a landing page — it is a story told in editorial format.
+Every section should feel like turning a page in a premium publication.
+The visitor reads slowly, immersed. Long paragraphs are not only fine — they're the point.
+Photography fills space at full section width. Typography leads the experience.
+
+Core inspiration:
+- GQ, Esquire, The Atlantic — in dark mode
+- ESPN The Magazine (long-form dark edition)
+- Field & Stream editorial design applied to sports
+- Dark academic / premium publishing aesthetic
+
+Color System:
+- Background layers (alternate for visual rhythm):
+  - Primary: #0D0B09 (warm near-black — never cold or blue-shifted)
+  - Offset: #141210 (slightly lighter warm dark)
+- Primary Accent: Ivory cream gold #D4AF7A (muted antique gold — not electric, not neon)
+- Text: #F5F0EA (headings, warm white), #B8B0A4 (body), #7A7470 (labels/captions)
+- Card backgrounds: #1A1714 with 1px border rgba(212,175,122,0.15)
+- All accent references MUST use CSS custom properties throughout all components:
+  var(--accent), var(--accent-hi), var(--accent-dim), var(--accent-rgb)
+  Set --accent: #D4AF7A; --accent-hi: #E8C99C; --accent-dim: #B8935A;
+  --accent-rgb: 212,175,122 in :root. Never hardcode hex values in component styles.
+
+Typography:
+- DM Serif Display: all section headings, hero headline — sentence case always (not ALL CAPS)
+- DM Serif Display Italic: pull quotes at 1.75rem–2.25rem, testimonial quotes,
+  hero opening statement
+- DM Sans SemiBold: eyebrows (uppercase, letter-spacing 0.12em), nav, buttons
+- DM Sans Regular: body text, 1.0625rem, line-height 1.85, max-width 65ch
+- Eyebrow format: "01 — ABOUT" — DM Sans SemiBold, 0.75rem, uppercase,
+  letter-spacing 0.12em, var(--accent)/70
+- Horizontal rules: 1px rgba(212,175,122,0.20) — use generously as editorial separators
+
+Avoid:
+- All-caps display headings (editorial uses sentence case — that's what separates this
+  from the stadium layouts)
+- Giant ghost numbers behind sections (Layout K's signature)
+- Glassmorphism or backdrop-blur effects (Layout L's signature)
+- Electric, neon, or saturated accent colors — ivory only
+- Card grid layouts for primary sections — prefer horizontal editorial spreads
+- Hover glow effects — use subtle color shifts only (150ms ease)
+- Tight letter-spacing on body copy — this reads like a book
+- Carousels or sliders
+- Section headings that repeat the eyebrow label
+
+Signature Design Details:
+- Full-width image breaks: <ImageBreak> component — full viewport width (break out of
+  container with w-screen negative margin or separate layout), height 50vh–60vh,
+  object-fit cover, dark overlay rgba(0,0,0,0.40). A subtle caption in DM Sans Regular,
+  0.8125rem, #7A7470, italic, bottom-left with padding.
+- Pull quotes: DM Serif Display Italic, 1.875rem–2.25rem, var(--accent), breaking wider
+  than the text column (e.g. max-width: 900px when body is 65ch). 2px solid var(--accent)
+  horizontal rule above and below the quote, py-6.
+- Section eyebrows: "01 — ABOUT", "02 — SERVICES" — numeric prefix with em dash.
+- Image captions: every photo gets a DM Sans Regular, 0.8125rem, #7A7470, italic caption
+  left-aligned below it.
+- Horizontal rules: 1px rgba(212,175,122,0.20) used between logical blocks within sections.
+
+Animation Language:
+- Scroll reveal: FADE ONLY — opacity 0 → 1, NO translateY movement.
+  Duration 600ms ease-in-out. No stagger — editorial elements reveal independently.
+- No hover lift on cards or images
+- Link hover: color → var(--accent-hi), underline appears, 150ms ease
+- Full-width image breaks: no animation — they appear like a printed spread
+- CTA button hover: border-color brightens, bg shifts, 150ms ease
+
+Overall feeling:
+"This coach has a story worth reading from start to finish."
+
+Placeholder Content:
+Use realistic placeholder content throughout — not lorem ipsum. Use:
+- Coach name: Raymond Cross
+- City/region: Fleming Island, FL
+- Headline: "Seventeen Years Building Men Through Football."
+- Subheadline: "Clay County's most trusted football development coach."
+- Opening statement (large DM Serif Display Italic):
+  "Every player I've ever coached — I know exactly where they are today."
+- Stats: "17 Years Coaching", "340+ Athletes Coached", "Clay County Legacy"
+- Bio: Long-form, 3–4 rich paragraphs — origin story, defining coaching moment,
+  what drives him now, what he believes about athletics and character.
+  Extract 2–3 pull quotes from the bio text.
+- Services: Private Skills Development, Pre-Season Training Intensive,
+  Senior Recruiting Support
+- Success stories: Two athlete narratives — each 4–5 sentences with emotional arc:
+  where they started, what changed, what they became.
+  Athlete 1: Devon H. (QB who almost quit, went on to sign JUCO)
+  Athlete 2: Marcus L. (undersized LB, became team captain on a county finalist)
+- Testimonials: Three long quotes — one parent, one former player, one peer coach.
+  These should feel like interview excerpts, not blurb snippets.
+- Videos: One embed titled "Coach Cross — On the Practice of Coaching"
+- FAQ: 5 thoughtful questions about coaching philosophy, long-term development, how he
+  handles adversity with athletes, what the program demands, what he's most proud of
+- Phone: (904) 555-0312 | Email: coach@raymondcross.com
+- Use placeholder image URLs (e.g. https://placehold.co/1600x800/0D0B09/D4AF7A)
+  with warm dark backgrounds and ivory text
+
+Page Structure:
+Navigation → Hero → Stats Bar → About → [Full-Width Image Break] →
+Services → [Full-Width Image Break] → Success Stories → Testimonials →
+Video Gallery → Photo Gallery → FAQ → Contact → Footer
+
+-----------------------------------
+0. NAVIGATION (STICKY)
+-----------------------------------
+
+Editorial sticky nav. 60px height. Minimal.
+
+Resting: bg-[#0D0B09], no border.
+On scroll: 1px border-bottom rgba(212,175,122,0.15) appears — no blur, no shadow.
+
+Include:
+- Left: "Raymond Cross" in DM Serif Display (not italic), 1.125rem, #F5F0EA
+- Center: Nav links in DM Sans SemiBold, uppercase, 0.75rem, letter-spacing 0.12em,
+  #7A7470, hover: var(--accent), 150ms ease
+- Right: "Book a Session" — 1px solid rgba(var(--accent-rgb),0.50) border,
+  DM Sans SemiBold, var(--accent), border-radius 0, uppercase, 0.75rem
+- Mobile: hamburger → full-screen dark overlay nav
+
+-----------------------------------
+1. HERO SECTION
+-----------------------------------
+
+Full-height editorial hero. 100vh. bg-[#0D0B09].
+
+Background: full-bleed photo with overlay linear-gradient(
+  to right, rgba(13,11,9,0.75) 0%, rgba(13,11,9,0.35) 100%)
+The image reads from the right, content floats left — not a centered overlay.
+
+Left-anchored content block (max-width 640px, left aligned):
+- Eyebrow: "01 — FLEMING ISLAND, CLAY COUNTY" — DM Sans SemiBold, 0.75rem,
+  uppercase, letter-spacing 0.12em, var(--accent)/70
+- Coach name: "Raymond Cross" — DM Serif Display, 1.125rem, #F5F0EA/70
+  (understated — the headline dominates)
+- Headline: DM Serif Display, clamp(3.5rem, 6vw, 6rem), #F5F0EA, line-height 1.05
+  "Seventeen Years Building Men Through Football."
+- Opening statement: DM Serif Display Italic, 1.375rem, var(--accent)/80, mt-6
+  "Every player I've ever coached — I know exactly where they are today."
+- CTA: "Work with Coach Cross" — 1px solid var(--accent) border, DM Sans SemiBold,
+  var(--accent), uppercase, border-radius 0, px-8 py-3, ghost only (no fill)
+  hover: bg-[rgba(var(--accent-rgb),0.08)], 150ms
+
+Mobile:
+- Overlay darkens to rgba(13,11,9,0.85)
+- Content vertically centered, full width
+- Headline clamp(2.75rem, 8vw, 4rem)
+
+-----------------------------------
+2. STATS BAR
+-----------------------------------
+
+Understated horizontal strip. bg-[#141210].
+1px top border rgba(212,175,122,0.15), 1px bottom border rgba(212,175,122,0.15).
+
+3 stats separated by 1px vertical dividers rgba(212,175,122,0.15):
+- Number: DM Serif Display, 3.5rem, #F5F0EA
+- Label: DM Sans SemiBold, 0.75rem, uppercase, letter-spacing 0.12em, #7A7470
+
+No icons. No glow. Pure typography.
+
+-----------------------------------
+3. ABOUT SECTION
+-----------------------------------
+
+Long-form two-column editorial layout. bg-[#0D0B09].
+Eyebrow: "02 — ABOUT"
+
+Left column (40%):
+- Portrait photo, full column height, object-cover, no rounded corners
+- Caption below: DM Sans Regular, 0.8125rem, #7A7470, italic
+  (e.g. "Coach Cross during fall training camp, 2023")
+
+Right column (60%):
+- Eyebrow label + 1px rule rgba(212,175,122,0.20) below eyebrow
+- Section heading: DM Serif Display, 2.5rem, #F5F0EA
+- Body text: 3–4 paragraphs, DM Sans Regular, 1.0625rem, #B8B0A4, line-height 1.85
+- Pull quote (after second paragraph, breaking column wider):
+  DM Serif Display Italic, 1.875rem, var(--accent)
+  2px solid var(--accent) rule above and below, py-6, max-width 120% of column
+- Second pull quote (after third paragraph) — different sentence
+
+1px rule rgba(212,175,122,0.20) below the full two-column section.
+
+-----------------------------------
+4. FULL-WIDTH IMAGE BREAK
+-----------------------------------
+
+<ImageBreak> component. Break out of container: w-screen, positioned with negative
+horizontal margin to override container padding.
+Height: 55vh. object-fit cover. object-position: center 30%.
+Dark overlay: rgba(13,11,9,0.40).
+Caption: DM Sans Regular, 0.8125rem, #F5F0EA/60, italic,
+  absolute bottom-4 left-8
+
+-----------------------------------
+5. SERVICES SECTION
+-----------------------------------
+
+Horizontal editorial layout — NOT a card grid. bg-[#141210].
+Eyebrow: "03 — SERVICES"
+
+3 services in a 3-column layout separated by 1px vertical rules rgba(212,175,122,0.15):
+
+Each service item:
+- Decorative number: DM Serif Display Italic, 3rem, var(--accent)/25 (large, left-aligned)
+- Service title: DM Serif Display, 1.5rem, #F5F0EA
+- 1px rule rgba(212,175,122,0.20) between number/title and description
+- Description: DM Sans Regular, 0.9375rem, #B8B0A4, line-height 1.7
+
+Hover: title color shifts to var(--accent), 150ms ease. No lift.
+
+Services:
+- Private Skills Development
+- Pre-Season Training Intensive
+- Senior Recruiting Support
+
+-----------------------------------
+6. FULL-WIDTH IMAGE BREAK (second)
+-----------------------------------
+
+Same <ImageBreak> component. Different photo, different crop/position.
+
+-----------------------------------
+7. SUCCESS STORIES SECTION
+-----------------------------------
+
+Long-form narrative layout. bg-[#0D0B09].
+Eyebrow: "04 — ATHLETE STORIES"
+
+Section heading: DM Serif Display, 2.5rem, #F5F0EA.
+
+Two stories stacked vertically (each takes full width — not side by side):
+Each story:
+- Athlete name: DM Serif Display, 2rem, #F5F0EA
+- Position label: DM Sans SemiBold, 0.75rem, uppercase, var(--accent), letter-spacing 0.1em
+- 1px rule rgba(212,175,122,0.20)
+- Story text: DM Sans Regular, 1rem, #B8B0A4, line-height 1.85, max-width 65ch
+- Outcome line: DM Serif Display Italic, 1.125rem, var(--accent) — key result as a
+  short italic declaration (e.g. "Devon signed with a JUCO program in the fall of 2023.")
+- 1px separator below (not below last story)
+
+-----------------------------------
+8. TESTIMONIALS SECTION
+-----------------------------------
+
+3 testimonial quotes — long and genuine. bg-[#141210].
+Eyebrow: "05 — VOICES"
+
+3-column layout (stacks on mobile):
+Each quote:
+- 1px top border rgba(212,175,122,0.20) — rule before each quote
+- Large decorative " mark: DM Serif Display Italic, 5rem, var(--accent)/20, absolute
+- Quote text: DM Serif Display Italic, 1.0625rem, #F5F0EA/85, line-height 1.7
+- Attribution: DM Sans SemiBold, 0.875rem, #F5F0EA (name) |
+  DM Sans Regular, var(--accent)/70 (role)
+
+-----------------------------------
+9. VIDEO GALLERY SECTION
+-----------------------------------
+
+Centered editorial presentation. bg-[#0D0B09].
+Eyebrow: "06 — ON FILM"
+
+- Section heading: DM Serif Display, 2rem, #F5F0EA
+- Video embed: 16:9 responsive, max-width 860px, centered, mx-auto
+- Thin 1px border around embed: rgba(212,175,122,0.20)
+- No rounded corners on embed wrapper
+- Caption below: DM Sans Regular, 0.875rem, #7A7470, italic
+
+-----------------------------------
+10. PHOTO GALLERY SECTION
+-----------------------------------
+
+2-column grid with alternating heights. bg-[#141210].
+Eyebrow: "07 — THE FIELD"
+
+6 images in 2 columns:
+- Odd items: aspect-ratio 4/3
+- Even items: aspect-ratio 3/4 (portrait)
+- No rounded corners
+- Grid gap: 4px
+- No hover overlay — let the images speak
+
+-----------------------------------
+11. FAQ SECTION
+-----------------------------------
+
+Flat editorial Q&A — NOT an accordion (all answers visible). bg-[#0D0B09].
+Eyebrow: "08 — QUESTIONS"
+
+Each Q&A pair:
+- Question: DM Serif Display, 1.25rem, #F5F0EA
+- 1px rule rgba(212,175,122,0.20) below question
+- Answer: DM Sans Regular, 1rem, #B8B0A4, line-height 1.85
+- 3rem margin-bottom between pairs
+
+No expand/collapse — editorial pages don't fold.
+
+-----------------------------------
+12. CONTACT SECTION
+-----------------------------------
+
+Two-column editorial layout. bg-[#141210].
+Eyebrow: "09 — WORK TOGETHER"
+
+Left (45%):
+- Section heading: DM Serif Display, 2.5rem, #F5F0EA
+- Contact info: DM Sans Regular, #B8B0A4 — phone, email, city on separate lines
+  1px rules rgba(212,175,122,0.15) between each contact line
+- Opening italic line below: DM Serif Display Italic, 1.125rem, var(--accent)/80
+  (e.g. "Ready to build something worth remembering?")
+
+Right (55%):
+- Form: Name, Email, Phone (optional), Message
+- Inputs: bg-transparent, 1px bottom border rgba(212,175,122,0.25) only (no box),
+  DM Sans Regular, #B8B0A4, focus: bottom border-color var(--accent), no outline ring
+- No rounded corners
+- Labels: DM Sans SemiBold, 0.75rem, uppercase, #7A7470, letter-spacing 0.1em
+- CTA: "Send a Message" — bg-[var(--accent)], DM Sans SemiBold, #0D0B09 (dark text),
+  uppercase, border-radius 0, px-8 py-3.5, full-width
+  hover: bg-[var(--accent-hi)], 150ms
+
+-----------------------------------
+13. FOOTER
+-----------------------------------
+
+bg-[#0A0806] (darker than page). 1px top border rgba(212,175,122,0.15).
+
+Layout: centered, generous padding.
+- Top: Coach name in DM Serif Display, 2rem, #F5F0EA/50 — large, typographic, centered
+- Middle: Quick nav in DM Sans SemiBold, uppercase, 0.75rem, #7A7470, hover: var(--accent)
+  Social icons: line style, #7A7470, hover: var(--accent)
+- Bottom: DM Sans Regular, 0.75rem, #7A7470 — copyright and disclaimer
+
+-----------------------------------
+ADDITIONAL REQUIREMENTS
+-----------------------------------
+
+- All accent references must use CSS custom properties: var(--accent), var(--accent-hi),
+  var(--accent-dim), var(--accent-rgb). Never hardcode hex values in component styles.
+- Organize into separate named React components (include <ImageBreak> component)
+- Tailwind utility classes only — exception: <ImageBreak> may use negative margin
+  technique (e.g. mx-[-5vw] w-[calc(100%+10vw)]) to break out of container padding
+- Body text everywhere: line-height 1.85, max-width 65ch
+- No carousels, no sliders
+- Scroll reveal: fade only (opacity 0→1, NO translateY), 600ms ease-in-out
+- Semantic HTML: <article> for athlete stories, <blockquote> for testimonials
+- Use <figure> + <figcaption> for all photos
+- Mobile: two-column layouts collapse to single column
+
+Output:
+Return complete React component code using Tailwind CSS. Name it Layout M — Dark Editorial.
 ```
 
 ---
