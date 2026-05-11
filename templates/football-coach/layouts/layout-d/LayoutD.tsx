@@ -1,5 +1,5 @@
 "use client"
-import { useState, useCallback } from "react"
+import React, { useState, useCallback } from "react"
 import type { CoachConfig } from "@/lib/useConfig"
 import Nav from "./Nav"
 import Hero from "./Hero"
@@ -62,7 +62,8 @@ export default function LayoutD({ config }: { config: CoachConfig }) {
             const ContactSection = Section as typeof Contact
             return <ContactSection key={key} config={config} onSuccess={showToast} />
           }
-          return <Section key={key} config={config} />
+          const SectionComponent = Section as React.ComponentType<{ config: CoachConfig }>
+          return <SectionComponent key={key} config={config} />
         })}
       </main>
       <Footer config={config} />
