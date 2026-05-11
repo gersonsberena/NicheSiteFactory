@@ -4,6 +4,7 @@ import { getConfig } from "@/lib/useConfig"
 import LayoutA from "@/templates/football-coach/layouts/layout-a/LayoutA"
 import LayoutB from "@/templates/football-coach/layouts/layout-b/LayoutB"
 import LayoutC from "@/templates/football-coach/layouts/layout-c/LayoutC"
+import LayoutD from "@/templates/football-coach/layouts/layout-d/LayoutD"
 import DemoCTA from "@/app/_demo-cta"
 
 const BANNER_H = 58
@@ -65,5 +66,6 @@ export default async function Page({
   const wrapperStyle = { "--demo-banner-h": `${BANNER_H}px` } as React.CSSProperties
   if (config.layout === "B") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutB config={config} /></div></div>
   if (config.layout === "C") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutC config={config} /></div></div>
+  if (config.layout === "D") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutD config={config} /></div></div>
   return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutA config={config} /></div></div>
 }

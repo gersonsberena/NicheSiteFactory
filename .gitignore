@@ -14,6 +14,8 @@ out
 .DS_Store
 *.pem
 npm-debug.log*
+~$*.xlsx
+~$*.xls
 
 # scraped lead data — contains real personal info, never commit
 data/
