@@ -1,8 +1,16 @@
 import type { CoachConfig } from "@/lib/useConfig"
 
+function getYouTubeEmbedUrl(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/)
+  if (!match) return null
+  return `https://www.youtube.com/embed/${match[1]}`
+}
+
 export default function VideoGallery({ config }: { config: CoachConfig }) {
-  const videos = config.videos
-  if (!videos?.length) return null
+  const raw = config.videos
+  if (!raw?.length) return null
+  const videos = raw.map((v) => ({ ...v, embedUrl: getYouTubeEmbedUrl(v.youtube_url) })).filter((v) => v.embedUrl)
+  if (!videos.length) return null
 
   return (
     <section className="py-24 md:py-32">
@@ -25,7 +33,7 @@ export default function VideoGallery({ config }: { config: CoachConfig }) {
             <div key={i}>
               <div className="relative w-full" style={{ paddingBottom: "56.25%", background: "var(--bg2)", border: "1px solid rgba(var(--accent-rgb),0.2)" }}>
                 <iframe
-                  src={v.youtube_url}
+                  src={v.embedUrl!}
                   title={v.title ?? `Training video ${i + 1}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

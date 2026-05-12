@@ -2,8 +2,11 @@
   "layout": "A",
   "about": {
     "name": "Chaz Morgan",
-    "sport": "Football",
-    "state": "FL"
+    "city": "Ponchatoula",
+    "state": "Louisiana",
+    "sport": "Football"
   },
-  "contact": {}
+  "hero": {
+    "subline": "Elite football coaching for serious athletes in Louisiana"
+  }
 }

@@ -1,8 +1,16 @@
 import type { CoachConfig } from "@/lib/useConfig"
 
+function getYouTubeEmbedUrl(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/)
+  if (!match) return null
+  return `https://www.youtube.com/embed/${match[1]}`
+}
+
 export default function VideoGallery({ config }: { config: CoachConfig }) {
-  const vids = config.videos
-  if (!vids?.length) return null
+  const raw = config.videos
+  if (!raw?.length) return null
+  const vids = raw.map((v) => ({ ...v, embedUrl: getYouTubeEmbedUrl(v.youtube_url) })).filter((v) => v.embedUrl)
+  if (!vids.length) return null
   return (
     <section id="video-gallery" className="py-20 md:py-28 relative overflow-hidden" style={{ background: "var(--bg)" }}>
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
@@ -19,7 +27,7 @@ export default function VideoGallery({ config }: { config: CoachConfig }) {
               style={{ background: "rgba(255,255,255,0.04)", backdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.08)" }}>
               <div style={{ position: "relative", paddingBottom: "56.25%" }}>
                 <iframe
-                  src={v.youtube_url}
+                  src={v.embedUrl!}
                   title={v.title ?? `Video ${i + 1}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
