@@ -5,6 +5,14 @@ import LayoutA from "@/templates/football-coach/layouts/layout-a/LayoutA"
 import LayoutB from "@/templates/football-coach/layouts/layout-b/LayoutB"
 import LayoutC from "@/templates/football-coach/layouts/layout-c/LayoutC"
 import LayoutD from "@/templates/football-coach/layouts/layout-d/LayoutD"
+import LayoutE from "@/templates/football-coach/layouts/layout-e/LayoutE"
+import LayoutF from "@/templates/football-coach/layouts/layout-f/LayoutF"
+import LayoutG from "@/templates/football-coach/layouts/layout-g/LayoutG"
+import LayoutH from "@/templates/football-coach/layouts/layout-h/LayoutH"
+import LayoutI from "@/templates/football-coach/layouts/layout-i/LayoutI"
+import LayoutK from "@/templates/football-coach/layouts/layout-k/LayoutK"
+import LayoutL from "@/templates/football-coach/layouts/layout-l/LayoutL"
+import LayoutM from "@/templates/football-coach/layouts/layout-m/LayoutM"
 import DemoCTA from "@/app/_demo-cta"
 
 const BANNER_H = 58
@@ -67,5 +75,13 @@ export default async function Page({
   if (config.layout === "B") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutB config={config} /></div></div>
   if (config.layout === "C") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutC config={config} /></div></div>
   if (config.layout === "D") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutD config={config} /></div></div>
+  if (config.layout === "E") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutE config={config} /></div></div>
+  if (config.layout === "F") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutF config={config} /></div></div>
+  if (config.layout === "G") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutG config={config} /></div></div>
+  if (config.layout === "H") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutH config={config} /></div></div>
+  if (config.layout === "I") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutI config={config} /></div></div>
+  if (config.layout === "K") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutK config={config} /></div></div>
+  if (config.layout === "L") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutL config={config} /></div></div>
+  if (config.layout === "M") return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutM config={config} /></div></div>
   return <div style={wrapperStyle}>{overlay}<div style={{ paddingTop: BANNER_H }}><LayoutA config={config} /></div></div>
 }

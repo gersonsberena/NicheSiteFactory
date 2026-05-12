@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Swim Coach",
+    "bio": "From first-time age-groupers to competitive high school and club swimmers, I focus on the stroke technique and race intelligence that turn hard work into fast times. Every swimmer I coach understands not just how to swim, but why they're swimming it that way.",
+    "years_experience": 10,
+    "specialty": "Stroke Technique & Race Strategy",
+    "age_groups": "Youth · Age Group · High School",
+    "photo": "/stock/swimming/about/about-01.jpg",
+    "credentials": ["ASCA Certified", "Former Collegiate Swimmer"],
+    "sport": "Swimming"
+  },
+
+  "hero": {
+    "headline": "Train the Stroke. Win the Race.",
+    "subline": "Private swim coaching — stroke development, starts and turns, and race strategy for swimmers who want to drop time and compete at the next level.",
+    "photo": "/stock/swimming/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "250+", "label": "Swimmers Coached" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "40+", "label": "Time Drops" }
+  ],
+
+  "services": [
+    {
+      "title": "Stroke Development",
+      "description": "Freestyle, backstroke, breaststroke, and butterfly — technique sessions targeting body position, pull mechanics, kick timing, and breathing.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Starts & Turns",
+      "description": "Race starts, flip turns, and underwater dolphin kicks — the often-overlooked phases where significant time can be gained.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Race Strategy & Recruiting",
+      "description": "Pacing plans, split strategies, and taper guidance for competitive swimmers. Recruiting profile guidance for college-bound athletes."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter dropped 4 seconds in her 100 free in one season. The work on her flip turns and underwaters made a huge difference.",
+      "name": "Angela B.",
+      "role": "Parent of High School Swimmer",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "My breaststroke technique was completely broken. After a few sessions, I rebuilt it and dropped almost 3 seconds at my next meet.",
+      "name": "Noah K.",
+      "role": "Club Swimmer",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/swimming/gallery/gallery-01.jpg",
+      "/stock/swimming/gallery/gallery-02.jpg",
+      "/stock/swimming/gallery/gallery-03.jpg",
+      "/stock/swimming/gallery/gallery-04.jpg",
+      "/stock/swimming/gallery/gallery-05.jpg",
+      "/stock/swimming/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Emma T.",
+      "role": "Freestyle/IM, Creekside High",
+      "story": "Emma had a strong freestyle but her butterfly was limiting her IM performance. We spent the fall rebuilding her butterfly mechanics and her underwater dolphin kick timing.",
+      "result": "State Qualifier · IM Time Drop 6 sec · College Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you coach?",
+      "answer": "I work with swimmers from age 6 through college level. Sessions are designed for your current stroke development and goals."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at local pool facilities in the area. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "In-water sessions run 60 minutes. Video analysis sessions can be added to any lesson."
+    },
+    {
+      "question": "What should my swimmer bring?",
+      "answer": "Competition or training suit, goggles, swim cap, and water. Fins and pull buoys are provided."
+    },
+    {
+      "question": "Can you work alongside my swimmer's club program?",
+      "answer": "Yes — individual sessions are designed to complement club training, not conflict with it. I coordinate with coaches on request."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "TRAIN THE STROKE. WIN THE RACE.",
+    "hero_availability": "Lane Time · Now Available",
+    "about_tagline": "BUILT IN THE WATER. PROVEN ON THE CLOCK.",
+    "about_quote": "Fast swimmers aren't just fit — they're technically sound. Every hundredth of a second is earned in practice.",
+    "services_tagline": "COACHING THAT DROPS TIME.",
+    "services_subline": "Stroke mechanics, starts and turns, and race strategy — three areas where we find your next personal best.",
+    "testimonials_tagline": "RESULTS ON THE CLOCK.",
+    "testimonials_eyebrow": "Voices From the Pool",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Lane time fills fast. Reach out today to book your session.",
+    "gallery_label": "In the Pool",
+    "marquee_text": "STROKE PERFECT ★ TURN FAST ★ DROP TIME ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Stroke Review"
+  }
+}

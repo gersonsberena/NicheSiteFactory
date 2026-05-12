@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Coach Aaron Mitchell | Data-Driven Football Training — Orlando, FL",
+    "description": "Orlando's results-focused football coach. Measurable performance gains backed by data."
+  },
+  "layout": "H",
+  "about": {
+    "name": "Coach Aaron Mitchell",
+    "title": "Performance Football Coach",
+    "city": "Orlando",
+    "county": "Orange",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Athletic Performance & Player Development",
+    "years_experience": 10,
+    "bio": "Coach Aaron Mitchell blends sport science with old-school football fundamentals to produce measurable, trackable results. Every athlete in his program is assessed at intake, re-evaluated every four weeks, and exits with verifiable proof of improvement — on paper and on the field. His data-first approach has earned him a reputation as Orlando's most accountable football trainer.",
+    "photo": "/stock/football/about/about-01.jpg",
+    "credentials": ["NSCA-CSCS", "Former Collegiate Athlete", "FMS Certified"],
+    "age_groups": "Youth · Middle School · High School"
+  },
+  "hero": {
+    "headline": "Measure It. Improve It. Prove It.",
+    "subline": "Football performance coaching with real data, real benchmarks, and real results.",
+    "photo": "/stock/football/hero/hero-01.jpg",
+    "cta_text": "Get Assessed"
+  },
+  "stats": [
+    { "value": "10+", "label": "Years Coaching" },
+    { "value": "350+", "label": "Athletes Assessed" },
+    { "value": "94%", "label": "Hit Their Goal" },
+    { "value": "4.7★", "label": "Avg Rating" }
+  ],
+  "services": [
+    {
+      "title": "Performance Assessment",
+      "description": "Baseline testing: 40-yard, vertical, agility, strength — full report delivered in 48 hours.",
+      "price": "$75 / assessment"
+    },
+    {
+      "title": "Individualized Training Plan",
+      "description": "12-week plan built from your assessment data. Every session has a measurable target.",
+      "price": "$120 / month"
+    },
+    {
+      "title": "In-Season Maintenance",
+      "description": "Weekly sessions focused on injury prevention, load management, and game-week activation.",
+      "price": "$80 / session"
+    }
+  ],
+  "success_stories": [
+    {
+      "athlete": "Tyler B.",
+      "result": "40-yard dash: 5.1 → 4.7",
+      "story": "8 weeks of sprint mechanics and hip activation work. Tyler earned a starting spot at his high school after training.",
+      "position": "Running Back"
+    },
+    {
+      "athlete": "James K.",
+      "result": "Vertical jump: 24\" → 31\"",
+      "story": "Plyometric progression and posterior chain strength built over 10 weeks. Recruited by two D2 programs.",
+      "position": "Wide Receiver"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Mitchell showed us the numbers every step of the way. No guessing — we always knew my son was improving.",
+      "name": "Sandra K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "First coach who ever gave me a written plan and tracked everything. My recruiting profile looked completely different after 3 months.",
+      "name": "James K.",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "The assessment alone was worth it. We finally understood exactly what Tyler needed to work on.",
+      "name": "Marcus B.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "What does the assessment include?", "answer": "40-yard dash, 3-cone, vertical jump, broad jump, grip strength, and a movement screen. You receive a written report within 48 hours." },
+    { "question": "How often will my athlete be re-evaluated?", "answer": "Re-assessment every 4 weeks. You'll see the delta on every metric so you always know the program is working." },
+    { "question": "Do you work with athletes who are currently in-season?", "answer": "Yes — the In-Season Maintenance program is designed for athletes who need to stay sharp without overloading during their competitive season." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "h_accent_color": "orange",
+    "h_bg_tone": "white"
+  },
+  "copy_variants": {
+    "hero_tagline": "DATA. DEVELOPMENT. DOMINANCE.",
+    "hero_availability": "Fall Assessments — Now Scheduling"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Coach Victor Castillo | Football Development — Tampa, FL",
+    "description": "Tampa's premier football development coach. Building the complete athlete, on and off the field."
+  },
+  "layout": "I",
+  "about": {
+    "name": "Coach Victor Castillo",
+    "title": "Head Football Coach",
+    "city": "Tampa",
+    "county": "Hillsborough",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Linebacker & Defensive Development",
+    "years_experience": 14,
+    "bio": "Coach Victor Castillo built his reputation on the defensive side of the ball. A former Division I linebacker at the University of South Florida, he brings an intensity and technical precision to linebacker and defensive back development that is unmatched in the Tampa Bay area. In fourteen years of coaching, he has developed athletes who have gone on to play at the collegiate and professional levels — and more importantly, young men who understand what it means to compete with discipline.",
+    "photo": "/stock/football/about/about-01.jpg",
+    "credentials": ["Former D1 Linebacker", "AFCA Member", "CPR/AED Certified"],
+    "age_groups": "Middle School · High School · College Prep"
+  },
+  "hero": {
+    "headline": "Defense Wins Championships",
+    "subline": "Linebacker and defensive development for athletes who want to dominate at the next level.",
+    "photo": "/stock/football/hero/hero-01.jpg",
+    "cta_text": "Start Training"
+  },
+  "stats": [
+    { "value": "14+", "label": "Years Coaching" },
+    { "value": "28", "label": "College Placements" },
+    { "value": "1", "label": "NFL Draft Pick" },
+    { "value": "100%", "label": "Effort. Every Day." }
+  ],
+  "services": [
+    {
+      "title": "Linebacker Development",
+      "description": "Stance, key reads, blitz packages, and run fits. Technical mastery built from the ground up.",
+      "price": "$120 / session"
+    },
+    {
+      "title": "DB & Coverage Training",
+      "description": "Press coverage, zone drops, ball skills, and tackle mechanics for defensive backs.",
+      "price": "$110 / session"
+    },
+    {
+      "title": "College Recruiting Prep",
+      "description": "Film review, highlight editing, recruiting profile strategy, and coach outreach guidance.",
+      "price": "$250 / package"
+    }
+  ],
+  "placements": [
+    { "name": "Andre Thompson", "school": "University of Florida", "year": "2024", "position": "LB", "scholarship": "Full Scholarship" },
+    { "name": "Darius Cole", "school": "Florida State University", "year": "2023", "position": "SS", "scholarship": "Full Scholarship" },
+    { "name": "Marcus Green", "school": "University of South Florida", "year": "2023", "position": "CB", "scholarship": "Partial Scholarship" },
+    { "name": "Jordan Hall", "school": "University of Central Florida", "year": "2022", "position": "LB", "scholarship": "Academic + Athletic" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Castillo's film sessions alone were worth more than anything I got in a year of high school practice. He sees the game differently.",
+      "name": "Andre T.",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "My son went from a backup to a starter to a Division I signee. Coach Castillo was the turning point in his career.",
+      "name": "Gloria T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "The most disciplined, accountable training environment I've seen in fifteen years of youth sports. Coach Castillo holds kids to a standard.",
+      "name": "Ray H.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "What age groups do you train?", "answer": "Middle school athletes (grades 6-8) through high school seniors in the recruiting window. College prep packages available for juniors and seniors." },
+    { "question": "Do you coach offensive players too?", "answer": "My expertise is on the defensive side of the ball. I will occasionally work with QBs on pocket mechanics and footwork, but my primary focus is linebackers and DBs." },
+    { "question": "How do I get started?", "answer": "Contact me and we'll schedule a 30-minute evaluation session. I want to see the athlete play before committing to a training plan." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "i_accent_color": "burgundy",
+    "i_bg_tone": "warm-cream"
+  },
+  "copy_variants": {
+    "hero_tagline": "DISCIPLINE. TECHNIQUE. DOMINANCE.",
+    "about_tagline": "Fourteen years. Twenty-eight placements. One standard."
+  }
+}

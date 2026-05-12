@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Martial Arts Instructor",
+    "bio": "I teach martial arts as a complete discipline — technique, fitness, focus, and respect. From the first white belt through black belt and beyond, my students build genuine skill, physical confidence, and the mental discipline that carries over into every part of their lives.",
+    "years_experience": 14,
+    "specialty": "Technique, Discipline & Belt Progression",
+    "age_groups": "Youth · Teens · Adults",
+    "photo": "/stock/martial-arts/about/about-01.jpg",
+    "credentials": ["Black Belt Instructor", "Youth Martial Arts Certified"],
+    "sport": "Martial Arts"
+  },
+
+  "hero": {
+    "headline": "Discipline. Technique. Respect.",
+    "subline": "Private martial arts instruction — belt progressions, self-defense, and competition training for students who want to develop their body and mind.",
+    "photo": "/stock/martial-arts/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Students Trained" },
+    { "value": "14", "label": "Years Instructing" },
+    { "value": "50+", "label": "Black Belts" }
+  ],
+
+  "services": [
+    {
+      "title": "Fundamentals & Belt Progression",
+      "description": "Structured curriculum from white belt through advanced ranks — proper technique, kata, sparring basics, and rank testing prep.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Self-Defense & Sparring",
+      "description": "Practical self-defense techniques and controlled sparring sessions to build real-world capability and competitive confidence.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Competition Training",
+      "description": "Kata competition prep, point sparring strategy, and tournament mental preparation for competitive martial artists."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son started as one of the most undisciplined kids in the class. Two years later he earned his blue belt and his teachers say he's a completely different student.",
+      "name": "Carlos M.",
+      "role": "Parent of 10-Year-Old Student",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I started at 35 never having trained before. The instruction is patient, the environment is welcoming, and I'm in the best shape of my life.",
+      "name": "Rachel T.",
+      "role": "Adult Student",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/martial-arts/gallery/gallery-01.jpg",
+      "/stock/martial-arts/gallery/gallery-02.jpg",
+      "/stock/martial-arts/gallery/gallery-03.jpg",
+      "/stock/martial-arts/gallery/gallery-04.jpg",
+      "/stock/martial-arts/gallery/gallery-05.jpg",
+      "/stock/martial-arts/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Ethan P.",
+      "role": "Student, Age 12",
+      "story": "Ethan came in with poor focus and low self-esteem. Over three years of consistent training, he not only earned his brown belt but became a mentor to younger students and a recognized leader in his school.",
+      "result": "Brown Belt · Tournament Gold Medalist · School Honor Roll"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What styles do you teach?",
+      "answer": "Primary instruction is in Karate (Shotokan) with elements of self-defense, grappling basics, and sport competition. I teach the style that matches the student's goals."
+    },
+    {
+      "question": "What age can kids start?",
+      "answer": "Youth programs begin at age 4 with age-appropriate curriculum focused on coordination, respect, and listening skills."
+    },
+    {
+      "question": "How long does it take to earn a black belt?",
+      "answer": "For dedicated students training consistently, the journey to black belt is typically 3–5 years. Every student progresses at their own pace."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local martial arts facility with proper matting and mirrors. Location is confirmed at booking."
+    },
+    {
+      "question": "Do you train competitive students?",
+      "answer": "Yes — for students interested in tournament competition, I offer specific competition prep training for kata and point sparring events."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "DISCIPLINE. TECHNIQUE. RESPECT.",
+    "hero_availability": "Training Spots · Now Available",
+    "about_tagline": "BUILT IN THE DOJO. EARNED ON THE FLOOR.",
+    "about_quote": "Martial arts doesn't just build fighters — it builds people of character, discipline, and confidence.",
+    "services_tagline": "INSTRUCTION THAT DEVELOPS COMPLETE STUDENTS.",
+    "services_subline": "Technique, self-defense, and competition — three dimensions of the complete martial artist.",
+    "testimonials_tagline": "RESULTS THAT GO BEYOND THE BELT.",
+    "testimonials_eyebrow": "Voices From the Dojo",
+    "contact_offer": "Free introductory class. Come as you are — leave with a foundation.",
+    "contact_urgency": "Class sizes are limited. Reach out today to reserve your spot.",
+    "gallery_label": "In the Dojo",
+    "marquee_text": "DISCIPLINE ★ TECHNIQUE ★ RESPECT ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Technique Review"
+  }
+}

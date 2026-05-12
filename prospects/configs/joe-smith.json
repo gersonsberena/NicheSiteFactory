@@ -1,0 +1,21 @@
+{
+  "layout": "B",
+  "meta": {
+    "title": "Soccer Coach  - Northeast Florida",
+    "description": "Professional Soccer Coaching services in North East Florida"
+  },
+  "about": {
+    "name": "Coach Joe",
+    "title": "Soccer Coach",
+    "sport": "Soccer"
+  },
+  "design": {
+    "accent_color": "teal",
+    "hero_layout": "centered-overlay",
+    "gallery_layout": "masonry",
+    "d_accent_color": "forest",
+    "d_bg_tone": "cream",
+    "d_hero_layout": "centered",
+    "d_testimonials_layout": "single-large"
+  }
+}

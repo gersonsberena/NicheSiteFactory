@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Track & Field Coach",
+    "bio": "From first-time track athletes to competitive sprinters, jumpers, and throwers, I develop the technical foundations and athletic qualities that lead to personal records. Every athlete I work with trains smarter, moves more efficiently, and competes with purpose.",
+    "years_experience": 10,
+    "specialty": "Sprint Mechanics & Event Development",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/track-and-field/about/about-01.jpg",
+    "credentials": ["USATF Certified", "Former Collegiate Sprinter"],
+    "sport": "Track & Field"
+  },
+
+  "hero": {
+    "headline": "Faster. Stronger. Further.",
+    "subline": "Private track and field coaching — sprint mechanics, event development, and recruiting prep for athletes chasing personal records.",
+    "photo": "/stock/track-and-field/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Athletes Coached" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "50+", "label": "Personal Records" }
+  ],
+
+  "services": [
+    {
+      "title": "Sprint & Distance Training",
+      "description": "Mechanics-first sessions for sprinters (100m–400m) and distance runners — technique, race cadence, and speed development.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Field Events (Jumps & Throws)",
+      "description": "Long jump, high jump, triple jump, shot put, and discus — technical progressions built for safe improvement and measurable gains.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Race Strategy & Recruiting",
+      "description": "Pacing plans, championship race strategy, and recruiting guidance for athletes targeting college track programs."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son went from a backup sprinter to the team's #1 in the 100m in one season. The mechanics work was something his school coaches just couldn't provide.",
+      "name": "Marcus J.",
+      "role": "Parent of High School Sprinter",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I added almost two feet to my long jump in one off-season. The technical breakdown of my approach and takeoff made everything click.",
+      "name": "Jordan A.",
+      "role": "High School Jumper",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/track-and-field/gallery/gallery-01.jpg",
+      "/stock/track-and-field/gallery/gallery-02.jpg",
+      "/stock/track-and-field/gallery/gallery-03.jpg",
+      "/stock/track-and-field/gallery/gallery-04.jpg",
+      "/stock/track-and-field/gallery/gallery-05.jpg",
+      "/stock/track-and-field/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Isaiah W.",
+      "role": "Sprints, Mandarin High School",
+      "story": "Isaiah had elite speed but poor mechanics that were holding back his times. We spent one off-season breaking down his start, drive phase, and top-end form.",
+      "result": "Personal Record 10.8 · Regional Champion · D1 Offer"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What events do you train?",
+      "answer": "Sprints (100m–400m), distance (800m–mile), hurdles, long jump, triple jump, high jump, shot put, and discus. Pole vault by arrangement."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at local tracks and athletic facilities. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Sessions run 60–75 minutes depending on event and training phase."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Sport-appropriate footwear (track spikes if available), athletic clothing, and water. Throwing implements and jump equipment are provided."
+    },
+    {
+      "question": "Can you help with college recruiting?",
+      "answer": "Yes — I guide athletes on standards for different division levels, event selection strategy, and building a recruiting profile."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "FASTER. STRONGER. FURTHER.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON MECHANICS. MEASURED ON THE TRACK.",
+    "about_quote": "Speed is a skill. Strength is earned. Every personal record starts with better technique.",
+    "services_tagline": "TRAINING THAT MOVES THE NEEDLE.",
+    "services_subline": "Sprints, field events, and race strategy — three pillars of the complete track athlete.",
+    "testimonials_tagline": "RESULTS ON THE CLOCK.",
+    "testimonials_eyebrow": "Voices From the Track",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a training plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "On the Track",
+    "marquee_text": "RUN FAST ★ JUMP FAR ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Mechanics Review"
+  }
+}

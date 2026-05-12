@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Pilates Instructor",
+    "bio": "I teach Pilates as a system that builds true strength from the inside out — core control, movement precision, and the postural awareness that reduces pain, prevents injury, and makes every other activity feel better. Sessions are always adapted to your body and goals.",
+    "years_experience": 9,
+    "specialty": "Core Strength & Movement Quality",
+    "age_groups": "Youth · Adults · Post-Rehab",
+    "photo": "/stock/pilates/about/about-01.jpg",
+    "credentials": ["PMA Certified", "Pre/Post-Natal Certified"],
+    "sport": "Pilates"
+  },
+
+  "hero": {
+    "headline": "Strengthen Your Center. Move With Purpose.",
+    "subline": "Private Pilates instruction — core conditioning, movement quality, and postural alignment for clients who want to feel stronger in everything they do.",
+    "photo": "/stock/pilates/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "250+", "label": "Clients Taught" },
+    { "value": "9", "label": "Years Teaching" },
+    { "value": "4.9", "label": "Avg Review" }
+  ],
+
+  "packages": [
+    {
+      "title": "Foundations Series",
+      "description": "6-week introductory series — Pilates principles, breathing mechanics, core activation, and foundational mat work. 2 sessions per week for clients new to Pilates.",
+      "duration": "6 Weeks",
+      "sessions_per_week": 2,
+      "price": "$279",
+      "highlight": false
+    },
+    {
+      "title": "Athletic Conditioning Program",
+      "description": "8-week program for athletes — sport-specific core work, thoracic mobility, hip stability, and movement patterns that directly translate to athletic performance.",
+      "duration": "8 Weeks",
+      "sessions_per_week": 2,
+      "price": "$379",
+      "highlight": true
+    },
+    {
+      "title": "Private Sessions",
+      "description": "Ongoing one-on-one Pilates sessions tailored to your goals — reformer and mat work, injury recovery support, or advanced progression for experienced students.",
+      "duration": "Monthly",
+      "sessions_per_week": 2,
+      "price": "$229/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "After years of lower back issues, Pilates was the first thing that actually helped. I'm pain-free and feel stronger than I did in my twenties.",
+      "name": "Susan T.",
+      "role": "Private Sessions Client",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I did the athletic program as a supplement to my running training. My core is so much more stable now and my running posture has completely changed.",
+      "name": "Kevin H.",
+      "role": "Recreational Runner",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/pilates/gallery/gallery-01.jpg",
+      "/stock/pilates/gallery/gallery-02.jpg",
+      "/stock/pilates/gallery/gallery-03.jpg",
+      "/stock/pilates/gallery/gallery-04.jpg",
+      "/stock/pilates/gallery/gallery-05.jpg",
+      "/stock/pilates/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Maria L.",
+      "role": "Post-Rehab Client",
+      "story": "Maria came in after hip surgery, cleared for movement but uncertain of what was safe. We built a careful foundations program and progressively loaded her core and hip stability over four months.",
+      "result": "Full Return to Activity · Zero Setbacks · Ongoing Monthly Client"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What's the difference between Pilates and regular core exercise?",
+      "answer": "Pilates trains the deep stabilizing muscles of the trunk in coordination with breathing and movement — it's more about control and quality than volume or load."
+    },
+    {
+      "question": "Do you use a reformer?",
+      "answer": "Both mat and reformer Pilates are available. Reformer work allows more movement variation and resistance — great for intermediate and advanced students."
+    },
+    {
+      "question": "Is Pilates appropriate after injury or surgery?",
+      "answer": "Yes — with clearance from your medical provider, I work with post-rehab clients on careful progressions that rebuild stability and movement confidence."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local Pilates studio. Location is confirmed at booking."
+    },
+    {
+      "question": "What should I wear?",
+      "answer": "Form-fitting athletic clothing that allows your instructor to see alignment. Grip socks are recommended. No shoes required."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "STRENGTHEN YOUR CENTER. MOVE WITH PURPOSE.",
+    "hero_availability": "Session Spots · Now Available",
+    "about_tagline": "BUILT FROM THE CORE. REFINED WITH INTENTION.",
+    "about_quote": "The strength you build from the inside out is the kind that lasts — and the kind that changes everything.",
+    "services_tagline": "INSTRUCTION THAT TRANSFORMS HOW YOU MOVE.",
+    "services_subline": "Foundations, athletic conditioning, and private sessions — a program built around your goals.",
+    "testimonials_tagline": "CLIENTS WHO FEEL BETTER AND MOVE BETTER.",
+    "testimonials_eyebrow": "Student Stories",
+    "contact_offer": "Free intro session. Come as you are — leave with a plan.",
+    "contact_urgency": "Session spots fill quickly. Reach out today to reserve yours.",
+    "gallery_label": "In the Studio",
+    "marquee_text": "CORE STRONG ★ MOVE WELL ★ FEEL BETTER ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Movement Review"
+  }
+}

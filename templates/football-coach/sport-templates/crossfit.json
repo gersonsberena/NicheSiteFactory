@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "CrossFit Coach",
+    "bio": "I coach functional fitness — the kind that makes you stronger, faster, and more capable in and out of the gym. Whether you're brand new to CrossFit or an experienced athlete chasing competition, I meet you where you are and push you to where you want to be.",
+    "years_experience": 7,
+    "specialty": "Functional Fitness & Barbell Strength",
+    "age_groups": "Teens · Adults · Masters",
+    "photo": "/stock/crossfit/about/about-01.jpg",
+    "credentials": ["CF-L2 Coach", "CPR/AED Certified"],
+    "sport": "CrossFit"
+  },
+
+  "hero": {
+    "headline": "Move Well. Lift Heavy. Go Fast.",
+    "subline": "CrossFit coaching — foundations training, performance programming, and competition prep for athletes who want to earn their fitness.",
+    "photo": "/stock/crossfit/hero/hero-01.jpg",
+    "cta_text": "Book a Free Class"
+  },
+
+  "stats": [
+    { "value": "400+", "label": "Athletes Coached" },
+    { "value": "7", "label": "Years Coaching" },
+    { "value": "30+", "label": "Competition Athletes" }
+  ],
+
+  "packages": [
+    {
+      "title": "Foundations Program",
+      "description": "8-session on-ramp program for new CrossFit athletes — movement standards, barbell technique, scaling options, and box culture. Required before joining group classes.",
+      "duration": "4 Weeks",
+      "sessions_per_week": 2,
+      "price": "$199",
+      "highlight": false
+    },
+    {
+      "title": "Performance Training",
+      "description": "Ongoing group programming — 5 classes per week, structured periodization, strength bias, and a community that pushes you harder than you'd push yourself.",
+      "duration": "Monthly",
+      "sessions_per_week": 5,
+      "price": "$179/mo",
+      "highlight": true
+    },
+    {
+      "title": "Competition Prep",
+      "description": "Private coaching for athletes targeting the CrossFit Open, local throwdowns, or Sanctional qualifying — 3 extra sessions per week of gymnastics, barbell cycling, and strategy.",
+      "duration": "Monthly",
+      "sessions_per_week": 3,
+      "price": "$299/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I walked in not being able to do a pull-up. Eight months later I got my first muscle-up. The coaching here is patient and the community keeps you coming back.",
+      "name": "Lauren P.",
+      "role": "Performance Training Member",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The competition prep track helped me place in the top 10 at our local throwdown. The barbell cycling drills made the difference in my Open results.",
+      "name": "Mike T.",
+      "role": "Competition Prep Athlete",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/crossfit/gallery/gallery-01.jpg",
+      "/stock/crossfit/gallery/gallery-02.jpg",
+      "/stock/crossfit/gallery/gallery-03.jpg",
+      "/stock/crossfit/gallery/gallery-04.jpg",
+      "/stock/crossfit/gallery/gallery-05.jpg",
+      "/stock/crossfit/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Samantha H.",
+      "role": "Performance Member",
+      "story": "Samantha came in deconditioned after a long break from any structured fitness. She was nervous about the intensity. We started her in Foundations, then eased her into group classes with consistent scaling.",
+      "result": "Lost 18 lbs · First Pull-Up · Competed in CrossFit Open"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Do I need to be fit to start CrossFit?",
+      "answer": "No — CrossFit is designed to scale to any fitness level. The Foundations program exists specifically to prepare you. You don't need to be fit to start — you start to get fit."
+    },
+    {
+      "question": "What's included in the Foundations program?",
+      "answer": "8 sessions covering fundamental movements — squats, deadlifts, press, clean, gymnastics basics, and how to read and pace a WOD. Foundationsgraduates have everything they need for group classes."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Group classes are 60 minutes. Competition prep sessions are 75–90 minutes."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Athletic shoes (cross-trainers or lifting shoes for barbell work), athletic clothing, and water. Chalk and lifting belt provided."
+    },
+    {
+      "question": "Do you train older athletes?",
+      "answer": "Yes — Masters athletes (40+) are welcome. Programming modifications account for recovery needs and movement restrictions."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "MOVE WELL. LIFT HEAVY. GO FAST.",
+    "hero_availability": "Class Spots · Now Open",
+    "about_tagline": "BUILT IN THE BOX. EARNED BY THE CLOCK.",
+    "about_quote": "The best athletes I've coached aren't the strongest or the fastest — they're the most consistent.",
+    "services_tagline": "PROGRAMS FOR EVERY ATHLETE.",
+    "services_subline": "From your first pull-up to competition prep — every level is welcome here.",
+    "testimonials_tagline": "REAL ATHLETES. REAL RESULTS.",
+    "testimonials_eyebrow": "Community Voices",
+    "contact_offer": "Free intro class. No experience needed — just show up.",
+    "contact_urgency": "Class spots are limited. Reach out today to reserve yours.",
+    "gallery_label": "In the Box",
+    "marquee_text": "MOVE WELL ★ LIFT HEAVY ★ GO FAST ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "WOD Review · Session 01"
+  }
+}

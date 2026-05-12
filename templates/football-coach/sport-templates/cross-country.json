@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Cross Country Coach",
+    "bio": "I've spent years developing endurance athletes from casual runners to state competitors, focusing on aerobic development, race tactics, and the mental toughness that separates good runners from great ones. My athletes don't just get fitter — they get smarter about how they race.",
+    "years_experience": 9,
+    "specialty": "Endurance Training & Race Tactics",
+    "age_groups": "Middle School · High School · Adult",
+    "photo": "/stock/cross-country/about/about-01.jpg",
+    "credentials": ["USATF Certified", "Former Collegiate Runner"],
+    "sport": "Cross Country"
+  },
+
+  "hero": {
+    "headline": "Run Strong. Race Smart.",
+    "subline": "Private cross country coaching — endurance development, race tactics, and course prep for runners who want to compete at their best.",
+    "photo": "/stock/cross-country/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "150+", "label": "Runners Coached" },
+    { "value": "9", "label": "Years Coaching" },
+    { "value": "25+", "label": "Personal Records" }
+  ],
+
+  "services": [
+    {
+      "title": "Endurance Base Building",
+      "description": "Structured aerobic development programs targeting weekly mileage, easy pace discipline, and injury-resistant training habits.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Race Strategy & Pacing",
+      "description": "Course-specific pacing plans, hill strategy, pack running tactics, and mental race preparation for meet day.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Course Prep & Recruiting",
+      "description": "Pre-meet course walkthroughs, split planning, and recruiting guidance for athletes targeting college cross country programs."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter went from mid-pack to top 10 at regionals in one season. The structured training and race strategy coaching made the difference.",
+      "name": "Patricia H.",
+      "role": "Parent of High School Runner",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I finally broke 18 minutes in the 5K after two seasons of working on pacing and aerobic base. The training approach here is the real deal.",
+      "name": "Brian M.",
+      "role": "High School Cross Country",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/cross-country/gallery/gallery-01.jpg",
+      "/stock/cross-country/gallery/gallery-02.jpg",
+      "/stock/cross-country/gallery/gallery-03.jpg",
+      "/stock/cross-country/gallery/gallery-04.jpg",
+      "/stock/cross-country/gallery/gallery-05.jpg",
+      "/stock/cross-country/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Ava S.",
+      "role": "Cross Country, Creekside High",
+      "story": "Ava had raw endurance but her racing strategy was costing her places. We built a structured base program and taught her to race by feel rather than chasing early leaders.",
+      "result": "State Qualifier · PR by 45 sec · College Running Offer"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you coach?",
+      "answer": "I work with middle school runners through adult competitive level. Training plans are always age- and experience-appropriate."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at local tracks, parks, and trail systems. Location is confirmed at booking."
+    },
+    {
+      "question": "How do sessions work?",
+      "answer": "Sessions combine running workouts with coaching feedback on form, pacing, and strategy. Video analysis available on request."
+    },
+    {
+      "question": "How many sessions per week should my runner do?",
+      "answer": "Most athletes benefit from 1–2 individual coaching sessions per week supplemented by their team practice. I tailor recommendations to your situation."
+    },
+    {
+      "question": "Do you help with college recruiting?",
+      "answer": "Yes — I guide athletes on division-appropriate time standards, program research, and building their recruiting profile."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "RUN STRONG. RACE SMART.",
+    "hero_availability": "Training Spots · Now Available",
+    "about_tagline": "BUILT IN MILES. REFINED IN RACES.",
+    "about_quote": "Endurance is built slowly and won quickly. Train the base right and the race takes care of itself.",
+    "services_tagline": "COACHING THAT BUILDS RUNNERS.",
+    "services_subline": "Base building, race strategy, and course prep — three elements of every PR performance.",
+    "testimonials_tagline": "RESULTS ON THE COURSE.",
+    "testimonials_eyebrow": "Voices From the Trail",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a training plan.",
+    "contact_urgency": "Training spots are limited. Reach out today to reserve your slot.",
+    "gallery_label": "On the Course",
+    "marquee_text": "RUN STRONG ★ RACE SMART ★ PR ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Race Review"
+  }
+}

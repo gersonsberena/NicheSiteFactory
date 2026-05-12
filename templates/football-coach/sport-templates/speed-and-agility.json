@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Speed & Agility Coach",
+    "bio": "I specialize in the athletic qualities that change games — first-step explosion, change of direction, linear speed, and reactive agility. My athletes don't just get faster, they move with purpose and confidence in every sport situation.",
+    "years_experience": 7,
+    "specialty": "First-Step Quickness & Athletic Movement",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/speed-and-agility/about/about-01.jpg",
+    "credentials": ["IYCA Certified", "Former Collegiate Athlete"],
+    "sport": "Speed & Agility"
+  },
+
+  "hero": {
+    "headline": "Faster First Step. Sharper Cuts. Bigger Plays.",
+    "subline": "Speed and agility training — linear speed development, change of direction, and reactive movement for multi-sport athletes.",
+    "photo": "/stock/speed-and-agility/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Athletes Trained" },
+    { "value": "7", "label": "Years Coaching" },
+    { "value": "0.2s", "label": "Avg 40 Improvement" }
+  ],
+
+  "packages": [
+    {
+      "title": "Speed Development",
+      "description": "6-week linear speed block — sprint mechanics, acceleration, top-end speed, and deceleration. 3 sessions per week with weekly assessment.",
+      "duration": "6 Weeks",
+      "sessions_per_week": 3,
+      "price": "$449",
+      "highlight": false
+    },
+    {
+      "title": "Agility & Change of Direction",
+      "description": "6-week COD program — lateral movement, cutting mechanics, reactive drills, and position-specific pattern work. Perfect for skill position athletes.",
+      "duration": "6 Weeks",
+      "sessions_per_week": 3,
+      "price": "$449",
+      "highlight": false
+    },
+    {
+      "title": "Multi-Sport Athlete Program",
+      "description": "12-week combined speed and agility program for athletes who want both — linear speed and change of direction developed in parallel with sport-specific application.",
+      "duration": "12 Weeks",
+      "sessions_per_week": 4,
+      "price": "$849",
+      "highlight": true
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "My son dropped his 40 time from a 4.9 to a 4.65 in 8 weeks. The mechanics work was something we'd never seen from any other coach.",
+      "name": "Anthony J.",
+      "role": "Parent of High School Receiver",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "My change of direction on the soccer field is completely different now. I'm getting away from defenders I used to have no chance against.",
+      "name": "Sofia R.",
+      "role": "Club Soccer Player",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/speed-and-agility/gallery/gallery-01.jpg",
+      "/stock/speed-and-agility/gallery/gallery-02.jpg",
+      "/stock/speed-and-agility/gallery/gallery-03.jpg",
+      "/stock/speed-and-agility/gallery/gallery-04.jpg",
+      "/stock/speed-and-agility/gallery/gallery-05.jpg",
+      "/stock/speed-and-agility/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Jaylen W.",
+      "role": "Running Back, Creekside High",
+      "story": "Jaylen had natural speed but poor mechanics that were costing him time and making him predictable. We rebuilt his start mechanics and lateral cut patterns over one summer.",
+      "result": "40 Time 4.58 · Team Leading Rusher · D2 Offer"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What sports do you train athletes from?",
+      "answer": "All sports where speed and agility matter — football, soccer, basketball, lacrosse, baseball, track, and more. Programs are sport-specific."
+    },
+    {
+      "question": "What age groups do you train?",
+      "answer": "Athletes from 9 years old through high school and adult level. Youth sessions focus on movement literacy; older athletes focus on speed and power."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local turf facility or track. Exact location is confirmed at booking."
+    },
+    {
+      "question": "How do I know which package to choose?",
+      "answer": "Start with the free session — I'll assess your movement and recommend the program that aligns with your sport and season calendar."
+    },
+    {
+      "question": "Do you do group sessions?",
+      "answer": "Yes — small group sessions (3–5 athletes) are available for teams or position groups. Contact me for pricing."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "FASTER FIRST STEP. SHARPER CUTS. BIGGER PLAYS.",
+    "hero_availability": "Training Spots · Now Available",
+    "about_tagline": "BUILT ON MECHANICS. FASTER EVERY SESSION.",
+    "about_quote": "Speed is a skill — and like every skill, it can be coached, drilled, and owned.",
+    "services_tagline": "PROGRAMS THAT MAKE YOU FASTER.",
+    "services_subline": "Linear speed, change of direction, and sport-specific movement — the three pillars of elite athleticism.",
+    "testimonials_tagline": "RESULTS ON THE FIELD AND THE CLOCK.",
+    "testimonials_eyebrow": "Athlete Testimonials",
+    "contact_offer": "Free speed assessment and program recommendation.",
+    "contact_urgency": "Training spots fill fast. Reach out today to lock in your slot.",
+    "gallery_label": "Training Sessions",
+    "marquee_text": "GET FASTER ★ CUT SHARPER ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Speed Assessment"
+  }
+}

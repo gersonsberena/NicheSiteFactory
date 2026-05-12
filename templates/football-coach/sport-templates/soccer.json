@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Soccer Coach",
+    "bio": "With years of experience developing players at every level — from youth clubs to high school varsity — my approach puts technical mastery and game intelligence first. I've helped players earn starting spots, club promotions, and college attention.",
+    "years_experience": 10,
+    "specialty": "Technical Skills & Game Intelligence",
+    "age_groups": "Youth · Club · High School",
+    "photo": "/stock/soccer/about/about-01.jpg",
+    "credentials": ["USSF Licensed", "Former College Athlete"],
+    "sport": "Soccer"
+  },
+
+  "hero": {
+    "headline": "Elevate Your Game.",
+    "subline": "Private soccer coaching — technical development, tactical awareness, and college prep for serious players.",
+    "photo": "/stock/soccer/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Players Trained" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "4", "label": "Club Promotions" }
+  ],
+
+  "services": [
+    {
+      "title": "1v1 Technical Training",
+      "description": "Individual sessions targeting first touch, dribbling, passing, and movement off the ball.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Small Group Sessions",
+      "description": "2–4 players training together — combination play, pressing, and competitive small-sided games.",
+      "price": "$35/player"
+    },
+    {
+      "title": "Film & Tactics Review",
+      "description": "Break down match film, identify patterns, and build a tactical game plan for your position."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter went from sitting on the bench to starting midfielder in one season. The technical work made the difference.",
+      "name": "Diana R.",
+      "role": "Parent of U15 Midfielder",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "Coach helped me earn a roster spot on a premier club team. The 1v1 sessions were exactly what I needed.",
+      "name": "Carlos M.",
+      "role": "Club Player",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/soccer/gallery/gallery-01.jpg",
+      "/stock/soccer/gallery/gallery-02.jpg",
+      "/stock/soccer/gallery/gallery-03.jpg",
+      "/stock/soccer/gallery/gallery-04.jpg",
+      "/stock/soccer/gallery/gallery-05.jpg",
+      "/stock/soccer/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Alicia T.",
+      "role": "Center Midfielder, Fleming Island High",
+      "story": "Alicia had raw speed but struggled with her first touch and decision-making in tight spaces. After six months of 1v1 sessions, she sharpened both into real strengths.",
+      "result": "Starting 11 · Team MVP · Club Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with players from U8 through college level. Sessions are adapted to the player's current ability — no prior club experience required."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at local fields and facilities in the area. The exact location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "1-on-1 sessions are 60 minutes. Small-group sessions run 75–90 minutes."
+    },
+    {
+      "question": "What should my player bring?",
+      "answer": "Cleats, shin guards, a ball (size-appropriate), and water. All other training equipment is provided."
+    },
+    {
+      "question": "Do you work with goalkeepers?",
+      "answer": "Yes — I offer goalkeeper-specific sessions covering positioning, footwork, distribution, and shot-stopping. Reach out to discuss your player's needs."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "TRAIN SMART. MOVE FAST. WIN.",
+    "hero_availability": "Training Spots · Now Available",
+    "about_tagline": "BUILT ON TOUCHES. REFINED BY REPS.",
+    "about_quote": "Every great player started with the basics. I help athletes own them completely.",
+    "services_tagline": "TRAINING THAT DEVELOPS THE COMPLETE PLAYER.",
+    "services_subline": "Technical, tactical, and mental — three dimensions that define elite soccer.",
+    "testimonials_tagline": "RESULTS THAT SPEAK FOR THEMSELVES.",
+    "testimonials_eyebrow": "Voices From the Pitch",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training spots are limited. Reach out today to reserve your slot.",
+    "gallery_label": "In Training",
+    "marquee_text": "TRAIN SMART ★ PLAY FAST ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Tactical Review"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Gymnastics Coach",
+    "bio": "I specialize in building gymnasts from the ground up — teaching safe progressions on bars, beam, floor, and vault while developing the strength, flexibility, and mental confidence that competition demands. My athletes grow as gymnasts and as individuals.",
+    "years_experience": 10,
+    "specialty": "Skill Progressions & Competition Prep",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/gymnastics/about/about-01.jpg",
+    "credentials": ["USAG Member", "Safety & Risk Management Certified"],
+    "sport": "Gymnastics"
+  },
+
+  "hero": {
+    "headline": "Perfect the Form. Stick the Landing.",
+    "subline": "Private gymnastics coaching — skill progressions, routine development, and competition prep for gymnasts at every level.",
+    "photo": "/stock/gymnastics/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "180+", "label": "Athletes Coached" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "15+", "label": "Level Advances" }
+  ],
+
+  "services": [
+    {
+      "title": "Skill Progressions",
+      "description": "Structured, safety-first progressions on bars, beam, floor, and vault — building skills in the correct order for long-term development.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Routine Development",
+      "description": "Choreography, connection bonus planning, and routine execution training for competitive gymnasts building toward meets.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Competition Prep",
+      "description": "Pre-competition run-throughs, deduction minimization, and mental preparation strategies for meet-day performance."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter had been stuck at the same level for two years. After working here, she passed her skills testing and is already competing at the next level.",
+      "name": "Jennifer R.",
+      "role": "Parent of Level 5 Gymnast",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The coaching here is different — it's patient and technical. I finally understand what I was doing wrong on bars and my scores have jumped.",
+      "name": "Natalie F.",
+      "role": "Competitive Gymnast",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/gymnastics/gallery/gallery-01.jpg",
+      "/stock/gymnastics/gallery/gallery-02.jpg",
+      "/stock/gymnastics/gallery/gallery-03.jpg",
+      "/stock/gymnastics/gallery/gallery-04.jpg",
+      "/stock/gymnastics/gallery/gallery-05.jpg",
+      "/stock/gymnastics/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Sophia L.",
+      "role": "Level 7, Northeast Florida",
+      "story": "Sophia had strong basics but lacked the beam confidence to compete without major breaks. We focused her training on beam consistency, mental visualization, and routine execution over one summer.",
+      "result": "Level 7 Advancement · Regional Top 5 · Zero Falls at State"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups and levels do you train?",
+      "answer": "I work with gymnasts from age 4 through USAG Level 10. Beginners, recreational, and competitive gymnasts are all welcome."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local gymnastics facility with full equipment. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Sessions run 60–75 minutes. Competitive gymnasts working multiple events may benefit from extended 90-minute sessions."
+    },
+    {
+      "question": "Is this supplemental coaching or primary instruction?",
+      "answer": "Both — I work with gymnasts as their primary coach or as supplemental coaching alongside their club program."
+    },
+    {
+      "question": "How do you approach skill safety?",
+      "answer": "Every skill is taught with proper progressions and appropriate spotting. I never rush skills — building them right the first time prevents injury and builds confidence."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "PERFECT THE FORM. STICK THE LANDING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON PROGRESSIONS. PROVEN AT MEETS.",
+    "about_quote": "Gymnastics rewards patience and precision. Build each skill right and the routines follow.",
+    "services_tagline": "COACHING THAT BUILDS COMPLETE GYMNASTS.",
+    "services_subline": "Progressions, routines, and competition prep — three phases of every great performance.",
+    "testimonials_tagline": "RESULTS ON THE FLOOR.",
+    "testimonials_eyebrow": "Voices From the Gym",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a development plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to reserve your spot.",
+    "gallery_label": "In the Gym",
+    "marquee_text": "PERFECT FORM ★ STICK LANDINGS ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Skills Review"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Wrestling Coach",
+    "bio": "From youth development through high school varsity competition, I build wrestlers who are technically sound, physically conditioned, and mentally resilient. My coaching focuses on the fundamental positions and movements that create winners — not just athletes who look good in practice.",
+    "years_experience": 11,
+    "specialty": "Takedowns & Mat Control",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/wrestling/about/about-01.jpg",
+    "credentials": ["USAW Member", "Former Collegiate Wrestler"],
+    "sport": "Wrestling"
+  },
+
+  "hero": {
+    "headline": "Shoot. Control. Win.",
+    "subline": "Private wrestling coaching — takedowns, defensive positioning, and conditioning for athletes who want to compete at the highest level.",
+    "photo": "/stock/wrestling/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Wrestlers Coached" },
+    { "value": "11", "label": "Years Coaching" },
+    { "value": "8", "label": "State Qualifiers" }
+  ],
+
+  "services": [
+    {
+      "title": "Takedowns & Defensive Stance",
+      "description": "Shot setups, penetration steps, finishing techniques, and defensive positioning — the foundation of every competitive wrestler.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Mat Control & Positioning",
+      "description": "Top control, bottom escapes, tilt series, and near-fall technique for wrestlers who want to maximize match points.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Conditioning & Weight Management",
+      "description": "Wrestling-specific conditioning protocols and responsible weight management guidance for competitive athletes."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son went from losing first-round matches to qualifying for districts in one season. The technical coaching at this level isn't available anywhere else locally.",
+      "name": "Robert D.",
+      "role": "Parent of High School Wrestler",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "My double-leg was broken before I started here. Now it's my best takedown and I'm actually finishing shots consistently.",
+      "name": "Tyler C.",
+      "role": "High School Wrestler",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/wrestling/gallery/gallery-01.jpg",
+      "/stock/wrestling/gallery/gallery-02.jpg",
+      "/stock/wrestling/gallery/gallery-03.jpg",
+      "/stock/wrestling/gallery/gallery-04.jpg",
+      "/stock/wrestling/gallery/gallery-05.jpg",
+      "/stock/wrestling/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Caleb N.",
+      "role": "152 lb, Mandarin High School",
+      "story": "Caleb had athletic ability but his technical base was shaky and he was getting dominated by more experienced opponents. We spent the summer rebuilding his stance, shot mechanics, and top control.",
+      "result": "District Champion · State Qualifier · D3 Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "I work with wrestlers from youth (6+) through high school level. Sessions are appropriate to age and current skill level."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at local wrestling facilities with proper matting. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Sessions run 60–75 minutes. Live drilling rounds are kept appropriate to conditioning level."
+    },
+    {
+      "question": "What should my wrestler bring?",
+      "answer": "Singlet or athletic shorts and rash guard, wrestling shoes if available, and water. Headgear is optional."
+    },
+    {
+      "question": "Do you offer group sessions?",
+      "answer": "Yes — small group sessions (2–4 wrestlers at similar skill levels) are available. Great for live drilling scenarios."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "SHOOT. CONTROL. WIN.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON THE MAT. PROVEN IN COMPETITION.",
+    "about_quote": "Wrestling is the most honest sport there is. There's nowhere to hide — only the prepared survive.",
+    "services_tagline": "TRAINING THAT WINS MATCHES.",
+    "services_subline": "Takedowns, mat control, and conditioning — three pillars of the complete wrestler.",
+    "testimonials_tagline": "RESULTS ON THE MAT.",
+    "testimonials_eyebrow": "Voices From the Mat Room",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "On the Mat",
+    "marquee_text": "SHOOT HARD ★ CONTROL ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Technique Review"
+  }
+}

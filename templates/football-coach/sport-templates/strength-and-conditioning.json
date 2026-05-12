@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Strength & Conditioning Coach",
+    "bio": "I work with athletes across all sports to build the physical foundation that makes everything else possible — strength, power, speed, and resilience. My programming is evidence-based, position-specific, and designed to peak athletes at exactly the right time.",
+    "years_experience": 9,
+    "specialty": "Athletic Strength & Power Development",
+    "age_groups": "High School · College · Adult Athletes",
+    "photo": "/stock/strength-and-conditioning/about/about-01.jpg",
+    "credentials": ["NSCA-CSCS", "CPR/AED Certified"],
+    "sport": "Strength & Conditioning"
+  },
+
+  "hero": {
+    "headline": "Build Strength. Perform Better.",
+    "subline": "Professional strength and conditioning — periodized programming, power development, and sport-specific training for athletes who want to dominate their season.",
+    "photo": "/stock/strength-and-conditioning/hero/hero-01.jpg",
+    "cta_text": "Book a Free Assessment"
+  },
+
+  "stats": [
+    { "value": "150+", "label": "Athletes Trained" },
+    { "value": "9", "label": "Years Coaching" },
+    { "value": "12+", "label": "Sports Represented" }
+  ],
+
+  "packages": [
+    {
+      "title": "Athletic Performance Block",
+      "description": "8-week structured strength and power block — 3 sessions per week, movement screening, baseline testing, and progressive overload programming tailored to your sport.",
+      "duration": "8 Weeks",
+      "sessions_per_week": 3,
+      "price": "$649",
+      "highlight": false
+    },
+    {
+      "title": "Off-Season Training",
+      "description": "Complete off-season development program — strength foundation, power conversion, and speed integration built to peak for fall or spring season. Includes body composition tracking.",
+      "duration": "16 Weeks",
+      "sessions_per_week": 4,
+      "price": "$1,199",
+      "highlight": true
+    },
+    {
+      "title": "In-Season Maintenance",
+      "description": "2 sessions per week during your competitive season — designed to maintain strength and power gains without compromising recovery or on-field performance.",
+      "duration": "Monthly",
+      "sessions_per_week": 2,
+      "price": "$299/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I added 40 lbs to my squat and improved my 40 time in one off-season. The programming here is legit — it's not guesswork.",
+      "name": "Devon A.",
+      "role": "High School Football Athlete",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I was skeptical about S&C for a swimmer, but this training made me stronger in the water in ways I didn't expect. My starts are noticeably more powerful.",
+      "name": "Claire M.",
+      "role": "Club Swimmer",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/strength-and-conditioning/gallery/gallery-01.jpg",
+      "/stock/strength-and-conditioning/gallery/gallery-02.jpg",
+      "/stock/strength-and-conditioning/gallery/gallery-03.jpg",
+      "/stock/strength-and-conditioning/gallery/gallery-04.jpg",
+      "/stock/strength-and-conditioning/gallery/gallery-05.jpg",
+      "/stock/strength-and-conditioning/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Marcus T.",
+      "role": "Linebacker, Bartram Trail High",
+      "story": "Marcus was strong but undertrained — his power output didn't match his size. We ran a 16-week off-season block focused on posterior chain strength and rate of force development.",
+      "result": "Bench +55 lbs · Squat +70 lbs · D1 Scholarship Offer"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What sports do you train athletes from?",
+      "answer": "All sports — football, soccer, basketball, baseball, volleyball, track, swimming, and more. Programming is always sport-specific."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a fully equipped training facility. Location is confirmed at booking."
+    },
+    {
+      "question": "Is this appropriate for younger high school athletes?",
+      "answer": "Yes — I work with high school athletes starting at 14. Programs are age-appropriate with proper load management and movement quality emphasis."
+    },
+    {
+      "question": "Do you work alongside sport coaches?",
+      "answer": "Yes — I coordinate with sport coaches on scheduling and training load. The goal is to complement sport practice, not compete with it."
+    },
+    {
+      "question": "What's included in the initial assessment?",
+      "answer": "Movement screening, strength baselines, power testing, and a review of your sport calendar and goals to build the right program."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "BUILD STRENGTH. PERFORM BETTER.",
+    "hero_availability": "Training Spots · Now Available",
+    "about_tagline": "BUILT IN THE WEIGHT ROOM. PROVEN ON THE FIELD.",
+    "about_quote": "Strength is the foundation every athlete needs. Build it right and everything else improves.",
+    "services_tagline": "PROGRAMMING THAT DELIVERS RESULTS.",
+    "services_subline": "Strength, power, and conditioning — three pillars of the complete athletic performance program.",
+    "testimonials_tagline": "RESULTS THAT SHOW UP ON GAME DAY.",
+    "testimonials_eyebrow": "Athlete Testimonials",
+    "contact_offer": "Free movement screening and program consultation.",
+    "contact_urgency": "Training spots are limited. Reach out today to get assessed.",
+    "gallery_label": "In the Weight Room",
+    "marquee_text": "BUILD STRONG ★ MOVE FAST ★ PERFORM ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Performance Review"
+  }
+}

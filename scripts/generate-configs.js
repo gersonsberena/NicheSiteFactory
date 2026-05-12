@@ -9,26 +9,18 @@ const CSV_PATH = path.join(__dirname, "../prospects", csvFile)
 const OUT_DIR = path.join(__dirname, "../prospects/configs")
 const REGISTRY_PATH = path.join(__dirname, "../prospects/registry.json")
 
-const HERO_PHOTOS_BY_SPORT = {
-  Football: Array.from({ length: 10 }, (_, i) =>
-    `/stock/football/hero/hero-${String(i + 1).padStart(2, "0")}.jpg`
-  ),
-  Baseball: Array.from({ length: 10 }, (_, i) =>
-    `/stock/baseball/hero/hero-${String(i + 1).padStart(2, "0")}.jpg`
-  ),
-}
-const ABOUT_PHOTOS_BY_SPORT = {
-  Football: Array.from({ length: 10 }, (_, i) =>
-    `/stock/football/about/about-${String(i + 1).padStart(2, "0")}.jpg`
-  ),
-  Baseball: Array.from({ length: 10 }, (_, i) =>
-    `/stock/baseball/about/about-${String(i + 1).padStart(2, "0")}.jpg`
-  ),
+function sportToKey(s) {
+  return s.toLowerCase()
+    .replace(/&/g, "and").replace(/\//g, "-")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
 }
 
 function getPhotoPool(sport, type) {
-  const pool = type === "hero" ? HERO_PHOTOS_BY_SPORT : ABOUT_PHOTOS_BY_SPORT
-  return pool[sport] ?? pool.Football
+  const key = sportToKey(sport)
+  const folder = type === "hero" ? "hero" : "about"
+  return Array.from({ length: 10 }, (_, i) =>
+    `/stock/${key}/${folder}/${folder}-${String(i + 1).padStart(2, "0")}.jpg`
+  )
 }
 
 // Sport-agnostic design options

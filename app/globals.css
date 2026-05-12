@@ -40,6 +40,8 @@
   --color-d-warmgray:   #7B7468;
   --font-lato: Lato, system-ui, sans-serif;
   --font-playfair: "Playfair Display", Georgia, serif;
+  --color-d-amber-rgb:     217,119,6;
+  --color-d-warmwhite-rgb: 250,249,246;
 }
 
 /* ── Accent color system ── */
@@ -416,7 +418,7 @@ textarea.c-input-line { resize: none; min-height: 110px; }
 
 /* ── Layout D — Story First ── */
 .layout-d {
-  background-color: #FAF9F6;
+  background-color: var(--color-d-warmwhite);
   color: #1A1A2E;
   min-height: 100vh;
   font-family: Lato, system-ui, sans-serif;
@@ -436,7 +438,7 @@ textarea.c-input-line { resize: none; min-height: 110px; }
   background: linear-gradient(135deg, rgba(255,254,248,0.10) 0 1px, transparent 1px 14px), #1E3A5F;
 }
 .layout-d .d-underline-grow {
-  background-image: linear-gradient(#D97706, #D97706);
+  background-image: linear-gradient(var(--color-d-amber), var(--color-d-amber));
   background-repeat: no-repeat;
   background-size: 0% 1px;
   background-position: 0 100%;
@@ -452,14 +454,14 @@ textarea.c-input-line { resize: none; min-height: 110px; }
 .layout-d .d-photo-tile::after {
   content: '';
   position: absolute; inset: 0;
-  background: rgba(217,119,6,0);
+  background: rgba(var(--color-d-amber-rgb),0);
   transition: background 0.35s ease;
 }
-.layout-d .d-photo-tile:hover::after { background: rgba(217,119,6,0.15); }
+.layout-d .d-photo-tile:hover::after { background: rgba(var(--color-d-amber-rgb),0.15); }
 .layout-d .d-photo-tile:hover { transform: scale(1.02); }
 .layout-d .d-nav-blur {
   backdrop-filter: blur(10px);
-  background: rgba(250,249,246,0.85);
+  background: rgba(var(--color-d-warmwhite-rgb),0.85);
 }
 .layout-d .d-grain {
   background-image: radial-gradient(rgba(26,26,46,0.05) 1px, transparent 1px);
@@ -487,3 +489,104 @@ textarea.c-input-line { resize: none; min-height: 110px; }
   border-color: #1E3A5F;
   box-shadow: 0 0 0 3px rgba(30,58,95,0.12);
 }
+
+/* ── Layout D accent color themes ── */
+.d-theme-amber   { --color-d-amber: #D97706; --color-d-amberlight: #E89A3C; --color-d-amber-rgb: 217,119,6; }
+.d-theme-teal    { --color-d-amber: #0D9488; --color-d-amberlight: #14B8A6; --color-d-amber-rgb: 13,148,136; }
+.d-theme-forest  { --color-d-amber: #16A34A; --color-d-amberlight: #22C55E; --color-d-amber-rgb: 22,163,74; }
+.d-theme-crimson { --color-d-amber: #DC2626; --color-d-amberlight: #EF4444; --color-d-amber-rgb: 220,38,38; }
+
+/* ── Layout D background tones ── */
+.d-bg-warmwhite { --color-d-warmwhite: #FAF9F6; --color-d-cream: #F5F0E8; --color-d-warmwhite-rgb: 250,249,246; }
+.d-bg-cream     { --color-d-warmwhite: #F5F0E8; --color-d-cream: #EFE8DC; --color-d-warmwhite-rgb: 245,240,232; }
+.d-bg-white     { --color-d-warmwhite: #FFFFFF; --color-d-cream: #F8F8F8; --color-d-warmwhite-rgb: 255,255,255; }
+
+/* ── Layout E accent color themes (navy/gold, Premium Elite) ── */
+.e-theme-gold     { --accent: #D4AF37; --accent-hi: #E8C84A; --accent-dim: #A88C2A; --accent-rgb: 212,175,55; }
+.e-theme-silver   { --accent: #A8A9AD; --accent-hi: #C0C1C5; --accent-dim: #888990; --accent-rgb: 168,169,173; }
+.e-theme-teal     { --accent: #0D9488; --accent-hi: #14B8A6; --accent-dim: #0A7670; --accent-rgb: 13,148,136; }
+.e-theme-platinum { --accent: #E5E4E2; --accent-hi: #F0EFED; --accent-dim: #B8B7B5; --accent-rgb: 229,228,226; }
+
+/* ── Layout E background tones ── */
+.e-bg-navy      { --bg: #0B1628; --bg2: #0F1E35; --bg-card: #152340; --text: #F0F4FF; --text-muted: #8FA3C0; }
+.e-bg-midnight  { --bg: #080C14; --bg2: #0C1020; --bg-card: #10182C; --text: #EEF2FF; --text-muted: #7A8EAD; }
+.e-bg-deep-blue { --bg: #0A1020; --bg2: #0E162C; --bg-card: #141D38; --text: #E8EFFF; --text-muted: #8090B4; }
+
+/* ── Layout F accent color themes (near-black/teal, High Energy) ── */
+.f-theme-teal   { --accent: #00D4B4; --accent-hi: #33DDBE; --accent-dim: #00A88E; --accent-rgb: 0,212,180; }
+.f-theme-orange { --accent: #FF6B35; --accent-hi: #FF8A5E; --accent-dim: #CC5328; --accent-rgb: 255,107,53; }
+.f-theme-purple { --accent: #A855F7; --accent-hi: #BC7AF9; --accent-dim: #8644C6; --accent-rgb: 168,85,247; }
+.f-theme-red    { --accent: #EF4444; --accent-hi: #F87171; --accent-dim: #C03636; --accent-rgb: 239,68,68; }
+.f-theme-gold   { --accent: #F59E0B; --accent-hi: #FBBF24; --accent-dim: #C47E09; --accent-rgb: 245,158,11; }
+
+/* ── Layout F background tones ── */
+.f-bg-near-black  { --bg: #0A0A0A; --bg2: #111111; --bg-card: #161616; --text: #FFFFFF; --text-muted: #9CA3AF; }
+.f-bg-true-black  { --bg: #000000; --bg2: #080808; --bg-card: #101010; --text: #FFFFFF; --text-muted: #9CA3AF; }
+.f-bg-dark-slate  { --bg: #0F1117; --bg2: #161B25; --bg-card: #1C2230; --text: #F0F4FF; --text-muted: #8896B0; }
+
+/* ── Layout G accent color themes (paper/warm, Local Legend) ── */
+.g-theme-rust     { --accent: #C0392B; --accent-hi: #E74C3C; --accent-dim: #992D22; --accent-rgb: 192,57,43; }
+.g-theme-forest   { --accent: #27AE60; --accent-hi: #2ECC71; --accent-dim: #1E8A4C; --accent-rgb: 39,174,96; }
+.g-theme-navy     { --accent: #2C3E7A; --accent-hi: #3D52A0; --accent-dim: #1E2C60; --accent-rgb: 44,62,122; }
+.g-theme-burgundy { --accent: #7D2A3A; --accent-hi: #9E3448; --accent-dim: #5E1E2B; --accent-rgb: 125,42,58; }
+
+/* ── Layout G background tones ── */
+.g-bg-paper      { --bg: #F5F0E8; --bg2: #EDE8DE; --bg-card: #FFFFFF; --text: #1A1008; --text-muted: #6B5D4D; }
+.g-bg-warm-white { --bg: #FAF8F4; --bg2: #F2EEE6; --bg-card: #FFFFFF; --text: #1C1208; --text-muted: #6E6058; }
+.g-bg-cream      { --bg: #F0EAD6; --bg2: #E8E0C8; --bg-card: #FAF8F4; --text: #1A1008; --text-muted: #6B5D4D; }
+
+/* ── Layout H accent color themes (white/light, Data Driven) ── */
+.h-theme-orange { --accent: #EA580C; --accent-hi: #F97316; --accent-dim: #C04A0A; --accent-rgb: 234,88,12; }
+.h-theme-teal   { --accent: #0D9488; --accent-hi: #14B8A6; --accent-dim: #0A7670; --accent-rgb: 13,148,136; }
+.h-theme-blue   { --accent: #2563EB; --accent-hi: #3B82F6; --accent-dim: #1D4FBC; --accent-rgb: 37,99,235; }
+.h-theme-green  { --accent: #16A34A; --accent-hi: #22C55E; --accent-dim: #117A38; --accent-rgb: 22,163,74; }
+
+/* ── Layout H background tones ── */
+.h-bg-white       { --bg: #FFFFFF; --bg2: #F9FAFB; --bg-card: #F3F4F6; --text: #111827; --text-muted: #6B7280; }
+.h-bg-light-gray  { --bg: #F9FAFB; --bg2: #F3F4F6; --bg-card: #FFFFFF; --text: #111827; --text-muted: #6B7280; }
+.h-bg-slate-light { --bg: #F8FAFC; --bg2: #F1F5F9; --bg-card: #FFFFFF; --text: #0F172A; --text-muted: #64748B; }
+
+/* ── Layout I accent color themes (warm cream/burgundy, Magazine Editorial) ── */
+.i-theme-burgundy { --accent: #7D2A3A; --accent-hi: #9E3448; --accent-dim: #5E1E2B; --accent-rgb: 125,42,58; }
+.i-theme-navy     { --accent: #1E3A5F; --accent-hi: #2A5080; --accent-dim: #152B48; --accent-rgb: 30,58,95; }
+.i-theme-forest   { --accent: #2D5A27; --accent-hi: #3D7A34; --accent-dim: #1E3D1A; --accent-rgb: 45,90,39; }
+.i-theme-slate    { --accent: #475569; --accent-hi: #64748B; --accent-dim: #334155; --accent-rgb: 71,85,105; }
+
+/* ── Layout I background tones ── */
+.i-bg-warm-cream { --bg: #FAF6EF; --bg2: #F5F0E6; --bg-card: #FFFFFF; --text: #1A0F08; --text-muted: #6B5A4A; }
+.i-bg-white      { --bg: #FFFFFF; --bg2: #F9F7F4; --bg-card: #F5F2ED; --text: #1A0F08; --text-muted: #6B5A4A; }
+.i-bg-newsprint  { --bg: #F2EDE0; --bg2: #EBE4D4; --bg-card: #FAF8F3; --text: #1A1208; --text-muted: #6B5C48; }
+
+/* ── Layout K accent color themes (dark navy/tactical, Precision) ── */
+.k-theme-blue   { --accent: #3B82F6; --accent-hi: #60A5FA; --accent-dim: #2563EB; --accent-rgb: 59,130,246; }
+.k-theme-teal   { --accent: #14B8A6; --accent-hi: #2DD4BF; --accent-dim: #0D9488; --accent-rgb: 20,184,166; }
+.k-theme-amber  { --accent: #F59E0B; --accent-hi: #FBBF24; --accent-dim: #D97706; --accent-rgb: 245,158,11; }
+.k-theme-green  { --accent: #22C55E; --accent-hi: #4ADE80; --accent-dim: #16A34A; --accent-rgb: 34,197,94; }
+
+/* ── Layout K background tones ── */
+.k-bg-dark-navy  { --bg: #0F172A; --bg2: #1E293B; --bg-card: #0F172A; --text: #F8FAFC; --text-muted: #94A3B8; }
+.k-bg-midnight   { --bg: #080C14; --bg2: #101828; --bg-card: #141E30; --text: #F0F4FF; --text-muted: #8896B0; }
+.k-bg-near-black { --bg: #0A0A0A; --bg2: #111111; --bg-card: #161616; --text: #FFFFFF; --text-muted: #9CA3AF; }
+
+/* ── Layout L accent color themes (glassmorphism, Glass Premium) ── */
+.l-theme-purple { --accent: #A855F7; --accent-hi: #C084FC; --accent-dim: #9333EA; --accent-rgb: 168,85,247; }
+.l-theme-teal   { --accent: #14B8A6; --accent-hi: #2DD4BF; --accent-dim: #0D9488; --accent-rgb: 20,184,166; }
+.l-theme-blue   { --accent: #3B82F6; --accent-hi: #60A5FA; --accent-dim: #2563EB; --accent-rgb: 59,130,246; }
+.l-theme-gold   { --accent: #F59E0B; --accent-hi: #FBBF24; --accent-dim: #D97706; --accent-rgb: 245,158,11; }
+.l-theme-pink   { --accent: #EC4899; --accent-hi: #F472B6; --accent-dim: #DB2777; --accent-rgb: 236,72,153; }
+
+/* ── Layout L background tones ── */
+.l-bg-near-black  { --bg: #09090B; --bg2: #111113; --bg-card: rgba(255,255,255,0.05); --text: #FAFAFA; --text-muted: #A1A1AA; }
+.l-bg-true-black  { --bg: #000000; --bg2: #08080A; --bg-card: rgba(255,255,255,0.04); --text: #FAFAFA; --text-muted: #A1A1AA; }
+.l-bg-navy-black  { --bg: #06090F; --bg2: #0C1120; --bg-card: rgba(59,130,246,0.06); --text: #EEF2FF; --text-muted: #8896B0; }
+
+/* ── Layout M accent color themes (warm dark/editorial, Dark Editorial) ── */
+.m-theme-gold   { --accent: #D4AF37; --accent-hi: #E8C84A; --accent-dim: #A88C2A; --accent-rgb: 212,175,55; }
+.m-theme-teal   { --accent: #14B8A6; --accent-hi: #2DD4BF; --accent-dim: #0D9488; --accent-rgb: 20,184,166; }
+.m-theme-rust   { --accent: #C2410C; --accent-hi: #EA580C; --accent-dim: #9A330A; --accent-rgb: 194,65,12; }
+.m-theme-silver { --accent: #A8A9AD; --accent-hi: #C0C1C5; --accent-dim: #888990; --accent-rgb: 168,169,173; }
+
+/* ── Layout M background tones ── */
+.m-bg-warm-dark  { --bg: #0D0B09; --bg2: #161210; --bg-card: #1E1916; --text: #F5F0E8; --text-muted: #8C7B6A; }
+.m-bg-cool-dark  { --bg: #0A0C10; --bg2: #12151C; --bg-card: #1A1E28; --text: #F0F4FF; --text-muted: #8896B0; }
+.m-bg-near-black { --bg: #0A0A0A; --bg2: #111111; --bg-card: #181818; --text: #FFFFFF; --text-muted: #9CA3AF; }

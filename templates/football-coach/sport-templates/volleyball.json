@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Volleyball Coach",
+    "bio": "I've spent years developing players from beginner club levels through varsity competition, focusing on the technical precision and team awareness that win matches. Every session is designed to sharpen your most critical skills and make you a more dangerous player.",
+    "years_experience": 8,
+    "specialty": "Serving, Setting & Attacking",
+    "age_groups": "Youth · Club · High School",
+    "photo": "/stock/volleyball/about/about-01.jpg",
+    "credentials": ["USA Volleyball Certified", "Former Collegiate Player"],
+    "sport": "Volleyball"
+  },
+
+  "hero": {
+    "headline": "Touch. Set. Attack.",
+    "subline": "Private volleyball coaching — serving mechanics, setting precision, and attacking development for players who want to dominate the net.",
+    "photo": "/stock/volleyball/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "250+", "label": "Players Trained" },
+    { "value": "8", "label": "Years Coaching" },
+    { "value": "5", "label": "Varsity Starters" }
+  ],
+
+  "services": [
+    {
+      "title": "1-on-1 Skills Training",
+      "description": "Personalized sessions targeting your position — serving mechanics, passing, setting, or attacking based on where you need to grow.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Setting & Ball Control",
+      "description": "Dedicated sessions for setters and liberos — hand position, footwork, decision-making, and platform control under pressure.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Attacking & Defensive Development",
+      "description": "Approach mechanics, arm swing, reading blocks, and defensive footwork for outside hitters, middles, and opposite."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter's serving went from inconsistent to a genuine weapon. She became one of the top servers on her club team after just two months.",
+      "name": "Sandra M.",
+      "role": "Parent of U16 Player",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The setting sessions completely elevated my game. My touches are so much cleaner now and I've gotten three college looks since we started working together.",
+      "name": "Alexis P.",
+      "role": "High School Setter",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/volleyball/gallery/gallery-01.jpg",
+      "/stock/volleyball/gallery/gallery-02.jpg",
+      "/stock/volleyball/gallery/gallery-03.jpg",
+      "/stock/volleyball/gallery/gallery-04.jpg",
+      "/stock/volleyball/gallery/gallery-05.jpg",
+      "/stock/volleyball/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Taylor W.",
+      "role": "Outside Hitter, Bartram Trail High",
+      "story": "Taylor had the athleticism but her arm swing was costing her power and consistency. We rebuilt her approach and attack mechanics over the spring, and she became the go-to option for her club team.",
+      "result": "Club Starter · Team Leading Attacker · College Interest"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with players from U10 through college level. Sessions are adapted to skill level — beginners and advanced players both welcome."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at local gym facilities in the area. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "1-on-1 sessions run 60 minutes. Small group sessions are 90 minutes."
+    },
+    {
+      "question": "What should my player bring?",
+      "answer": "Court shoes, knee pads, and water. A volleyball is helpful if you have one — equipment is provided."
+    },
+    {
+      "question": "Do you train all positions?",
+      "answer": "Yes — I work with setters, liberos, outside hitters, middles, and opposite hitters. Sessions are always position-specific."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "TOUCH. SET. ATTACK.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON TOUCHES. PROVEN AT THE NET.",
+    "about_quote": "Volleyball is a game of precision. Every touch matters — train each one like it does.",
+    "services_tagline": "TRAINING THAT ELEVATES YOUR GAME.",
+    "services_subline": "Serving, setting, and attacking — three skills that define the complete volleyball player.",
+    "testimonials_tagline": "RESULTS YOU CAN SEE.",
+    "testimonials_eyebrow": "Voices From the Court",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "In the Gym",
+    "marquee_text": "SERVE HARD ★ SET PERFECT ★ ATTACK ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Skills Review"
+  }
+}

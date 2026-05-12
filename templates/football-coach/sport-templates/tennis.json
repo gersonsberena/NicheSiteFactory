@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Tennis Coach",
+    "bio": "With years of experience coaching players from beginner through competitive tournament level, I focus on the technical precision and match intelligence that turn practice into results. My players learn to hit harder, move smarter, and compete with composure under pressure.",
+    "years_experience": 11,
+    "specialty": "Groundstrokes & Match Strategy",
+    "age_groups": "Youth · Junior · High School · Adult",
+    "photo": "/stock/tennis/about/about-01.jpg",
+    "credentials": ["USPTA Certified", "Former Collegiate Player"],
+    "sport": "Tennis"
+  },
+
+  "hero": {
+    "headline": "Serve. Rally. Win.",
+    "subline": "Private tennis coaching — stroke mechanics, match strategy, and tournament prep for players who want to win more matches.",
+    "photo": "/stock/tennis/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Players Coached" },
+    { "value": "11", "label": "Years Coaching" },
+    { "value": "20+", "label": "Tournament Winners" }
+  ],
+
+  "services": [
+    {
+      "title": "Stroke Mechanics",
+      "description": "Forehand, backhand, serve, and volley — individual sessions targeting your specific weaknesses and building a complete technical game.",
+      "price": "$80/session"
+    },
+    {
+      "title": "Match Strategy & Mental Game",
+      "description": "Pattern play, court positioning, shot selection, and the mental discipline to execute your game plan when it matters most.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Tournament Prep",
+      "description": "Structured pre-tournament sessions targeting opponent analysis, serve-return patterns, and competition-day focus."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son went from losing in the first round to winning his section in one season. The technical work on his serve was a complete game-changer.",
+      "name": "William K.",
+      "role": "Parent of Junior Tournament Player",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The strategy sessions changed how I see the court. I'm reading opponents better and winning matches I used to drop in the third set.",
+      "name": "Olivia S.",
+      "role": "High School Player",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/tennis/gallery/gallery-01.jpg",
+      "/stock/tennis/gallery/gallery-02.jpg",
+      "/stock/tennis/gallery/gallery-03.jpg",
+      "/stock/tennis/gallery/gallery-04.jpg",
+      "/stock/tennis/gallery/gallery-05.jpg",
+      "/stock/tennis/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Lucas V.",
+      "role": "Singles, Creekside High School",
+      "story": "Lucas had strong groundstrokes but his serve was a liability and he struggled closing out close sets. We rebuilt his serve mechanics and worked extensively on mental game over one off-season.",
+      "result": "Sectional Champion · #1 Singles Seed · College Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "I work with players from 6 years old through adult competitive level. Lessons are designed for your current skill set — beginners welcome."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at local tennis facilities and courts. Specific location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Standard sessions are 60 minutes. Extended sessions (90 min) are available for players working on multiple areas."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Tennis shoes (non-marking), a racquet, and water. Balls are provided."
+    },
+    {
+      "question": "Do you offer group sessions?",
+      "answer": "Yes — small group lessons (2–3 players) are available for players at similar skill levels. Contact me for availability and pricing."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "SERVE. RALLY. WIN.",
+    "hero_availability": "Court Time · Now Available",
+    "about_tagline": "BUILT ON MECHANICS. REFINED IN COMPETITION.",
+    "about_quote": "Tennis is won in practice. Every groundstroke, every serve, every point — earned before you step on the court.",
+    "services_tagline": "COACHING THAT WINS MATCHES.",
+    "services_subline": "Technique, strategy, and mental game — the three pillars of the complete tennis player.",
+    "testimonials_tagline": "RESULTS THAT WIN MATCHES.",
+    "testimonials_eyebrow": "Voices From the Court",
+    "contact_offer": "Free 30-minute intro session. Bring your racquet — leave with a plan.",
+    "contact_urgency": "Court slots fill quickly. Reach out today to book your session.",
+    "gallery_label": "On the Court",
+    "marquee_text": "SERVE HARD ★ RALLY SMART ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Match Review"
+  }
+}

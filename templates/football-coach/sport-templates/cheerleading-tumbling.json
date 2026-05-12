@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Cheer & Tumbling Coach",
+    "bio": "I specialize in building safe, powerful tumblers and stunt athletes from the ground up. Whether your athlete is working toward their first back handspring or training for competition, my focus is on proper technique, progressive skill-building, and consistent execution under pressure.",
+    "years_experience": 8,
+    "specialty": "Tumbling Progressions & Stunting",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/cheerleading-tumbling/about/about-01.jpg",
+    "credentials": ["USASF Certified", "Choreography & Stunt Specialist"],
+    "sport": "Cheerleading/Tumbling"
+  },
+
+  "hero": {
+    "headline": "Fly High. Stick the Landing.",
+    "subline": "Private cheer and tumbling coaching — skill progressions, stunt training, and competition prep for athletes who perform at their best when it counts.",
+    "photo": "/stock/cheerleading-tumbling/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Athletes Trained" },
+    { "value": "8", "label": "Years Coaching" },
+    { "value": "12", "label": "Competition Titles" }
+  ],
+
+  "services": [
+    {
+      "title": "Tumbling Skills Progression",
+      "description": "Structured progressions from cartwheels and round-offs through back handsprings, layouts, and fulls — built safely and solidly.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Stunt & Pyramid Training",
+      "description": "Flyer technique, basing mechanics, and pyramid sequencing for competitive and sideline squads of all levels.",
+      "price": "$65/session"
+    },
+    {
+      "title": "Competition & Routine Prep",
+      "description": "Choreography review, execution sharpening, and mental prep to peak performance at competition time."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter had been stuck on her back handspring for over a year. After just four sessions here, she had it clean. The coaching approach made all the difference.",
+      "name": "Lisa C.",
+      "role": "Parent of Middle School Cheerleader",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The tumbling sessions gave me the skills to make my high school varsity squad. I couldn't have done it without this training.",
+      "name": "Kayla M.",
+      "role": "High School Cheerleader",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/cheerleading-tumbling/gallery/gallery-01.jpg",
+      "/stock/cheerleading-tumbling/gallery/gallery-02.jpg",
+      "/stock/cheerleading-tumbling/gallery/gallery-03.jpg",
+      "/stock/cheerleading-tumbling/gallery/gallery-04.jpg",
+      "/stock/cheerleading-tumbling/gallery/gallery-05.jpg",
+      "/stock/cheerleading-tumbling/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Destiny R.",
+      "role": "Flyer, Atlantic Coast High School",
+      "story": "Destiny had the flexibility but her flying technique wasn't competition-ready. We rebuilt her body position, timing, and trust in her bases over one summer. She hit her most difficult skill perfectly at regionals.",
+      "result": "Competition Flyer · Regional Title · Varsity Cheer Captain"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We train athletes from 5 years old through high school and collegiate level. Safety and age-appropriate progressions are always the priority."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local cheer and gymnastics facility with spring floors and matting. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Sessions run 60 minutes. Longer 90-minute sessions are available for athletes working on multiple skills."
+    },
+    {
+      "question": "What should my athlete bring?",
+      "answer": "Athletic wear (no skirts during tumbling), cheer shoes or athletic sneakers, hair secured, and water."
+    },
+    {
+      "question": "Do you work with full squads?",
+      "answer": "Yes — I offer group and squad-based sessions for competition prep, stunt sequencing, and routine review. Contact me for details."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "FLY HIGH. STICK THE LANDING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON PROGRESSIONS. PROVEN ON THE MAT.",
+    "about_quote": "Every elite tumbler started with one skill done right. Build it correctly and everything else follows.",
+    "services_tagline": "TRAINING THAT PERFORMS UNDER PRESSURE.",
+    "services_subline": "Tumbling, stunting, and competition prep — three areas that define the complete cheer athlete.",
+    "testimonials_tagline": "RESULTS THAT SHOW ON THE MAT.",
+    "testimonials_eyebrow": "Voices From the Gym",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "In the Gym",
+    "marquee_text": "FLY HIGH ★ STICK IT ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Skills Review"
+  }
+}

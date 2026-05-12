@@ -85,7 +85,7 @@ export default function About({ config }: { config: CoachConfig }) {
               <div className="absolute bottom-0 left-0 w-3/4 h-1 bg-[var(--accent)]" />
               <div className="relative w-full h-full overflow-hidden bg-smoke ml-3 mb-3 group">
                 <img
-                  src={config.about.photo}
+                  src={config.about.photo || undefined}
                   alt={config.about.name}
                   className={`w-full h-full object-cover ${photoClass}`}
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
@@ -117,7 +117,7 @@ export default function About({ config }: { config: CoachConfig }) {
           <div className="lg:col-span-5 reveal">
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 overflow-hidden bg-smoke group">
               <img
-                src={config.about.photo}
+                src={config.about.photo || undefined}
                 alt={config.about.name}
                 className={`w-full h-full object-cover ${photoClass}`}
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
@@ -151,7 +151,7 @@ export default function About({ config }: { config: CoachConfig }) {
               <div className="absolute -inset-3 rounded-full border border-[rgba(var(--accent-rgb),0.3)]" />
               <div className="w-full h-full rounded-full overflow-hidden bg-smoke ring-2 ring-[var(--accent)] ring-offset-4 ring-offset-ink group">
                 <img
-                  src={config.about.photo}
+                  src={config.about.photo || undefined}
                   alt={config.about.name}
                   className={`w-full h-full object-cover object-top ${photoClass}`}
                   onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
@@ -183,7 +183,7 @@ export default function About({ config }: { config: CoachConfig }) {
             <div className="absolute -inset-2 border border-[rgba(var(--accent-rgb),0.3)] -translate-x-3 -translate-y-3 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
             <div className="relative w-full h-full overflow-hidden bg-smoke">
               <img
-                src={config.about.photo}
+                src={config.about.photo || undefined}
                 alt={config.about.name}
                 className={`w-full h-full object-cover ${photoClass}`}
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Coach Marcus Reid | Precision Football Training — Charlotte, NC",
+    "description": "Charlotte's precision football coach. Technical mastery for athletes who demand the edge."
+  },
+  "layout": "K",
+  "about": {
+    "name": "Coach Marcus Reid",
+    "title": "Head Football Coach",
+    "city": "Charlotte",
+    "county": "Mecklenburg",
+    "state": "NC",
+    "sport": "Football",
+    "specialty": "Offensive Line & Blocking Technique",
+    "years_experience": 11,
+    "bio": "Coach Marcus Reid is one of the most technically precise offensive line coaches in the Southeast. A former college starter at Virginia Tech, he spent years studying film, refining footwork progressions, and building the kind of position-specific knowledge base that college programs pay top dollar for. His athletes don't just get bigger — they get smarter, technically sharper, and more ready to compete at the next level.",
+    "photo": "/stock/football/about/about-01.jpg",
+    "credentials": ["Former Collegiate OL", "AFCA Member", "NASM Certified"],
+    "age_groups": "Middle School · High School · College Prep"
+  },
+  "hero": {
+    "headline": "The Trenches Win Games",
+    "subline": "Offensive line development for athletes who want to be the most technically sound player on the field.",
+    "photo": "/stock/football/hero/hero-01.jpg",
+    "cta_text": "Apply Now"
+  },
+  "stats": [
+    { "value": "11+", "label": "Years Coaching" },
+    { "value": "60+", "label": "OL Placements" },
+    { "value": "4", "label": "D1 Signees (2024)" },
+    { "value": "99%", "label": "Return Rate" }
+  ],
+  "services": [
+    {
+      "title": "OL Footwork & Stance",
+      "description": "The foundation of every elite lineman. Stance, initial step, kick slide, and set mechanics drilled to precision.",
+      "price": "$130 / session"
+    },
+    {
+      "title": "Run Blocking Mastery",
+      "description": "Drive blocks, combo blocks, pull technique, and point-of-attack domination for every blocking scheme.",
+      "price": "$130 / session"
+    },
+    {
+      "title": "Pass Protection & Film",
+      "description": "Pass sets, hands technique, anchor strength, and reading defensive fronts — includes film review.",
+      "price": "$160 / session"
+    }
+  ],
+  "success_stories": [
+    {
+      "athlete": "Devon A.",
+      "result": "3-star → 4-star recruit",
+      "story": "Twelve months of footwork refinement and film study. Signed with Wake Forest on National Signing Day.",
+      "position": "Left Tackle"
+    },
+    {
+      "athlete": "Chris M.",
+      "result": "Walk-on → scholarship offer",
+      "story": "Improved hand placement and pass set mechanics earned Chris a second look — and a scholarship offer — from his D2 program.",
+      "position": "Guard"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Reid broke down film with my son like a college coordinator would. He doesn't just teach technique — he teaches the game.",
+      "name": "Andre A.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "I came in as a 3-star with good size and left a 4-star with a real skill set. The difference was Coach Reid.",
+      "name": "Devon A.",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "The most knowledgeable OL coach in the Charlotte area. Period.",
+      "name": "Coach T. Barnes",
+      "role": "High School Head Coach",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "Do you only train offensive linemen?", "answer": "My primary expertise is OL, but I also work with tight ends on blocking mechanics and sometimes linebackers on point-of-attack technique." },
+    { "question": "What makes your program different?", "answer": "Film is part of every session. My athletes don't just drill — they understand why each technique works, so they can self-correct on the field." },
+    { "question": "How do I apply?", "answer": "Fill out the contact form and describe your athlete's current level and goals. I schedule an evaluation session before committing to a training plan." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "k_accent_color": "blue",
+    "k_bg_tone": "dark-navy"
+  },
+  "copy_variants": {
+    "hero_tagline": "TECHNIQUE. FILM. EXECUTION.",
+    "hero_availability": "Off-Season Program — Limited Spots"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Coach DeShawn Reed | Football Speed Training — Jacksonville, FL",
+    "description": "Jacksonville football speed and explosiveness coach. High-energy training for serious athletes."
+  },
+  "layout": "F",
+  "about": {
+    "name": "Coach DeShawn Reed",
+    "title": "Speed & Performance Coach",
+    "city": "Jacksonville",
+    "county": "Duval",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Speed, Explosiveness & Athletic Performance",
+    "years_experience": 8,
+    "bio": "Coach DeShawn Reed is a former Division II wide receiver turned performance specialist. His training combines advanced sprint mechanics, functional strength, and position-specific drills to produce the kind of first-step explosiveness that changes games. His athletes report measurable speed gains within the first six weeks.",
+    "photo": "/stock/football/about/about-02.jpg",
+    "credentials": ["IYCA Certified", "Former Collegiate Athlete", "CPR/AED Certified"],
+    "age_groups": "Youth · Middle School · High School"
+  },
+  "hero": {
+    "headline": "Train Fast. Play Faster.",
+    "subline": "Speed and explosiveness training for football athletes who want to dominate.",
+    "photo": "/stock/football/hero/hero-02.jpg",
+    "cta_text": "Start Training"
+  },
+  "stats": [
+    { "value": "8+", "label": "Years Coaching" },
+    { "value": "200+", "label": "Athletes Trained" },
+    { "value": "0.3s", "label": "Avg 40yd Improvement" },
+    { "value": "4.8★", "label": "Avg Rating" }
+  ],
+  "services": [
+    {
+      "title": "Speed & Acceleration",
+      "description": "Sprint mechanics, acceleration technique, and first-step quickness for skill positions and linebackers.",
+      "price": "$80 / session"
+    },
+    {
+      "title": "Combine Prep",
+      "description": "40-yard dash, shuttle drills, vertical, and broad jump — everything evaluated at combines, optimized.",
+      "price": "$200 / 4-week block"
+    },
+    {
+      "title": "Position Speed Training",
+      "description": "Sport-specific movement patterns, route running, pursuit angles, and change of direction.",
+      "price": "$90 / session"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "My 40 dropped from a 4.9 to a 4.6 in eight weeks. Coach Reed knows his stuff.",
+      "name": "Brandon T.",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "High energy, technical, and results-driven. Best investment of the off-season.",
+      "name": "Michelle R.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "How quickly will I see results?", "answer": "Most athletes see measurable improvements within 4-6 weeks of consistent training. Speed gains depend on starting baseline and training frequency." },
+    { "question": "Do you train in groups?", "answer": "Yes — small groups of 2-4 athletes available at a reduced rate. 1-on-1 sessions for maximum focus." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "f_accent_color": "teal",
+    "f_bg_tone": "near-black"
+  },
+  "copy_variants": {
+    "hero_tagline": "FASTER FIRST STEP. BIGGER PLAYS.",
+    "hero_availability": "Spring Training — Now Open"
+  }
+}

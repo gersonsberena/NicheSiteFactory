@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Certified Personal Trainer",
+    "bio": "I help everyday athletes and fitness beginners alike build the body and habits they want — through proven programming, consistent accountability, and coaching that adapts to your life. No cookie-cutter plans. No guesswork. Just results.",
+    "years_experience": 8,
+    "specialty": "Body Composition & Functional Fitness",
+    "age_groups": "Teens · Adults · Athletes",
+    "photo": "/stock/personal-trainer/about/about-01.jpg",
+    "credentials": ["NASM Certified", "CPR/AED Certified"],
+    "sport": "Personal Trainer"
+  },
+
+  "hero": {
+    "headline": "Transform Your Body. Change Your Life.",
+    "subline": "Private personal training — customized programs, nutrition guidance, and real accountability for clients who are ready to make a lasting change.",
+    "photo": "/stock/personal-trainer/hero/hero-01.jpg",
+    "cta_text": "Book a Free Consult"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Clients Transformed" },
+    { "value": "8", "label": "Years Training" },
+    { "value": "95%", "label": "Client Retention" }
+  ],
+
+  "packages": [
+    {
+      "title": "Kickstart Program",
+      "description": "A structured 4-week introduction — 3 sessions per week, baseline assessments, nutrition fundamentals, and habit-building. Perfect for clients getting started or returning after a break.",
+      "duration": "4 Weeks",
+      "sessions_per_week": 3,
+      "price": "$349",
+      "highlight": false
+    },
+    {
+      "title": "Transformation Program",
+      "description": "The complete 12-week body composition program — 3 sessions per week, progressive overload programming, weekly check-ins, nutrition coaching, and full accountability support.",
+      "duration": "12 Weeks",
+      "sessions_per_week": 3,
+      "price": "$899",
+      "highlight": true
+    },
+    {
+      "title": "Elite Performance",
+      "description": "Ongoing monthly training for clients who have completed a transformation program and want to keep progressing — 4 sessions per week, monthly reprogramming, and priority scheduling.",
+      "duration": "Monthly",
+      "sessions_per_week": 4,
+      "price": "$399/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I lost 22 pounds in my first 12-week program and actually kept it off. The accountability and customized nutrition coaching was the piece I was always missing.",
+      "name": "Michelle T.",
+      "role": "Transformation Program Client",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I've tried gym memberships, apps, everything. This is the first time I've had someone in my corner who adjusted the plan when life got in the way. I'm still going strong at 6 months.",
+      "name": "James R.",
+      "role": "Elite Performance Client",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/personal-trainer/gallery/gallery-01.jpg",
+      "/stock/personal-trainer/gallery/gallery-02.jpg",
+      "/stock/personal-trainer/gallery/gallery-03.jpg",
+      "/stock/personal-trainer/gallery/gallery-04.jpg",
+      "/stock/personal-trainer/gallery/gallery-05.jpg",
+      "/stock/personal-trainer/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Danielle K.",
+      "role": "Transformation Client",
+      "story": "Danielle came in frustrated after years of inconsistent results. We built a sustainable program around her schedule, focused on progressive strength training, and simplified her nutrition approach.",
+      "result": "Lost 28 lbs · Gained Lean Muscle · Maintained 1 Year Later"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Do you offer online training?",
+      "answer": "Yes — fully remote online training is available with the same programming, check-ins, and accountability as in-person sessions. Great for clients with busy schedules."
+    },
+    {
+      "question": "Do you provide meal plans?",
+      "answer": "I provide nutrition coaching and macro guidance rather than rigid meal plans — sustainable habits outperform short-term diets every time."
+    },
+    {
+      "question": "I've never worked with a trainer before — where do I start?",
+      "answer": "Start with the free consult. We'll talk through your goals, training history, and lifestyle so I can recommend the right program for you."
+    },
+    {
+      "question": "Where do in-person sessions take place?",
+      "answer": "Sessions take place at a local fitness facility. Exact location is confirmed at booking. Home gym sessions available by arrangement."
+    },
+    {
+      "question": "What if I miss a session?",
+      "answer": "Life happens. All programs allow for rescheduled sessions with 24-hour notice. I work around your schedule — not the other way around."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "TRANSFORM YOUR BODY. CHANGE YOUR LIFE.",
+    "hero_availability": "Client Spots · Now Available",
+    "about_tagline": "BUILT ON HABITS. PROVEN BY RESULTS.",
+    "about_quote": "Fitness isn't a 30-day fix — it's a lifestyle built one session at a time.",
+    "services_tagline": "PROGRAMS BUILT AROUND YOUR GOALS.",
+    "services_subline": "Customized training, nutrition guidance, and accountability — everything you need to actually change.",
+    "testimonials_tagline": "REAL RESULTS. REAL PEOPLE.",
+    "testimonials_eyebrow": "Client Transformations",
+    "contact_offer": "Free 30-minute consult. Talk goals — leave with a plan.",
+    "contact_urgency": "Client spots are limited. Reach out today to get started.",
+    "gallery_label": "Training Sessions",
+    "marquee_text": "TRAIN HARD ★ EAT SMART ★ CHANGE ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Client Session 01"
+  }
+}

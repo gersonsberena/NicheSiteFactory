@@ -194,12 +194,14 @@ export default function Hero({ config, onCTA }: { config: CoachConfig; onCTA?: (
   return (
     <section id="top" className="relative min-h-[100svh] w-full overflow-hidden">
       <div className="absolute inset-0">
-        <img
-          src={config.hero.photo as string}
-          alt=""
-          className="w-full h-full object-cover object-center scale-105"
-          onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
-        />
+        {config.hero.photo && (
+          <img
+            src={config.hero.photo as string}
+            alt=""
+            className="w-full h-full object-cover object-center scale-105"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
+          />
+        )}
         <div className="absolute inset-0 bg-ink/30" />
       </div>
 

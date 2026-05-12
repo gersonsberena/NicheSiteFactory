@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Coach Raymond Cross | Football Training — Savannah, GA",
+    "description": "Savannah's storied football coach. Tradition, discipline, and championship development."
+  },
+  "layout": "M",
+  "about": {
+    "name": "Coach Raymond Cross",
+    "title": "Head Football Coach",
+    "city": "Savannah",
+    "county": "Chatham",
+    "state": "GA",
+    "sport": "Football",
+    "specialty": "Quarterback Development & Offensive Systems",
+    "years_experience": 18,
+    "bio": "Coach Raymond Cross has been shaping quarterbacks and football minds in the Coastal Georgia region for nearly two decades. A former college quarterback himself, Coach Cross brings a depth of offensive knowledge — and a storytelling patience — that is rare in private football training. His athletes don't just learn plays; they learn the game.",
+    "photo": "/stock/football/about/about-01.jpg",
+    "credentials": ["Former Collegiate QB", "AFCA Member", "Savannah Athletic Hall of Fame"],
+    "age_groups": "Youth · Middle School · High School"
+  },
+  "hero": {
+    "headline": "The Game Within the Game",
+    "subline": "Quarterback development and football IQ coaching for athletes who want to think like coaches.",
+    "photo": "/stock/football/hero/hero-01.jpg",
+    "cta_text": "Begin the Journey"
+  },
+  "stats": [
+    { "value": "18+", "label": "Years in Savannah" },
+    { "value": "600+", "label": "Athletes Coached" },
+    { "value": "22", "label": "College Signees" },
+    { "value": "95%", "label": "Parent Satisfaction" }
+  ],
+  "services": [
+    {
+      "title": "QB Mechanics & Footwork",
+      "description": "Grip, release point, drop mechanics, and pocket presence built over eighteen years of QB-specific coaching.",
+      "price": "$150 / session"
+    },
+    {
+      "title": "Film & Football IQ",
+      "description": "Pre-snap reads, route combinations, defensive recognition, and decision-making under pressure.",
+      "price": "$120 / session"
+    },
+    {
+      "title": "Youth QB Development",
+      "description": "For ages 8-13. Building the fundamentals of QB play — mechanics, leadership, and love of the position.",
+      "price": "$70 / session"
+    }
+  ],
+  "success_stories": [
+    {
+      "athlete": "Calvin R.",
+      "result": "Walk-on → 3-year starter",
+      "story": "Two years of film study and footwork refinement with Coach Cross. Calvin walked on at Georgia Southern and started for three seasons.",
+      "position": "Quarterback"
+    },
+    {
+      "athlete": "Jordan P.",
+      "result": "1-star → Division II scholarship",
+      "story": "Patient development over three years. Jordan's improved decision-making earned him a scholarship offer from Valdosta State.",
+      "position": "Quarterback"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Cross changed how my son sees football. He doesn't just throw anymore — he understands the offense.",
+      "name": "Denise R.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Eighteen years in Savannah and there's nobody better. Coach Cross is a football institution.",
+      "name": "Pastor Greg M.",
+      "role": "Community Leader",
+      "rating": 5
+    },
+    {
+      "quote": "The film sessions opened my eyes. I started seeing the field completely differently after the first month.",
+      "name": "Calvin R.",
+      "role": "Athlete",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "What age do you start working with QBs?", "answer": "I work with quarterbacks as young as 8. Early development focuses on mechanics, grip, and building a love for the position before introducing complexity." },
+    { "question": "How long before I see improvement?", "answer": "Most athletes see meaningful mechanical improvement within 6-8 sessions. Football IQ development is a longer process — but athletes typically report better pre-snap reads within 4-6 weeks of film sessions." },
+    { "question": "Do you offer group sessions?", "answer": "Limited QB group sessions (2-3 athletes) available. Most of my work is 1-on-1. The QB position rewards individual attention more than any other." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "m_accent_color": "gold",
+    "m_bg_tone": "warm-dark"
+  },
+  "copy_variants": {
+    "hero_tagline": "PATIENCE. PRECISION. LEADERSHIP.",
+    "hero_availability": "Now Enrolling — All Levels Welcome"
+  }
+}

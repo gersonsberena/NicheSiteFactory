@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Golf Coach",
+    "bio": "From first-time junior golfers to competitive players chasing their best rounds, I bring a data-driven, fundamentals-first approach to every lesson. My players improve their ball striking, sharpen their short game, and develop the mental discipline that separates good rounds from great ones.",
+    "years_experience": 12,
+    "specialty": "Swing Mechanics & Course Management",
+    "age_groups": "Youth · Junior · High School · Adult",
+    "photo": "/stock/golf/about/about-01.jpg",
+    "credentials": ["PGA Member", "TPI Certified"],
+    "sport": "Golf"
+  },
+
+  "hero": {
+    "headline": "Play Smart. Shoot Low.",
+    "subline": "Private golf instruction — swing analysis, short game mastery, and course management for players ready to break through to the next level.",
+    "photo": "/stock/golf/hero/hero-01.jpg",
+    "cta_text": "Book a Lesson"
+  },
+
+  "stats": [
+    { "value": "400+", "label": "Students Coached" },
+    { "value": "12", "label": "Years Coaching" },
+    { "value": "15+", "label": "Avg Handicap Drop" }
+  ],
+
+  "services": [
+    {
+      "title": "Full Swing Analysis",
+      "description": "Video analysis and hands-on instruction targeting your setup, backswing, impact, and follow-through — with a clear improvement plan.",
+      "price": "$90/session"
+    },
+    {
+      "title": "Short Game Mastery",
+      "description": "Chipping, pitching, sand play, and putting — the scoring zones where most players lose strokes and where we can gain them back quickly.",
+      "price": "$80/session"
+    },
+    {
+      "title": "Course Management & Recruiting",
+      "description": "On-course strategy sessions for competitive players. Recruiting guidance for junior golfers targeting college programs."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "I dropped my handicap from an 18 to an 11 in one season. The work on my short game and course management made all the difference.",
+      "name": "Thomas R.",
+      "role": "Adult Competitive Player",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "My son's swing was a mess when we started. Now he's consistently breaking 80 and has gotten his first college recruiting contacts.",
+      "name": "David L.",
+      "role": "Parent of Junior Golfer",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/golf/gallery/gallery-01.jpg",
+      "/stock/golf/gallery/gallery-02.jpg",
+      "/stock/golf/gallery/gallery-03.jpg",
+      "/stock/golf/gallery/gallery-04.jpg",
+      "/stock/golf/gallery/gallery-05.jpg",
+      "/stock/golf/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Ryan C.",
+      "role": "Junior Golfer, Ponte Vedra High",
+      "story": "Ryan was a promising junior but inconsistent ball striking was costing him strokes and tournament results. We spent one off-season rebuilding his swing plane and adding a structured practice routine.",
+      "result": "Broke 75 Consistently · Regional Qualifier · D1 Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you teach?",
+      "answer": "I work with golfers from age 6 through adult. Junior programs, competitive players, and beginners are all welcome."
+    },
+    {
+      "question": "Where do lessons take place?",
+      "answer": "Lessons take place at local driving ranges and golf courses. Specific location is confirmed at booking."
+    },
+    {
+      "question": "How long are lessons?",
+      "answer": "Standard lessons are 60 minutes. Playing lessons (on-course) run 2–3 hours depending on holes played."
+    },
+    {
+      "question": "Do you use video analysis?",
+      "answer": "Yes — all full swing lessons include video analysis with side-by-side comparison so you can see your improvements in real time."
+    },
+    {
+      "question": "Do you help junior players with college recruiting?",
+      "answer": "Yes — I guide junior players on AJGA events, NCSA profiles, recruit communication, and program fit."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "PLAY SMART. SHOOT LOW.",
+    "hero_availability": "Lesson Times · Now Available",
+    "about_tagline": "BUILT ON FUNDAMENTALS. REFINED ON THE COURSE.",
+    "about_quote": "Every great round is earned in practice. Build the right habits and the scorecard takes care of itself.",
+    "services_tagline": "INSTRUCTION THAT LOWERS YOUR SCORE.",
+    "services_subline": "Full swing, short game, and course management — the three areas where great golfers are made.",
+    "testimonials_tagline": "RESULTS THAT SHOW ON THE CARD.",
+    "testimonials_eyebrow": "Voices From the Fairway",
+    "contact_offer": "Free 30-minute intro lesson. Bring your clubs — leave with a plan.",
+    "contact_urgency": "Lesson spots fill quickly. Reach out today to book your session.",
+    "gallery_label": "On the Course",
+    "marquee_text": "PLAY SMART ★ SHOOT LOW ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Swing Review"
+  }
+}

@@ -18,6 +18,7 @@ import VideoGallery from "./VideoGallery"
 import CoachProfile from "./CoachProfile"
 import Availability from "./Availability"
 import TrainingLocations from "./TrainingLocations"
+import Packages from "./Packages"
 
 const sectionMap = {
   hero: Hero,
@@ -25,6 +26,7 @@ const sectionMap = {
   about: About,
   coach_profile: CoachProfile,
   services: Services,
+  packages: Packages,
   availability: Availability,
   training_locations: TrainingLocations,
   testimonials: Testimonials,

@@ -1,0 +1,12 @@
+{
+  "layout": "A",
+  "about": {
+    "name": "Jane Smith",
+    "state": "FL",
+    "sport": "Strength & Conditioning"
+  },
+  "design": {
+    "accent_color": "lime",
+    "hero_layout": "centered-overlay"
+  }
+}

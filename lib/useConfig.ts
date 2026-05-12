@@ -1,13 +1,30 @@
 import fs from "fs"
 import path from "path"
 import baseConfig from "@/templates/football-coach/base.config.json"
+import { sportToKey } from "@/lib/sportToKey"
 
 export type Stat = { value: string; label: string }
 export type Service = { title: string; description: string; price?: string }
 export type Testimonial = { quote: string; name: string; role: string; rating?: number; photo?: string }
-export type SuccessStory = { name: string; role: string; story: string; result: string }
+export type SuccessStory = { name: string; role: string; story: string; result: string; athlete?: string; position?: string }
 export type FAQItem = { question: string; answer: string }
 export type Video = { title: string; youtube_url: string; description?: string }
+export type Package = {
+  title: string
+  description: string
+  duration?: string
+  sessions_per_week?: number
+  price?: string
+  highlight?: boolean
+}
+
+export type Placement = {
+  name: string
+  school: string
+  year: string
+  position?: string
+  scholarship?: string
+}
 
 export type DesignConfig = {
   accent_color?: string
@@ -35,6 +52,48 @@ export type DesignConfig = {
   c_services_layout?: string
   c_testimonials_layout?: string
   c_gallery_layout?: string
+  d_accent_color?: string
+  d_bg_tone?: string
+  d_hero_layout?: string
+  d_services_layout?: string
+  d_testimonials_layout?: string
+  d_gallery_layout?: string
+  d_about_layout?: string
+  e_accent_color?: string
+  e_bg_tone?: string
+  e_hero_layout?: string
+  e_services_layout?: string
+  e_gallery_layout?: string
+  e_about_layout?: string
+  f_accent_color?: string
+  f_bg_tone?: string
+  f_hero_layout?: string
+  f_services_layout?: string
+  f_ghost_word?: string
+  g_accent_color?: string
+  g_bg_tone?: string
+  g_hero_layout?: string
+  g_about_layout?: string
+  h_accent_color?: string
+  h_bg_tone?: string
+  h_hero_layout?: string
+  h_stats_style?: string
+  i_accent_color?: string
+  i_bg_tone?: string
+  i_hero_layout?: string
+  i_about_layout?: string
+  k_accent_color?: string
+  k_bg_tone?: string
+  k_hero_layout?: string
+  k_ghost_numbers?: string
+  l_accent_color?: string
+  l_bg_tone?: string
+  l_hero_layout?: string
+  l_glass_intensity?: string
+  m_accent_color?: string
+  m_bg_tone?: string
+  m_hero_layout?: string
+  m_image_breaks?: string
 }
 
 export type CopyVariants = {
@@ -54,6 +113,8 @@ export type CopyVariants = {
   c_hero_watermark_text?: string
   c_contact_reply_time?: string
   c_film_label?: string
+  ghost_word?: string
+  est_year?: string
 }
 
 export type AvailabilitySlot = { day: string; slots: string[] }
@@ -69,17 +130,64 @@ export type LegalConfig = {
   media_consent_notice?: boolean
 }
 
-export type CoachConfig = typeof baseConfig & {
-  about: typeof baseConfig.about & { credentials?: string[]; [key: string]: unknown }
-  hero: typeof baseConfig.hero & { [key: string]: unknown }
-  contact: typeof baseConfig.contact & { calendly_url?: string | null; [key: string]: unknown }
-  meta: typeof baseConfig.meta & { [key: string]: unknown }
-  design: DesignConfig
-  copy_variants: CopyVariants
+export type CoachConfig = {
+  meta: { title: string; description: string; favicon_url: string; [key: string]: unknown }
+  theme: string
+  layout: string
+  font_pair: string
+  section_order: string[]
+  about: {
+    name: string
+    title: string
+    city: string
+    county: string
+    state: string
+    bio: string
+    years_experience: number
+    specialty: string
+    age_groups: string
+    photo: string
+    credentials: string[]
+    sport: string
+    [key: string]: unknown
+  }
+  hero: {
+    headline: string
+    subline: string
+    photo: string
+    cta_text: string
+    cta_url: string
+    [key: string]: unknown
+  }
+  stats: Stat[]
+  services: Service[]
+  packages?: Package[]
+  placements?: Placement[]
+  testimonials: Testimonial[]
+  gallery: { photos: string[] }
+  contact: {
+    phone: string
+    email: string
+    booking_url: string
+    calendly_url?: string | null
+    formspree_id: string
+    business_hours: string[]
+    instagram?: string
+    twitter?: string
+    youtube?: string
+    [key: string]: unknown
+  }
+  legal?: LegalConfig
   availability?: AvailabilityConfig
   training_cities?: string[]
-  legal?: LegalConfig
+  success_stories?: SuccessStory[]
+  faq?: FAQItem[]
+  videos?: Video[]
+  design: DesignConfig
+  copy_variants: CopyVariants
 }
+
+export { sportToKey } from "@/lib/sportToKey"
 
 function deepMerge<T extends object>(base: T, override: Partial<T>): T {
   const result = { ...base }
@@ -100,7 +208,27 @@ export function getConfig(slug: string): CoachConfig {
     const configPath = path.join(process.cwd(), "prospects", "configs", `${slug}.json`)
     override = JSON.parse(fs.readFileSync(configPath, "utf8"))
   } catch {
-    // no override file — use base defaults
+    // no override file — use base + sport template defaults
   }
-  return deepMerge(baseConfig as CoachConfig, override)
+
+  const sport = sportToKey(
+    (override.about as Record<string, unknown>)?.sport as string ?? "Football"
+  )
+
+  let sportTemplate: Partial<CoachConfig> = {}
+  try {
+    const sportPath = path.join(
+      process.cwd(),
+      "templates",
+      "football-coach",
+      "sport-templates",
+      `${sport}.json`
+    )
+    sportTemplate = JSON.parse(fs.readFileSync(sportPath, "utf8"))
+  } catch {
+    // unrecognized sport — skip sport template layer
+  }
+
+  const withSport = deepMerge(baseConfig as unknown as CoachConfig, sportTemplate as Partial<CoachConfig>)
+  return deepMerge(withSport, override)
 }

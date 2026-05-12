@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Basketball Coach",
+    "bio": "A former competitive player turned dedicated coach, I bring years of experience developing guards, forwards, and post players from youth leagues through varsity. My sessions focus on fundamentals, IQ, and the mental edge that separates good from great.",
+    "years_experience": 9,
+    "specialty": "Guard Development & Shooting Mechanics",
+    "age_groups": "Youth · Middle School · High School",
+    "photo": "/stock/basketball/about/about-01.jpg",
+    "credentials": ["USA Basketball Certified", "Former Collegiate Player"],
+    "sport": "Basketball"
+  },
+
+  "hero": {
+    "headline": "Train Smarter. Play Bigger.",
+    "subline": "Private basketball coaching — shooting mechanics, ball handling, and game IQ for players who want to level up.",
+    "photo": "/stock/basketball/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "400+", "label": "Players Trained" },
+    { "value": "9", "label": "Years Coaching" },
+    { "value": "6", "label": "Varsity Starters" }
+  ],
+
+  "services": [
+    {
+      "title": "1-on-1 Skills Training",
+      "description": "Personalized sessions targeting your position, shot mechanics, handle, and basketball IQ.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Group Training",
+      "description": "Small-group sessions (2–5 players) — competitive drills, team concepts, and live reps.",
+      "price": "$35/player"
+    },
+    {
+      "title": "Film & Game Planning",
+      "description": "Review your game film, identify tendencies, and build a strategy for your role on the court."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son went from a bench player to starting point guard in one season. The work on his handle and IQ was game-changing.",
+      "name": "Jerome T.",
+      "role": "Parent of 9th-Grade PG",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The shooting mechanics sessions alone changed my game completely. I'm making shots I was missing all last season.",
+      "name": "Keisha M.",
+      "role": "High School Guard",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/basketball/gallery/gallery-01.jpg",
+      "/stock/basketball/gallery/gallery-02.jpg",
+      "/stock/basketball/gallery/gallery-03.jpg",
+      "/stock/basketball/gallery/gallery-04.jpg",
+      "/stock/basketball/gallery/gallery-05.jpg",
+      "/stock/basketball/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Darius W.",
+      "role": "Point Guard, Mandarin High",
+      "story": "Darius had all the natural tools but his shot mechanics were inconsistent under pressure. After a full off-season working on his release and footwork, he became the team's leading scorer.",
+      "result": "Team Leading Scorer · All-Conference Second Team"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with players from 4th grade through college level. Sessions are designed around your current skill set — beginners welcome."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at local gyms and courts in the area. The specific location is confirmed when booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "1-on-1 sessions run 60 minutes. Group sessions are 90 minutes. Package options are available for consistent training."
+    },
+    {
+      "question": "What should my player bring?",
+      "answer": "Basketball shoes, a water bottle, and a personal basketball if you have one. All training equipment is provided."
+    },
+    {
+      "question": "Do you train both male and female players?",
+      "answer": "Yes — I work with players of all backgrounds. The fundamentals and competitive mindset apply equally."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "WORK HARD. PLAY SMART. DOMINATE.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT IN THE GYM. PROVEN ON THE COURT.",
+    "about_quote": "Talent gets you noticed. Work ethic gets you minutes. IQ gets you championships.",
+    "services_tagline": "DEVELOPMENT THAT SHOWS UP ON GAME DAY.",
+    "services_subline": "Three pillars. One mission — make you the most dangerous player on the floor.",
+    "testimonials_tagline": "RESULTS YOU CAN SEE.",
+    "testimonials_eyebrow": "Voices From the Court",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "In the Gym",
+    "marquee_text": "WORK HARD ★ PLAY SMART ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Film Review"
+  }
+}

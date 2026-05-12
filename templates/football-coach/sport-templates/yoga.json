@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Yoga Instructor",
+    "bio": "I teach yoga as a practice that serves your whole life — building strength, flexibility, breath awareness, and the mental clarity that helps you perform better in sport, work, and everything in between. Every class I teach meets students where they are today.",
+    "years_experience": 8,
+    "specialty": "Vinyasa Flow & Athletic Recovery",
+    "age_groups": "Teens · Adults · Athletes",
+    "photo": "/stock/yoga/about/about-01.jpg",
+    "credentials": ["RYT-200 Certified", "Athletic Recovery Specialist"],
+    "sport": "Yoga"
+  },
+
+  "hero": {
+    "headline": "Breathe. Move. Restore.",
+    "subline": "Private yoga instruction — vinyasa flow, athletic recovery, and mindfulness-based practice for students who want to feel as good as they perform.",
+    "photo": "/stock/yoga/hero/hero-01.jpg",
+    "cta_text": "Book a Free Class"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Students Taught" },
+    { "value": "8", "label": "Years Teaching" },
+    { "value": "4.9", "label": "Avg Review" }
+  ],
+
+  "packages": [
+    {
+      "title": "Beginner Series",
+      "description": "6-week introduction to yoga — foundational poses, breath work, alignment principles, and a gentle flow practice. 2 sessions per week designed to build a sustainable habit.",
+      "duration": "6 Weeks",
+      "sessions_per_week": 2,
+      "price": "$249",
+      "highlight": false
+    },
+    {
+      "title": "Athletic Recovery Program",
+      "description": "Specialized 8-week program for athletes — hip opening, thoracic mobility, hamstring and shoulder flexibility, and breath techniques for recovery and nervous system regulation.",
+      "duration": "8 Weeks",
+      "sessions_per_week": 2,
+      "price": "$349",
+      "highlight": true
+    },
+    {
+      "title": "Private 1-on-1 Sessions",
+      "description": "Personalized private sessions tailored to your goals — injury recovery support, sport-specific mobility, advanced postures, or personal wellness practice.",
+      "duration": "Monthly",
+      "sessions_per_week": 2,
+      "price": "$199/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I started yoga to recover from marathon training and ended up transforming my whole relationship with movement. My flexibility and breathing have never been better.",
+      "name": "Amanda K.",
+      "role": "Recreational Runner",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "As a strength athlete, I was skeptical. Three months into the athletic recovery program and my hip pain is gone and my lifts have actually improved.",
+      "name": "Greg M.",
+      "role": "Competitive Powerlifter",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/yoga/gallery/gallery-01.jpg",
+      "/stock/yoga/gallery/gallery-02.jpg",
+      "/stock/yoga/gallery/gallery-03.jpg",
+      "/stock/yoga/gallery/gallery-04.jpg",
+      "/stock/yoga/gallery/gallery-05.jpg",
+      "/stock/yoga/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Priya N.",
+      "role": "Student, Adult Beginner",
+      "story": "Priya had no yoga experience and significant stress-related tension. Over six months of consistent practice, she developed a complete home practice and reported major improvements in sleep and focus.",
+      "result": "Daily Practice · Reduced Injury Frequency · Advanced to Flow Class"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Do I need to be flexible to start yoga?",
+      "answer": "Absolutely not — flexibility is a result of yoga practice, not a prerequisite. Every class includes modifications for all levels."
+    },
+    {
+      "question": "What style of yoga do you teach?",
+      "answer": "Primary instruction is Vinyasa flow with elements of Yin and restorative yoga depending on the program. Athletic recovery sessions focus on targeted mobility and breath work."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Sessions take place at a local studio or outdoor location. Home sessions available on request. Location confirmed at booking."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Comfortable athletic clothing, a water bottle. Mats, blocks, and straps are provided — or bring your own."
+    },
+    {
+      "question": "Can athletes use yoga for injury prevention?",
+      "answer": "Yes — many of my clients are athletes who use yoga specifically for mobility, recovery, and injury prevention. The Athletic Recovery Program is designed exactly for this."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "BREATHE. MOVE. RESTORE.",
+    "hero_availability": "Class Spots · Now Available",
+    "about_tagline": "BUILT IN PRACTICE. FOUND IN STILLNESS.",
+    "about_quote": "Yoga isn't about touching your toes — it's about what you learn on the way down.",
+    "services_tagline": "PRACTICE THAT MEETS YOU WHERE YOU ARE.",
+    "services_subline": "Beginner foundations, athletic recovery, and private sessions — a program for every student.",
+    "testimonials_tagline": "STUDENTS WHO FOUND THEIR PRACTICE.",
+    "testimonials_eyebrow": "Student Voices",
+    "contact_offer": "Free intro class. Come as you are — no experience needed.",
+    "contact_urgency": "Class spots are limited. Reach out today to reserve yours.",
+    "gallery_label": "In Practice",
+    "marquee_text": "BREATHE ★ MOVE ★ RESTORE ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Flow Review"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Softball Coach",
+    "bio": "With years of experience developing players from recreational leagues through varsity and travel ball, I focus on the fundamentals that build confident, consistent athletes. Every player I work with leaves with sharper mechanics and a clearer game plan.",
+    "years_experience": 10,
+    "specialty": "Pitching & Hitting Development",
+    "age_groups": "Youth · Travel Ball · High School",
+    "photo": "/stock/softball/about/about-01.jpg",
+    "credentials": ["NFCA Member", "Former Collegiate Pitcher"],
+    "sport": "Softball"
+  },
+
+  "hero": {
+    "headline": "Rise Up. Own the Diamond.",
+    "subline": "Private softball coaching — pitching mechanics, hitting development, and recruiting prep for players who compete to win.",
+    "photo": "/stock/softball/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "300+", "label": "Players Trained" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "7", "label": "College Signees" }
+  ],
+
+  "services": [
+    {
+      "title": "Pitching Mechanics",
+      "description": "Individual sessions targeting windmill delivery, spin rates, command, and velocity development for pitchers at every level.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Hitting & Slapping",
+      "description": "Mechanics, pitch recognition, and plate discipline — build a repeatable swing or slap approach that holds up under pressure.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Fielding & Catching",
+      "description": "Footwork, glove work, blocking, and throwing mechanics for position players and catchers. Recruiting guidance for high school players."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My daughter went from JV to the team's Friday night starter after working on her mechanics. The improvement was dramatic.",
+      "name": "Karen T.",
+      "role": "Parent of High School Pitcher",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The hitting sessions completely changed my approach. I started making consistent hard contact and dropped my strikeouts.",
+      "name": "Brianna L.",
+      "role": "Travel Ball Outfielder",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/softball/gallery/gallery-01.jpg",
+      "/stock/softball/gallery/gallery-02.jpg",
+      "/stock/softball/gallery/gallery-03.jpg",
+      "/stock/softball/gallery/gallery-04.jpg",
+      "/stock/softball/gallery/gallery-05.jpg",
+      "/stock/softball/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Madison R.",
+      "role": "RHP, Fleming Island High",
+      "story": "Madison had raw arm speed but mechanics that were creating command issues. We rebuilt her delivery over one off-season, adding movement and dramatically improving her walk rate.",
+      "result": "Varsity Starter · Drop 20% BB Rate · Signed D2"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with players from 8 years old through college level. Sessions are tailored to current skill level and goals."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training is conducted at local fields and cage facilities in the area. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Standard sessions are 60 minutes. Extended sessions (90 min) are available for players who want more volume."
+    },
+    {
+      "question": "What should my player bring?",
+      "answer": "Glove, cleats, helmet and bat (if a hitter), and water. Softballs and training equipment are provided."
+    },
+    {
+      "question": "Do you help with recruiting exposure?",
+      "answer": "Yes — for high school players targeting college ball, I provide guidance on recruiting profiles, video, and outreach strategy."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "RISE UP. OWN THE DIAMOND.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON REPS. REFINED IN THE CIRCLE.",
+    "about_quote": "The best pitchers and hitters aren't born — they're built one rep at a time.",
+    "services_tagline": "TRAINING THAT SHOWS ON GAME DAY.",
+    "services_subline": "Mechanics, mentality, and game prep — the three pillars of the complete softball player.",
+    "testimonials_tagline": "RESULTS THAT SPEAK FOR THEMSELVES.",
+    "testimonials_eyebrow": "Voices From the Diamond",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "At the Field",
+    "marquee_text": "RISE UP ★ OWN THE DIAMOND ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Pitching Review"
+  }
+}

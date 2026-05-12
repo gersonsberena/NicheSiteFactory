@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     ],
   },
   outputFileTracingIncludes: {
-    "/": ["./prospects/configs/**"],
+    "/": ["./prospects/configs/**", "./templates/football-coach/sport-templates/**"],
   },
 };
 

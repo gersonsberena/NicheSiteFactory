@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Running & Endurance Coach",
+    "bio": "I coach runners of all levels — from first 5K finishers to experienced marathoners chasing personal records. My approach combines structured training, running form analysis, and the mental skills that make the difference in the final miles of any race.",
+    "years_experience": 10,
+    "specialty": "Race Training & Running Form",
+    "age_groups": "Teens · Adults · Masters",
+    "photo": "/stock/running-coach/about/about-01.jpg",
+    "credentials": ["RRCA Certified Coach", "Former Collegiate Runner"],
+    "sport": "Running Coach"
+  },
+
+  "hero": {
+    "headline": "Run Faster. Run Farther. Run Smart.",
+    "subline": "Personal running coaching — race training plans, running form analysis, and endurance development for runners ready to hit their next goal.",
+    "photo": "/stock/running-coach/hero/hero-01.jpg",
+    "cta_text": "Book a Free Consult"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Runners Coached" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "50+", "label": "Race PRs Set" }
+  ],
+
+  "packages": [
+    {
+      "title": "5K / 10K Program",
+      "description": "8-week structured training plan — base building, tempo work, interval training, and race-day strategy for runners targeting their first or fastest 5K or 10K.",
+      "duration": "8 Weeks",
+      "sessions_per_week": 4,
+      "price": "$249",
+      "highlight": false
+    },
+    {
+      "title": "Half / Full Marathon Plan",
+      "description": "16-week comprehensive marathon training program — long run progressions, quality workouts, recovery management, and race strategy built for your specific goal time.",
+      "duration": "16 Weeks",
+      "sessions_per_week": 5,
+      "price": "$449",
+      "highlight": true
+    },
+    {
+      "title": "Speed Development Sessions",
+      "description": "Individual running form analysis and speed-focused session blocks for runners who want to get faster — mechanics, turnover, and track workouts with direct coaching.",
+      "duration": "Monthly",
+      "sessions_per_week": 2,
+      "price": "$179/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I finally qualified for Boston after three years of trying. The 16-week marathon program was the most structured and effective training I've ever done.",
+      "name": "Christine F.",
+      "role": "Marathon Runner",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "I cut 4 minutes off my 5K time in one training cycle. The form analysis session alone identified two things I'd been doing wrong for years.",
+      "name": "Derek P.",
+      "role": "Recreational Runner",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/running-coach/gallery/gallery-01.jpg",
+      "/stock/running-coach/gallery/gallery-02.jpg",
+      "/stock/running-coach/gallery/gallery-03.jpg",
+      "/stock/running-coach/gallery/gallery-04.jpg",
+      "/stock/running-coach/gallery/gallery-05.jpg",
+      "/stock/running-coach/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Sarah M.",
+      "role": "First-Time Half Marathoner",
+      "story": "Sarah had only ever run 5Ks when she signed up for her first half marathon. We built from her base, added targeted long runs, and nailed her race-day pacing strategy.",
+      "result": "Finished First Half Marathon · Under Goal Time · Signed Up for Next Race"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Do I need to be an experienced runner to work with you?",
+      "answer": "No — I coach everyone from first-time 5K runners to competitive masters athletes. Programs always start with where you are, not where I expect you to be."
+    },
+    {
+      "question": "Is the coaching done in-person or remote?",
+      "answer": "Both options are available. Remote coaching includes a weekly training plan, check-in calls, and video form analysis. In-person sessions are held on local tracks and trails."
+    },
+    {
+      "question": "How do you build a training plan?",
+      "answer": "Every plan starts with your current mileage, race goal, timeline, and schedule. Plans are adjusted weekly based on how your body is responding."
+    },
+    {
+      "question": "Do you provide nutrition guidance?",
+      "answer": "Yes — I provide endurance-specific fueling guidance including pre-run nutrition, mid-run fueling strategy, and recovery nutrition basics."
+    },
+    {
+      "question": "Can you coach injured runners?",
+      "answer": "With medical clearance, yes. I modify training plans to protect healing tissue while maintaining fitness where possible."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "RUN FASTER. RUN FARTHER. RUN SMART.",
+    "hero_availability": "Coaching Spots · Now Available",
+    "about_tagline": "BUILT IN MILES. PROVEN ON RACE DAY.",
+    "about_quote": "Every runner has a PR in them — the right plan, the right training, and the discipline to show up.",
+    "services_tagline": "PROGRAMS FOR EVERY RUNNER.",
+    "services_subline": "5K to marathon, speed work to endurance — training built around your goal, your schedule, your life.",
+    "testimonials_tagline": "RUNNERS WHO HIT THEIR GOALS.",
+    "testimonials_eyebrow": "Runner Stories",
+    "contact_offer": "Free 30-minute consult. Talk goals — leave with a training plan.",
+    "contact_urgency": "Coaching spots are limited. Reach out today to get started.",
+    "gallery_label": "On the Run",
+    "marquee_text": "RUN FAST ★ RUN FAR ★ PR ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Form Analysis"
+  }
+}

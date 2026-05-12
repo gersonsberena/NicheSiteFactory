@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Coach Andre Silva | Premium Football Training — Miami, FL",
+    "description": "Miami's elite football coach. Premium training for athletes with elite ambitions."
+  },
+  "layout": "L",
+  "about": {
+    "name": "Coach Andre Silva",
+    "title": "Elite Football Coach",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "sport": "Football",
+    "specialty": "Wide Receiver & Route Running",
+    "years_experience": 9,
+    "bio": "Coach Andre Silva was a standout wide receiver at the University of Miami before turning his football IQ into one of South Florida's most sought-after training programs. His athletes are known for crisp routes, elite hands, and a polish that shows up immediately on film. In nine years of coaching, he has placed athletes at schools from the Power Five to the NFL practice squad.",
+    "photo": "/stock/football/about/about-02.jpg",
+    "credentials": ["Former Collegiate WR", "IYCA Certified", "CPR/AED Certified"],
+    "age_groups": "Middle School · High School · College Prep"
+  },
+  "hero": {
+    "headline": "Crisp Routes. Elite Hands.",
+    "subline": "Wide receiver development for athletes who want to be unmissable on film.",
+    "photo": "/stock/football/hero/hero-02.jpg",
+    "cta_text": "Join the Program"
+  },
+  "stats": [
+    { "value": "9+", "label": "Years Coaching" },
+    { "value": "45+", "label": "College Placements" },
+    { "value": "3", "label": "Professional Athletes" },
+    { "value": "4.9★", "label": "Avg Rating" }
+  ],
+  "services": [
+    {
+      "title": "Route Running Clinic",
+      "description": "Stem, break point, top of route — every cut perfected. The most technical WR training in South Florida.",
+      "price": "$140 / session"
+    },
+    {
+      "title": "Hands & Tracking",
+      "description": "Catch radius, concentration catches, contested balls, and yards-after-catch separation technique.",
+      "price": "$130 / session"
+    },
+    {
+      "title": "Film & Recruiting Package",
+      "description": "Highlight package creation, recruiting profile strategy, and individualized coach outreach plan.",
+      "price": "$350 / package"
+    }
+  ],
+  "placements": [
+    { "name": "Jaylen Torres", "school": "University of Miami", "year": "2024", "position": "WR", "scholarship": "Full Scholarship" },
+    { "name": "Isaiah Brown", "school": "Florida International", "year": "2024", "position": "WR", "scholarship": "Full Scholarship" },
+    { "name": "Marco Diaz", "school": "Florida Atlantic University", "year": "2023", "position": "WR", "scholarship": "Partial Scholarship" },
+    { "name": "Caleb Ross", "school": "Bethune-Cookman", "year": "2023", "position": "WR", "scholarship": "Full Scholarship" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Silva's route tree work is unlike anything we've seen. Jaylen went from a good prospect to an offer from The U.",
+      "name": "Maria T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "My catch percentage at practice went up every week. Coach Silva's hands drills are next level.",
+      "name": "Isaiah B.",
+      "role": "Athlete",
+      "rating": 5
+    },
+    {
+      "quote": "The film sessions and the film package he put together got my son in front of coaches who would never have noticed him otherwise.",
+      "name": "Carlos D.",
+      "role": "Parent",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "question": "Do you only train wide receivers?", "answer": "WRs are my specialty, but I also work with tight ends on route running and catch mechanics, and defensive backs on coverage footwork." },
+    { "question": "What's included in the film package?", "answer": "A professionally edited highlight reel (4-6 minutes), full game film organized by recruitment round, and a written recruiting strategy guide tailored to your athlete's target schools." },
+    { "question": "How do I sign up?", "answer": "Use the contact form to share your athlete's profile and goals. I do a brief phone call before the first session to make sure we're a good fit." }
+  ],
+  "contact": {
+    "phone": null,
+    "email": null,
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "l_accent_color": "purple",
+    "l_bg_tone": "near-black"
+  },
+  "copy_variants": {
+    "hero_tagline": "ROUTES. HANDS. SEPARATION.",
+    "hero_availability": "Spring Program — Now Open"
+  }
+}

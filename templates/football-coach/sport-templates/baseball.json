@@ -1,0 +1,122 @@
+{
+  "about": {
+    "title": "Head Baseball Coach",
+    "bio": "With years of experience developing players from Little League through varsity and beyond, I focus on the mechanics and mental approach that build confident, consistent athletes. Every player I work with leaves with a clearer understanding of their game.",
+    "years_experience": 11,
+    "specialty": "Pitching Mechanics & Hitting Development",
+    "age_groups": "Youth · Travel Ball · High School",
+    "photo": "/stock/baseball/about/about-01.jpg",
+    "credentials": ["ABCA Member", "Former Collegiate Pitcher"],
+    "sport": "Baseball"
+  },
+
+  "hero": {
+    "headline": "Build the Arm. Own the Plate.",
+    "subline": "Private baseball coaching — pitching mechanics, hitting development, and recruiting prep for athletes who play to win.",
+    "photo": "/stock/baseball/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session"
+  },
+
+  "stats": [
+    { "value": "350+", "label": "Players Trained" },
+    { "value": "11", "label": "Years Coaching" },
+    { "value": "8", "label": "College Signees" }
+  ],
+
+  "services": [
+    {
+      "title": "Pitching Mechanics",
+      "description": "Individual sessions targeting delivery, arm path, velocity development, and command for pitchers at every level.",
+      "price": "$75/session"
+    },
+    {
+      "title": "Hitting Development",
+      "description": "Mechanics, pitch recognition, plate discipline — build a repeatable swing that holds up under pressure.",
+      "price": "$70/session"
+    },
+    {
+      "title": "Position & Recruiting Prep",
+      "description": "Fielding, throws, and baserunning for position players. Recruiting profile guidance for players targeting college ball."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "My son went from a struggling JV pitcher to the team's Friday night starter after working on his mechanics. The improvement was dramatic.",
+      "name": "Robert K.",
+      "role": "Parent of High School Pitcher",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The hitting sessions gave me a completely new approach to the plate. I cut my strikeouts in half and doubled my hard contact.",
+      "name": "Tyler B.",
+      "role": "Travel Ball Outfielder",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/baseball/gallery/gallery-01.jpg",
+      "/stock/baseball/gallery/gallery-02.jpg",
+      "/stock/baseball/gallery/gallery-03.jpg",
+      "/stock/baseball/gallery/gallery-04.jpg",
+      "/stock/baseball/gallery/gallery-05.jpg",
+      "/stock/baseball/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Noah C.",
+      "role": "RHP, Bartram Trail High",
+      "story": "Noah had a live arm but inconsistent mechanics that were creating command issues and risking arm health. We rebuilt his delivery over one off-season, adding velocity and significantly improving his strike percentage.",
+      "result": "Varsity Starter · 4 mph Velocity Gain · Signed D2"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What age groups do you train?",
+      "answer": "We work with players from 7 years old through college level. Sessions are tailored to current skill level and goals."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training is conducted at local fields and cage facilities in the area. Location is confirmed at booking."
+    },
+    {
+      "question": "How long are sessions?",
+      "answer": "Standard sessions are 60 minutes. Extended sessions (90 min) are available for players who want more volume."
+    },
+    {
+      "question": "What should my player bring?",
+      "answer": "Glove, cleats, helmet and bat (if a hitter), and water. Baseballs and training equipment are provided."
+    },
+    {
+      "question": "Do you help with recruiting exposure?",
+      "answer": "Yes — for high school players targeting college ball, I provide guidance on recruiting profiles, video, and outreach strategy."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "TRAIN HARD. THROW STRIKES. WIN GAMES.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BUILT ON REPS. REFINED ON THE MOUND.",
+    "about_quote": "The best hitters and pitchers aren't born — they're built one rep at a time.",
+    "services_tagline": "TRAINING THAT SHOWS ON GAME DAY.",
+    "services_subline": "Mechanics, mentality, and game prep — three pillars that define the complete baseball player.",
+    "testimonials_tagline": "RESULTS THAT SPEAK FOR THEMSELVES.",
+    "testimonials_eyebrow": "Voices From the Diamond",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill quickly. Reach out today to lock in your spot.",
+    "gallery_label": "At the Field",
+    "marquee_text": "THROW STRIKES ★ HIT HARD ★ WIN ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Pitching Review"
+  }
+}

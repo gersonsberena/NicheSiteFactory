@@ -1,0 +1,136 @@
+{
+  "about": {
+    "title": "Sports Performance Coach",
+    "bio": "I work with athletes across all sports and skill levels to build the physical and mental qualities that translate directly to better performance. My holistic approach addresses strength, movement quality, injury prevention, and the mental side of competing at your best.",
+    "years_experience": 10,
+    "specialty": "Athletic Development & Injury Prevention",
+    "age_groups": "High School · College · Adult Athletes",
+    "photo": "/stock/sports-performance/about/about-01.jpg",
+    "credentials": ["NSCA-CSCS", "FMS Certified"],
+    "sport": "Sports Performance"
+  },
+
+  "hero": {
+    "headline": "Peak Performance. Every Season.",
+    "subline": "Sports performance coaching — athletic development, movement quality, and injury resilience for athletes who want to perform at their best year-round.",
+    "photo": "/stock/sports-performance/hero/hero-01.jpg",
+    "cta_text": "Book a Free Assessment"
+  },
+
+  "stats": [
+    { "value": "200+", "label": "Athletes Developed" },
+    { "value": "10", "label": "Years Coaching" },
+    { "value": "15+", "label": "Sports Represented" }
+  ],
+
+  "packages": [
+    {
+      "title": "In-Season Performance",
+      "description": "Maintain your gains and stay explosive during your competitive season — 2 sessions per week focused on recovery, movement quality, and controlled power work.",
+      "duration": "Monthly",
+      "sessions_per_week": 2,
+      "price": "$249/mo",
+      "highlight": false
+    },
+    {
+      "title": "Off-Season Development",
+      "description": "Complete 16-week off-season program — movement screening, strength building, power development, and speed work tailored to your sport and position.",
+      "duration": "16 Weeks",
+      "sessions_per_week": 4,
+      "price": "$1,099",
+      "highlight": true
+    },
+    {
+      "title": "Elite Athlete Program",
+      "description": "Year-round programming for serious athletes — periodized training blocks, ongoing monitoring, nutrition guidance, and priority access for scheduling.",
+      "duration": "Monthly",
+      "sessions_per_week": 4,
+      "price": "$449/mo",
+      "highlight": false
+    }
+  ],
+
+  "services": [],
+
+  "section_order": ["hero", "stats", "about", "packages", "testimonials", "gallery", "faq", "contact"],
+
+  "testimonials": [
+    {
+      "quote": "I went through two knee injuries before working with this coach. The movement screening found exactly what was causing my issues, and I've been injury-free for 18 months.",
+      "name": "Brittany L.",
+      "role": "Soccer Player",
+      "rating": 5,
+      "photo": ""
+    },
+    {
+      "quote": "The off-season program was the most complete athletic training I've ever done. I came back to my basketball season faster, stronger, and more durable.",
+      "name": "Dominic H.",
+      "role": "High School Basketball Player",
+      "rating": 5,
+      "photo": ""
+    }
+  ],
+
+  "gallery": {
+    "photos": [
+      "/stock/sports-performance/gallery/gallery-01.jpg",
+      "/stock/sports-performance/gallery/gallery-02.jpg",
+      "/stock/sports-performance/gallery/gallery-03.jpg",
+      "/stock/sports-performance/gallery/gallery-04.jpg",
+      "/stock/sports-performance/gallery/gallery-05.jpg",
+      "/stock/sports-performance/gallery/gallery-06.jpg"
+    ]
+  },
+
+  "success_stories": [
+    {
+      "name": "Zoe C.",
+      "role": "Multi-Sport Athlete, Ponte Vedra High",
+      "story": "Zoe competed in volleyball and track but was dealing with recurring hamstring issues that were limiting her in both sports. The FMS screening identified the underlying movement patterns and we corrected them.",
+      "result": "Injury-Free Season · Track PR · Volleyball Scholarship"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What makes sports performance different from a typical gym program?",
+      "answer": "Sports performance training is intentionally designed around your sport, season, and position — not generic fitness goals. Every decision is made with your athletic performance in mind."
+    },
+    {
+      "question": "What is an FMS screening?",
+      "answer": "The Functional Movement Screen (FMS) is a 7-movement assessment that identifies mobility restrictions and asymmetries that can lead to injury or limit performance."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Training takes place at a fully equipped performance facility. Location is confirmed at booking."
+    },
+    {
+      "question": "Can you work with injured athletes?",
+      "answer": "I work alongside physical therapists and athletic trainers on return-to-sport programming. I do not treat injuries — I build performance and resilience."
+    },
+    {
+      "question": "What age groups do you train?",
+      "answer": "High school athletes (14+) through professional level. Programs are always age and maturity-appropriate."
+    }
+  ],
+
+  "videos": [],
+
+  "copy_variants": {
+    "hero_tagline": "PEAK PERFORMANCE. EVERY SEASON.",
+    "hero_availability": "Athlete Spots · Now Available",
+    "about_tagline": "BUILT FOR YOUR SPORT. PROVEN ON THE FIELD.",
+    "about_quote": "Athletic performance is the sum of strength, speed, movement quality, and mental readiness — train all of them.",
+    "services_tagline": "PROGRAMS BUILT FOR YOUR SPORT.",
+    "services_subline": "In-season maintenance, off-season development, and year-round elite programming — at every phase of your season.",
+    "testimonials_tagline": "ATHLETES WHO PERFORM BETTER AND STAY HEALTHY.",
+    "testimonials_eyebrow": "Athlete Results",
+    "contact_offer": "Free movement screening and program consultation.",
+    "contact_urgency": "Athlete spots are limited. Reach out today to get started.",
+    "gallery_label": "Performance Training",
+    "marquee_text": "TRAIN SMART ★ MOVE WELL ★ PERFORM ★ ",
+    "c_hero_watermark_text": "",
+    "c_contact_reply_time": "Direct reply within 24 hours.",
+    "c_film_label": "Session 01 · Movement Screen"
+  }
+}
