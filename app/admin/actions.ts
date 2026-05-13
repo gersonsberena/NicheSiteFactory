@@ -4,12 +4,21 @@ import path from "path"
 
 const CONFIGS_DIR = path.join(process.cwd(), "prospects", "configs")
 
-export async function listCoaches(): Promise<string[]> {
+export async function listCoaches(): Promise<{ slug: string; sport: string }[]> {
   try {
     return fs.readdirSync(CONFIGS_DIR)
       .filter((f) => f.endsWith(".json"))
-      .map((f) => f.replace(".json", ""))
-      .sort()
+      .map((f) => {
+        const slug = f.replace(".json", "")
+        try {
+          const raw = JSON.parse(fs.readFileSync(path.join(CONFIGS_DIR, f), "utf8"))
+          const sport = (raw.about?.sport as string | undefined) ?? ""
+          return { slug, sport }
+        } catch {
+          return { slug, sport: "" }
+        }
+      })
+      .sort((a, b) => a.slug.localeCompare(b.slug))
   } catch {
     return []
   }
@@ -73,6 +82,20 @@ async function pushToGitHub(slug: string, content: string): Promise<void> {
   if (!res.ok) {
     const err = (await res.json()) as { message?: string }
     throw new Error(`GitHub API error: ${err.message ?? res.status}`)
+  }
+}
+
+export async function deleteCoach(
+  slug: string
+): Promise<{ ok: boolean; error?: string }> {
+  if (!/^[a-z0-9-]+$/.test(slug)) {
+    return { ok: false, error: "Invalid slug." }
+  }
+  try {
+    fs.unlinkSync(path.join(CONFIGS_DIR, `${slug}.json`))
+    return { ok: true }
+  } catch (e) {
+    return { ok: false, error: String(e) }
   }
 }
 

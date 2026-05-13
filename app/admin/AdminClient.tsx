@@ -1,6 +1,6 @@
 "use client"
-import { useState, useTransition } from "react"
-import { loadCoach, saveCoach } from "./actions"
+import { useState, useTransition, useRef } from "react"
+import { loadCoach, saveCoach, deleteCoach } from "./actions"
 import base from "@/templates/football-coach/base.config.json"
 import sportFootball from "@/templates/football-coach/sport-templates/football.json"
 import sportSoccer from "@/templates/football-coach/sport-templates/soccer.json"
@@ -1033,7 +1033,7 @@ export default function AdminClient({
   initialSlug,
   initialRaw,
 }: {
-  coaches: string[]
+  coaches: { slug: string; sport: string }[]
   initialSlug?: string
   initialRaw?: Record<string, unknown> | null
 }) {
@@ -1063,6 +1063,10 @@ export default function AdminClient({
   })
   const [demoStatus, setDemoStatus] = useState<{ ok: boolean; msg: string; slug?: string } | null>(null)
   const [isDemoPending, startDemoTransition] = useTransition()
+  const [previewOpen, setPreviewOpen] = useState(false)
+  const [previewSlug, setPreviewSlug] = useState("")
+  const iframeRef = useRef<HTMLIFrameElement>(null)
+  const [coachesList, setCoachesList] = useState(coaches)
 
   const set = (k: keyof FormState) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
     setForm((f) => ({ ...f, [k]: e.target.value }))
@@ -1107,6 +1111,34 @@ export default function AdminClient({
     setStatus(null)
   }
 
+  const handleDelete = () => {
+    if (!slug) return
+    if (!window.confirm(`Delete "${slug}"? This cannot be undone.`)) return
+    startTransition(async () => {
+      const result = await deleteCoach(slug)
+      if (result.ok) {
+        setCoachesList(list => list.filter(c => c.slug !== slug))
+        setSlug("")
+        setPickerSlug("")
+        setForm(EMPTY_FORM)
+        setStats([]); setServices([]); setPackages([]); setTestimonials([])
+        setAvailability([]); setSuccessStories([]); setVideos([]); setFaq([]); setPlacements([])
+        setStatus({ ok: true, msg: `Deleted "${slug}"` })
+      } else {
+        setStatus({ ok: false, msg: result.error ?? "Delete failed." })
+      }
+    })
+  }
+
+  const handleDuplicate = () => {
+    if (!slug) return
+    const originalSlug = slug
+    setSlug(`${originalSlug}-copy`)
+    setPickerSlug("")
+    setAdminTab("full")
+    setStatus({ ok: true, msg: `Copied from "${originalSlug}" — rename the slug and save` })
+  }
+
   const handleSave = () => {
     if (!slug.trim()) { setStatus({ ok: false, msg: "Slug is required." }); return }
     if (!/^[a-z0-9-]+$/.test(slug)) { setStatus({ ok: false, msg: "Slug must be lowercase letters, numbers, hyphens only." }); return }
@@ -1118,6 +1150,13 @@ export default function AdminClient({
           ? `Saved & pushed to GitHub — Vercel deploying ${slug} (~1–2 min)`
           : `Saved to prospects/configs/${slug}.json (set GITHUB_TOKEN to auto-deploy)`
         setStatus({ ok: true, msg })
+        if (previewOpen) iframeRef.current?.contentWindow?.location.reload()
+        if (!coachesList.some(c => c.slug === slug)) {
+          setCoachesList(list =>
+            [...list, { slug, sport: form.about_sport ?? "" }]
+              .sort((a, b) => a.slug.localeCompare(b.slug))
+          )
+        }
       } else {
         setStatus({ ok: false, msg: result.error ?? "Save failed." })
       }
@@ -1146,6 +1185,8 @@ export default function AdminClient({
       const result = await saveCoach(generatedSlug, payload)
       if (result.ok) {
         setDemoStatus({ ok: true, msg: "Demo created!", slug: generatedSlug })
+        setPreviewSlug(generatedSlug)
+        setPreviewOpen(true)
       } else {
         setDemoStatus({ ok: false, msg: result.error ?? "Save failed." })
       }
@@ -1166,7 +1207,7 @@ export default function AdminClient({
     .toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "")
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-white font-sans">
+    <div className={`bg-zinc-950 text-white font-sans ${previewOpen ? "h-screen flex flex-col overflow-hidden" : "min-h-screen"}`}>
 
       {/* ── Top bar ── */}
       <header className="sticky top-0 z-40 bg-zinc-900 border-b border-zinc-800 px-5 py-3 flex items-center gap-4 flex-wrap">
@@ -1178,7 +1219,11 @@ export default function AdminClient({
           onChange={(e) => setPickerSlug(e.target.value)}
         >
           <option value="">— select existing coach —</option>
-          {coaches.map((c) => <option key={c} value={c}>{c}</option>)}
+          {coachesList.map((c) => (
+            <option key={c.slug} value={c.slug}>
+              {c.slug}{c.sport ? ` — ${c.sport}` : ""}
+            </option>
+          ))}
         </select>
 
         <button
@@ -1194,8 +1239,34 @@ export default function AdminClient({
         >
           New
         </button>
+        {slug && (
+          <button
+            onClick={handleDelete}
+            disabled={isPending}
+            className="px-4 py-2 border border-red-800 hover:border-red-500 text-red-400 hover:text-red-300 text-base rounded transition shrink-0"
+          >
+            Delete
+          </button>
+        )}
+        {slug && (
+          <button
+            onClick={handleDuplicate}
+            disabled={isPending}
+            className="px-4 py-2 border border-zinc-600 hover:border-yellow-500 text-zinc-300 hover:text-white text-base rounded transition shrink-0"
+          >
+            Duplicate
+          </button>
+        )}
 
         <div className="flex items-center gap-3 ml-auto shrink-0">
+          {(slug || previewSlug) && (
+            <button
+              onClick={() => { if (slug) setPreviewSlug(slug); setPreviewOpen(o => !o) }}
+              className={`text-sm px-3 py-1.5 border rounded transition ${previewOpen ? "border-yellow-500 text-yellow-400" : "border-zinc-600 hover:border-yellow-500 text-zinc-300 hover:text-white"}`}
+            >
+              {previewOpen ? "Hide Preview" : "Show Preview"}
+            </button>
+          )}
           {slug && (
             <a
               href={`/${slug}`}
@@ -1221,8 +1292,9 @@ export default function AdminClient({
         </div>
       </header>
 
+      <div className={previewOpen ? "flex flex-1 min-h-0" : ""}>
       {/* ── Form body ── */}
-      <main className="max-w-6xl mx-auto px-4 py-8 space-y-4">
+      <main className={previewOpen ? "flex-1 min-w-0 px-4 py-8 space-y-4 overflow-y-auto" : "max-w-6xl mx-auto px-4 py-8 space-y-4"}>
 
         {/* ── Tab switcher ── */}
         <div className="flex gap-2 border-b border-zinc-800 pb-0">
@@ -1945,6 +2017,17 @@ export default function AdminClient({
         )}
 
       </main>
+      {previewOpen && previewSlug && (
+        <div className="w-[50%] shrink-0 border-l border-zinc-800">
+          <iframe
+            ref={iframeRef}
+            src={`/${previewSlug}`}
+            className="w-full h-full border-0"
+            title="Coach Preview"
+          />
+        </div>
+      )}
+      </div>
     </div>
   )
 }

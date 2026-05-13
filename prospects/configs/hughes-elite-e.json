@@ -1,9 +1,9 @@
 {
+  "layout": "E",
   "meta": {
     "title": "Coach Marcus Hughes | Elite Football Training — Atlanta, GA",
     "description": "Elite football development in Atlanta. Proven track record of placing athletes at the next level."
   },
-  "layout": "E",
   "about": {
     "name": "Coach Marcus Hughes",
     "title": "Head Football Coach",
@@ -11,12 +11,16 @@
     "county": "Fulton",
     "state": "GA",
     "sport": "Football",
-    "specialty": "Quarterback & Skill Position Development",
-    "years_experience": 12,
     "bio": "Coach Marcus Hughes has spent over a decade developing elite athletes in the Atlanta metro area. A former Division I quarterback, he brings a deep understanding of the mental and physical demands of high-level football. His program has produced multiple college signees and two professional athletes.",
-    "photo": "/stock/football/about/about-01.jpg",
-    "credentials": ["Former D1 Quarterback", "NFCA Certified", "CPR/AED Certified"],
-    "age_groups": "Middle School · High School · College Prep"
+    "years_experience": 12,
+    "specialty": "Quarterback & Skill Position Development",
+    "age_groups": "Middle School · High School · College Prep",
+    "photo": "/stock/football/about/about-02.jpg",
+    "credentials": [
+      "Former D1 Quarterback",
+      "NFCA Certified",
+      "CPR/AED Certified"
+    ]
   },
   "hero": {
     "headline": "Where Elite Athletes Are Built",
@@ -25,10 +29,22 @@
     "cta_text": "Apply for Training"
   },
   "stats": [
-    { "value": "12+", "label": "Years Coaching" },
-    { "value": "40+", "label": "College Placements" },
-    { "value": "2", "label": "Pro Athletes" },
-    { "value": "98%", "label": "Return Rate" }
+    {
+      "value": "12+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "40+",
+      "label": "College Placements"
+    },
+    {
+      "value": "2",
+      "label": "Pro Athletes"
+    },
+    {
+      "value": "98%",
+      "label": "Return Rate"
+    }
   ],
   "services": [
     {
@@ -48,43 +64,66 @@
     }
   ],
   "placements": [
-    { "name": "DeShawn Parker", "school": "University of Georgia", "year": "2024", "position": "WR", "scholarship": "Full Scholarship" },
-    { "name": "Malik Johnson", "school": "Auburn University", "year": "2023", "position": "QB", "scholarship": "Partial Scholarship" },
-    { "name": "Terrell Williams", "school": "Florida State", "year": "2023", "position": "RB", "scholarship": "Full Scholarship" },
-    { "name": "Marcus Bell Jr.", "school": "Georgia Tech", "year": "2022", "position": "TE", "scholarship": "Academic + Athletic" }
+    {
+      "name": "DeShawn Parker",
+      "school": "University of Georgia",
+      "year": "2024",
+      "position": "WR",
+      "scholarship": "Full Scholarship"
+    },
+    {
+      "name": "Malik Johnson",
+      "school": "Auburn University",
+      "year": "2023",
+      "position": "QB",
+      "scholarship": "Partial Scholarship"
+    },
+    {
+      "name": "Terrell Williams",
+      "school": "Florida State",
+      "year": "2023",
+      "position": "RB",
+      "scholarship": "Full Scholarship"
+    },
+    {
+      "name": "Marcus Bell Jr.",
+      "school": "Georgia Tech",
+      "year": "2022",
+      "position": "TE",
+      "scholarship": "Academic + Athletic"
+    }
   ],
   "testimonials": [
     {
       "quote": "Coach Hughes turned my son from a good player into a recruit. We had 8 D1 offers by signing day.",
       "name": "Patricia M.",
-      "role": "Parent",
-      "rating": 5
+      "role": "Parent"
     },
     {
       "quote": "The most technical football coach I've ever trained with. He transformed my mechanics in three months.",
       "name": "DeShawn P.",
-      "role": "Athlete",
-      "rating": 5
+      "role": "Athlete"
     },
     {
       "quote": "Worth every penny. My son is starting at Georgia this fall.",
       "name": "Robert J.",
-      "role": "Parent",
-      "rating": 5
+      "role": "Parent"
     }
   ],
   "faq": [
-    { "question": "What ages do you work with?", "answer": "Middle school through college-level athletes. Most of our clients are high school juniors and seniors in the recruiting window." },
-    { "question": "How do I apply for training?", "answer": "Use the contact form and describe your athlete's goals. We'll schedule an evaluation session to assess fit." },
-    { "question": "Do you offer group sessions?", "answer": "Limited small-group sessions (3-4 athletes) are available. Most of our training is 1-on-1 for maximum development." }
+    {
+      "question": "What ages do you work with?",
+      "answer": "Middle school through college-level athletes. Most of our clients are high school juniors and seniors in the recruiting window."
+    },
+    {
+      "question": "How do I apply for training?",
+      "answer": "Use the contact form and describe your athlete's goals. We'll schedule an evaluation session to assess fit."
+    },
+    {
+      "question": "Do you offer group sessions?",
+      "answer": "Limited small-group sessions (3-4 athletes) are available. Most of our training is 1-on-1 for maximum development."
+    }
   ],
-  "contact": {
-    "phone": null,
-    "email": null,
-    "instagram": null,
-    "twitter": null,
-    "youtube": null
-  },
   "design": {
     "e_accent_color": "gold",
     "e_bg_tone": "navy"

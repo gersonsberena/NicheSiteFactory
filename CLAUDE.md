@@ -1,25 +1,52 @@
 # NicheSiteFactory — Developer Reference
 
-Single Next.js app serving multiple coach demo sites. Each coach is identified by a `?coach=[slug]` URL param. Config is deep-merged from `base.config.json` + a per-coach override JSON. The visual system uses CSS custom properties so every section picks up the right accent color automatically.
+Single Next.js app serving multiple coach demo sites. Each coach has a slug-based URL and a JSON config. Config is deep-merged from `base.config.json` + a per-coach override JSON. The visual system uses CSS custom properties so every section picks up the right accent color automatically.
 
 ---
 
 ## How a Page Renders
 
 ```
-?coach=john-smith
-  → app/page.tsx reads searchParams.coach (default: "john-smith")
+/{slug}  (e.g. /john-smith)
+  → app/[slug]/page.tsx reads params.slug
   → lib/useConfig.ts: getConfig("john-smith")
       → loads templates/football-coach/base.config.json (defaults)
       → deep merges prospects/configs/john-smith.json (overrides)
-  → <LayoutA config={mergedConfig} />
+  → selects layout based on config.layout (A–M, defaults to A)
+  → <LayoutA config={mergedConfig} /> (or B–M)
       → applies .theme-{accent_color} + .bg-tone-{background_tone} on wrapper div
       → renders sections in config.section_order order
+  → wraps with DemoBanner + DemoCTA overlay (app/_demo-cta.tsx)
 ```
+
+The old root page (`app/page.tsx`) still exists with a `?coach=` param for legacy use, but `/{slug}` is the primary URL pattern.
 
 ---
 
-## Component Map
+## Layouts
+
+Twelve layouts exist in `templates/football-coach/layouts/`:
+
+| Layout | Directory | Style |
+|---|---|---|
+| A | [layout-a/](templates/football-coach/layouts/layout-a/) | Dark Sports (reference implementation, most detailed) |
+| B | [layout-b/](templates/football-coach/layouts/layout-b/) | Bold Dark |
+| C | [layout-c/](templates/football-coach/layouts/layout-c/) | Clean Modern |
+| D | [layout-d/](templates/football-coach/layouts/layout-d/) | Editorial Warm |
+| E | [layout-e/](templates/football-coach/layouts/layout-e/) | Premium Elite |
+| F | [layout-f/](templates/football-coach/layouts/layout-f/) | High Energy |
+| G | [layout-g/](templates/football-coach/layouts/layout-g/) | Local Legend |
+| H | [layout-h/](templates/football-coach/layouts/layout-h/) | Data Driven |
+| I | [layout-i/](templates/football-coach/layouts/layout-i/) | Magazine Editorial |
+| K | [layout-k/](templates/football-coach/layouts/layout-k/) | Precision |
+| L | [layout-l/](templates/football-coach/layouts/layout-l/) | Glass Premium |
+| M | [layout-m/](templates/football-coach/layouts/layout-m/) | Dark Editorial |
+
+Selected by `config.layout` ("A"–"M", no "J"). Default is A. Routing is in [app/[slug]/page.tsx](app/[slug]/page.tsx).
+
+---
+
+## Component Map (Layout A — reference)
 
 | File | Section | Config fields read | Design variants | Hardcoded strings (watch for sport-specific) |
 |---|---|---|---|---|
@@ -45,6 +72,13 @@ Single Next.js app serving multiple coach demo sites. Each coach is identified b
 | [templates/football-coach/base.config.json](templates/football-coach/base.config.json) | Default values for every field — all coaches inherit this |
 | `prospects/configs/{slug}.json` | Per-coach overrides — deep merged on top of base |
 | [lib/useConfig.ts](lib/useConfig.ts) | `getConfig(slug)` function + `CoachConfig`, `DesignConfig`, `CopyVariants` types |
+| `templates/football-coach/sport-templates/{sport}.json` | Per-sport defaults (services, copy, stats, FAQ) — 24 sports available |
+
+### Sport templates (24 available)
+`football` `soccer` `basketball` `baseball` `softball` `volleyball` `lacrosse` `cheerleading-tumbling`
+`tennis` `golf` `swimming` `track-and-field` `cross-country` `wrestling` `gymnastics` `martial-arts`
+`personal-trainer` `strength-and-conditioning` `speed-and-agility` `sports-performance`
+`crossfit` `yoga` `pilates` `running-coach`
 
 ### Deep merge behavior
 - Objects are merged recursively (coach's `about.name` overrides base `about.name`)
@@ -53,18 +87,28 @@ Single Next.js app serving multiple coach demo sites. Each coach is identified b
 
 ### Config schema (top-level keys)
 ```
-meta, theme, layout, font_pair, section_order
-about: { name, title, city, county, state, bio, years_experience, specialty, age_groups, photo }
+meta: { title, description, favicon_url }
+layout ("A"–"M"), section_order
+about: { name, title, city, county, state, sport, bio, years_experience, specialty,
+         age_groups, credentials, photo }
 hero: { headline, subline, photo, cta_text, cta_url }
 stats: [{ value, label }]
-services: [{ title, description }]
+services: [{ title, description, price }]
+packages: [{ title, description, duration, sessions_per_week, price, highlight }]
 testimonials: [{ quote, name, role }]
 gallery: { photos: [] }
-contact: { phone, email, booking_url, formspree_id, instagram, twitter, youtube }
-design: { accent_color, background_tone, card_border, button_style, hero_layout, hero_overlay,
-          stats_layout, photo_treatment, gallery_layout, services_layout, testimonials_layout,
-          about_frame, font_pair }
-copy_variants: { hero_tagline, about_tagline, services_tagline, testimonials_tagline }
+contact: { phone, email, booking_url, calendly_url, formspree_id, business_hours,
+           instagram, twitter, youtube }
+design: { accent_color, background_tone, hero_layout, hero_overlay, stats_layout,
+          photo_treatment, gallery_layout, services_layout, testimonials_layout,
+          about_frame, font_pair, … layout-specific keys for B–M }
+copy_variants: { hero_tagline, about_tagline, services_tagline, testimonials_tagline,
+                 contact_offer, contact_urgency, marquee_text, … }
+availability: [{ day, slots }]
+faq: [{ question, answer }]
+success_stories: [{ name, role, story, result }]
+videos: [{ title, youtube_url, description }]
+placements: [{ name, school, year, position, scholarship }]
 ```
 
 ---
@@ -133,6 +177,26 @@ All use `currentColor` — color them with a Tailwind text class.
 
 ---
 
+## Admin UI (`/admin`)
+
+Full config editor at [app/admin/AdminClient.tsx](app/admin/AdminClient.tsx) (client component) backed by server actions in [app/admin/actions.ts](app/admin/actions.ts).
+
+### Two tabs
+| Tab | Purpose |
+|---|---|
+| **Quick Demo** | Minimal form — name, sport, layout, city, county, phone, email. Sport template auto-fills services, copy, stats, FAQ. Generates slug from name. |
+| **Full Config** | Complete field editor for all config keys across all layouts. Load existing coach from dropdown or start new. |
+
+### Key actions (actions.ts)
+- `listCoaches()` — reads filenames from `prospects/configs/`
+- `loadCoach(slug)` — reads and returns raw JSON for a slug
+- `saveCoach(slug, payload)` — writes `prospects/configs/{slug}.json`; if `GITHUB_TOKEN` env var is set, also pushes to GitHub (triggering Vercel auto-deploy)
+
+### Preview panel
+Click **Show Preview** in the admin header to open a split-panel iframe showing `/{slug}`. After clicking **Save**, the iframe auto-reloads. The **Preview ↗** link always opens a new tab.
+
+---
+
 ## Automation Scripts
 
 ```bash
@@ -151,14 +215,14 @@ node scripts/deploy.js --slug=john-smith
 
 **Section shows wrong accent color (still gold when coach should be red)**
 → Check that the component uses `var(--accent)` not `text-gold` or `#F59E0B`
-→ Check that `LayoutA.tsx` is applying `.theme-{accent_color}` on the wrapper div
+→ Check that the layout's root wrapper is applying `.theme-{accent_color}` on the wrapper div
 
 **Design variation not applying (e.g., hero is always full-bleed)**
 → Open `prospects/configs/{slug}.json`, confirm `design.hero_layout` exists and matches exactly one of: `full-bleed`, `split-right`, `centered-overlay`
 → Check the component for its `?? "default-value"` fallback
 
-**Coach site not loading / shows default john-smith**
-→ Check URL: `localhost:3000/?coach=slug-here`
+**Coach site not loading / 404**
+→ Check URL: `localhost:3000/{slug}` (e.g. `localhost:3000/john-smith`)
 → Confirm `prospects/configs/{slug}.json` exists and filename matches slug exactly
 
 **TypeScript errors after editing config or components**
@@ -176,27 +240,26 @@ npx tsc --noEmit
 
 ---
 
-## Known Gaps (not yet implemented)
+## Known Gaps
 
 | Gap | Where it's missing | Priority |
 |---|---|---|
-| Booking link/widget | `contact.booking_url` is in every config but renders nowhere on the site | High |
-| Configurable credentials | "NFCA Certified", "Former D1 Athlete" are hardcoded in About.tsx — wrong for non-football sports | High |
-| Privacy Policy page + footer link | No page, no link anywhere | Medium |
+| Booking link/widget rendering | `contact.booking_url` + `contact.calendly_url` are in config/admin but may not render in all layout sections | High |
+| Configurable credentials rendering | `about.credentials` field exists in config/admin — verify About.tsx in each layout actually reads it (Layout A may still hardcode "NFCA Certified") | High |
 | Fitness/medical disclaimer | No footer line — needed for production sites | Medium |
-| Pricing in Services | No pricing field in config or UI | Medium |
-| Per-coach favicon | All sites share the default Next.js favicon | Low |
 | Client photo in Testimonials | Shows initials only; no photo field in testimonial config | Low |
-| Business hours in Contact | No field in config or Contact section | Low |
-| Dynamic page metadata | `app/layout.tsx` has hardcoded title "First Coast Spotlight — Football Coach Demo" | Low |
+| Footer links to privacy/terms | `app/privacy/` and `app/terms/` pages exist but footer may not link to them | Low |
 
 ---
 
-## Multi-Sport Expansion
+## Multi-Sport
 
-The visual system is sport-agnostic. To adapt for soccer, basketball, etc.:
-1. Add `config.about.sport` field (e.g., `"Soccer"`)
-2. Replace hardcoded sport strings in Nav (`"Football · {city}"`), Footer (`"Elite football training"`), Hero (`"Off-Season Roster · Now Open"`) with `config.about.sport`
-3. Move About credentials to a `config.about.credentials: string[]` array
-4. Replace football-specific copy in Contact and Services with generic or config-driven versions
-5. Create a new `templates/sports-coach/` directory and point stock photos at the right sport's folder
+Multi-sport is **already implemented**. The admin supports 24 sports via sport templates that auto-fill services, copy, stats, and FAQ. `config.about.sport` is a first-class field.
+
+**What remains sport-specific in Layout A (hardcoded strings to watch):**
+- `Nav.tsx`: `"Football · {city}"` — should use `config.about.sport`
+- `Hero.tsx`: `"Off-Season Roster · Now Open"` — football-specific
+- `Footer.tsx`: `"Elite football training in {city}, FL"` — football-specific
+- `About.tsx`: `"NFCA Certified"`, `"Former D1 Athlete"` — need to read `config.about.credentials[]`
+
+These are the remaining items to make Layout A fully sport-agnostic. Layouts B–M may have their own hardcoded sport strings — check each one when adapting for non-football sports.

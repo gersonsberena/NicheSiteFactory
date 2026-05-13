@@ -1,9 +1,9 @@
 {
+  "layout": "G",
   "meta": {
     "title": "Coach Bobby Simmons | Community Football Coach — Gainesville, FL",
     "description": "Gainesville's trusted football coach. Building character and athletes since 2009."
   },
-  "layout": "G",
   "about": {
     "name": "Coach Bobby Simmons",
     "title": "Head Football Coach",
@@ -11,12 +11,16 @@
     "county": "Alachua",
     "state": "FL",
     "sport": "Football",
-    "specialty": "Fundamentals & Character Development",
-    "years_experience": 15,
     "bio": "Coach Bobby Simmons has been a pillar of Gainesville youth football for over fifteen years. A former high school All-American and community advocate, Coach Bobby believes great athletes are built from great character. His training philosophy centers on accountability, toughness, and a love for the game that carries athletes well beyond the field.",
+    "years_experience": 15,
+    "specialty": "Fundamentals & Character Development",
+    "age_groups": "Youth · Middle School · High School",
     "photo": "/stock/football/about/about-01.jpg",
-    "credentials": ["Former HS All-American", "Alachua County Athletics Board", "CPR/AED Certified"],
-    "age_groups": "Youth · Middle School · High School"
+    "credentials": [
+      "Former HS All-American",
+      "Alachua County Athletics Board",
+      "CPR/AED Certified"
+    ]
   },
   "hero": {
     "headline": "Building Gainesville Athletes Since 2009",
@@ -25,10 +29,22 @@
     "cta_text": "Join the Program"
   },
   "stats": [
-    { "value": "15+", "label": "Years in Gainesville" },
-    { "value": "500+", "label": "Athletes Coached" },
-    { "value": "3", "label": "Scholarships This Year" },
-    { "value": "100%", "label": "Commitment" }
+    {
+      "value": "15+",
+      "label": "Years in Gainesville"
+    },
+    {
+      "value": "500+",
+      "label": "Athletes Coached"
+    },
+    {
+      "value": "3",
+      "label": "Scholarships This Year"
+    },
+    {
+      "value": "100%",
+      "label": "Commitment"
+    }
   ],
   "services": [
     {
@@ -51,37 +67,37 @@
     {
       "quote": "Coach Bobby is more than a football coach. He's a mentor. My son is a better person because of him.",
       "name": "Angela P.",
-      "role": "Parent",
-      "rating": 5
+      "role": "Parent"
     },
     {
       "quote": "Been with Coach Bobby since I was 9. Now I'm starting varsity. He built me.",
       "name": "Darius W.",
-      "role": "Athlete",
-      "rating": 5
+      "role": "Athlete"
     },
     {
       "quote": "The most genuine coach in Gainesville. Families trust him completely.",
       "name": "Pastor Kevin B.",
-      "role": "Community Leader",
-      "rating": 5
+      "role": "Community Leader"
     }
   ],
   "faq": [
-    { "question": "What age groups do you train?", "answer": "Youth (8-12), middle school (11-14), and high school athletes. All skill levels welcome." },
-    { "question": "Where do sessions take place?", "answer": "Most sessions are at Gainesville community fields. Exact location provided at booking." },
-    { "question": "Do you offer group rates?", "answer": "Yes — group sessions for 3-5 athletes available at a discounted rate." }
+    {
+      "question": "What age groups do you train?",
+      "answer": "Youth (8-12), middle school (11-14), and high school athletes. All skill levels welcome."
+    },
+    {
+      "question": "Where do sessions take place?",
+      "answer": "Most sessions are at Gainesville community fields. Exact location provided at booking."
+    },
+    {
+      "question": "Do you offer group rates?",
+      "answer": "Yes — group sessions for 3-5 athletes available at a discounted rate."
+    }
   ],
-  "contact": {
-    "phone": null,
-    "email": null,
-    "instagram": null,
-    "twitter": null,
-    "youtube": null
-  },
   "design": {
-    "g_accent_color": "rust",
-    "g_bg_tone": "paper"
+    "g_accent_color": "burgundy",
+    "g_hero_layout": "split-right",
+    "g_about_layout": "stacked"
   },
   "copy_variants": {
     "hero_tagline": "COMMUNITY. CHARACTER. CHAMPIONS.",
