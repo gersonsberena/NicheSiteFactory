@@ -141,6 +141,7 @@ export default function Contact({ config }: { config: CoachConfig }) {
               action={`https://formspree.io/f/${config.contact.formspree_id}`}
               onSubmit={submit}
               className="bg-smoke/60 border border-white/5 p-7 sm:p-10 space-y-6"
+              suppressHydrationWarning
             >
               <div>
                 <label className="font-oswald uppercase tracking-[0.25em] text-white/60 text-xs mb-2 block">Name</label>

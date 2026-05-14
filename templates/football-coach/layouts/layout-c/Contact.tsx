@@ -82,7 +82,8 @@ export default function Contact({ config, openSignal }: { config: CoachConfig; o
                 <p className="text-[#6B7280]">{replyTime}</p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-8">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-8"
+              suppressHydrationWarning>
                 <div>
                   <label className="c-label text-[#6B7280] block mb-2 text-xs">Your Name</label>
                   <input

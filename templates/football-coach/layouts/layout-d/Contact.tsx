@@ -90,7 +90,8 @@ export default function Contact({ config, onSuccess }: Props) {
 
           {/* Form card */}
           <div className="bg-d-cream p-8 md:p-10 rounded-sm">
-            <form onSubmit={handleSubmit} noValidate className="space-y-5">
+            <form onSubmit={handleSubmit} noValidate className="space-y-5"
+              suppressHydrationWarning>
               <div>
                 <label htmlFor="d-name" className="d-label-caps text-d-navy text-[11px] mb-2 block">
                   Your Name

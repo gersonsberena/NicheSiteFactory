@@ -95,7 +95,8 @@ export default function Contact({ config, onSuccess }: { config: CoachConfig; on
 
         {/* Right: form */}
         <div className="lg:col-span-7">
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4"
+              suppressHydrationWarning>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-[11px] font-semibold tracking-[0.15em] uppercase mb-2" style={{ color: "var(--text-muted)", fontFamily: "Montserrat, sans-serif" }}>

@@ -44,7 +44,8 @@ export default function Contact({ config, onSuccess }: { config: CoachConfig; on
             </a>
           )}
         </div>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4"
+              suppressHydrationWarning>
           <div className="grid grid-cols-2 gap-4">
             <input type="text" required placeholder="Name" value={form.name} onChange={(e) => setForm(f => ({ ...f, name: e.target.value }))} style={inp} />
             <input type="email" required placeholder="Email" value={form.email} onChange={(e) => setForm(f => ({ ...f, email: e.target.value }))} style={inp} />

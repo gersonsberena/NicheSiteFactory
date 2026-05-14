@@ -129,7 +129,8 @@ export default function Contact({ config, openSignal }: Props) {
                 </p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} className="space-y-5"
+              suppressHydrationWarning>
                 <div>
                   <label className="block text-sm font-semibold text-[#1A1A1A] mb-1.5">
                     Your Name
