@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Basic Wrestling Drills — Jason Nolf | Technique Tuesday",
+      "youtube_url": "https://www.youtube.com/watch?v=KMZuUyQarXk",
+      "description": "3x NCAA Champion Jason Nolf teaches five foundational wrestling drills every athlete should know."
+    },
+    {
+      "title": "23 Wrestling Drills You Can Do By Yourself At Home",
+      "youtube_url": "https://www.youtube.com/watch?v=UhfCQlQzF1g",
+      "description": "Solo wrestling training drills from a 2x National Champion — no partner required."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "SHOOT. CONTROL. WIN.",

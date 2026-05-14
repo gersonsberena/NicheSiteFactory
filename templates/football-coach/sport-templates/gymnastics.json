@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Gymnastics Coaching Drills and Skills Database",
+      "youtube_url": "https://www.youtube.com/watch?v=IKRRyeyu7Us",
+      "description": "A practical drill and skill progression resource for gymnastics coaches at every level."
+    },
+    {
+      "title": "Gymnastics Tips — Line Drills for Various Skills",
+      "youtube_url": "https://www.youtube.com/watch?v=Tp__YMwriyo",
+      "description": "Coach Steve Nunno demonstrates line drills that develop technique across multiple gymnastics skills."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "PERFECT THE FORM. STICK THE LANDING.",

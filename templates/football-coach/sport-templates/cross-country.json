@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Dynamic Drills | CoachUp Cross Country Training",
+      "youtube_url": "https://www.youtube.com/watch?v=Lzmy93qX2sU",
+      "description": "Essential dynamic warm-up drills that prepare cross country athletes for race-level effort."
+    },
+    {
+      "title": "How a #1 High School XC Team Trains | Workout & Training Tips",
+      "youtube_url": "https://www.youtube.com/watch?v=i_iESjep83w",
+      "description": "Inside look at how the top-ranked boys' cross country team in North Carolina approaches training."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "RUN STRONG. RACE SMART.",

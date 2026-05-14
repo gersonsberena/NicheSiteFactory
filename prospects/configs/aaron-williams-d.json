@@ -14,14 +14,14 @@
     "specialty": "Skills & Fundamentals",
     "years_experience": 5,
     "bio": "Hi, I'm Aaron! I'm an experienced soccer & football coach with a background in competitive and travel-level play, dedicated to helping young athletes grow both on and off the field.\n\nMy training focuses on building strong fundamentals, improving fitness, and developing game awareness, while also emphasizing discipline, confidence, and a strong work ethic. I create a structured but supportive environment where players are challenged, encouraged, and motivated to reach their full potential.\n\nWhether your child is just starting out or looking to take their game to the next level, I tailor each session to fit their goals and skill level.",
-    "photo": "/stock/football/about/about-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768440/nsf/stock/football/about/about-02.jpg",
     "credentials": ["Multi-Sport Coach", "Former Competitive Athlete"],
     "age_groups": "Youth · High School"
   },
   "hero": {
     "headline": "Families Trust Coach Aaron. Here's Why.",
     "subline": "Five years developing athletes in Naples — one player, one rep, one season at a time.",
-    "photo": "/stock/football/hero/hero-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768488/nsf/stock/football/hero/hero-02.jpg",
     "cta_text": "Book a Free Session"
   },
   "stats": [

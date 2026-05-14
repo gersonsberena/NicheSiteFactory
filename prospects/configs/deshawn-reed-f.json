@@ -14,14 +14,14 @@
     "specialty": "Speed, Explosiveness & Athletic Performance",
     "years_experience": 8,
     "bio": "Coach DeShawn Reed is a former Division II wide receiver turned performance specialist. His training combines advanced sprint mechanics, functional strength, and position-specific drills to produce the kind of first-step explosiveness that changes games. His athletes report measurable speed gains within the first six weeks.",
-    "photo": "/stock/football/about/about-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768440/nsf/stock/football/about/about-02.jpg",
     "credentials": ["IYCA Certified", "Former Collegiate Athlete", "CPR/AED Certified"],
     "age_groups": "Youth · Middle School · High School"
   },
   "hero": {
     "headline": "Train Fast. Play Faster.",
     "subline": "Speed and explosiveness training for football athletes who want to dominate.",
-    "photo": "/stock/football/hero/hero-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768488/nsf/stock/football/hero/hero-02.jpg",
     "cta_text": "Start Training"
   },
   "stats": [

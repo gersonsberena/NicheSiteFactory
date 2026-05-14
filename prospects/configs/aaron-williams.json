@@ -15,7 +15,7 @@
   "hero": {
     "headline": "Naples's Premier Football Coach",
     "subline": "Personalized football training that turns potential into performance.",
-    "photo": "/stock/football/hero/hero-10.jpg"
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768497/nsf/stock/football/hero/hero-10.jpg"
   },
   "stats": [
     {

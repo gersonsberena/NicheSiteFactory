@@ -14,14 +14,14 @@
     "specialty": "Wide Receiver & Route Running",
     "years_experience": 9,
     "bio": "Coach Andre Silva was a standout wide receiver at the University of Miami before turning his football IQ into one of South Florida's most sought-after training programs. His athletes are known for crisp routes, elite hands, and a polish that shows up immediately on film. In nine years of coaching, he has placed athletes at schools from the Power Five to the NFL practice squad.",
-    "photo": "/stock/football/about/about-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768440/nsf/stock/football/about/about-02.jpg",
     "credentials": ["Former Collegiate WR", "IYCA Certified", "CPR/AED Certified"],
     "age_groups": "Middle School · High School · College Prep"
   },
   "hero": {
     "headline": "Crisp Routes. Elite Hands.",
     "subline": "Wide receiver development for athletes who want to be unmissable on film.",
-    "photo": "/stock/football/hero/hero-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768488/nsf/stock/football/hero/hero-02.jpg",
     "cta_text": "Join the Program"
   },
   "stats": [

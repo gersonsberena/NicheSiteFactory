@@ -17,7 +17,7 @@
   "hero": {
     "headline": "Adams's Premier Football Coach",
     "subline": "Personalized football training that turns potential into performance.",
-    "photo": "/stock/football/hero/hero-10.jpg"
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768497/nsf/stock/football/hero/hero-10.jpg"
   },
   "stats": [
     {
@@ -54,7 +54,7 @@
     "twitter": null,
     "youtube": null
   },
-  "about_photo": "/stock/football/about/about-10.jpg",
+  "about_photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768449/nsf/stock/football/about/about-10.jpg",
   "design": {
     "accent_color": "teal",
     "background_tone": "pure-black",

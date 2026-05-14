@@ -2,6 +2,7 @@
 import { useState, useCallback } from "react"
 import { useReveal } from "@/lib/hooks"
 import type { CoachConfig } from "@/lib/useConfig"
+import { isHexColor, hexToAccentVars } from "@/lib/accentVars"
 import Nav from "./Nav"
 import Hero from "./Hero"
 import StatsBar from "./StatsBar"
@@ -46,10 +47,12 @@ export default function LayoutC({ config }: { config: CoachConfig }) {
     setContactSignal((s) => s + 1)
   }, [])
 
-  const themeClass = `theme-${config.design?.accent_color ?? "navy-dark"}`
+  const rawAccent = config.design?.accent_color ?? "navy-dark"
+  const themeClass = isHexColor(rawAccent) ? "" : `theme-${rawAccent}`
+  const accentStyle = isHexColor(rawAccent) ? hexToAccentVars(rawAccent) : undefined
 
   return (
-    <div className={`layout-c ${themeClass}`}>
+    <div className={`layout-c ${themeClass}`} style={accentStyle}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {

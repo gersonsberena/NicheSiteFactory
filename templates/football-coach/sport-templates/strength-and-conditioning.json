@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "5 Best Conditioning Drills for Athletes",
+      "youtube_url": "https://www.youtube.com/watch?v=u3B3NxKiPuA",
+      "description": "Five high-output conditioning drills built for multi-sport athletes and serious competitors."
+    },
+    {
+      "title": "Best Conditioning Drills for Football, Basketball, Baseball & Soccer",
+      "youtube_url": "https://www.youtube.com/watch?v=5esRxGPC-UA",
+      "description": "Sport-specific conditioning drills that build the endurance and explosiveness athletes need."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "BUILD STRENGTH. PERFORM BETTER.",

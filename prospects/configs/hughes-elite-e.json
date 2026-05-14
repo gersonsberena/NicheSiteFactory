@@ -15,7 +15,7 @@
     "years_experience": 12,
     "specialty": "Quarterback & Skill Position Development",
     "age_groups": "Middle School · High School · College Prep",
-    "photo": "/stock/football/about/about-02.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768440/nsf/stock/football/about/about-02.jpg",
     "credentials": [
       "Former D1 Quarterback",
       "NFCA Certified",
@@ -25,7 +25,7 @@
   "hero": {
     "headline": "Where Elite Athletes Are Built",
     "subline": "Quarterback and skill development that gets athletes to the next level.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Apply for Training"
   },
   "stats": [

@@ -15,7 +15,7 @@
     "years_experience": 15,
     "specialty": "Fundamentals & Character Development",
     "age_groups": "Youth · Middle School · High School",
-    "photo": "/stock/football/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768439/nsf/stock/football/about/about-01.jpg",
     "credentials": [
       "Former HS All-American",
       "Alachua County Athletics Board",
@@ -25,7 +25,7 @@
   "hero": {
     "headline": "Building Gainesville Athletes Since 2009",
     "subline": "Football fundamentals, life lessons, and a community that shows up for each other.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Join the Program"
   },
   "stats": [

@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Personal Training Workouts — Beginner to Advanced Training",
+      "youtube_url": "https://www.youtube.com/watch?v=2U7hY_523eQ",
+      "description": "A full personal training session demonstrating structure, progressions, and coaching cues."
+    },
+    {
+      "title": "How to Create the Perfect Personal Training Session for Your Client",
+      "youtube_url": "https://www.youtube.com/watch?v=f2oPqei-SPI",
+      "description": "Session design tips every personal trainer needs — from intake to cooldown."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "TRANSFORM YOUR BODY. CHANGE YOUR LIFE.",

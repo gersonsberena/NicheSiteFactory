@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "7 Best Drills To Teach Elite Basketball Footwork",
+      "youtube_url": "https://www.youtube.com/watch?v=nFNXFc0dvzI",
+      "description": "Seven elite footwork drills for players of all ages — from youth to varsity level."
+    },
+    {
+      "title": "25 Drills That Will Transform Your Team This Season",
+      "youtube_url": "https://www.youtube.com/watch?v=0HiYC03rzBw",
+      "description": "A comprehensive drill library to elevate your team's skills and execution during practice."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "WORK HARD. PLAY SMART. DOMINATE.",

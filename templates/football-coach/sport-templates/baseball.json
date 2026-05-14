@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "4 High-Energy Infield Drills for Your Next Baseball Practice",
+      "youtube_url": "https://www.youtube.com/watch?v=U9Gr4OnGJQA",
+      "description": "Keep players engaged and sharpen infield fundamentals with these high-energy practice drills."
+    },
+    {
+      "title": "Effective Hitting Techniques & Drills for Youth Baseball Coaches",
+      "youtube_url": "https://www.youtube.com/watch?v=NEfaNRgWJdU",
+      "description": "Youth baseball hitting fundamentals from grip to stance — drills coaches can run today."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "TRAIN HARD. THROW STRIKES. WIN GAMES.",

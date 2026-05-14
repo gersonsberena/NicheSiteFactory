@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "The 9 Best Running Drills — How Elite Athletes Improve Running Technique",
+      "youtube_url": "https://www.youtube.com/watch?v=7FRWXrdmKl8",
+      "description": "Track drills used by elite runners to improve efficiency, stride mechanics, and speed."
+    },
+    {
+      "title": "Running Drills: A-March & A-Skip Progression with Coach Pat",
+      "youtube_url": "https://www.youtube.com/watch?v=ZMEMFLfmmIo",
+      "description": "Coach Pat breaks down the A-drill progression — a foundational drill series for all runners."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "RUN FASTER. RUN FARTHER. RUN SMART.",

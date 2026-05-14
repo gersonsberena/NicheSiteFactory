@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useCallback } from "react"
 import type { CoachConfig } from "@/lib/useConfig"
+import { isHexColor, hexToDAccentVars } from "@/lib/accentVars"
 import Nav from "./Nav"
 import Hero from "./Hero"
 import StatsBar from "./StatsBar"
@@ -47,11 +48,13 @@ export default function LayoutD({ config }: { config: CoachConfig }) {
     setTimeout(() => setToast(false), 4000)
   }, [])
 
-  const dTheme = `d-theme-${config.design?.d_accent_color ?? "amber"}`
+  const rawDAccent = config.design?.d_accent_color ?? "amber"
+  const dTheme = isHexColor(rawDAccent) ? "" : `d-theme-${rawDAccent}`
+  const dAccentStyle = isHexColor(rawDAccent) ? hexToDAccentVars(rawDAccent) : undefined
   const dBg    = `d-bg-${config.design?.d_bg_tone ?? "warmwhite"}`
 
   return (
-    <div className={`layout-d ${dTheme} ${dBg}`}>
+    <div className={`layout-d ${dTheme} ${dBg}`} style={dAccentStyle}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {

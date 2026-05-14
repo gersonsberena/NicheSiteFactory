@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "25 Min Full Body Pilates Workout for Beginners",
+      "youtube_url": "https://www.youtube.com/watch?v=NyP_waVgL1w",
+      "description": "A complete beginner Pilates workout requiring no equipment — perfect for new clients."
+    },
+    {
+      "title": "3 Pilates Tips I Teach Every Beginner",
+      "youtube_url": "https://www.youtube.com/watch?v=Pz2jZghZn_I",
+      "description": "Three foundational Pilates principles every beginner must understand before moving forward."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "STRENGTHEN YOUR CENTER. MOVE WITH PURPOSE.",

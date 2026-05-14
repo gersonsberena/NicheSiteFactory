@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useCallback } from "react"
 import type { CoachConfig } from "@/lib/useConfig"
+import { isHexColor, hexToAccentVars } from "@/lib/accentVars"
 import Nav from "./Nav"
 import Hero from "./Hero"
 import StatsBar from "./StatsBar"
@@ -48,11 +49,13 @@ export default function LayoutM({ config }: { config: CoachConfig }) {
     setTimeout(() => setToast(false), 4000)
   }, [])
 
-  const mTheme = `m-theme-${config.design?.m_accent_color ?? "gold"}`
+  const rawMAccent = config.design?.m_accent_color ?? "gold"
+  const mTheme = isHexColor(rawMAccent) ? "" : `m-theme-${rawMAccent}`
+  const mAccentStyle = isHexColor(rawMAccent) ? hexToAccentVars(rawMAccent) : undefined
   const mBg    = `m-bg-${config.design?.m_bg_tone ?? "warm-dark"}`
 
   return (
-    <div className={`layout-m ${mTheme} ${mBg}`} style={{ background: "var(--bg)", color: "var(--text)" }}>
+    <div className={`layout-m ${mTheme} ${mBg}`} style={{ background: "var(--bg)", color: "var(--text)", ...mAccentStyle }}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {

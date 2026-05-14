@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "5 Essential Speed and Agility Drills",
+      "youtube_url": "https://www.youtube.com/watch?v=3ew2m3m5f0M",
+      "description": "Five fundamental drills to increase top speed and improve change-of-direction quickness."
+    },
+    {
+      "title": "Speed and Agility Training for Athletes | Full Workout",
+      "youtube_url": "https://www.youtube.com/watch?v=MQYLI5-_hGc",
+      "description": "A complete speed and agility training session for athletes at every competitive level."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "FASTER FIRST STEP. SHARPER CUTS. BIGGER PLAYS.",

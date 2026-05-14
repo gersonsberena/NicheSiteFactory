@@ -2,6 +2,7 @@
 import { useState, useCallback } from "react"
 import { useReveal } from "@/lib/hooks"
 import type { CoachConfig } from "@/lib/useConfig"
+import { isHexColor, hexToAccentVars } from "@/lib/accentVars"
 import Nav from "./Nav"
 import Hero from "./Hero"
 import StatsBar from "./StatsBar"
@@ -51,11 +52,13 @@ export default function LayoutA({ config }: { config: CoachConfig }) {
 
   const handleDismissToast = useCallback(() => setToast(false), [])
 
-  const themeClass = `theme-${config.design?.accent_color ?? "gold"}`
+  const rawAccent = config.design?.accent_color ?? "gold"
+  const themeClass = isHexColor(rawAccent) ? "" : `theme-${rawAccent}`
+  const accentStyle = isHexColor(rawAccent) ? hexToAccentVars(rawAccent) : undefined
   const bgClass = `bg-tone-${config.design?.background_tone ?? "pure-black"}`
 
   return (
-    <div className={`${themeClass} ${bgClass}`}>
+    <div className={`${themeClass} ${bgClass}`} style={accentStyle}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {

@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "World's #1 Coach Reveals Fastest Way to Improve Your Golf Swing",
+      "youtube_url": "https://www.youtube.com/watch?v=mV1wNLaMCjI",
+      "description": "Top coaching insights and swing mechanics tips that can be applied immediately on the range."
+    },
+    {
+      "title": "3 Golf Swing Drills That Guarantee Better Contact",
+      "youtube_url": "https://www.youtube.com/watch?v=Vb38vl3Jf_E",
+      "description": "Three proven drills to improve ball striking consistency and club face control."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "PLAY SMART. SHOOT LOW.",

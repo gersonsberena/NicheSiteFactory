@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "10 Beginner Martial Arts Training Drills & Workout",
+      "youtube_url": "https://www.youtube.com/watch?v=0RtCpIES3t8",
+      "description": "Foundational drilling techniques and concepts for beginners and developing martial artists."
+    },
+    {
+      "title": "MMA Range-Specific Fight Drills",
+      "youtube_url": "https://www.youtube.com/watch?v=vGm-oDuHATU",
+      "description": "Mixed martial arts drills that train striking and grappling at multiple fighting ranges."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "DISCIPLINE. TECHNIQUE. RESPECT.",

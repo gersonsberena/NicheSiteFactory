@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "CrossFit WOD Demo with CrossFit West Santa Cruz",
+      "youtube_url": "https://www.youtube.com/watch?v=XZAg35GHCH4",
+      "description": "A live WOD demonstration showing the intensity, form, and coaching cues that define CrossFit."
+    },
+    {
+      "title": "A Hybrid Approach to CrossFit Training — New Research",
+      "youtube_url": "https://www.youtube.com/watch?v=1m5UfoMEGNY",
+      "description": "Evidence-based insights on combining CrossFit with strength training for better overall performance."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "MOVE WELL. LIFT HEAVY. GO FAST.",

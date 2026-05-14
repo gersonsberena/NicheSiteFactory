@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useCallback } from "react"
 import type { CoachConfig } from "@/lib/useConfig"
+import { isHexColor, hexToAccentVars } from "@/lib/accentVars"
 import Nav from "./Nav"
 import Hero from "./Hero"
 import StatsBar from "./StatsBar"
@@ -48,11 +49,13 @@ export default function LayoutH({ config }: { config: CoachConfig }) {
     setTimeout(() => setToast(false), 4000)
   }, [])
 
-  const hTheme = `h-theme-${config.design?.h_accent_color ?? "orange"}`
+  const rawHAccent = config.design?.h_accent_color ?? "orange"
+  const hTheme = isHexColor(rawHAccent) ? "" : `h-theme-${rawHAccent}`
+  const hAccentStyle = isHexColor(rawHAccent) ? hexToAccentVars(rawHAccent) : undefined
   const hBg    = `h-bg-${config.design?.h_bg_tone ?? "white"}`
 
   return (
-    <div className={`layout-h ${hTheme} ${hBg}`} style={{ background: "var(--bg)", color: "var(--text)" }}>
+    <div className={`layout-h ${hTheme} ${hBg}`} style={{ background: "var(--bg)", color: "var(--text)", ...hAccentStyle }}>
       <Nav config={config} onCTA={handleCTA} />
       <main>
         {order.map((key) => {

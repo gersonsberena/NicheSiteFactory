@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "20 Min Beginner Yoga Routine — 30 Days of Yoga",
+      "youtube_url": "https://www.youtube.com/watch?v=0L_YrMcwU3w",
+      "description": "Day 1 of a 30-day yoga journey — foundational poses, breathwork, and proper alignment cues."
+    },
+    {
+      "title": "Tips for Teaching Yoga to Beginners with Confidence",
+      "youtube_url": "https://www.youtube.com/watch?v=WbTGlw9YIQk",
+      "description": "Coaching strategies for yoga instructors who want to teach beginners with clarity and confidence."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "BREATHE. MOVE. RESTORE.",

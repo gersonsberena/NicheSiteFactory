@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Scrap Drill — Art of Coaching Volleyball",
+      "youtube_url": "https://www.youtube.com/watch?v=vBGGkwkj3Xk",
+      "description": "A fast-paced competitive drill that develops front-row defense and net play instincts."
+    },
+    {
+      "title": "Volleyball Practice Drill from 2020 National Champion Coach Craig Skinner",
+      "youtube_url": "https://www.youtube.com/watch?v=Q7CpIv0TvtY",
+      "description": "University of Kentucky's head coach demonstrates elite-level volleyball practice drills."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "TOUCH. SET. ATTACK.",

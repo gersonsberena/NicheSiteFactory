@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Coaching Youth Cheerleading: Beginner Tumbling",
+      "youtube_url": "https://www.youtube.com/watch?v=Y6F0_XtdOW4",
+      "description": "Teaching youth coaches how to introduce beginner tumbling skills, handstands, and cartwheels."
+    },
+    {
+      "title": "Four Drills for Level 1 Tumbling",
+      "youtube_url": "https://www.youtube.com/watch?v=hetCesgFm2w",
+      "description": "A dedicated module of Level 1 tumbling drills to build strong foundational technique."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "FLY HIGH. STICK THE LANDING.",

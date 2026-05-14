@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "5 Drills That Will Take Your Freestyle Swimming To The Next Level",
+      "youtube_url": "https://www.youtube.com/watch?v=0N5Mzazwnrg",
+      "description": "Targeted freestyle drills to build efficiency, power, and proper body rotation in the water."
+    },
+    {
+      "title": "5 Drills You Should Do Every Time You Swim",
+      "youtube_url": "https://www.youtube.com/watch?v=_NBO4Ar1asQ",
+      "description": "The fastest swimmers use these drills in every warm-up — here's why they work."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "TRAIN THE STROKE. WIN THE RACE.",

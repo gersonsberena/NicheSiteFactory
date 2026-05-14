@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "4 Team Training Soccer Drills for Passing Combos",
+      "youtube_url": "https://www.youtube.com/watch?v=mJjDCtboCXM",
+      "description": "Coach-led team drills focused on passing combination patterns and positional awareness."
+    },
+    {
+      "title": "Loads of Soccer Training Drills | Coaches Training Session",
+      "youtube_url": "https://www.youtube.com/watch?v=LtvfiKoUU0c",
+      "description": "A full coaching session showcasing a wide variety of soccer drills for all skill levels."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "TRAIN SMART. MOVE FAST. WIN.",

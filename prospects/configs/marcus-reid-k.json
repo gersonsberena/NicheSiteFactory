@@ -14,14 +14,14 @@
     "specialty": "Offensive Line & Blocking Technique",
     "years_experience": 11,
     "bio": "Coach Marcus Reid is one of the most technically precise offensive line coaches in the Southeast. A former college starter at Virginia Tech, he spent years studying film, refining footwork progressions, and building the kind of position-specific knowledge base that college programs pay top dollar for. His athletes don't just get bigger — they get smarter, technically sharper, and more ready to compete at the next level.",
-    "photo": "/stock/football/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768439/nsf/stock/football/about/about-01.jpg",
     "credentials": ["Former Collegiate OL", "AFCA Member", "NASM Certified"],
     "age_groups": "Middle School · High School · College Prep"
   },
   "hero": {
     "headline": "The Trenches Win Games",
     "subline": "Offensive line development for athletes who want to be the most technically sound player on the field.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Apply Now"
   },
   "stats": [

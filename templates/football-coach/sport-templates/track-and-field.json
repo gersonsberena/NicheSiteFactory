@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Sprint Drills: 10 Basic Drills for Top Level Performance",
+      "youtube_url": "https://www.youtube.com/watch?v=fk_qLLCkBiQ",
+      "description": "Ten fundamental sprint drills used by elite track coaches to build speed and mechanics."
+    },
+    {
+      "title": "The Perfect Track Practice Plan: Your Complete Guide",
+      "youtube_url": "https://www.youtube.com/watch?v=BaHGz-UJHYw",
+      "description": "How to build a structured, effective track practice from warm-up to cooldown."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "FASTER. STRONGER. FURTHER.",

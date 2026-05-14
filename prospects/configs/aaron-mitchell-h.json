@@ -14,14 +14,14 @@
     "specialty": "Athletic Performance & Player Development",
     "years_experience": 10,
     "bio": "Coach Aaron Mitchell blends sport science with old-school football fundamentals to produce measurable, trackable results. Every athlete in his program is assessed at intake, re-evaluated every four weeks, and exits with verifiable proof of improvement — on paper and on the field. His data-first approach has earned him a reputation as Orlando's most accountable football trainer.",
-    "photo": "/stock/football/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768439/nsf/stock/football/about/about-01.jpg",
     "credentials": ["NSCA-CSCS", "Former Collegiate Athlete", "FMS Certified"],
     "age_groups": "Youth · Middle School · High School"
   },
   "hero": {
     "headline": "Measure It. Improve It. Prove It.",
     "subline": "Football performance coaching with real data, real benchmarks, and real results.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Get Assessed"
   },
   "stats": [

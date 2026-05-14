@@ -14,14 +14,14 @@
     "specialty": "Linebacker & Defensive Development",
     "years_experience": 14,
     "bio": "Coach Victor Castillo built his reputation on the defensive side of the ball. A former Division I linebacker at the University of South Florida, he brings an intensity and technical precision to linebacker and defensive back development that is unmatched in the Tampa Bay area. In fourteen years of coaching, he has developed athletes who have gone on to play at the collegiate and professional levels — and more importantly, young men who understand what it means to compete with discipline.",
-    "photo": "/stock/football/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768439/nsf/stock/football/about/about-01.jpg",
     "credentials": ["Former D1 Linebacker", "AFCA Member", "CPR/AED Certified"],
     "age_groups": "Middle School · High School · College Prep"
   },
   "hero": {
     "headline": "Defense Wins Championships",
     "subline": "Linebacker and defensive development for athletes who want to dominate at the next level.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Start Training"
   },
   "stats": [

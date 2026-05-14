@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "The Best Infield Drills | Softball Training",
+      "youtube_url": "https://www.youtube.com/watch?v=LCNzZ0bjhzI",
+      "description": "Top infield softball drills covering glove work, footwork, and throwing mechanics."
+    },
+    {
+      "title": "Softball Workout — 10 Drills",
+      "youtube_url": "https://www.youtube.com/watch?v=G0J-ZDZzetU",
+      "description": "A comprehensive 10-drill workout covering fielding, hitting, and conditioning fundamentals."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "RISE UP. OWN THE DIAMOND.",

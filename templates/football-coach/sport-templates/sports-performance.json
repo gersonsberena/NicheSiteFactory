@@ -114,7 +114,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Inside an Elite Athlete's Speed & Power Session | Sports Performance Training",
+      "youtube_url": "https://www.youtube.com/watch?v=P_IdQaDS9e0",
+      "description": "A behind-the-scenes look at how elite athletes train speed, power, and explosiveness."
+    },
+    {
+      "title": "The Coaching Blueprint: 3 Essential Tips to Becoming a Better Performance Coach",
+      "youtube_url": "https://www.youtube.com/watch?v=Wrj0Jw0v8ks",
+      "description": "Performance coaching principles that separate average coaches from elite results-driven coaches."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "PEAK PERFORMANCE. EVERY SEASON.",

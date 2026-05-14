@@ -14,14 +14,14 @@
     "specialty": "Quarterback Development & Offensive Systems",
     "years_experience": 18,
     "bio": "Coach Raymond Cross has been shaping quarterbacks and football minds in the Coastal Georgia region for nearly two decades. A former college quarterback himself, Coach Cross brings a depth of offensive knowledge — and a storytelling patience — that is rare in private football training. His athletes don't just learn plays; they learn the game.",
-    "photo": "/stock/football/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768439/nsf/stock/football/about/about-01.jpg",
     "credentials": ["Former Collegiate QB", "AFCA Member", "Savannah Athletic Hall of Fame"],
     "age_groups": "Youth · Middle School · High School"
   },
   "hero": {
     "headline": "The Game Within the Game",
     "subline": "Quarterback development and football IQ coaching for athletes who want to think like coaches.",
-    "photo": "/stock/football/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/v1778768487/nsf/stock/football/hero/hero-01.jpg",
     "cta_text": "Begin the Journey"
   },
   "stats": [

@@ -1,6 +1,7 @@
 "use client"
 import { useState, useTransition, useRef } from "react"
 import { loadCoach, saveCoach, deleteCoach } from "./actions"
+import { NAMED_TO_HEX } from "@/lib/accentVars"
 import base from "@/templates/football-coach/base.config.json"
 import sportFootball from "@/templates/football-coach/sport-templates/football.json"
 import sportSoccer from "@/templates/football-coach/sport-templates/soccer.json"
@@ -792,6 +793,139 @@ function SelGrouped({
   )
 }
 
+function ColorField({
+  label, hint, span, options, value, onChange,
+}: {
+  label: string
+  hint?: string
+  span?: 1 | 2 | 3 | 4
+  options: { value: string; label: string }[]
+  value: string
+  onChange: (v: string) => void
+}) {
+  const isHex = /^#[0-9A-Fa-f]{6}$/.test(value)
+  const previewHex = isHex ? value : (NAMED_TO_HEX[value] ?? "#888888")
+  return (
+    <div className={spanClass(span)}>
+      <label className={LABEL}>{label}</label>
+      <div className="flex gap-2 items-center">
+        <select
+          className={SELECT + " flex-1"}
+          value={isHex ? "__custom__" : value}
+          onChange={(e) => {
+            if (e.target.value !== "__custom__") onChange(e.target.value)
+          }}
+        >
+          <option value="">{hint ?? "— use default —"}</option>
+          {options.map((o) => (
+            <option key={o.value} value={o.value}>{o.label}</option>
+          ))}
+          <option value="__custom__">Custom hex…</option>
+        </select>
+        <input
+          type="color"
+          value={previewHex}
+          title="Pick exact team color"
+          className="w-10 h-10 rounded border border-zinc-700 cursor-pointer bg-zinc-800 p-0.5 shrink-0"
+          onChange={(e) => onChange(e.target.value)}
+        />
+      </div>
+    </div>
+  )
+}
+
+function UploadField({
+  label, hint, span, slug, value, onChange,
+}: {
+  label: string; hint?: string; span?: 1 | 2 | 3 | 4; slug: string; value: string; onChange: (url: string) => void
+}) {
+  const [uploading, setUploading] = useState(false)
+  const [error, setError] = useState("")
+  const fileRef = useRef<HTMLInputElement>(null)
+
+  async function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0]
+    if (!file) return
+    setUploading(true); setError("")
+    const fd = new FormData()
+    fd.append("file", file)
+    fd.append("folder", `nsf/coaches/${slug || "unsorted"}`)
+    try {
+      const res = await fetch("/api/upload", { method: "POST", body: fd })
+      const data = await res.json()
+      if (data.url) onChange(data.url)
+      else setError(data.error ?? "Upload failed")
+    } catch { setError("Upload failed") }
+    finally { setUploading(false); if (fileRef.current) fileRef.current.value = "" }
+  }
+
+  return (
+    <div className={spanClass(span)}>
+      <label className={LABEL}>{label}</label>
+      <div className="flex gap-2">
+        <input className={INPUT} value={value} onChange={(e) => onChange(e.target.value)} placeholder={hint} />
+        <label className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded border text-sm font-medium cursor-pointer transition ${uploading ? "border-zinc-700 text-zinc-500 cursor-not-allowed" : "border-yellow-700 text-yellow-400 hover:bg-yellow-400/10"}`}>
+          {uploading
+            ? <span className="animate-spin inline-block w-4 h-4 border-2 border-yellow-400 border-t-transparent rounded-full" />
+            : "↑ Upload"}
+          <input ref={fileRef} type="file" accept="image/*" className="hidden" disabled={uploading} onChange={handleFile} />
+        </label>
+      </div>
+      {error && <p className="mt-1 text-xs text-red-400">{error}</p>}
+      {value && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={value} alt="" className="mt-2 h-16 w-auto rounded border border-zinc-700 object-cover" onError={(e) => { e.currentTarget.style.display = "none" }} />
+      )}
+    </div>
+  )
+}
+
+function GalleryUploadField({
+  slug, value, onChange,
+}: { slug: string; value: string; onChange: (val: string) => void }) {
+  const [uploading, setUploading] = useState(false)
+  const [error, setError] = useState("")
+
+  async function handleFiles(e: React.ChangeEvent<HTMLInputElement>) {
+    const files = Array.from(e.target.files ?? [])
+    if (!files.length) return
+    setUploading(true); setError("")
+    const urls: string[] = []
+    for (const file of files) {
+      const fd = new FormData()
+      fd.append("file", file)
+      fd.append("folder", `nsf/coaches/${slug || "unsorted"}`)
+      try {
+        const res = await fetch("/api/upload", { method: "POST", body: fd })
+        const data = await res.json()
+        if (data.url) urls.push(data.url)
+        else setError((prev) => prev || (data.error ?? "Upload failed"))
+      } catch { setError("Upload failed") }
+    }
+    if (urls.length) {
+      const existing = value.trim()
+      onChange(existing ? existing + "\n" + urls.join("\n") : urls.join("\n"))
+    }
+    setUploading(false); e.target.value = ""
+  }
+
+  return (
+    <div className="col-span-2 md:col-span-4 space-y-2">
+      <div className="flex items-center justify-between">
+        <label className={LABEL}>Photo URLs (one per line)</label>
+        <label className={`flex items-center gap-1.5 px-3 py-1.5 rounded border text-sm font-medium cursor-pointer transition ${uploading ? "border-zinc-700 text-zinc-500 cursor-not-allowed" : "border-yellow-700 text-yellow-400 hover:bg-yellow-400/10"}`}>
+          {uploading
+            ? <><span className="animate-spin inline-block w-4 h-4 border-2 border-yellow-400 border-t-transparent rounded-full" /> Uploading…</>
+            : "↑ Upload Photos"}
+          <input type="file" accept="image/*" multiple className="hidden" disabled={uploading} onChange={handleFiles} />
+        </label>
+      </div>
+      <textarea className={`${INPUT} resize-y`} value={value} onChange={(e) => onChange(e.target.value)} placeholder="/stock/football/gallery/gallery-01.jpg" rows={6} />
+      {error && <p className="text-xs text-red-400">{error}</p>}
+    </div>
+  )
+}
+
 function Section({ title, children, open = true }: { title: string; children: React.ReactNode; open?: boolean }) {
   return (
     <details className="border border-zinc-800 rounded-lg overflow-hidden" open={open}>
@@ -1033,7 +1167,7 @@ export default function AdminClient({
   initialSlug,
   initialRaw,
 }: {
-  coaches: { slug: string; sport: string }[]
+  coaches: { slug: string; sport: string; layout: string }[]
   initialSlug?: string
   initialRaw?: Record<string, unknown> | null
 }) {
@@ -1067,9 +1201,12 @@ export default function AdminClient({
   const [previewSlug, setPreviewSlug] = useState("")
   const iframeRef = useRef<HTMLIFrameElement>(null)
   const [coachesList, setCoachesList] = useState(coaches)
+  const [filterSport, setFilterSport] = useState("")
+  const [filterLayout, setFilterLayout] = useState("")
 
   const set = (k: keyof FormState) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
     setForm((f) => ({ ...f, [k]: e.target.value }))
+  const setVal = (k: keyof FormState) => (v: string) => setForm((f) => ({ ...f, [k]: v }))
 
   const handleLoad = () => {
     if (!pickerSlug) return
@@ -1153,7 +1290,7 @@ export default function AdminClient({
         if (previewOpen) iframeRef.current?.contentWindow?.location.reload()
         if (!coachesList.some(c => c.slug === slug)) {
           setCoachesList(list =>
-            [...list, { slug, sport: form.about_sport ?? "" }]
+            [...list, { slug, sport: form.about_sport ?? "", layout: form.layout ?? "" }]
               .sort((a, b) => a.slug.localeCompare(b.slug))
           )
         }
@@ -1213,17 +1350,43 @@ export default function AdminClient({
       <header className="sticky top-0 z-40 bg-zinc-900 border-b border-zinc-800 px-5 py-3 flex items-center gap-4 flex-wrap">
         <span className="font-bold text-yellow-400 text-base uppercase tracking-widest shrink-0">NSF Admin</span>
 
+        {/* ── Sport filter ── */}
+        <select
+          className="bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500 shrink-0"
+          value={filterSport}
+          onChange={(e) => { setFilterSport(e.target.value); setPickerSlug("") }}
+        >
+          <option value="">All sports</option>
+          {[...new Set(coachesList.map(c => c.sport).filter(Boolean))].sort().map(s => (
+            <option key={s} value={s}>{s}</option>
+          ))}
+        </select>
+
+        {/* ── Layout filter ── */}
+        <select
+          className="bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500 shrink-0"
+          value={filterLayout}
+          onChange={(e) => { setFilterLayout(e.target.value); setPickerSlug("") }}
+        >
+          <option value="">All layouts</option>
+          {["A","B","C","D","E","F","G","H","I","K","L","M"].map(l => (
+            <option key={l} value={l}>Layout {l}</option>
+          ))}
+        </select>
+
+        {/* ── Name picker (filtered) ── */}
         <select
           className="bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-base text-white focus:outline-none focus:border-yellow-500 flex-1 min-w-[180px] max-w-xs"
           value={pickerSlug}
           onChange={(e) => setPickerSlug(e.target.value)}
         >
-          <option value="">— select existing coach —</option>
-          {coachesList.map((c) => (
-            <option key={c.slug} value={c.slug}>
-              {c.slug}{c.sport ? ` — ${c.sport}` : ""}
-            </option>
-          ))}
+          <option value="">— select client —</option>
+          {coachesList
+            .filter(c => (!filterSport || c.sport === filterSport) && (!filterLayout || c.layout === filterLayout))
+            .map((c) => (
+              <option key={c.slug} value={c.slug}>{c.slug}</option>
+            ))
+          }
         </select>
 
         <button
@@ -1465,7 +1628,7 @@ export default function AdminClient({
           <Field label="Age Groups" value={form.about_age_groups} onChange={set("about_age_groups")} hint={`Default: "${spAbout.age_groups ?? ""}"`} span={2} />
           <Field label="Credentials (comma-separated)" value={form.about_credentials} onChange={set("about_credentials")} hint={Array.isArray(spAbout.credentials) ? (spAbout.credentials as string[]).join(", ") : "e.g. NFCA Certified, Former D1 Athlete"} span={4} />
           <TextArea label="Bio" value={form.about_bio} onChange={set("about_bio")} hint={`Default: "${spAbout.bio ?? ""}"`} rows={3} span={4} />
-          <Field label="Photo URL" value={form.about_photo} onChange={set("about_photo")} hint={`Default: "${spAbout.photo ?? ""}"`} span={4} />
+          <UploadField label="Photo URL" value={form.about_photo} onChange={(url) => setForm((f) => ({ ...f, about_photo: url }))} hint={`Default: "${spAbout.photo ?? ""}"`} span={4} slug={slug} />
         </Section>
 
         {/* ── Hero ── */}
@@ -1474,7 +1637,7 @@ export default function AdminClient({
           <TextArea label="Subline" value={form.hero_subline} onChange={set("hero_subline")} hint={`Default: "${spHero.subline ?? ""}"`} rows={2} span={4} />
           <Field label="CTA Button Text" value={form.hero_cta_text} onChange={set("hero_cta_text")} hint={`Default: "${base.hero.cta_text}"`} span={2} />
           <Field label="CTA URL" value={form.hero_cta_url} onChange={set("hero_cta_url")} hint={`Default: "${base.hero.cta_url}"`} span={2} />
-          <Field label="Hero Photo URL" value={form.hero_photo} onChange={set("hero_photo")} hint={`Default: "${spHero.photo ?? ""}"`} span={4} />
+          <UploadField label="Hero Photo URL" value={form.hero_photo} onChange={(url) => setForm((f) => ({ ...f, hero_photo: url }))} hint={`Default: "${spHero.photo ?? ""}"`} span={4} slug={slug} />
         </Section>
 
         {/* ── Stats ── */}
@@ -1636,14 +1799,7 @@ export default function AdminClient({
 
         {/* ── Gallery ── */}
         <Section title="Gallery Photos" open={false}>
-          <TextArea
-            label="Photo URLs (one per line)"
-            value={form.gallery_photos}
-            onChange={set("gallery_photos")}
-            hint="/stock/football/gallery/gallery-01.jpg"
-            rows={6}
-            span={4}
-          />
+          <GalleryUploadField slug={slug} value={form.gallery_photos} onChange={(val) => setForm((f) => ({ ...f, gallery_photos: val }))} />
           <p className="col-span-2 md:col-span-4 text-xs text-zinc-500">Remote images must be from res.cloudinary.com or images.unsplash.com.</p>
         </Section>
 
@@ -1840,7 +1996,7 @@ export default function AdminClient({
             <div className="p-5 grid grid-cols-2 md:grid-cols-4 gap-4">
               {designTab === "A" && (
                 <>
-                  <Sel label="Accent Color" options={ACCENT_COLORS} value={form.design_accent_color} onChange={set("design_accent_color")} hint={`Default: "${base.design.accent_color}"`} />
+                  <ColorField label="Accent Color" options={ACCENT_COLORS} value={form.design_accent_color} onChange={setVal("design_accent_color")} hint={`Default: "${base.design.accent_color}"`} />
                   <Sel label="Background Tone" options={BG_TONES} value={form.design_background_tone} onChange={set("design_background_tone")} hint={`Default: "${base.design.background_tone}"`} />
                   <Sel label="Hero Layout" options={HERO_LAYOUTS} value={form.design_hero_layout} onChange={set("design_hero_layout")} hint={`Default: "${base.design.hero_layout}"`} />
                   <Sel label="Hero Overlay" options={HERO_OVERLAYS} value={form.design_hero_overlay} onChange={set("design_hero_overlay")} hint={`Default: "${base.design.hero_overlay}"`} />
@@ -1873,7 +2029,7 @@ export default function AdminClient({
               {designTab === "C" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout C overrides. Leave blank to inherit Layout A values.</p>
-                  <Sel label="C Accent Color" options={ACCENT_COLORS} value={form.design_c_accent_color} onChange={set("design_c_accent_color")} hint="— inherit A —" />
+                  <ColorField label="C Accent Color" options={ACCENT_COLORS} value={form.design_c_accent_color} onChange={setVal("design_c_accent_color")} hint="— inherit A —" />
                   <Sel label="C Background Tone" options={BG_TONES} value={form.design_c_background_tone} onChange={set("design_c_background_tone")} hint="— inherit A —" />
                   <Sel label="C Hero Layout" options={HERO_LAYOUTS} value={form.design_c_hero_layout} onChange={set("design_c_hero_layout")} hint="— inherit A —" />
                   <Sel label="C Hero Overlay" options={HERO_OVERLAYS} value={form.design_c_hero_overlay} onChange={set("design_c_hero_overlay")} hint="— inherit A —" />
@@ -1901,7 +2057,7 @@ export default function AdminClient({
               {designTab === "E" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout E — Premium Elite (dark navy/gold, Montserrat + Inter, Placements section). Leave blank for defaults.</p>
-                  <Sel label="E Accent Color" options={[{value:"gold",label:"Gold (default)"},{value:"silver",label:"Silver"},{value:"teal",label:"Teal"},{value:"platinum",label:"Platinum"}]} value={form.design_e_accent_color} onChange={set("design_e_accent_color")} hint={`Default: "gold"`} />
+                  <ColorField label="E Accent Color" options={[{value:"gold",label:"Gold (default)"},{value:"silver",label:"Silver"},{value:"teal",label:"Teal"},{value:"platinum",label:"Platinum"}]} value={form.design_e_accent_color} onChange={setVal("design_e_accent_color")} hint={`Default: "gold"`} />
                   <Sel label="E Background Tone" options={[{value:"navy",label:"Navy (default)"},{value:"midnight",label:"Midnight"},{value:"deep-blue",label:"Deep Blue"}]} value={form.design_e_bg_tone} onChange={set("design_e_bg_tone")} hint={`Default: "navy"`} />
                   <Sel label="E Hero Layout" options={[{value:"portrait-right",label:"Portrait Right (default)"},{value:"portrait-left",label:"Portrait Left"},{value:"centered",label:"Centered"}]} value={form.design_e_hero_layout} onChange={set("design_e_hero_layout")} hint={`Default: "portrait-right"`} />
                   <Sel label="E Services Layout" options={[{value:"cards-3col",label:"Cards 3-Column (default)"},{value:"horizontal-icon-left",label:"Horizontal Icon Left"}]} value={form.design_e_services_layout} onChange={set("design_e_services_layout")} hint={`Default: "cards-3col"`} />
@@ -1912,7 +2068,7 @@ export default function AdminClient({
               {designTab === "F" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout F — High Energy (near-black/teal, Barlow Condensed, diagonal service panels, CountUp stats). Leave blank for defaults.</p>
-                  <Sel label="F Accent Color" options={[{value:"teal",label:"Teal (default)"},{value:"orange",label:"Orange"},{value:"purple",label:"Purple"},{value:"red",label:"Red"},{value:"gold",label:"Gold"}]} value={form.design_f_accent_color} onChange={set("design_f_accent_color")} hint={`Default: "teal"`} />
+                  <ColorField label="F Accent Color" options={[{value:"teal",label:"Teal (default)"},{value:"orange",label:"Orange"},{value:"purple",label:"Purple"},{value:"red",label:"Red"},{value:"gold",label:"Gold"}]} value={form.design_f_accent_color} onChange={setVal("design_f_accent_color")} hint={`Default: "teal"`} />
                   <Sel label="F Background Tone" options={[{value:"near-black",label:"Near Black (default)"},{value:"true-black",label:"True Black"},{value:"dark-slate",label:"Dark Slate"}]} value={form.design_f_bg_tone} onChange={set("design_f_bg_tone")} hint={`Default: "near-black"`} />
                   <Sel label="F Hero Layout" options={[{value:"diagonal-split",label:"Diagonal Split (default)"},{value:"full-bleed",label:"Full Bleed"}]} value={form.design_f_hero_layout} onChange={set("design_f_hero_layout")} hint={`Default: "diagonal-split"`} />
                   <Sel label="F Services Layout" options={[{value:"angled-panels",label:"Angled Panels (default)"},{value:"cards-3col",label:"Cards 3-Column"}]} value={form.design_f_services_layout} onChange={set("design_f_services_layout")} hint={`Default: "angled-panels"`} />
@@ -1922,7 +2078,7 @@ export default function AdminClient({
               {designTab === "G" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout G — Local Legend (warm paper/rust, Roboto Slab, newspaper 3-col about, EST. stamp). Leave blank for defaults.</p>
-                  <Sel label="G Accent Color" options={[{value:"rust",label:"Rust (default)"},{value:"forest",label:"Forest"},{value:"navy",label:"Navy"},{value:"burgundy",label:"Burgundy"}]} value={form.design_g_accent_color} onChange={set("design_g_accent_color")} hint={`Default: "rust"`} />
+                  <ColorField label="G Accent Color" options={[{value:"rust",label:"Rust (default)"},{value:"forest",label:"Forest"},{value:"navy",label:"Navy"},{value:"burgundy",label:"Burgundy"}]} value={form.design_g_accent_color} onChange={setVal("design_g_accent_color")} hint={`Default: "rust"`} />
                   <Sel label="G Background Tone" options={[{value:"paper",label:"Paper (default)"},{value:"warm-white",label:"Warm White"},{value:"cream",label:"Cream"}]} value={form.design_g_bg_tone} onChange={set("design_g_bg_tone")} hint={`Default: "paper"`} />
                   <Sel label="G Hero Layout" options={[{value:"split-right",label:"Split Right (default)"},{value:"full-bleed",label:"Full Bleed"},{value:"centered",label:"Centered"}]} value={form.design_g_hero_layout} onChange={set("design_g_hero_layout")} hint={`Default: "split-right"`} />
                   <Sel label="G About Layout" options={[{value:"newspaper-3col",label:"Newspaper 3-Column (default)"},{value:"2col",label:"2-Column"},{value:"stacked",label:"Stacked"}]} value={form.design_g_about_layout} onChange={set("design_g_about_layout")} hint={`Default: "newspaper-3col"`} />
@@ -1931,7 +2087,7 @@ export default function AdminClient({
               {designTab === "H" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout H — Data Driven (white/orange, DM Sans + DM Mono, MetricCards, ProgressBars). Leave blank for defaults.</p>
-                  <Sel label="H Accent Color" options={[{value:"orange",label:"Orange (default)"},{value:"teal",label:"Teal"},{value:"blue",label:"Blue"},{value:"green",label:"Green"}]} value={form.design_h_accent_color} onChange={set("design_h_accent_color")} hint={`Default: "orange"`} />
+                  <ColorField label="H Accent Color" options={[{value:"orange",label:"Orange (default)"},{value:"teal",label:"Teal"},{value:"blue",label:"Blue"},{value:"green",label:"Green"}]} value={form.design_h_accent_color} onChange={setVal("design_h_accent_color")} hint={`Default: "orange"`} />
                   <Sel label="H Background Tone" options={[{value:"white",label:"White (default)"},{value:"light-gray",label:"Light Gray"},{value:"slate-light",label:"Slate Light"}]} value={form.design_h_bg_tone} onChange={set("design_h_bg_tone")} hint={`Default: "white"`} />
                   <Sel label="H Hero Layout" options={[{value:"metric-split",label:"Metric Split (default)"},{value:"full-bleed",label:"Full Bleed"},{value:"centered",label:"Centered"}]} value={form.design_h_hero_layout} onChange={set("design_h_hero_layout")} hint={`Default: "metric-split"`} />
                   <Sel label="H Stats Style" options={[{value:"metric-cards",label:"Metric Cards (default)"},{value:"progress-bars",label:"Progress Bars"}]} value={form.design_h_stats_style} onChange={set("design_h_stats_style")} hint={`Default: "metric-cards"`} />
@@ -1940,7 +2096,7 @@ export default function AdminClient({
               {designTab === "I" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout I — Magazine Editorial (warm cream/burgundy, Playfair Display, drop-cap, chapter numbers). Leave blank for defaults.</p>
-                  <Sel label="I Accent Color" options={[{value:"burgundy",label:"Burgundy (default)"},{value:"navy",label:"Navy"},{value:"forest",label:"Forest"},{value:"slate",label:"Slate"}]} value={form.design_i_accent_color} onChange={set("design_i_accent_color")} hint={`Default: "burgundy"`} />
+                  <ColorField label="I Accent Color" options={[{value:"burgundy",label:"Burgundy (default)"},{value:"navy",label:"Navy"},{value:"forest",label:"Forest"},{value:"slate",label:"Slate"}]} value={form.design_i_accent_color} onChange={setVal("design_i_accent_color")} hint={`Default: "burgundy"`} />
                   <Sel label="I Background Tone" options={[{value:"warm-cream",label:"Warm Cream (default)"},{value:"white",label:"White"},{value:"newsprint",label:"Newsprint"}]} value={form.design_i_bg_tone} onChange={set("design_i_bg_tone")} hint={`Default: "warm-cream"`} />
                   <Sel label="I Hero Layout" options={[{value:"full-screen",label:"Full Screen (default)"},{value:"centered-text",label:"Centered Text"}]} value={form.design_i_hero_layout} onChange={set("design_i_hero_layout")} hint={`Default: "full-screen"`} />
                   <Sel label="I About Layout" options={[{value:"2col",label:"2-Column (default)"},{value:"single-col",label:"Single Column"}]} value={form.design_i_about_layout} onChange={set("design_i_about_layout")} hint={`Default: "2col"`} />
@@ -1949,7 +2105,7 @@ export default function AdminClient({
               {designTab === "K" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout K — Precision (dark navy/blue, Inter + Space Grotesk, ghost section numbers, dot-grid). Leave blank for defaults.</p>
-                  <Sel label="K Accent Color" options={[{value:"blue",label:"Blue (default)"},{value:"teal",label:"Teal"},{value:"amber",label:"Amber"},{value:"green",label:"Green"}]} value={form.design_k_accent_color} onChange={set("design_k_accent_color")} hint={`Default: "blue"`} />
+                  <ColorField label="K Accent Color" options={[{value:"blue",label:"Blue (default)"},{value:"teal",label:"Teal"},{value:"amber",label:"Amber"},{value:"green",label:"Green"}]} value={form.design_k_accent_color} onChange={setVal("design_k_accent_color")} hint={`Default: "blue"`} />
                   <Sel label="K Background Tone" options={[{value:"dark-navy",label:"Dark Navy (default)"},{value:"midnight",label:"Midnight"},{value:"near-black",label:"Near Black"}]} value={form.design_k_bg_tone} onChange={set("design_k_bg_tone")} hint={`Default: "dark-navy"`} />
                   <Sel label="K Hero Layout" options={[{value:"centered",label:"Centered (default)"},{value:"split-left",label:"Split Left"},{value:"split-right",label:"Split Right"}]} value={form.design_k_hero_layout} onChange={set("design_k_hero_layout")} hint={`Default: "centered"`} />
                   <Sel label="K Ghost Numbers" options={[{value:"on",label:"On (default)"},{value:"off",label:"Off"}]} value={form.design_k_ghost_numbers} onChange={set("design_k_ghost_numbers")} hint={`Default: "on"`} />
@@ -1958,7 +2114,7 @@ export default function AdminClient({
               {designTab === "L" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout L — Glass Premium (near-black, glassmorphism cards, DM Sans, gradient text hero). Leave blank for defaults.</p>
-                  <Sel label="L Accent Color" options={[{value:"purple",label:"Purple (default)"},{value:"teal",label:"Teal"},{value:"blue",label:"Blue"},{value:"gold",label:"Gold"},{value:"pink",label:"Pink"}]} value={form.design_l_accent_color} onChange={set("design_l_accent_color")} hint={`Default: "purple"`} />
+                  <ColorField label="L Accent Color" options={[{value:"purple",label:"Purple (default)"},{value:"teal",label:"Teal"},{value:"blue",label:"Blue"},{value:"gold",label:"Gold"},{value:"pink",label:"Pink"}]} value={form.design_l_accent_color} onChange={setVal("design_l_accent_color")} hint={`Default: "purple"`} />
                   <Sel label="L Background Tone" options={[{value:"near-black",label:"Near Black (default)"},{value:"true-black",label:"True Black"},{value:"navy-black",label:"Navy Black"}]} value={form.design_l_bg_tone} onChange={set("design_l_bg_tone")} hint={`Default: "near-black"`} />
                   <Sel label="L Hero Layout" options={[{value:"gradient-text",label:"Gradient Text (default)"},{value:"split-right",label:"Split Right"},{value:"centered",label:"Centered"}]} value={form.design_l_hero_layout} onChange={set("design_l_hero_layout")} hint={`Default: "gradient-text"`} />
                   <Sel label="L Glass Intensity" options={[{value:"medium",label:"Medium (default)"},{value:"subtle",label:"Subtle"},{value:"strong",label:"Strong"}]} value={form.design_l_glass_intensity} onChange={set("design_l_glass_intensity")} hint={`Default: "medium"`} />
@@ -1967,7 +2123,7 @@ export default function AdminClient({
               {designTab === "M" && (
                 <>
                   <p className="col-span-2 md:col-span-4 text-xs text-zinc-500 -mb-1">Layout M — Dark Editorial (warm dark/gold, DM Serif Display + DM Sans, ImageBreak dividers, PullQuote). Leave blank for defaults.</p>
-                  <Sel label="M Accent Color" options={[{value:"gold",label:"Gold (default)"},{value:"teal",label:"Teal"},{value:"rust",label:"Rust"},{value:"silver",label:"Silver"}]} value={form.design_m_accent_color} onChange={set("design_m_accent_color")} hint={`Default: "gold"`} />
+                  <ColorField label="M Accent Color" options={[{value:"gold",label:"Gold (default)"},{value:"teal",label:"Teal"},{value:"rust",label:"Rust"},{value:"silver",label:"Silver"}]} value={form.design_m_accent_color} onChange={setVal("design_m_accent_color")} hint={`Default: "gold"`} />
                   <Sel label="M Background Tone" options={[{value:"warm-dark",label:"Warm Dark (default)"},{value:"cool-dark",label:"Cool Dark"},{value:"near-black",label:"Near Black"}]} value={form.design_m_bg_tone} onChange={set("design_m_bg_tone")} hint={`Default: "warm-dark"`} />
                   <Sel label="M Hero Layout" options={[{value:"editorial",label:"Editorial (default)"},{value:"split-right",label:"Split Right"},{value:"full-bleed",label:"Full Bleed"}]} value={form.design_m_hero_layout} onChange={set("design_m_hero_layout")} hint={`Default: "editorial"`} />
                   <Sel label="M Image Breaks" options={[{value:"on",label:"On (default)"},{value:"off",label:"Off"}]} value={form.design_m_image_breaks} onChange={set("design_m_image_breaks")} hint={`Default: "on"`} />

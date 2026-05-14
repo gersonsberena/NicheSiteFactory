@@ -4,7 +4,7 @@ import path from "path"
 
 const CONFIGS_DIR = path.join(process.cwd(), "prospects", "configs")
 
-export async function listCoaches(): Promise<{ slug: string; sport: string }[]> {
+export async function listCoaches(): Promise<{ slug: string; sport: string; layout: string }[]> {
   try {
     return fs.readdirSync(CONFIGS_DIR)
       .filter((f) => f.endsWith(".json"))
@@ -13,9 +13,10 @@ export async function listCoaches(): Promise<{ slug: string; sport: string }[]> 
         try {
           const raw = JSON.parse(fs.readFileSync(path.join(CONFIGS_DIR, f), "utf8"))
           const sport = (raw.about?.sport as string | undefined) ?? ""
-          return { slug, sport }
+          const layout = (raw.layout as string | undefined) ?? ""
+          return { slug, sport, layout }
         } catch {
-          return { slug, sport: "" }
+          return { slug, sport: "", layout: "" }
         }
       })
       .sort((a, b) => a.slug.localeCompare(b.slug))

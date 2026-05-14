@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Lacrosse Drills for Beginners — IMG Academy Offensive Series",
+      "youtube_url": "https://www.youtube.com/watch?v=iM8rHj4iPTI",
+      "description": "IMG Academy offensive coordinator breaks down foundational lacrosse drills for beginners."
+    },
+    {
+      "title": "Mastering Lacrosse Practice: Planning, Progressions & Game-Ready Drills",
+      "youtube_url": "https://www.youtube.com/watch?v=sjkyuycedgQ",
+      "description": "How to create structured, goal-driven practices with progressions that translate to game day."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "CRADLE. DODGE. SCORE.",

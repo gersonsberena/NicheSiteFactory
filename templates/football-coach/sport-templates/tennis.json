@@ -100,7 +100,18 @@
     }
   ],
 
-  "videos": [],
+  "videos": [
+    {
+      "title": "Top 5 Tennis Drills For ALL Levels",
+      "youtube_url": "https://www.youtube.com/watch?v=wcPkaD_cTVI",
+      "description": "Essential court drills designed to improve consistency, footwork, and shot selection."
+    },
+    {
+      "title": "3 Most Important Drills To Improve As A Beginner Tennis Player",
+      "youtube_url": "https://www.youtube.com/watch?v=6HSHMqxcG2Q",
+      "description": "The three fundamental drills every beginner needs to build a solid foundation on the court."
+    }
+  ],
 
   "copy_variants": {
     "hero_tagline": "SERVE. RALLY. WIN.",

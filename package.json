@@ -15,6 +15,7 @@
     "leads:au:test": "node scripts/scrape-athletesuntapped.js --limit=10"
   },
   "dependencies": {
+    "cloudinary": "^2.10.0",
     "next": "16.2.5",
     "react": "19.2.4",
     "react-dom": "19.2.4"
