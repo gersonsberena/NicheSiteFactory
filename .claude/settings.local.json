@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(node scripts/list-previews.js 3000)",
-      "Bash(node -e \"const p = require\\('./prospects/configs/andy-mckrackin.json'\\); console.log\\(JSON.stringify\\({training_cities: p.training_cities, section_order: p.section_order, calendly: p.contact?.calendly_url}, null, 2\\)\\)\")"
+      "Bash(node -e \"const p = require\\('./prospects/configs/andy-mckrackin.json'\\); console.log\\(JSON.stringify\\({training_cities: p.training_cities, section_order: p.section_order, calendly: p.contact?.calendly_url}, null, 2\\)\\)\")",
+      "Bash(npm install *)",
+      "Bash(not exist *)",
+      "Bash(npx tsc *)"
     ]
   }
 }
