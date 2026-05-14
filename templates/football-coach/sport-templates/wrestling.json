@@ -5,7 +5,7 @@
     "years_experience": 11,
     "specialty": "Takedowns & Mat Control",
     "age_groups": "Youth · Middle School · High School",
-    "photo": "/stock/wrestling/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/about/about-01.jpg",
     "credentials": ["USAW Member", "Former Collegiate Wrestler"],
     "sport": "Wrestling"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Shoot. Control. Win.",
     "subline": "Private wrestling coaching — takedowns, defensive positioning, and conditioning for athletes who want to compete at the highest level.",
-    "photo": "/stock/wrestling/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/hero/hero-01.jpg",
     "cta_text": "Book a Free Session"
   },
 
@@ -59,12 +59,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/wrestling/gallery/gallery-01.jpg",
-      "/stock/wrestling/gallery/gallery-02.jpg",
-      "/stock/wrestling/gallery/gallery-03.jpg",
-      "/stock/wrestling/gallery/gallery-04.jpg",
-      "/stock/wrestling/gallery/gallery-05.jpg",
-      "/stock/wrestling/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/wrestling/gallery/gallery-06.jpg"
     ]
   },
 

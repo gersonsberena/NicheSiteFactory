@@ -5,7 +5,7 @@
     "years_experience": 11,
     "specialty": "Groundstrokes & Match Strategy",
     "age_groups": "Youth · Junior · High School · Adult",
-    "photo": "/stock/tennis/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/about/about-01.jpg",
     "credentials": ["USPTA Certified", "Former Collegiate Player"],
     "sport": "Tennis"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Serve. Rally. Win.",
     "subline": "Private tennis coaching — stroke mechanics, match strategy, and tournament prep for players who want to win more matches.",
-    "photo": "/stock/tennis/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/hero/hero-01.jpg",
     "cta_text": "Book a Free Session"
   },
 
@@ -59,12 +59,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/tennis/gallery/gallery-01.jpg",
-      "/stock/tennis/gallery/gallery-02.jpg",
-      "/stock/tennis/gallery/gallery-03.jpg",
-      "/stock/tennis/gallery/gallery-04.jpg",
-      "/stock/tennis/gallery/gallery-05.jpg",
-      "/stock/tennis/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/tennis/gallery/gallery-06.jpg"
     ]
   },
 

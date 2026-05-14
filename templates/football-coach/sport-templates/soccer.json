@@ -5,7 +5,7 @@
     "years_experience": 10,
     "specialty": "Technical Skills & Game Intelligence",
     "age_groups": "Youth · Club · High School",
-    "photo": "/stock/soccer/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/about/about-01.jpg",
     "credentials": ["USSF Licensed", "Former College Athlete"],
     "sport": "Soccer"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Elevate Your Game.",
     "subline": "Private soccer coaching — technical development, tactical awareness, and college prep for serious players.",
-    "photo": "/stock/soccer/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/hero/hero-01.jpg",
     "cta_text": "Book a Free Session"
   },
 
@@ -59,12 +59,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/soccer/gallery/gallery-01.jpg",
-      "/stock/soccer/gallery/gallery-02.jpg",
-      "/stock/soccer/gallery/gallery-03.jpg",
-      "/stock/soccer/gallery/gallery-04.jpg",
-      "/stock/soccer/gallery/gallery-05.jpg",
-      "/stock/soccer/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/soccer/gallery/gallery-06.jpg"
     ]
   },
 

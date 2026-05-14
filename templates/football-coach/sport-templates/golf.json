@@ -5,7 +5,7 @@
     "years_experience": 12,
     "specialty": "Swing Mechanics & Course Management",
     "age_groups": "Youth · Junior · High School · Adult",
-    "photo": "/stock/golf/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/about/about-01.jpg",
     "credentials": ["PGA Member", "TPI Certified"],
     "sport": "Golf"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Play Smart. Shoot Low.",
     "subline": "Private golf instruction — swing analysis, short game mastery, and course management for players ready to break through to the next level.",
-    "photo": "/stock/golf/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/hero/hero-01.jpg",
     "cta_text": "Book a Lesson"
   },
 
@@ -59,12 +59,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/golf/gallery/gallery-01.jpg",
-      "/stock/golf/gallery/gallery-02.jpg",
-      "/stock/golf/gallery/gallery-03.jpg",
-      "/stock/golf/gallery/gallery-04.jpg",
-      "/stock/golf/gallery/gallery-05.jpg",
-      "/stock/golf/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/golf/gallery/gallery-06.jpg"
     ]
   },
 

@@ -5,7 +5,7 @@
     "years_experience": 7,
     "specialty": "First-Step Quickness & Athletic Movement",
     "age_groups": "Youth · Middle School · High School",
-    "photo": "/stock/speed-and-agility/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/about/about-01.jpg",
     "credentials": ["IYCA Certified", "Former Collegiate Athlete"],
     "sport": "Speed & Agility"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Faster First Step. Sharper Cuts. Bigger Plays.",
     "subline": "Speed and agility training — linear speed development, change of direction, and reactive movement for multi-sport athletes.",
-    "photo": "/stock/speed-and-agility/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/hero/hero-01.jpg",
     "cta_text": "Book a Free Session"
   },
 
@@ -73,12 +73,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/speed-and-agility/gallery/gallery-01.jpg",
-      "/stock/speed-and-agility/gallery/gallery-02.jpg",
-      "/stock/speed-and-agility/gallery/gallery-03.jpg",
-      "/stock/speed-and-agility/gallery/gallery-04.jpg",
-      "/stock/speed-and-agility/gallery/gallery-05.jpg",
-      "/stock/speed-and-agility/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/speed-and-agility/gallery/gallery-06.jpg"
     ]
   },
 

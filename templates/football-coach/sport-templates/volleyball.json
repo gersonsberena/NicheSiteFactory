@@ -5,7 +5,7 @@
     "years_experience": 8,
     "specialty": "Serving, Setting & Attacking",
     "age_groups": "Youth · Club · High School",
-    "photo": "/stock/volleyball/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/about/about-01.jpg",
     "credentials": ["USA Volleyball Certified", "Former Collegiate Player"],
     "sport": "Volleyball"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Touch. Set. Attack.",
     "subline": "Private volleyball coaching — serving mechanics, setting precision, and attacking development for players who want to dominate the net.",
-    "photo": "/stock/volleyball/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/hero/hero-01.jpg",
     "cta_text": "Book a Free Session"
   },
 
@@ -59,12 +59,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/volleyball/gallery/gallery-01.jpg",
-      "/stock/volleyball/gallery/gallery-02.jpg",
-      "/stock/volleyball/gallery/gallery-03.jpg",
-      "/stock/volleyball/gallery/gallery-04.jpg",
-      "/stock/volleyball/gallery/gallery-05.jpg",
-      "/stock/volleyball/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/volleyball/gallery/gallery-06.jpg"
     ]
   },
 

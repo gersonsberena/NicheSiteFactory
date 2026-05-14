@@ -5,7 +5,7 @@
     "years_experience": 7,
     "specialty": "Functional Fitness & Barbell Strength",
     "age_groups": "Teens · Adults · Masters",
-    "photo": "/stock/crossfit/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/about/about-01.jpg",
     "credentials": ["CF-L2 Coach", "CPR/AED Certified"],
     "sport": "CrossFit"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Move Well. Lift Heavy. Go Fast.",
     "subline": "CrossFit coaching — foundations training, performance programming, and competition prep for athletes who want to earn their fitness.",
-    "photo": "/stock/crossfit/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/hero/hero-01.jpg",
     "cta_text": "Book a Free Class"
   },
 
@@ -73,12 +73,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/crossfit/gallery/gallery-01.jpg",
-      "/stock/crossfit/gallery/gallery-02.jpg",
-      "/stock/crossfit/gallery/gallery-03.jpg",
-      "/stock/crossfit/gallery/gallery-04.jpg",
-      "/stock/crossfit/gallery/gallery-05.jpg",
-      "/stock/crossfit/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/crossfit/gallery/gallery-06.jpg"
     ]
   },
 

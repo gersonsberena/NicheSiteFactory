@@ -5,7 +5,7 @@
     "years_experience": 9,
     "specialty": "Athletic Strength & Power Development",
     "age_groups": "High School · College · Adult Athletes",
-    "photo": "/stock/strength-and-conditioning/about/about-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/about/about-01.jpg",
     "credentials": ["NSCA-CSCS", "CPR/AED Certified"],
     "sport": "Strength & Conditioning"
   },
@@ -13,7 +13,7 @@
   "hero": {
     "headline": "Build Strength. Perform Better.",
     "subline": "Professional strength and conditioning — periodized programming, power development, and sport-specific training for athletes who want to dominate their season.",
-    "photo": "/stock/strength-and-conditioning/hero/hero-01.jpg",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/hero/hero-01.jpg",
     "cta_text": "Book a Free Assessment"
   },
 
@@ -73,12 +73,12 @@
 
   "gallery": {
     "photos": [
-      "/stock/strength-and-conditioning/gallery/gallery-01.jpg",
-      "/stock/strength-and-conditioning/gallery/gallery-02.jpg",
-      "/stock/strength-and-conditioning/gallery/gallery-03.jpg",
-      "/stock/strength-and-conditioning/gallery/gallery-04.jpg",
-      "/stock/strength-and-conditioning/gallery/gallery-05.jpg",
-      "/stock/strength-and-conditioning/gallery/gallery-06.jpg"
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/strength-and-conditioning/gallery/gallery-06.jpg"
     ]
   },
 
