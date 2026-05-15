@@ -16,6 +16,7 @@ import Footer from "./Footer"
 import CoachProfile from "./CoachProfile"
 import Availability from "./Availability"
 import TrainingLocations from "./TrainingLocations"
+import FloatingCTA from "@/components/FloatingCTA"
 
 const sectionMap = {
   hero: Hero,
@@ -77,6 +78,7 @@ export default function LayoutB({ config }: { config: CoachConfig }) {
         })}
       </main>
       <Footer config={config} />
+      <FloatingCTA config={config} />
     </div>
   )
 }

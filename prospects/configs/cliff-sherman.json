@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Cliff Sherman | Football Coaching — Vermont",
+    "description": "Professional football coaching at None. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Cliff Sherman",
+    "title": "OC/QB/DB",
+    "city": "None",
+    "county": "",
+    "state": "VT",
+    "sport": "Football",
+    "specialty": "Spread Coordinator",
+    "years_experience": 14,
+    "age_groups": "Varsity, JV/Frosh, Middle School, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+    "credentials": [
+      "OC/QB/DB"
+    ],
+    "bio": "Coach Cliff Sherman brings 14 years of experience running the Spread system at None. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Sherman is known for making practice reps count. Works with athletes at the Varsity, JV/Frosh, Middle School, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Sherman delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "None's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-03.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "14+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Spread",
+      "label": "Offense System"
+    },
+    {
+      "value": "210+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Spread System Coaching",
+      "description": "Installation and development of the Spread offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Sherman changed the way my son sees the game. His knowledge of the Spread system is the real deal.",
+      "name": "Denise. T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Sherman was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Marcus. C.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(508) 789-9851",
+    "email": "shermanc88@gmail.com",
+    "instagram": null,
+    "twitter": "@Cliff_Sherman",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "pure-black",
+    "card_border": "accent",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. 14 years of coaching Spread taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.530Z",
+    "manually_tweaked": false
+  }
+}

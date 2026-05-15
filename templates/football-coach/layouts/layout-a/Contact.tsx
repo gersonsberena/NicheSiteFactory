@@ -129,6 +129,19 @@ export default function Contact({ config }: { config: CoachConfig }) {
               </a>
             )}
 
+            {config.contact.google_maps_embed_url && (
+              <div className="overflow-hidden" style={{ height: "200px" }}>
+                <iframe
+                  src={String(config.contact.google_maps_embed_url)}
+                  width="100%"
+                  height="200"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                />
+              </div>
+            )}
+
             <div className="border-l-2 border-[var(--accent)] pl-5 py-2">
               <div className="font-bebas text-3xl tracking-wide text-white leading-none">READY TO LEVEL UP?</div>
               <div className="font-oswald uppercase tracking-[0.25em] text-[var(--accent)] text-xs mt-2">Let&apos;s build a champion.</div>
@@ -196,6 +209,17 @@ export default function Contact({ config }: { config: CoachConfig }) {
             </form>
           </div>
         </div>
+        {config.contact.calendly_url && (
+          <div className="mt-10">
+            <iframe
+              src={(String(config.contact.calendly_url).startsWith("http") ? String(config.contact.calendly_url) : `https://calendly.com/${String(config.contact.calendly_url)}`) + "?hide_gdpr_banner=1"}
+              width="100%"
+              height="700"
+              style={{ border: "none" }}
+              title="Schedule a session"
+            />
+          </div>
+        )}
       </div>
     </section>
   )

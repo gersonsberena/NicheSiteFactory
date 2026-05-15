@@ -170,6 +170,8 @@ export type CoachConfig = {
     email: string
     booking_url: string
     calendly_url?: string | null
+    whatsapp?: string
+    google_maps_embed_url?: string
     formspree_id: string
     business_hours: string[]
     instagram?: string

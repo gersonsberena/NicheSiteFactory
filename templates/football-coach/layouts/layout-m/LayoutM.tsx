@@ -16,6 +16,7 @@ import FAQ from "./FAQ"
 import Contact from "./Contact"
 import Footer from "./Footer"
 import Toast from "./Toast"
+import FloatingCTA from "@/components/FloatingCTA"
 
 const sectionMap = {
   hero: Hero,
@@ -75,6 +76,7 @@ export default function LayoutM({ config }: { config: CoachConfig }) {
       </main>
       <Footer config={config} />
       <Toast show={toast} onDismiss={() => setToast(false)} />
+      <FloatingCTA config={config} />
     </div>
   )
 }

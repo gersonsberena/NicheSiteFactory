@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Joe Blatz | Football Coaching — Wisconsin",
+    "description": "Professional football coaching at Aquinas High School. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Joe Blatz",
+    "title": "WR",
+    "city": "Aquinas High School",
+    "county": "",
+    "state": "WI",
+    "sport": "Football",
+    "specialty": "Multiple Coordinator",
+    "years_experience": 10,
+    "age_groups": "Varsity, JV/Frosh",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+    "credentials": [
+      "WR"
+    ],
+    "bio": "Coach Joe Blatz brings 10 years of experience running the Multiple system at Aquinas High School. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Blatz is known for making practice reps count. Works with athletes at the Varsity, JV/Frosh level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Blatz delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Aquinas High School's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Multiple",
+      "label": "Offense System"
+    },
+    {
+      "value": "150+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Multiple System Coaching",
+      "description": "Installation and development of the Multiple offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Blatz changed the way my son sees the game. His knowledge of the Multiple system is the real deal.",
+      "name": "Robert. R.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Blatz was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Malik. W.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(414) 366-6071",
+    "email": "coachblatz@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "teal",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "gradient",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BLUE-COLLAR FOOTBALL COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.",
+    "about_quote": "The game is won or lost long before kickoff. 10 years of coaching Multiple taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "MIDWEST TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.531Z",
+    "manually_tweaked": false
+  }
+}

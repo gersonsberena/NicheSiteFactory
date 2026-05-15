@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Jay Ridinger | Football Coaching — Pennsylvania",
+    "description": "Professional football coaching at Hempfield High School. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Jay Ridinger",
+    "title": "DC/DBs",
+    "city": "Hempfield High School",
+    "county": "",
+    "state": "PA",
+    "sport": "Football",
+    "specialty": "46085 Coordinator",
+    "years_experience": 14,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [
+      "DC/DBs"
+    ],
+    "bio": "Coach Jay Ridinger is a proven 46085 specialist with 14 years of coaching experience at Hempfield High School. Known for a disciplined, film-first approach, Coach Ridinger develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Ridinger's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Hempfield High School's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "14+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "46085",
+      "label": "Defense System"
+    },
+    {
+      "value": "210+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "46085 Defense Installation",
+      "description": "Full 46085 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Ridinger changed the way my son sees the game. His knowledge of the 46085 system is the real deal.",
+      "name": "David. T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Ridinger was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Jaylen. K.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "jridinger1@gmail.com",
+    "instagram": null,
+    "twitter": "@Coach_Ridinger",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "background_tone": "pure-black",
+    "card_border": "accent",
+    "button_style": "gradient",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "masonry",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "circular",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE THE GAME WAS BUILT.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BLUE-COLLAR COACHING. CHAMPIONSHIP RESULTS.",
+    "about_quote": "The game is won or lost long before kickoff. 14 years of coaching 46085 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "RUST BELT TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.549Z",
+    "manually_tweaked": false
+  }
+}

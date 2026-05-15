@@ -88,6 +88,19 @@ export default function Contact({ config, onSuccess }: Props) {
             </div>
           )}
 
+          {config.contact.google_maps_embed_url && (
+            <div className="mb-10 overflow-hidden" style={{ height: "200px" }}>
+              <iframe
+                src={String(config.contact.google_maps_embed_url)}
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+              />
+            </div>
+          )}
+
           {/* Form card */}
           <div className="bg-d-cream p-8 md:p-10 rounded-sm">
             <form onSubmit={handleSubmit} noValidate className="space-y-5"
@@ -148,6 +161,17 @@ export default function Contact({ config, onSuccess }: Props) {
               </button>
             </form>
           </div>
+          {config.contact.calendly_url && (
+            <div className="mt-10">
+              <iframe
+                src={(String(config.contact.calendly_url).startsWith("http") ? String(config.contact.calendly_url) : `https://calendly.com/${String(config.contact.calendly_url)}`) + "?hide_gdpr_banner=1"}
+                width="100%"
+                height="700"
+                style={{ border: "none" }}
+                title="Schedule a session"
+              />
+            </div>
+          )}
         </div>
       </div>
     </section>

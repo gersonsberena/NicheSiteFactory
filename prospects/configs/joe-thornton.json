@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Coach Joe Thornton | Football Coaching — Georgia",
+    "description": "Professional football coaching in Georgia. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Joe Thornton",
+    "title": "Offensive Coordinator",
+    "city": "Georgia",
+    "county": "",
+    "state": "GA",
+    "sport": "Football",
+    "specialty": "RPO Coordinator",
+    "years_experience": 33,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+    "credentials": [],
+    "bio": "Coach Joe Thornton brings 33 years of experience running the RPO system in Georgia. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Thornton is known for making practice reps count.\n\nFrom route running to pre-snap reads to protection schemes — Coach Thornton delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Georgia Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "33+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "RPO",
+      "label": "Offense System"
+    },
+    {
+      "value": "495+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "RPO System Coaching",
+      "description": "Installation and development of the RPO offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Thornton changed the way my son sees the game. His knowledge of the RPO system is the real deal.",
+      "name": "Brian. P.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Thornton was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Malik. P.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(334) 379-0269",
+    "email": "jthornton119@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "red",
+    "background_tone": "slate-black",
+    "card_border": "gold",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-2col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT IN SEC COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "WHERE FOOTBALL IS A WAY OF LIFE.",
+    "about_quote": "The game is won or lost long before kickoff. 33 years of coaching RPO taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ SEC COUNTRY ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.535Z",
+    "manually_tweaked": false
+  }
+}

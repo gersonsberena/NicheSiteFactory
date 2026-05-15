@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Ryan Lott | Football Coaching — Illinois",
+    "description": "Professional football coaching in Illinois. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Ryan Lott",
+    "title": "QB/OL/DB",
+    "city": "Illinois",
+    "county": "",
+    "state": "IL",
+    "sport": "Football",
+    "specialty": "Flexbone Coordinator",
+    "years_experience": null,
+    "age_groups": "College, Varsity, Middle School, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+    "credentials": [
+      "QB/OL/DB"
+    ],
+    "bio": "Coach Ryan Lott brings years of experience running the Flexbone system in Illinois. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Lott is known for making practice reps count. Works with athletes at the College, Varsity, Middle School, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Lott delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Illinois Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Flexbone",
+      "label": "Offense System"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Flexbone System Coaching",
+      "description": "Installation and development of the Flexbone offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Lott changed the way my son sees the game. His knowledge of the Flexbone system is the real deal.",
+      "name": "Jennifer. K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Lott was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Devon. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "rlott@pchspanthers.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "navy-black",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "field-lines",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "masonry",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BLUE-COLLAR FOOTBALL COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.",
+    "about_quote": "The game is won or lost long before kickoff. over a decade of coaching Flexbone taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "MIDWEST TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.516Z",
+    "manually_tweaked": false
+  }
+}

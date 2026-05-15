@@ -19,3 +19,13 @@ npm-debug.log*
 
 # scraped lead data — contains real personal info, never commit
 data/
+
+# FBList outreach pipeline — raw data and generated files with real coach contact info
+prospects/FBList.xlsx
+prospects/cleaned-coaches.json
+prospects/prospect-index.json
+prospects/fblist-outreach.csv
+prospects/fb-coaches.csv
+prospects/fb-coaches.xlsx
+prospects/football-coaches.csv
+prospects/outreach.xlsx

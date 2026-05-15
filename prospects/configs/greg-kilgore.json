@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Coach Greg Kilgore | Football Coaching — Oregon",
+    "description": "Professional football coaching in Oregon. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Greg Kilgore",
+    "title": "Offensive Coordinator",
+    "city": "Oregon",
+    "county": "",
+    "state": "OR",
+    "sport": "Football",
+    "specialty": "Spread Coordinator",
+    "years_experience": 11,
+    "age_groups": "Varsity",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [],
+    "bio": "Coach Greg Kilgore brings 11 years of experience running the Spread system in Oregon. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Kilgore is known for making practice reps count. Works with athletes at the Varsity level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Kilgore delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Oregon Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "11+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Spread",
+      "label": "Offense System"
+    },
+    {
+      "value": "165+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Spread System Coaching",
+      "description": "Installation and development of the Spread offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Kilgore changed the way my son sees the game. His knowledge of the Spread system is the real deal.",
+      "name": "Robert. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Kilgore was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Caleb. K.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(541) 579-0095",
+    "email": "kilgore_g@4jlane.edu",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "red",
+    "background_tone": "charcoal",
+    "card_border": "none",
+    "button_style": "gradient",
+    "hero_layout": "split-right",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-3col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "YEAR-ROUND TRAINING SEASON.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "ELITE COACHING ON THE WEST COAST.",
+    "about_quote": "The game is won or lost long before kickoff. 11 years of coaching Spread taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "WEST COAST FOOTBALL ★ YEAR-ROUND SEASON ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.534Z",
+    "manually_tweaked": false
+  }
+}

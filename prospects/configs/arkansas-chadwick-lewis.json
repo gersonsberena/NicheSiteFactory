@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Arkansas Chadwick Lewis | Football Coaching — Arkansas",
+    "description": "Professional football coaching in Arkansas. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Arkansas Chadwick Lewis",
+    "title": "5 year HC. Been OC for 10 years. Can coach any offensive position and most defensive positions.",
+    "city": "Arkansas",
+    "county": "",
+    "state": "AR",
+    "sport": "Football",
+    "specialty": "Wing-T Coordinator",
+    "years_experience": 19,
+    "age_groups": "College, Varsity, JV/Frosh, Middle School, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [
+      "5 year HC. Been OC for 10 years. Can coach any offensive position and most defensive positions."
+    ],
+    "bio": "Coach Arkansas Chadwick Lewis brings 19 years of experience running the Wing-T system in Arkansas. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Chadwick Lewis is known for making practice reps count. Works with athletes at the College, Varsity, JV/Frosh, Middle School, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Chadwick Lewis delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Arkansas Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "19+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Wing-T",
+      "label": "Offense System"
+    },
+    {
+      "value": "285+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Wing-T System Coaching",
+      "description": "Installation and development of the Wing-T offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Chadwick Lewis changed the way my son sees the game. His knowledge of the Wing-T system is the real deal.",
+      "name": "Robert. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Chadwick Lewis was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Marcus. W.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "cdl2302@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "pure-black",
+    "card_border": "none",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "field-lines",
+    "stats_layout": "compact",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-2col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "circular",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT IN SEC COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "WHERE FOOTBALL IS A WAY OF LIFE.",
+    "about_quote": "The game is won or lost long before kickoff. 19 years of coaching Wing-T taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ SEC COUNTRY ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.468Z",
+    "manually_tweaked": false
+  }
+}

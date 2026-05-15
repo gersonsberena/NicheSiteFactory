@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Christopher Smalls | Football Coaching — New Mexico",
+    "description": "Professional football coaching in New Mexico. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Christopher Smalls",
+    "title": "OL/DL",
+    "city": "New Mexico",
+    "county": "",
+    "state": "NM",
+    "sport": "Football",
+    "specialty": "Option Coordinator",
+    "years_experience": null,
+    "age_groups": "College, Varsity, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+    "credentials": [
+      "OL/DL"
+    ],
+    "bio": "Coach Christopher Smalls brings years of experience running the Option system in New Mexico. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Smalls is known for making practice reps count. Works with athletes at the College, Varsity, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Smalls delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "New Mexico Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Option",
+      "label": "Offense System"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Option System Coaching",
+      "description": "Installation and development of the Option offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Smalls changed the way my son sees the game. His knowledge of the Option system is the real deal.",
+      "name": "David. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Smalls was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Jaylen. J.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "csmalls0010@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "pure-black",
+    "card_border": "gold",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-2col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. over a decade of coaching Option taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.469Z",
+    "manually_tweaked": false
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Greg Gonzales | Football Coaching — Texas",
+    "description": "Professional football coaching in Texas. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Greg Gonzales",
+    "title": "Sec/OL",
+    "city": "Texas",
+    "county": "",
+    "state": "TX",
+    "sport": "Football",
+    "specialty": "Flexbone Coordinator",
+    "years_experience": null,
+    "age_groups": "Varsity, JV/Frosh, Middle School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+    "credentials": [
+      "Sec/OL"
+    ],
+    "bio": "Coach Greg Gonzales brings years of experience running the Flexbone system in Texas. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Gonzales is known for making practice reps count. Works with athletes at the Varsity, JV/Frosh, Middle School level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Gonzales delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Texas Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Flexbone",
+      "label": "Offense System"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Flexbone System Coaching",
+      "description": "Installation and development of the Flexbone offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Gonzales changed the way my son sees the game. His knowledge of the Flexbone system is the real deal.",
+      "name": "Brian. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Gonzales was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Jaylen. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "ggonzales1497@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "pink",
+    "background_tone": "slate-black",
+    "card_border": "none",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-4col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "bordered-offset",
+    "font_pair": "oswald-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE FRIDAY NIGHTS MEAN EVERYTHING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE BUILT HERE.",
+    "about_quote": "The game is won or lost long before kickoff. over a decade of coaching Flexbone taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "FRIDAY NIGHTS ★ CHAMPIONSHIP CULTURE ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.480Z",
+    "manually_tweaked": false
+  }
+}

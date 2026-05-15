@@ -73,6 +73,8 @@ type FormState = {
   contact_instagram: string
   contact_twitter: string
   contact_youtube: string
+  contact_whatsapp: string
+  contact_google_maps_embed_url: string
   gallery_photos: string
   training_cities: string
   availability_note: string
@@ -190,6 +192,7 @@ const EMPTY_FORM: FormState = {
   contact_phone: "", contact_email: "", contact_booking_url: "", contact_calendly_url: "",
   contact_formspree_id: "", contact_business_hours: "",
   contact_instagram: "", contact_twitter: "", contact_youtube: "",
+  contact_whatsapp: "", contact_google_maps_embed_url: "",
   gallery_photos: "",
   training_cities: "",
   availability_note: "",
@@ -346,6 +349,8 @@ function fromRaw(raw: Record<string, unknown>) {
     contact_instagram: str(contact.instagram),
     contact_twitter: str(contact.twitter),
     contact_youtube: str(contact.youtube),
+    contact_whatsapp: str(contact.whatsapp),
+    contact_google_maps_embed_url: str(contact.google_maps_embed_url),
     gallery_photos: galleryPhotos,
     training_cities: trainingCities,
     availability_note: str(avail.note),
@@ -553,6 +558,8 @@ function toPayload(
   if (form.contact_instagram) contact.instagram = form.contact_instagram
   if (form.contact_twitter) contact.twitter = form.contact_twitter
   if (form.contact_youtube) contact.youtube = form.contact_youtube
+  if (form.contact_whatsapp) contact.whatsapp = form.contact_whatsapp
+  if (form.contact_google_maps_embed_url) contact.google_maps_embed_url = form.contact_google_maps_embed_url
   if (Object.keys(contact).length) out.contact = contact
 
   const galleryPhotos = form.gallery_photos.split("\n").map((s) => s.trim()).filter(Boolean)
@@ -1846,6 +1853,8 @@ export default function AdminClient({
           <Field label="Instagram Handle" value={form.contact_instagram} onChange={set("contact_instagram")} hint="@coachname" span={2} />
           <Field label="Twitter / X Handle" value={form.contact_twitter} onChange={set("contact_twitter")} hint="@coachname" />
           <Field label="YouTube Channel URL" value={form.contact_youtube} onChange={set("contact_youtube")} hint="https://youtube.com/@…" />
+          <Field label="WhatsApp Number" value={form.contact_whatsapp} onChange={set("contact_whatsapp")} hint="E.g. +19045551234 or 9045551234 — used for WhatsApp floating button" span={2} />
+          <Field label="Google Maps Embed URL" value={form.contact_google_maps_embed_url} onChange={set("contact_google_maps_embed_url")} hint="Paste the src= URL from Google Maps → Share → Embed a map" span={2} />
           <TextArea
             label="Business Hours (one per line)"
             value={form.contact_business_hours}

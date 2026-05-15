@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Coach Corey Chapman | Football Coaching — Kentucky",
+    "description": "Professional football coaching in Kentucky. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Corey Chapman",
+    "title": "Offensive Coordinator",
+    "city": "Kentucky",
+    "county": "",
+    "state": "KY",
+    "sport": "Football",
+    "specialty": "Multiple Coordinator",
+    "years_experience": 4,
+    "age_groups": "JV/Frosh, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [],
+    "bio": "Coach Corey Chapman brings 4 years of experience running a dynamic offensive system in Kentucky. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Chapman is known for making practice reps count. Works with athletes at the JV/Frosh, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Chapman delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Kentucky Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "4+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Multiple",
+      "label": "Offense System"
+    },
+    {
+      "value": "60+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Multiple System Coaching",
+      "description": "Installation and development of the Multiple offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Chapman changed the way my son sees the game. His knowledge of the offensive system is the real deal.",
+      "name": "Sandra. C.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Chapman was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Caleb. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "charles.chapman@madison.kyschools.us",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "teal",
+    "background_tone": "navy-black",
+    "card_border": "accent",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "always-color",
+    "gallery_layout": "grid-4col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT IN SEC COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "WHERE FOOTBALL IS A WAY OF LIFE.",
+    "about_quote": "The game is won or lost long before kickoff. 4 years of coaching Football taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ SEC COUNTRY ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.473Z",
+    "manually_tweaked": false
+  }
+}

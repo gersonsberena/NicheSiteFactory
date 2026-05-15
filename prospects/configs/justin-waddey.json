@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Justin Waddey | Football Coaching — Virginia",
+    "description": "Professional football coaching at Huguenot. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Justin Waddey",
+    "title": "DC",
+    "city": "Huguenot",
+    "county": "",
+    "state": "VA",
+    "sport": "Football",
+    "specialty": "4-2-5 Coordinator",
+    "years_experience": 11,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+    "credentials": [
+      "DC"
+    ],
+    "bio": "Coach Justin Waddey is a proven 4-2-5 specialist with 11 years of coaching experience at Huguenot. Known for a disciplined, film-first approach, Coach Waddey develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Waddey's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Huguenot's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "11+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "4-2-5",
+      "label": "Defense System"
+    },
+    {
+      "value": "165+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "4-2-5 Defense Installation",
+      "description": "Full 4-2-5 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Waddey changed the way my son sees the game. His knowledge of the 4-2-5 system is the real deal.",
+      "name": "Marcus. C.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Waddey was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Malik. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(804) 982-6619",
+    "email": "justinwaddey@gmail.com",
+    "instagram": null,
+    "twitter": "@Coachwaddey_hhs",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "purple",
+    "background_tone": "pure-black",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "masonry",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "minimal-frame",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. 11 years of coaching 4-2-5 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.555Z",
+    "manually_tweaked": false
+  }
+}

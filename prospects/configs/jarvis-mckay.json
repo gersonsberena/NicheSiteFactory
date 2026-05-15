@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Jarvis Mckay | Football Coaching — Louisiana",
+    "description": "Professional football coaching in Louisiana. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Jarvis Mckay",
+    "title": "DL/LB",
+    "city": "Louisiana",
+    "county": "",
+    "state": "LA",
+    "sport": "Football",
+    "specialty": "power I Coordinator",
+    "years_experience": 4,
+    "age_groups": "Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+    "credentials": [
+      "DL/LB"
+    ],
+    "bio": "Coach Jarvis Mckay brings 4 years of experience running the power I system in Louisiana. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Mckay is known for making practice reps count. Works with athletes at the Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Mckay delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Louisiana Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "4+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "power I",
+      "label": "Offense System"
+    },
+    {
+      "value": "60+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "power I System Coaching",
+      "description": "Installation and development of the power I offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Mckay changed the way my son sees the game. His knowledge of the power I system is the real deal.",
+      "name": "Denise. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Mckay was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Deon. C.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "jarvismckay24@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "pink",
+    "background_tone": "charcoal",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "circular",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT IN SEC COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "WHERE FOOTBALL IS A WAY OF LIFE.",
+    "about_quote": "The game is won or lost long before kickoff. 4 years of coaching power I taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ SEC COUNTRY ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.487Z",
+    "manually_tweaked": false
+  }
+}

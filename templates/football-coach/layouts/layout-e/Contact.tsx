@@ -91,6 +91,18 @@ export default function Contact({ config, onSuccess }: { config: CoachConfig; on
               Book a Session →
             </a>
           )}
+          {contact.google_maps_embed_url && (
+            <div className="mt-6 overflow-hidden" style={{ height: "200px" }}>
+              <iframe
+                src={String(contact.google_maps_embed_url)}
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+              />
+            </div>
+          )}
         </div>
 
         {/* Right: form */}
@@ -166,6 +178,17 @@ export default function Contact({ config, onSuccess }: { config: CoachConfig; on
           </form>
         </div>
       </div>
+      {contact.calendly_url && (
+        <div className="max-w-[1280px] mx-auto px-6 md:px-10 mt-10">
+          <iframe
+            src={(String(contact.calendly_url).startsWith("http") ? String(contact.calendly_url) : `https://calendly.com/${String(contact.calendly_url)}`) + "?hide_gdpr_banner=1"}
+            width="100%"
+            height="700"
+            style={{ border: "none" }}
+            title="Schedule a session"
+          />
+        </div>
+      )}
     </section>
   )
 }

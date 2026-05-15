@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Philip Conner | Football Coaching — California",
+    "description": "Professional football coaching at Bradshaw Christian Highschool. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Philip Conner",
+    "title": "JV DC/ Var LB",
+    "city": "Bradshaw Christian Highschool",
+    "county": "",
+    "state": "CA",
+    "sport": "Football",
+    "specialty": "4-2-5 Coordinator",
+    "years_experience": 3,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [
+      "JV DC/ Var LB"
+    ],
+    "bio": "Coach Philip Conner is a proven 4-2-5 specialist with 3 years of coaching experience at Bradshaw Christian Highschool. Known for a disciplined, film-first approach, Coach Conner develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Conner's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Bradshaw Christian Highschool's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "4-2-5",
+      "label": "Defense System"
+    },
+    {
+      "value": "45+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "4-2-5 Defense Installation",
+      "description": "Full 4-2-5 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Conner changed the way my son sees the game. His knowledge of the 4-2-5 system is the real deal.",
+      "name": "Marcus. B.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Conner was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Chase. C.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(916) 212-0851",
+    "email": "p.conner2001@gmail.com",
+    "instagram": null,
+    "twitter": "@_CoachPC_",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "charcoal",
+    "card_border": "gold",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "YEAR-ROUND TRAINING SEASON.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "ELITE COACHING ON THE WEST COAST.",
+    "about_quote": "The game is won or lost long before kickoff. 3 years of coaching 4-2-5 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "WEST COAST FOOTBALL ★ YEAR-ROUND SEASON ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.539Z",
+    "manually_tweaked": false
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Nate Wallman | Football Coaching — Wisconsin",
+    "description": "Professional football coaching at None. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Nate Wallman",
+    "title": "Former HC/OC",
+    "city": "None",
+    "county": "",
+    "state": "WI",
+    "sport": "Football",
+    "specialty": "Gun T Coordinator",
+    "years_experience": 12,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+    "credentials": [
+      "Former HC/OC"
+    ],
+    "bio": "Coach Nate Wallman brings 12 years of experience running the Gun T system at None. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Wallman is known for making practice reps count.\n\nFrom route running to pre-snap reads to protection schemes — Coach Wallman delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "None's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "12+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Gun T",
+      "label": "Offense System"
+    },
+    {
+      "value": "180+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Gun T System Coaching",
+      "description": "Installation and development of the Gun T offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Wallman changed the way my son sees the game. His knowledge of the Gun T system is the real deal.",
+      "name": "Robert. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Wallman was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Marcus. J.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(608) 201-1838",
+    "email": "yelidog89@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "background_tone": "slate-black",
+    "card_border": "gold",
+    "button_style": "ghost",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "masonry",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "BLUE-COLLAR FOOTBALL COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.",
+    "about_quote": "The game is won or lost long before kickoff. 12 years of coaching Gun T taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "MIDWEST TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.532Z",
+    "manually_tweaked": false
+  }
+}

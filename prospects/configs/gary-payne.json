@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Gary Payne | Football Coaching — North Carolina",
+    "description": "Professional football coaching at Trinity High School. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Gary Payne",
+    "title": "AHC/OC",
+    "city": "Trinity High School",
+    "county": "",
+    "state": "NC",
+    "sport": "Football",
+    "specialty": "Gun T Coordinator",
+    "years_experience": 24,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+    "credentials": [
+      "AHC/OC"
+    ],
+    "bio": "Coach Gary Payne brings 24 years of experience running the Gun T system at Trinity High School. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Payne is known for making practice reps count.\n\nFrom route running to pre-snap reads to protection schemes — Coach Payne delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Trinity High School's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "24+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Gun T",
+      "label": "Offense System"
+    },
+    {
+      "value": "360+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Gun T System Coaching",
+      "description": "Installation and development of the Gun T offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Payne changed the way my son sees the game. His knowledge of the Gun T system is the real deal.",
+      "name": "David. T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Payne was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Tyler. W.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(828) 308-5999",
+    "email": "garypayne989@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "red",
+    "background_tone": "charcoal",
+    "card_border": "none",
+    "button_style": "gradient",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "always-color",
+    "gallery_layout": "masonry",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. 24 years of coaching Gun T taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.505Z",
+    "manually_tweaked": false
+  }
+}

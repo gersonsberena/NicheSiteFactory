@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Dj Sheets | Football Coaching — Tennessee",
+    "description": "Professional football coaching at Obion County Central High School. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Dj Sheets",
+    "title": "OC/QB",
+    "city": "Obion County Central High School",
+    "county": "",
+    "state": "TN",
+    "sport": "Football",
+    "specialty": "Air Raid Coordinator",
+    "years_experience": 10,
+    "age_groups": "Varsity",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+    "credentials": [
+      "OC/QB"
+    ],
+    "bio": "Coach Dj Sheets brings 10 years of experience running the Air Raid system at Obion County Central High School. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Sheets is known for making practice reps count. Works with athletes at the Varsity level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Sheets delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Obion County Central High School's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Air Raid",
+      "label": "Offense System"
+    },
+    {
+      "value": "150+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Air Raid System Coaching",
+      "description": "Installation and development of the Air Raid offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Sheets changed the way my son sees the game. His knowledge of the Air Raid system is the real deal.",
+      "name": "Jennifer. K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Sheets was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Caleb. R.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-03.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(731) 439-2423",
+    "email": "djsheets1310@gmail.com",
+    "instagram": null,
+    "twitter": "@CoachDSheets",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "pink",
+    "background_tone": "slate-black",
+    "card_border": "none",
+    "button_style": "solid",
+    "hero_layout": "split-right",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-2col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "BUILT IN SEC COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "WHERE FOOTBALL IS A WAY OF LIFE.",
+    "about_quote": "The game is won or lost long before kickoff. 10 years of coaching Air Raid taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ SEC COUNTRY ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.522Z",
+    "manually_tweaked": false
+  }
+}

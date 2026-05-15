@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Robert Peay | Football Coaching — the area",
+    "description": "Professional football coaching in the area. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Robert Peay",
+    "title": "Safeties",
+    "city": "the area",
+    "county": "",
+    "state": "",
+    "sport": "Football",
+    "specialty": "Spread Coordinator",
+    "years_experience": 33,
+    "age_groups": "College, JV/Frosh, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+    "credentials": [
+      "Safeties"
+    ],
+    "bio": "Coach Robert Peay brings 33 years of experience running the Spread system in the area. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Peay is known for making practice reps count. Works with athletes at the College, JV/Frosh, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Peay delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "the area Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "33+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Spread",
+      "label": "Offense System"
+    },
+    {
+      "value": "495+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Spread System Coaching",
+      "description": "Installation and development of the Spread offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Peay changed the way my son sees the game. His knowledge of the Spread system is the real deal.",
+      "name": "Cheryl. M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Peay was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Marcus. T.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "robertpeay20@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "pink",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "field-lines",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "masonry",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. 33 years of coaching Spread taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.515Z",
+    "manually_tweaked": false
+  }
+}

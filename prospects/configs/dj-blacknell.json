@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Dj Blacknell | Football Coaching — Texas",
+    "description": "Professional football coaching in Texas. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Dj Blacknell",
+    "title": "LB/DB",
+    "city": "Texas",
+    "county": "",
+    "state": "TX",
+    "sport": "Football",
+    "specialty": "Multiple Coordinator",
+    "years_experience": 3,
+    "age_groups": "Middle School, Youth",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+    "credentials": [
+      "LB/DB"
+    ],
+    "bio": "Coach Dj Blacknell brings 3 years of experience running a dynamic offensive system in Texas. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Blacknell is known for making practice reps count. Works with athletes at the Middle School, Youth level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Blacknell delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Texas Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Multiple",
+      "label": "Offense System"
+    },
+    {
+      "value": "45+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Multiple System Coaching",
+      "description": "Installation and development of the Multiple offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Blacknell changed the way my son sees the game. His knowledge of the offensive system is the real deal.",
+      "name": "Denise. K.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Blacknell was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Deon. K.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "dj_blacknell@yahoo.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "background_tone": "pure-black",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "diagonal",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "masonry",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE FRIDAY NIGHTS MEAN EVERYTHING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE BUILT HERE.",
+    "about_quote": "The game is won or lost long before kickoff. 3 years of coaching Football taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "FRIDAY NIGHTS ★ CHAMPIONSHIP CULTURE ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.477Z",
+    "manually_tweaked": false
+  }
+}

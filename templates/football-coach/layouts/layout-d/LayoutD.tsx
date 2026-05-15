@@ -15,6 +15,7 @@ import Toast from "./Toast"
 import SuccessStories from "./SuccessStories"
 import FAQ from "./FAQ"
 import VideoGallery from "./VideoGallery"
+import FloatingCTA from "@/components/FloatingCTA"
 
 const sectionMap = {
   hero: Hero,
@@ -74,6 +75,7 @@ export default function LayoutD({ config }: { config: CoachConfig }) {
       </main>
       <Footer config={config} />
       <Toast show={toast} onDismiss={() => setToast(false)} />
+      <FloatingCTA config={config} />
     </div>
   )
 }

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Braxton Lindow | Football Coaching — Minnesota",
+    "description": "Professional football coaching at Randolph HS. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Braxton Lindow",
+    "title": "DC/DB's",
+    "city": "Randolph HS",
+    "county": "",
+    "state": "MN",
+    "sport": "Football",
+    "specialty": "3-4 Coordinator",
+    "years_experience": 8,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+    "credentials": [
+      "DC/DB's"
+    ],
+    "bio": "Coach Braxton Lindow is a proven 3-4 specialist with 8 years of coaching experience at Randolph HS. Known for a disciplined, film-first approach, Coach Lindow develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Lindow's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Randolph HS's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "8+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "3-4",
+      "label": "Defense System"
+    },
+    {
+      "value": "120+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "3-4 Defense Installation",
+      "description": "Full 3-4 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Lindow changed the way my son sees the game. His knowledge of the 3-4 system is the real deal.",
+      "name": "Kevin. M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Lindow was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Marcus. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(507) 298-0917",
+    "email": "lindowb@district195.org",
+    "instagram": null,
+    "twitter": "@blindow6",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "background_tone": "navy-black",
+    "card_border": "accent",
+    "button_style": "gradient",
+    "hero_layout": "split-right",
+    "hero_overlay": "dot-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "horizontal-icon-left",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "circular",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "BLUE-COLLAR FOOTBALL COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.",
+    "about_quote": "The game is won or lost long before kickoff. 8 years of coaching 3-4 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "MIDWEST TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.546Z",
+    "manually_tweaked": false
+  }
+}

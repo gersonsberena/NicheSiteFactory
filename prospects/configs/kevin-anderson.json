@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Kevin Anderson | Football Coaching — Texas",
+    "description": "Professional football coaching at S&S. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Kevin Anderson",
+    "title": "DC, Previous OC",
+    "city": "S&S",
+    "county": "",
+    "state": "TX",
+    "sport": "Football",
+    "specialty": "Spread Coordinator",
+    "years_experience": null,
+    "age_groups": "College",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+    "credentials": [
+      "DC, Previous OC"
+    ],
+    "bio": "Coach Kevin Anderson brings years of experience running the Spread system at S&S. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Anderson is known for making practice reps count. Works with athletes at the College level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Anderson delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "S&S's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Spread",
+      "label": "Offense System"
+    },
+    {
+      "value": "100+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Spread System Coaching",
+      "description": "Installation and development of the Spread offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Anderson changed the way my son sees the game. His knowledge of the Spread system is the real deal.",
+      "name": "Sandra. T.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Anderson was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Malik. T.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "coachanderson57@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "gold",
+    "background_tone": "slate-black",
+    "card_border": "accent",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-3col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "bordered-offset",
+    "font_pair": "bebas-inter"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE FRIDAY NIGHTS MEAN EVERYTHING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE BUILT HERE.",
+    "about_quote": "The game is won or lost long before kickoff. over a decade of coaching Spread taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "FRIDAY NIGHTS ★ CHAMPIONSHIP CULTURE ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.526Z",
+    "manually_tweaked": false
+  }
+}

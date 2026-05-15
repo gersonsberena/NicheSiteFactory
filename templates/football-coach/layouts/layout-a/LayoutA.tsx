@@ -20,6 +20,7 @@ import CoachProfile from "./CoachProfile"
 import Availability from "./Availability"
 import TrainingLocations from "./TrainingLocations"
 import Packages from "./Packages"
+import FloatingCTA from "@/components/FloatingCTA"
 
 const sectionMap = {
   hero: Hero,
@@ -73,6 +74,7 @@ export default function LayoutA({ config }: { config: CoachConfig }) {
       </main>
       <Footer config={config} />
       <Toast show={toast} onDismiss={handleDismissToast} />
+      <FloatingCTA config={config} />
     </div>
   )
 }

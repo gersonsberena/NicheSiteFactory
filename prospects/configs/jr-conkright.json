@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Jr Conkright | Football Coaching — Colorado",
+    "description": "Professional football coaching at Western Colorado University. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Jr Conkright",
+    "title": "OLB",
+    "city": "Western Colorado University",
+    "county": "",
+    "state": "CO",
+    "sport": "Football",
+    "specialty": "4-2-5 Coordinator",
+    "years_experience": 17,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+    "credentials": [
+      "OLB"
+    ],
+    "bio": "Coach Jr Conkright is a proven 4-2-5 specialist with 17 years of coaching experience at Western Colorado University. Known for a disciplined, film-first approach, Coach Conkright develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Conkright's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Western Colorado University's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "17+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "4-2-5",
+      "label": "Defense System"
+    },
+    {
+      "value": "255+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "4-2-5 Defense Installation",
+      "description": "Full 4-2-5 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Conkright changed the way my son sees the game. His knowledge of the 4-2-5 system is the real deal.",
+      "name": "Marcus. M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Conkright was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Malik. C.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-10.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(720) 878-4244",
+    "email": "kconkright78@gmail.com",
+    "instagram": null,
+    "twitter": "@Coach_JR",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "teal",
+    "background_tone": "charcoal",
+    "card_border": "white",
+    "button_style": "solid",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "diagonal",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "stacked-compact",
+    "about_frame": "circular",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "ELEVATE YOUR GAME.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE MADE IN THE DETAILS.",
+    "about_quote": "The game is won or lost long before kickoff. 17 years of coaching 4-2-5 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "TRAIN HARD ★ PLAY HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.541Z",
+    "manually_tweaked": false
+  }
+}

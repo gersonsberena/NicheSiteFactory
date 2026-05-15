@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Adam Wardlaw | Football Coaching — Texas",
+    "description": "Professional football coaching at Forney High School. Defensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Adam Wardlaw",
+    "title": "LB",
+    "city": "Forney High School",
+    "county": "",
+    "state": "TX",
+    "sport": "Football",
+    "specialty": "3-4 Coordinator",
+    "years_experience": 9,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-01.jpg",
+    "credentials": [
+      "LB"
+    ],
+    "bio": "Coach Adam Wardlaw is a proven 3-4 specialist with 9 years of coaching experience at Forney High School. Known for a disciplined, film-first approach, Coach Wardlaw develops intelligent, technically sound players who make an impact on every down.\n\nIf you're looking to elevate your game on the defensive side of the ball and compete at the next level, Coach Wardlaw's coaching is where that journey starts."
+  },
+  "hero": {
+    "headline": "Forney High School's Football Coach",
+    "subline": "Personalized defensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-01.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "9+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "3-4",
+      "label": "Defense System"
+    },
+    {
+      "value": "135+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "3-4 Defense Installation",
+      "description": "Full 3-4 system installation — formations, assignments, stunts, and blitz packages tailored to your personnel.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Film & Opponent Scouting",
+      "description": "Tendency charting, defensive game-planning, and film breakdown sessions that give your defense the edge before kickoff.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Linebacker & Secondary Development",
+      "description": "Position-specific coaching for front-seven and DB players — gap control, coverage technique, communication, and tackling.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Wardlaw changed the way my son sees the game. His knowledge of the 3-4 system is the real deal.",
+      "name": "Sandra. J.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Wardlaw was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Deon. B.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-07.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(864) 202-5266",
+    "email": "arwardlaw@forneyisd.net",
+    "instagram": null,
+    "twitter": "@coachwardlaw",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "green",
+    "background_tone": "navy-black",
+    "card_border": "none",
+    "button_style": "ghost",
+    "hero_layout": "split-right",
+    "hero_overlay": "none",
+    "stats_layout": "compact",
+    "photo_treatment": "duotone",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "single-large-quote",
+    "about_frame": "bordered-offset",
+    "font_pair": "oswald-poppins"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE FRIDAY NIGHTS MEAN EVERYTHING.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "CHAMPIONS ARE BUILT HERE.",
+    "about_quote": "The game is won or lost long before kickoff. 9 years of coaching 3-4 taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "FRIDAY NIGHTS ★ CHAMPIONSHIP CULTURE ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "defensive",
+    "created_at": "2026-05-15T14:20:13.553Z",
+    "manually_tweaked": false
+  }
+}

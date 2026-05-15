@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Ryan Buster | Football Coaching — Indiana",
+    "description": "Professional football coaching at Speedway High School. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Ryan Buster",
+    "title": "OC/OL",
+    "city": "Speedway High School",
+    "county": "",
+    "state": "IN",
+    "sport": "Football",
+    "specialty": "Spread Coordinator",
+    "years_experience": 12,
+    "age_groups": "Youth, High School",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-04.jpg",
+    "credentials": [
+      "OC/OL"
+    ],
+    "bio": "Coach Ryan Buster brings 12 years of experience running the Spread system at Speedway High School. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Buster is known for making practice reps count.\n\nFrom route running to pre-snap reads to protection schemes — Coach Buster delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Speedway High School's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "12+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Spread",
+      "label": "Offense System"
+    },
+    {
+      "value": "180+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Spread System Coaching",
+      "description": "Installation and development of the Spread offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Buster changed the way my son sees the game. His knowledge of the Spread system is the real deal.",
+      "name": "David. P.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Buster was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Devon. T.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-09.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-10.jpg"
+    ]
+  },
+  "contact": {
+    "phone": null,
+    "email": "dojagirl54@gmail.com",
+    "instagram": null,
+    "twitter": null,
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "navy",
+    "background_tone": "pure-black",
+    "card_border": "none",
+    "button_style": "gradient",
+    "hero_layout": "centered-overlay",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "high-contrast",
+    "gallery_layout": "grid-3col",
+    "services_layout": "featured-2small",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "full-bleed",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "WHERE THE GAME WAS BUILT.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "BLUE-COLLAR COACHING. CHAMPIONSHIP RESULTS.",
+    "about_quote": "The game is won or lost long before kickoff. 12 years of coaching Spread taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "RUST BELT TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.485Z",
+    "manually_tweaked": false
+  }
+}

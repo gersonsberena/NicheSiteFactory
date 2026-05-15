@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Coach Jared Martinson | Football Coaching — Minnesota",
+    "description": "Professional football coaching at Maple Grove High School. Offensive expertise, personalized training, and real results."
+  },
+  "layout": "A",
+  "about": {
+    "name": "Coach Jared Martinson",
+    "title": "TEs/RGC/Playcaller",
+    "city": "Maple Grove High School",
+    "county": "",
+    "state": "MN",
+    "sport": "Football",
+    "specialty": "Multiple Coordinator",
+    "years_experience": 5,
+    "age_groups": "Varsity",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-02.jpg",
+    "credentials": [
+      "TEs/RGC/Playcaller"
+    ],
+    "bio": "Coach Jared Martinson brings 5 years of experience running the Multiple system at Maple Grove High School. With a sharp offensive mind and a track record of developing athletes who perform at the next level, Coach Martinson is known for making practice reps count. Works with athletes at the Varsity level.\n\nFrom route running to pre-snap reads to protection schemes — Coach Martinson delivers the kind of coaching that shows up in the box score."
+  },
+  "hero": {
+    "headline": "Maple Grove High School's Football Coach",
+    "subline": "Personalized offensive football coaching that turns potential into performance.",
+    "photo": "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-02.jpg",
+    "cta_text": "Book a Free Session",
+    "cta_url": "#contact"
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years Coaching"
+    },
+    {
+      "value": "Multiple",
+      "label": "Offense System"
+    },
+    {
+      "value": "75+",
+      "label": "Athletes Coached"
+    }
+  ],
+  "services": [
+    {
+      "title": "Multiple System Coaching",
+      "description": "Installation and development of the Multiple offense — from core concepts to advanced adjustments that put defenses in conflict.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Skill Position Development",
+      "description": "Individual coaching for QBs, WRs, RBs, and TEs focused on technique, route running, footwork, and pre-snap reads.",
+      "price": "Contact for pricing"
+    },
+    {
+      "title": "Offensive Playbook & Film Study",
+      "description": "Playbook design tailored to your personnel, plus film sessions that sharpen in-game decision making for players and staff.",
+      "price": "Contact for pricing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Coach Martinson changed the way my son sees the game. His knowledge of the Multiple system is the real deal.",
+      "name": "Kevin. M.",
+      "role": "Parent",
+      "rating": 5
+    },
+    {
+      "quote": "Playing for Coach Martinson was the best development I've had. He doesn't just teach plays — he teaches the game.",
+      "name": "Tyler. S.",
+      "role": "Former Player",
+      "rating": 5
+    }
+  ],
+  "gallery": {
+    "photos": [
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-03.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-04.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-05.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-06.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/about/about-07.jpg",
+      "https://res.cloudinary.com/dpoxuerjj/image/upload/nsf/stock/football/hero/hero-08.jpg"
+    ]
+  },
+  "contact": {
+    "phone": "(763) 478-7094",
+    "email": "jaredmartinson97@gmail.com",
+    "instagram": null,
+    "twitter": "@JaredMartyMN",
+    "youtube": null
+  },
+  "design": {
+    "accent_color": "red",
+    "background_tone": "charcoal",
+    "card_border": "accent",
+    "button_style": "solid",
+    "hero_layout": "full-bleed",
+    "hero_overlay": "hex-grid",
+    "stats_layout": "compact",
+    "photo_treatment": "grayscale-hover",
+    "gallery_layout": "grid-4col",
+    "services_layout": "cards-3col",
+    "testimonials_layout": "cards-2col",
+    "about_frame": "minimal-frame",
+    "font_pair": "bebas-roboto"
+  },
+  "copy_variants": {
+    "hero_tagline": "BLUE-COLLAR FOOTBALL COUNTRY.",
+    "hero_availability": "Training Slots · Now Open",
+    "about_tagline": "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.",
+    "about_quote": "The game is won or lost long before kickoff. 5 years of coaching Multiple taught me that.",
+    "services_tagline": "TRAINING THAT DELIVERS.",
+    "services_subline": "Focused coaching. Real development. Every athlete leaves better than they arrived.",
+    "testimonials_tagline": "PROOF ON THE FIELD.",
+    "testimonials_eyebrow": "What Athletes Are Saying",
+    "contact_offer": "Free 30-minute intro session. Bring your goals — leave with a plan.",
+    "contact_urgency": "Training slots fill fast. Reach out today and lock in your slot.",
+    "gallery_label": "On the Field",
+    "marquee_text": "MIDWEST TOUGH ★ TRAIN HARD ★ WIN ★ "
+  },
+  "_source": {
+    "platform": "fblist",
+    "source_tab": "offensive",
+    "created_at": "2026-05-15T14:20:13.499Z",
+    "manually_tweaked": false
+  }
+}
